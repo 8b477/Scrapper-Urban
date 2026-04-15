@@ -1,0 +1,882 @@
+{
+  "metadata": {
+    "region": "Charleroi",
+    "source": "charleroi.be",
+    "scrape_date": "2026-04-15T08:32:24.489528+00:00",
+    "total_events": 27,
+    "total_pages": 6,
+    "data_completeness": "Phase 1: 27 URLs extraites. Phase 2: 27/27 événements parsés (0 erreurs).",
+    "extraction_mode": "requests",
+    "pagination": {
+      "total_pages_requested": 6,
+      "pages_successfully_retrieved": 6,
+      "events_per_page": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        2
+      ]
+    },
+    "last_execution": {
+      "timestamp": "2026-04-15T08:33:54.959203+00:00",
+      "duration_seconds": 33.7,
+      "status": "SUCCESS",
+      "notes": "Phase 2 terminée. 27 événements parsés en 34s."
+    },
+    "events_extracted": 27,
+    "extraction_date": "2026-04-15T08:33:54.959203+00:00"
+  },
+  "extraction_summary": {
+    "page_1": {
+      "url": "https://www.charleroi.be/agenda",
+      "events_found": 5
+    },
+    "page_2": {
+      "url": "https://www.charleroi.be/agenda/page/2",
+      "events_found": 5
+    },
+    "page_3": {
+      "url": "https://www.charleroi.be/agenda/page/3",
+      "events_found": 5
+    },
+    "page_4": {
+      "url": "https://www.charleroi.be/agenda/page/4",
+      "events_found": 5
+    },
+    "page_5": {
+      "url": "https://www.charleroi.be/agenda/page/5",
+      "events_found": 5
+    },
+    "page_6": {
+      "url": "https://www.charleroi.be/agenda/page/6",
+      "events_found": 2
+    }
+  },
+  "event_urls": [
+    "https://www.charleroi.be/agenda/bouger-pour-sa-sante",
+    "https://www.charleroi.be/agenda/talentum-charleroi-2026",
+    "https://www.charleroi.be/agenda/les-medievales-font-leur-grand-retour-dans-le-centre-ville-de-charleroi",
+    "https://www.charleroi.be/agenda/salon-des-metiers-de-la-securite",
+    "https://www.charleroi.be/agenda/val-saint-lambert-art-deco-et-modernisme-a-partir-du-18042026",
+    "https://www.charleroi.be/agenda/conseil-communal-davril",
+    "https://www.charleroi.be/agenda/4e-salon-de-lenseignement-pour-adultes",
+    "https://www.charleroi.be/agenda/marathon-de-charleroi-2026",
+    "https://www.charleroi.be/agenda/antoine-leperlier-veduta-interna",
+    "https://www.charleroi.be/agenda/musee-de-la-photographie-de-charleroi",
+    "https://www.charleroi.be/agenda/bois-du-cazier-programme-de-la-commemoration-du-70-anniversaire-de-la-catastrophe-du-bois-du-cazier",
+    "https://www.charleroi.be/agenda/musee-de-la-photographie",
+    "https://www.charleroi.be/agenda/foire-de-paques-2026-de-charleroi",
+    "https://www.charleroi.be/agenda/tournee-des-quartiers-marcinelle-le-transvaal-hublinbu",
+    "https://www.charleroi.be/agenda/quartiers-libres-printemps-2026",
+    "https://www.charleroi.be/agenda/papier-carbone-2026",
+    "https://www.charleroi.be/agenda/festival-pepites-2026",
+    "https://www.charleroi.be/agenda/conseil-communal-de-mai",
+    "https://www.charleroi.be/agenda/la-boucle-noire-2026-charleroi",
+    "https://www.charleroi.be/agenda/tournee-des-quartiers-dampremy-centre",
+    "https://www.charleroi.be/agenda/conseil-communal-de-juin",
+    "https://www.charleroi.be/agenda/conseil-communal-daout",
+    "https://www.charleroi.be/agenda/conseil-communal-de-septembre",
+    "https://www.charleroi.be/agenda/nourrir-charleroi-2026",
+    "https://www.charleroi.be/agenda/conseil-communal-doctobre",
+    "https://www.charleroi.be/agenda/conseil-communal-de-novembre",
+    "https://www.charleroi.be/agenda/conseil-communal-de-decembre"
+  ],
+  "events": [
+    {
+      "id": "bd7ed876b4d6",
+      "url": "https://www.charleroi.be/agenda/bouger-pour-sa-sante",
+      "title": "Bouger pour sa santé — conférence",
+      "description": "Dans le cadre des​“Jeudis de la Santé 2026”, un cycle de conférences pour informer, connecter et agir pour la santé de tous et toutes, Charleroi vous invite à sa première conférence, intitulée​“Bouger pour sa santé”, le 16 avril 2026. Envie de reprendre une activité physique de manière adaptée et durable ? Participez à cette 1ère conférence dédiée au mouvement et à la santé. Organisée lejeudi 16 avril de 18h à 19h30, cette rencontre vous proposera des clés concrètes pour se remettre en mouvement, quel que soit votre niveau ou votre condition physique. L’intervention sera assurée par Kevin Brouillard del’ASBL Sport Sur Ordonnance, qui partagera conseils pratiques et pistes accessibles pour intégrer l’activité physique dans le quotidien. Une opportunité pour toutes et tous de prendre soin de sa santé à son rythme, dans un cadre bienveillant et accessible. 📍Lieu: École Cobaux – Salle des fêtes (Bd Janson 61, 6000 Charleroi) 📅​Horaire: 18h à 19h30 — Entrée gratuite ℹ️Infos et inscriptions: 071/86.70.03 – villesante@​charleroi.​be",
+      "category": "Santé",
+      "location": {
+        "venue": "Ecole Cobaux",
+        "address": "Salle des fêtes — Bd Janson, 61 6000 Charleroi",
+        "postal_code": "6000",
+        "city": "Charleroi"
+      },
+      "dates": {
+        "schedules": [
+          "Le 16/04/2026 18:00"
+        ],
+        "start": "16-04-2026 18:00"
+      },
+      "pricing": "Entrée gratuite",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.charleroi.be/imager/images/1223259/Capture-decran-2026-03-25-123028_effe4b81abff3c9367212e55d212f2a6.png",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:33:22.034774+00:00"
+    },
+    {
+      "id": "e9fc35a3e419",
+      "url": "https://www.charleroi.be/agenda/talentum-charleroi-2026",
+      "title": "Talentum Charleroi 2026",
+      "description": "Le salon Talentum Charleroirevient lejeudi 16 avril 2026, de13h à 17h, à la prestigieuse salleLe Grand Palais(Rue de l’Ancre 2, 6000 Charleroi). Venez rencontrer gratuitement des dizaines d’employeurs et organismes de formation actifs dans la région de Charleroi et dans toute la Wallonie. Date: Jeudi 16 avril 2026 Horaires: 13h00 — 17h00 Lieu:Le Grand Palais — Rue de l’Ancre 2, 6000 Charleroi",
+      "category": "Economie",
+      "location": {
+        "venue": "Grand Palais",
+        "address": "Rue de l’Ancre 2, 6000 Charleroi",
+        "postal_code": "6000",
+        "city": "Charleroi"
+      },
+      "dates": {
+        "schedules": [
+          "Le 16/04/2026 13:00"
+        ],
+        "start": "16-04-2026 13:00"
+      },
+      "pricing": "Gratuit",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": "https://www.references.be/events/salon16-avril-202613-17hle-grand-palais-de-charleroi-talentum-charleroi-2026/708341"
+      },
+      "accessibility": true,
+      "url_image": "https://www.charleroi.be/imager/images/1219530/Talentum-2026-Charleroi_6d6ea7935fcaac325b71e84bb3c22257.jpeg",
+      "organiser": "Références",
+      "parsed_at": "2026-04-15T08:33:22.921809+00:00"
+    },
+    {
+      "id": "472d0bb576ac",
+      "url": "https://www.charleroi.be/agenda/les-medievales-font-leur-grand-retour-dans-le-centre-ville-de-charleroi",
+      "title": "LES MEDIEVALES FONT LEUR GRAND RETOUR DANS LE CENTRE-VILLE DE CHARLEROI !",
+      "description": "Durant toute la journée, plusieurs compagnies médiévales recréeront un véritable camp historique avec forge, fabrication de cottes de maille, enluminure, travail du cuir ou encore frappe de monnaie. Les visiteurs pourront également assister à des combats de chevaliers dans la lice, participer à des initiations ou découvrir les techniques artisanales d’autrefois. Les familles et les enfants ne seront pas en reste avec de nombreuses activités : contes, tir à l’arc, ateliers créatifs, spectacles humoristiques et rencontres avec des personnages médiévaux hauts en couleur. Un marché d’artisans et de producteurs viendra compléter l’événement avec une sélection de produits artisanaux et gourmands : charcuteries, miel et confitures, bijoux, céramiques, travail du bois, chapellerie, textiles, bougies, friandises, crêpes et gaufres. PROGRAMME Campements et animations médiévales (11h – 19h) – Place Verte Musique et spectacles médiévaux – Place Verte Combats de chevaliers dans la lice – Place Verte Animations pour enfants – Place Verte Animations médiévales – Rive Gauche",
+      "category": "Folklore & Vivre",
+      "location": {
+        "venue": "Charleroi",
+        "address": "Place Verte",
+        "postal_code": "",
+        "city": "Charleroi"
+      },
+      "dates": {
+        "schedules": [
+          "Le 18/04/2026 11:00"
+        ],
+        "start": "18-04-2026 11:00"
+      },
+      "pricing": "",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": "https://www.facebook.com/CharleroiCentreVille"
+      },
+      "accessibility": true,
+      "url_image": "https://www.charleroi.be/assets/images/medievales-charleroi-2026.jpg",
+      "organiser": "Charleroi Centre Ville",
+      "parsed_at": "2026-04-15T08:33:23.740643+00:00"
+    },
+    {
+      "id": "3be54d252ae5",
+      "url": "https://www.charleroi.be/agenda/salon-des-metiers-de-la-securite",
+      "title": "Salon des métiers de la sécurité",
+      "description": "La 3e édition du Salon des Métiers de la Sécuritérevient ce 18 avril 2026 ! Au programme :Défense, Prévention et Sécurité. Mais aussi démonstrations et dédicaces. 📍​Collège les Aumôniers du travail — 185, Grand rue, 6000 Charleroi — de 10h-16h.",
+      "category": "Vivre & Société",
+      "location": {
+        "venue": "Collège les Aumôniers du travail",
+        "address": "185, Grand rue, 6000 Charleroi",
+        "postal_code": "6000",
+        "city": "Charleroi"
+      },
+      "dates": {
+        "schedules": [
+          "Le 18/04/2026 10:00"
+        ],
+        "start": "18-04-2026 10:00"
+      },
+      "pricing": "Gratuit",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.charleroi.be/assets/images/Salon-securite-Charleroi.jpg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:33:24.593584+00:00"
+    },
+    {
+      "id": "9c737eb2e6ff",
+      "url": "https://www.charleroi.be/agenda/val-saint-lambert-art-deco-et-modernisme-a-partir-du-18042026",
+      "title": "Val Saint-Lambert : Art Déco et Modernisme- à partir du 18/04/2026",
+      "description": "Du18 avril au 27 septembre 2026, leMusée des Beaux-Artsde Charleroi accueille uneexposition exceptionnelleconsacréeà Val Saint-Lambert,figure emblématique del’art verrier belge, à travers la périodeArt déco et modernistede l’entre-deux-guerres. Entreélégance des formes, audace graphique et innovation artistique, l’exposition retrace l’évolution stylistiquedu célèbre cristal de1925 à 1939. Pièces iconiques, créations raffinées et objets du quotidien témoignent du dialogue entre art, industrie et modernité, dans un contexte de profondes mutations esthétiques. Uneimmersion fascinantedans l’âge d’or du design verrier, à découvrir au cœur deCharleroi. Pour plus d’informations concernant l’évènement, les horaires et le prix, n’hésitez pas à vous rendre sur le site deCharleroi Museum. 📍​Infos: Musée des Beaux-Arts 67, Boulevard Mayence 6000 Charleroi 📅​Exposition accessibledu mardi au vendredi de 9h à 17h, samedi et dimanche de 10h à 18h–gratuitlepremier dimanchedu mois 📞​Contact :071/86.01.01 oumdv@​charleroi.​be",
+      "category": "Culture & Jeunesse",
+      "location": {
+        "venue": "Musée des Beaux-Arts de Charleroi",
+        "address": "67, boulevard Mayence 6000 Charleroi",
+        "postal_code": "6000",
+        "city": "Charleroi"
+      },
+      "dates": {
+        "schedules": [
+          "Du 18/04/2026 au 27/09/2026"
+        ],
+        "start": "18-04-2026 00:00",
+        "end": "27-09-2026 00:00"
+      },
+      "pricing": "",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": "https://charleroi-museum.be/"
+      },
+      "accessibility": true,
+      "url_image": "https://www.charleroi.be/assets/images/VSL_2025-240-320-5.jpg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:33:25.418704+00:00"
+    },
+    {
+      "id": "6c97942cc925",
+      "url": "https://www.charleroi.be/agenda/conseil-communal-davril",
+      "title": "Conseil communal d’avril",
+      "description": "Le conseil communal d’avril aura lieu le20/04/2026 à 18h30, à l’Hôtel de Villede Charleroi, Place Vauban. Il sera transmis en direct sur notre pageYoutubeet vous pourrez aussi revoir la séance en entier sur notre page​“Conseil”. Enfin, tous les PV sont disponibles :ici.",
+      "category": "",
+      "location": {
+        "venue": "Hôtel de Ville de Charleroi",
+        "address": "Place Vauban",
+        "postal_code": "",
+        "city": ""
+      },
+      "dates": {
+        "schedules": [
+          "Le 20/04/2026 18:30"
+        ],
+        "start": "20-04-2026 18:30"
+      },
+      "pricing": "",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.charleroi.be/imager/images/1224505/Conseil-communal_2026-04-07-074921_bbvt_6d6ea7935fcaac325b71e84bb3c22257.jpg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:33:26.291950+00:00"
+    },
+    {
+      "id": "749ee81840bd",
+      "url": "https://www.charleroi.be/agenda/4e-salon-de-lenseignement-pour-adultes",
+      "title": "4e salon de l’enseignement pour adultes",
+      "description": "",
+      "category": "Formation",
+      "location": {
+        "venue": "CEME Dampremy",
+        "address": "",
+        "postal_code": "",
+        "city": "Dampremy"
+      },
+      "dates": {
+        "schedules": [
+          "Le 21/04/2026 13:00"
+        ],
+        "start": "21-04-2026 13:00"
+      },
+      "pricing": "",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": "https://www.ecea.be"
+      },
+      "accessibility": true,
+      "url_image": "https://www.charleroi.be/assets/images/salon-enseignement_2026-04-15-063651_qutr.png",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:33:27.581724+00:00"
+    },
+    {
+      "id": "6aae5633b31c",
+      "url": "https://www.charleroi.be/agenda/marathon-de-charleroi-2026",
+      "title": "Marathon de Charleroi 2026",
+      "description": "Charleroi vous donne rendez-vous pour la3e édition de son Marathon, un événement sportif, festif et fédérateur au cœur de la Métropole ! Bloquez d’ores et déjà la date dans vos agendas et préparez vos baskets ! Plus d’infos sur lesite officiel de l’organisateur ci-dessous. Infosmobilitéà venir.",
+      "category": "Moments forts & Participation citoyenne",
+      "location": {
+        "venue": "Marathon de Charleroi 2026",
+        "address": "",
+        "postal_code": "",
+        "city": "Charleroi"
+      },
+      "dates": {
+        "schedules": [
+          "Le 26/04/2026 09:00"
+        ],
+        "start": "26-04-2026 09:00"
+      },
+      "pricing": "Prix des inscriptions disponibles sur le site officiel de l’organisateur",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": "https://www.charleroimarathon.be/"
+      },
+      "accessibility": true,
+      "url_image": "https://www.charleroi.be/assets/images/600x400_marathon_charleroi-high_2026-02-10-105744_kxzc.webp",
+      "organiser": "Charleroi Marathon — site officiel",
+      "parsed_at": "2026-04-15T08:33:28.380177+00:00"
+    },
+    {
+      "id": "0e0ea86c45cf",
+      "url": "https://www.charleroi.be/agenda/antoine-leperlier-veduta-interna",
+      "title": "Antoine Leperlier — Veduta Interna",
+      "description": "La nouvelle exposition du Musée du Verre,​“Veduta Interna” ouvre ses portes du 21 novembre 2025 au 3 mai 2026 et est consacrée à l’artiste Antoine Leperlier. En ce début d’hiver, leMusée du Verre présente un nouveau focus, consacré à unmonument de l’histoire du verre contemporain:Antoine Leperlier. Cette exposition est l’occasion de revenir sur les 15 dernières années de création artistique, où la couleur a peu à peu repris de la place dans la démarche artistique de cet artiste prolifique pour servir son propos :figer le temps dans la matière. Né à Evreux en 1953, Antoine Leperlier vit encore aujourd’hui dans la petite commune de Conches-en-Ouche, en Normandie, d’où sa famille est originaire. Issu d’une longue lignée d’artistes, il manifeste très tôt un grand intérêt pour l’art. Parmi ses illustres ancêtres, il y a son grand-père François Décorchemont (1880−1971) qui, au 20esiècle, a été un praticien hors-pair de la pâte de verre. Ce dernier a exercé une influence déterminante sur Antoine Leperlier : adolescent, il s’initie déjà à cette technique, sous le regard attentif de son aïeul. En 1972, Antoine Leperlier rejoint Paris pour étudier la philosophie et les arts plastiques à la Sorbonne et à l’Ecole du Louvre. En 1978, il reprend les notes de son grand-père, décédé en 1972, pour se lancer dans l’expérimentation de la pâte de verre. Il est très vite rejoint par son frère Étienne (1952−2014), avec qui il partage l’atelier familial pendant près de 10 ans. En 1981, il obtient sa première distinction en devenant lauréat de la Fondation de France. L’année suivante, il participe à ses premières expositions. Antoine Leperliera embrassé sans filet la carrière d’artiste avec un medium qui, au début des années 1980 en Europe occidentale, est toujours considéré comme un matériau d’artisanat. Si on serait tenté de qualifier ses premières créations d’« objets de vitrine », elles portent déjà en elles lefondement de sa réflexion artistiquequi l’animera toute au long de sa carrière :comprendre et donner forme au temps. Au cours des quarante dernières années, Antoine Leperlier a cherché la meilleure façon defiger la temporalité, depuis ses premiers « vases » du début des années 1980 à la série des « Veduta interna » d’aujourd’hui, en passant par celles, entre autres, de « Effet de la mémoire », « Still life », « Mélancolie de la Sphère », « Vanité au repos », « Flux et fixe », « Chair et Os » et « Espace d’un instant ». Comme il aime à la souligner, un bloc de verre, c’est de la lumière, la lumière c’est du temps et le verre c’est le matériau du temps. A côté de la création artistique et de ses recherches, Antoine Leperlier a consacré énormément de temps aupartage de ses connaissances sur la technique de la pâte de verre mais aussi sur le monde de l’art. Il a, à plusieurs reprises, dispensé des cours à l’université d’été de l’atelier du Musée du Verre de Sars-Poteries entre 1989 et 2002. En 1997, il est l’artiste invité à la Pilchuck Glass School de Seattle. En 2000, il est à Montréal au Centre des métiers d’Art du verre et en 2006, à l’International Glass Symposium de Novy Bor en Tchéquie. Il parcourt également le monde pour donner des conférences : Chicago, Borgholm (Suède), Amsterdam, Taiwan, Paris, Shanghai… Il est titulaire de nombreuses distinctions dont le Prix Liliane Bettencourt (2001) et le Bombay Sapphire Prize (2015). Tout au long de sa carrière, il a participé à de nombreuses expositions collectives et personnelles. Il est aussi représenté depuis de nombreuses années par la Galerie Capazza (Nançay, France) et la Galerie internationale du Verre (Biot, France). Grâce à une vie consacrée à l’art et à la recherche,Antoine Leperlier a sans conteste contribué à écrire l’histoire du verre contemporain. Du 21/11/2025 au 3/05/2026 Au Musée du Verre — 80, rue du Cazier, 6001 Marcinelle",
+      "category": "Culture",
+      "location": {
+        "venue": "Musée du Verre — 80, rue du Cazier 80, 6001 Marcinelle",
+        "address": "",
+        "postal_code": "",
+        "city": "Marcinelle"
+      },
+      "dates": {
+        "schedules": [
+          "Du 21/11/2025 au 03/05/2026"
+        ],
+        "start": "21-11-2025 00:00",
+        "end": "03-05-2026 00:00"
+      },
+      "pricing": "",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": "https://charleroi-museum.be/musee-du-verre/"
+      },
+      "accessibility": true,
+      "url_image": "https://www.charleroi.be/assets/images/Espace-dun-instant-XLVIII-2021-n-2210416_photo-Armon_Arthur-Monfrais.jpg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:33:30.435159+00:00"
+    },
+    {
+      "id": "4ff1e1b17563",
+      "url": "https://www.charleroi.be/agenda/musee-de-la-photographie-de-charleroi",
+      "title": "Musée de la Photographie de Charleroi",
+      "description": "Le Musée de la Photographie de Charleroi propose une nouvelle saison d’expositions temporaires rassemblant plusieurs regards contemporains sur le monde, entre mise en scène, mémoire, territoire et récit intime. Ces expositions invitent les visiteurs à explorer différentes formes de narration photographique, du documentaire à la fiction visuelle Photographe majeur de la scène internationale, Gregory Crewdson est connu pour ses images minutieusement mises en scène, proches de l’esthétique cinématographique. Ses photographies révèlent une Amérique silencieuse et crépusculaire, traversée par une tension entre fiction et réalité. La série Eveningside clôt une trilogie consacrée à l’intime et au paysage humain, où chaque image semble être un fragment d’histoire suspendue. Avec Hydraulic Empire, Cyril Albrecht explore les paysages de l’Ouest américain et les infrastructures monumentales liées à la gestion de l’eau. Entre fascination pour les grands espaces et réflexion critique sur l’impact humain sur l’environnement, son travail interroge la relation entre territoire, technologie et avenir écologique. Cette exposition propose une plongée singulière dans les archives photographiques de la Police judiciaire de Liège. Les images de reconstitutions de scènes de crime, réalisées pour les besoins de l’enquête, révèlent une dimension à la fois documentaire, théâtrale et troublante, questionnant la frontière entre réalité, mémoire et représentation. À travers photographies et film, Aline Suter et Céline Carridroit racontent une histoire intime liée au VIH, entre mémoire, résilience et transmission. L’exposition aborde avec sensibilité les parcours de vie, les souvenirs et les transformations personnelles, offrant un témoignage à la fois fragile et profondément humain. Jeune photographe belge, Baptiste Van Leendert développe une approche poétique et introspective de l’image. À travers la lumière, la couleur et la mise en scène, il transforme des lieux familiers en espaces oniriques et suspendus, où se mêlent solitude, mémoire et imagination. pour plus d’informations sur les expositions temporaires :visitez le lien du musée de la Photographie.",
+      "category": "Culture & Jeunesse",
+      "location": {
+        "venue": "Musée de la Photographie",
+        "address": "Avenue Paul Pastur, 11 6032 Charleroi",
+        "postal_code": "6032",
+        "city": "Charleroi"
+      },
+      "dates": {
+        "schedules": [
+          "Du 07/02/2026 10:00 au 17/05/2026 18:00"
+        ],
+        "start": "07-02-2026 10:00",
+        "end": "17-05-2026 18:00"
+      },
+      "pricing": "Prix en fonction de l’expo",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": "https://www.museephoto.be/fr/Activites-fr.html"
+      },
+      "accessibility": true,
+      "url_image": "https://www.charleroi.be/imager/images/1218074/musee-de-la-photo-ht_6d6ea7935fcaac325b71e84bb3c22257.jpg",
+      "organiser": "Musée de la Photographie",
+      "parsed_at": "2026-04-15T08:33:31.896321+00:00"
+    },
+    {
+      "id": "6b2d521f547f",
+      "url": "https://www.charleroi.be/agenda/bois-du-cazier-programme-de-la-commemoration-du-70-anniversaire-de-la-catastrophe-du-bois-du-cazier",
+      "title": "Bois du Cazier : programme de la commémoration du 70ᵉ anniversaire de la catastrophe",
+      "description": "Àl’occasion du 70ᵉ anniversaire de la catastrophe du Bois du Cazier et des 80 ans de la signature du protocole d’accord belgo-italien, le Bois du Cazier propose une programmation exceptionnelle mêlant mémoire, culture et transmission dans et hors les murs.",
+      "category": "Histoire",
+      "location": {
+        "venue": "Bois du Cazier",
+        "address": "",
+        "postal_code": "",
+        "city": "Charleroi"
+      },
+      "dates": {
+        "schedules": [
+          "Du 10/03/2026 au 31/12/2026"
+        ],
+        "start": "10-03-2026 00:00",
+        "end": "31-12-2026 00:00"
+      },
+      "pricing": "",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": "https://www.leboisducazier.be/"
+      },
+      "accessibility": true,
+      "url_image": "https://www.charleroi.be/imager/images/1220917/Cazier-Charleroi_2026-03-05-132929_pekj_6d6ea7935fcaac325b71e84bb3c22257.JPG",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:33:33.399492+00:00"
+    },
+    {
+      "id": "4f71b7f8c7bf",
+      "url": "https://www.charleroi.be/agenda/musee-de-la-photographie",
+      "title": "Musée de la photographie",
+      "description": "Le Musée de la Photographie de Charleroi propose une programmation culturelle riche et accessible à tous, mêlant rencontres, ateliers créatifs, découvertes techniques et visites guidées. Ces activités permettent d’explorer la photographie autrement, à travers la pratique, la réflexion et l’échange. Découvrez ci-dessous les prochains rendez-vous organisés au musée entre le mois de mars et le mois de juin 2026 Jeudi 19 mars 2026 | 19:00 → 20:00 Jean-Charles Vergne, commissaire d’expositions et ancien directeur du FRAC Auvergne, propose une conférence autour de l’exposition Gregory Crewdson – Eveningside. Cette rencontre offre un éclairage sur le travail de l’artiste et les enjeux de l’exposition. Public : Adultes et ados (dès 16 ans) Prix : 10 € / 8 € senior, étudiant, demandeur d’emploi, 5 € Amis du Musée Samedi 11 avril 2026 | 10:00 → 12:00 Samedi 13 juin 2026 | 10:00 → 12:00 Une initiation aux procédés photographiques anciens à travers l’expérimentation du cyanotype. Les participants découvrent une technique de tirage qui permet de créer des images aux nuances de bleu caractéristiques. Public : Adultes et ados à partir de 15 ans Prix : 10 €/​personne (8,5 € Amis du Musée) Jeudi 30 avril 2026 | 13:30 → 15:00 Un atelier familial pour explorer la technique du Cyanotype à partir d’éléments végétaux et naturels, et créer des images inspirées des saisons. Public : Groupes familiaux composés au maximum de 3 enfants à partir de 6 ans et de 2 adultes accompagnateurs Prix : 10 €/​groupe familial, gratuit/​Amis du Musée Famille Samedi 28 mars 2026 | 10:00 → 12:00 Samedi 30 mai 2026 | 10:00 → 12:00 Une immersion dans la chambre noire du musée pour découvrir ou pratiquer le développement de photographies argentiques à partir de négatifs. Public : Adultes et ados (dès 12 ans accompagnés) Prix : 8 € adulte / 6 € étudiant / 6,80 € Amis du Musée Pour plus d’infos sur la programmation 2026,visitez le lien du Musée de la Photographie.",
+      "category": "Culture & Jeunesse",
+      "location": {
+        "venue": "Musée de la Photographie",
+        "address": "Avenue Paul Pastur, 11 6032 Charleroi",
+        "postal_code": "6032",
+        "city": "Charleroi"
+      },
+      "dates": {
+        "schedules": [
+          "Du 19/03/2026 10:00 au 30/05/2026 20:00"
+        ],
+        "start": "19-03-2026 10:00",
+        "end": "30-05-2026 20:00"
+      },
+      "pricing": "prix en fonction des évents ( Entre 4 euros et 15 euros)",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": "https://www.museephoto.be/fr/Activites-fr.html"
+      },
+      "accessibility": true,
+      "url_image": "https://www.charleroi.be/imager/images/1218020/2-Musee-de-la-photo_6d6ea7935fcaac325b71e84bb3c22257.jpg",
+      "organiser": "Musée de la photographie",
+      "parsed_at": "2026-04-15T08:33:34.935293+00:00"
+    },
+    {
+      "id": "9d3453a046d1",
+      "url": "https://www.charleroi.be/agenda/foire-de-paques-2026-de-charleroi",
+      "title": "Foire de Pâques 2026 de Charleroi",
+      "description": "Bonne nouvelle pour les Carolos,La Foire de Pâquesfait son grand retour auParking P1 de Charleroi Expodu4 avril au 4 mai 2026. Pendant un mois, petits et grands pourront profiter d’une ambiance festive et conviviale avec : 🎠Plus de 70 attractions pour tous les âges 🎉Des animations variées pour toute la famille 🔒Un site fermé et sécurisé pour s’amuser en toute sérénité 🚗Un parking gratuit et surveillé, avec un accès facile Entre les manèges à sensations, les attractions familiales et les incontournables stands gourmands (lacquemants, croustillons et autres douceurs sucrées), la Foire de Pâques promet des moments magiques à partager en famille ou entre amis. 📍 Lieu :Parking P1 – Charleroi Expo 📅 Dates :Du 4 avril au 4 mai HORAIRES : 🎟️ Accès libre :Attractions payantes Un rendez-vous printanier à ne pas manquer pour faire le plein de rires, de frissons et de gourmandises ! –>Plus d’infos sur la page Facebook de la Foire",
+      "category": "Loisirs",
+      "location": {
+        "venue": "Parking P1 du Palais des Beaux-Arts",
+        "address": "Rue de l’Ancre, 6000 Charleroi",
+        "postal_code": "6000",
+        "city": "Charleroi"
+      },
+      "dates": {
+        "schedules": [
+          "Du 04/04/2026 au 04/05/2026"
+        ],
+        "start": "04-04-2026 00:00",
+        "end": "04-05-2026 00:00"
+      },
+      "pricing": "Accès libre : Attractions payantes",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": "https://www.facebook.com/foiredecharleroi"
+      },
+      "accessibility": true,
+      "url_image": "https://www.charleroi.be/assets/images/644028140_1489329839895970_3025277783168290289_n_2026-03-27-112422_lbqk.jpg",
+      "organiser": "Page Facebook",
+      "parsed_at": "2026-04-15T08:33:35.737282+00:00"
+    },
+    {
+      "id": "b0a3d3257786",
+      "url": "https://www.charleroi.be/agenda/tournee-des-quartiers-marcinelle-le-transvaal-hublinbu",
+      "title": "Tournée des Quartiers : Marcinelle Le Transvaal — Hublinbu",
+      "description": "La Ville de Charleroi poursuit sa Tournée des Quartiers, une initiative qui vise à renforcer le dialogue avec les citoyen·ne·s, au plus proche de leur cadre de vie. L’objectif de cette démarche est simple :aller à la rencontre des citoyens, dans leur quartier, pour écouter leur vécu, leurs constats et leurs idées. Ces moments d’échanges sont également l’occasion d’informer les riverains sur les projets de la Ville ainsi que sur les actions menées ou prévues à l’échelle locale. 📅 La 4e rencontre aura lieu le27 avril 2026 📍Centre de Délassement — Avenue des Muguets, 16 — 6001 Marcinelle ℹ️ Rencontre réservée aux riverain·e·s et usager·e·s du quartier. D’autres rencontres sont prévues. ➡️​Inscriptions via ce lien:ici",
+      "category": "Participation citoyenne",
+      "location": {
+        "venue": "Marcinelle Le Transvaal — Hublinbu",
+        "address": "Centre de Délassement — Avenue des Muguets, 16 — 6001 Marcinelle",
+        "postal_code": "6001",
+        "city": "Marcinelle"
+      },
+      "dates": {
+        "schedules": [
+          "Le 27/04/2026 18:00"
+        ],
+        "start": "27-04-2026 18:00"
+      },
+      "pricing": "Gratuit",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.charleroi.be/imager/images/1215979/AdobeStock_1661253939_6d6ea7935fcaac325b71e84bb3c22257.jpeg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:33:36.545122+00:00"
+    },
+    {
+      "id": "e1a093c69c10",
+      "url": "https://www.charleroi.be/agenda/quartiers-libres-printemps-2026",
+      "title": "Quartiers Libres : Printemps 2026",
+      "description": "﻿3 après-midis festifs au cœur des quartiers de Charleroi ✨ Le concept Un événement gratuit qui amène la culture directement dans les quartiers ! Au programme : spectacles d’acrobaties, animations familiales et moments conviviaux pour petits et grands. 📍Dates & lieux 🕒Horaires 🎭Au programme 💛L’esprit de l’événement Créer du lien entre habitants, rendre la culture accessible à tous et faire vibrer les quartiers avec des moments simples et joyeux. 🎟Infos pratiques",
+      "category": "Folklore & Jeunesse",
+      "location": {
+        "venue": "Charleroi",
+        "address": "",
+        "postal_code": "",
+        "city": "Charleroi"
+      },
+      "dates": {
+        "schedules": [
+          "Du 28/04/2026 14:00 au 03/05/2026 21:00"
+        ],
+        "start": "28-04-2026 14:00",
+        "end": "03-05-2026 21:00"
+      },
+      "pricing": "• Entrée gratuite",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.charleroi.be/assets/images/Quartiers-Libres-2021-12-Christophe-Vandercam.jpeg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:33:38.437980+00:00"
+    },
+    {
+      "id": "5a462fbfa4cd",
+      "url": "https://www.charleroi.be/agenda/papier-carbone-2026",
+      "title": "Papier Carbone 2026",
+      "description": "Le festivalPapier Carbonerevient à Charleroi en 2026 pour célébrerl’image imprimée, la micro-édition,les arts visuelset les techniques graphiques traditionnelles ! Cet événement unique met en lumière la richessedes pratiques artistiquesautour de l’impression, de la sérigraphie à la gravure, en passant par l’illustration, à travers des salons, des ateliers, des rencontres et des expositions. Que vous soyezpassionné·ede graphisme,curieux·sedes pratiques créatives alternatives ou simpleamateur·rice d’art, Papier Carbone vous invite à découvrir : • desstands d’artistes, d’éditeurs et de collectifs venus de toute l’Europe ; • desexpositions d’œuvresimprimées originales ; • desatelierset démonstrations pour s’initier à des techniques manuelles souvent oubliées ; • desmoments d’échangeautour de la création imprimée et indépendante. Papier Carbone est bien plus qu’unsimple salon: c’est unespace de rencontreentre créateur·rice·s, passionné·e·s et public, favorisant l’émergence de nouvelles collaborations etla valorisation d’une culture visuelle richeet accessible. L’accès aux différentesactivités et aux expositionsest ouvert à tous·tes. Les détails complets de laprogrammation,desatelierset deshorairessont disponibles sur les différents sites des organisateurs.",
+      "category": "Culture & Vivre",
+      "location": {
+        "venue": "BPS22",
+        "address": "BPS22 — Boulevard Solvay, 22 6000 Charleroi",
+        "postal_code": "6000",
+        "city": "Charleroi"
+      },
+      "dates": {
+        "schedules": [
+          "Du 07/05/2026 10:00 au 10/05/2026 18:00"
+        ],
+        "start": "07-05-2026 10:00",
+        "end": "10-05-2026 18:00"
+      },
+      "pricing": "entrée gratuite",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": "http://www.papiercarbone.be/"
+      },
+      "accessibility": true,
+      "url_image": "https://www.charleroi.be/assets/images/papier_carbone-6_A2-002.jpg",
+      "organiser": "Papier Carbonne",
+      "parsed_at": "2026-04-15T08:33:39.837085+00:00"
+    },
+    {
+      "id": "c1c8a10b7524",
+      "url": "https://www.charleroi.be/agenda/festival-pepites-2026",
+      "title": "Festival PEPITES 2026 !",
+      "description": "Du 15 au 22 mai 2026, Charleroi accueillela 23ᵉ éditiondu Festival Pépites, un festival international de théâtre spécialement dédié aux tout-petits (0 à 6 ans) et à leurs familles. Organisé par le Théâtre de la Guimbarde, cet événement propose une semaine de spectacles sensibles, poétiques et ludiques, ainsi que des rencontres artistiques venues de Belgique et d’ailleurs. Une belle occasiond’éveiller la curiositédesenfantset de partager ensemble leurs premières émotions culturelles. ➡️Pour plus d’informations sur l’évènement, visitez le site. Les réservations seront ouvertes fin mars.",
+      "category": "Culture & Jeunesse",
+      "location": {
+        "venue": "Théatre GUIMBARDE",
+        "address": "Rue des gardes, 2/013 6000 Charleroi",
+        "postal_code": "6000",
+        "city": "Charleroi"
+      },
+      "dates": {
+        "schedules": [
+          "Du 15/05/2026 au 22/05/2026"
+        ],
+        "start": "15-05-2026 00:00",
+        "end": "22-05-2026 00:00"
+      },
+      "pricing": "plus d’informations sur le site de l’organisateur",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": "https://laguimbarde.be/"
+      },
+      "accessibility": true,
+      "url_image": "https://www.charleroi.be/assets/images/Spectacle-Yo-soy-Mexique-David-Lopez.jpg",
+      "organiser": "la Guimbarde",
+      "parsed_at": "2026-04-15T08:33:40.666684+00:00"
+    },
+    {
+      "id": "7916a1daec5f",
+      "url": "https://www.charleroi.be/agenda/conseil-communal-de-mai",
+      "title": "Conseil communal de mai",
+      "description": "Le conseil communal de mai aura lieu le18/05/2026 à 18h30, à l’Hôtel de Villede Charleroi, Place Vauban. Il sera transmis en direct sur notre pageYoutubeet vous pourrez aussi revoir la séance en entier sur notre page​“Conseil”. Enfin, tous les PV sont disponibles :ici.",
+      "category": "",
+      "location": {
+        "venue": "Hôtel de Ville de Charleroi",
+        "address": "Place Vauban",
+        "postal_code": "",
+        "city": ""
+      },
+      "dates": {
+        "schedules": [
+          "Le 18/05/2026 18:30"
+        ],
+        "start": "18-05-2026 18:30"
+      },
+      "pricing": "",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.charleroi.be/imager/images/1224505/Conseil-communal_2026-04-07-074921_bbvt_6d6ea7935fcaac325b71e84bb3c22257.jpg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:33:42.110626+00:00"
+    },
+    {
+      "id": "668aeee157a2",
+      "url": "https://www.charleroi.be/agenda/la-boucle-noire-2026-charleroi",
+      "title": "La Boucle Noire 2026 : Charleroi",
+      "description": "Le concept LaBoucle Noireest unparcours de randonnée urbained’environ 23 km autour de Charleroi. Elle met en valeur les contrastes de la ville : 👉 paysages industriels 👉 terrils 👉 nature 👉 quartiers urbains C’est une manièreoriginalededécouvrirCharleroi autrement, entre patrimoine et nature. Une expérience unique Édition spéciale : 31 mai 2026 Pour les 10 ansde la Boucle Noire, une édition festive est organisée : 👉 Une grande marche collective 👉 Des interventions artistiques tout au long du parcours 👉 Une ambiance​“procession socio-culturelle” (marcher ensemble + vivre une expérience). Au programme : L’esprit À retenir : 👉 Plus d’informations sur le site officiel des Chemins des terrils",
+      "category": "Loisirs & Vivre",
+      "location": {
+        "venue": "",
+        "address": "",
+        "postal_code": "",
+        "city": "Charleroi"
+      },
+      "dates": {
+        "schedules": [
+          "Du 31/05/2026 09:00 au 01/06/2026 03:00"
+        ],
+        "start": "31-05-2026 09:00",
+        "end": "01-06-2026 03:00"
+      },
+      "pricing": "Gratuit",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": "https://cheminsdesterrils.be/2016/08/02/la-boucle-noire-du-gr-412/"
+      },
+      "accessibility": true,
+      "url_image": "https://www.charleroi.be/imager/images/1222736/Boucle-noire-Canal-depuis-le-metro-aerien-cCharleroi-Tourisme-Gina-Santin_6d6ea7935fcaac325b71e84bb3c22257.jpg",
+      "organiser": "Chemins des terrils",
+      "parsed_at": "2026-04-15T08:33:43.282433+00:00"
+    },
+    {
+      "id": "5db6e56063fc",
+      "url": "https://www.charleroi.be/agenda/tournee-des-quartiers-dampremy-centre",
+      "title": "Tournée des Quartiers : Dampremy Centre",
+      "description": "La Ville de Charleroi lance la Tournée des Quartiers, une initiative qui vise à renforcer le dialogue avec les citoyen·ne·s, au plus proche de leur cadre de vie. L’objectif de cette démarche est simple :aller à la rencontre des citoyens, dans leur quartier, pour écouter leur vécu, leurs constats et leurs idées. Ces moments d’échanges sont également l’occasion d’informer les riverains sur les projets de la Ville ainsi que sur les actions menées ou prévues à l’échelle locale. 📅1e juin 2026 📍CEME — Rue des Français 147, 6020 Charleroi ℹ️ Rencontre réservée aux riverain·e·s et usager·e·s du quartier. D’autres rencontres sont prévues. ➡️​Inscriptions via ce lien:ici",
+      "category": "Participation citoyenne",
+      "location": {
+        "venue": "Dampremy Centre",
+        "address": "CEME — Rue des Français 147, 6020 Charleroi",
+        "postal_code": "6020",
+        "city": "Dampremy"
+      },
+      "dates": {
+        "schedules": [
+          "Le 01/06/2026 18:00"
+        ],
+        "start": "01-06-2026 18:00"
+      },
+      "pricing": "Gratuit",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.charleroi.be/imager/images/1215973/AdobeStock_1636239445_6d6ea7935fcaac325b71e84bb3c22257.jpeg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:33:44.705731+00:00"
+    },
+    {
+      "id": "61f2e0f58644",
+      "url": "https://www.charleroi.be/agenda/conseil-communal-de-juin",
+      "title": "Conseil communal de juin",
+      "description": "Le conseil communal de juin aura lieu le22/06/2026 à 18h30, à l’Hôtel de Villede Charleroi, Place Vauban. Il sera transmis en direct sur notre pageYoutubeet vous pourrez aussi revoir la séance en entier sur notre page​“Conseil”. Enfin, tous les PV sont disponibles :ici.",
+      "category": "",
+      "location": {
+        "venue": "Hôtel de Ville de Charleroi",
+        "address": "Place Vauban",
+        "postal_code": "",
+        "city": ""
+      },
+      "dates": {
+        "schedules": [
+          "Le 22/06/2026 18:30"
+        ],
+        "start": "22-06-2026 18:30"
+      },
+      "pricing": "",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.charleroi.be/imager/images/1224505/Conseil-communal_2026-04-07-074921_bbvt_6d6ea7935fcaac325b71e84bb3c22257.jpg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:33:45.975277+00:00"
+    },
+    {
+      "id": "3f5bf73ede29",
+      "url": "https://www.charleroi.be/agenda/conseil-communal-daout",
+      "title": "Conseil communal d’août",
+      "description": "Le conseil communal d’août aura lieu le31/08/2026 à 18h30, à l’Hôtel de Villede Charleroi, Place Vauban. Il sera transmis en direct sur notre pageYoutubeet vous pourrez aussi revoir la séance en entier sur notre page​“Conseil”. Enfin, tous les PV sont disponibles :ici.",
+      "category": "",
+      "location": {
+        "venue": "Hôtel de Ville de Charleroi",
+        "address": "Place Vauban",
+        "postal_code": "",
+        "city": ""
+      },
+      "dates": {
+        "schedules": [
+          "Le 31/08/2026 18:30"
+        ],
+        "start": "31-08-2026 18:30"
+      },
+      "pricing": "",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.charleroi.be/imager/images/1224505/Conseil-communal_2026-04-07-074921_bbvt_6d6ea7935fcaac325b71e84bb3c22257.jpg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:33:47.486905+00:00"
+    },
+    {
+      "id": "b954232f1520",
+      "url": "https://www.charleroi.be/agenda/conseil-communal-de-septembre",
+      "title": "Conseil communal de septembre",
+      "description": "Le conseil communal de septembre aura lieu le21/09/2026 à 18h30, à l’Hôtel de Villede Charleroi, Place Vauban. Il sera transmis en direct sur notre pageYoutubeet vous pourrez aussi revoir la séance en entier sur notre page​“Conseil”. Enfin, tous les PV sont disponibles :ici.",
+      "category": "",
+      "location": {
+        "venue": "Hôtel de Ville de Charleroi",
+        "address": "Place Vauban",
+        "postal_code": "",
+        "city": ""
+      },
+      "dates": {
+        "schedules": [
+          "Le 21/09/2026 18:30"
+        ],
+        "start": "21-09-2026 18:30"
+      },
+      "pricing": "",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.charleroi.be/imager/images/1224505/Conseil-communal_2026-04-07-074921_bbvt_6d6ea7935fcaac325b71e84bb3c22257.jpg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:33:49.146788+00:00"
+    },
+    {
+      "id": "f535f5a40dbc",
+      "url": "https://www.charleroi.be/agenda/nourrir-charleroi-2026",
+      "title": "Nourrir Charleroi 2026",
+      "description": "Et sil’alimentationdevenait un sujet de fête, de rencontre et d’inspiration ? Et si on prenait le temps de questionner ce qu’il y a dans nos assiettes, mais aussi tout ce qu’il y a derrière :les producteurs, les prix, l’accès à unealimentation de qualité,l’environnement,la solidarité. Nourrir Charleroise déroulera cette année du30/09/2026 au 07/10/2026. Au programme : ateliers, débats, théâtre, concerts, balades, projections, concours de cuisine, repas partagés. Des moments pour apprendre, s’émerveiller, échanger, mais aussi simplement passer un bon moment ensemble. Parce que l’alimentation nousconcerne tous, parce qu’elle raconte notre territoire, noschoix, nos cultures et nos rêves,Nourrir Charleroiinvite les Carolos àimaginerensemble l’alimentation de demain. Nourrir Charleroi, c’est réfléchir ensemble… et faire la fête autour de ce qui nous nourrit. 👉Pour plus d’informations sur les dates et lieux des ateliers.",
+      "category": "Santé & Qualité de vie",
+      "location": {
+        "venue": "Charleroi — différents endroits dans la ville",
+        "address": "",
+        "postal_code": "",
+        "city": "Charleroi"
+      },
+      "dates": {
+        "schedules": [
+          "Du 30/09/2026 11:00 au 07/10/2026 20:00"
+        ],
+        "start": "30-09-2026 11:00",
+        "end": "07-10-2026 20:00"
+      },
+      "pricing": "GRATUIT ( n’oubliez pas de réserver certains évents)",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": "http://nourrir-charleroi.org/"
+      },
+      "accessibility": true,
+      "url_image": "https://www.charleroi.be/imager/images/1217964/IMG_4773-960x960_c5da7116986a24d9eb35d9d2ecb73b8d.webp",
+      "organiser": "Nourrir Charleroi",
+      "parsed_at": "2026-04-15T08:33:50.540688+00:00"
+    },
+    {
+      "id": "b7d05f26903d",
+      "url": "https://www.charleroi.be/agenda/conseil-communal-doctobre",
+      "title": "Conseil communal d’octobre",
+      "description": "Le conseil communal d’octobre aura lieu le19/10/2026 à 18h30, à l’Hôtel de Villede Charleroi, Place Vauban. Il sera transmis en direct sur notre pageYoutubeet vous pourrez aussi revoir la séance en entier sur notre page​“Conseil”. Enfin, tous les PV sont disponibles :ici.",
+      "category": "",
+      "location": {
+        "venue": "Hôtel de Ville de Charleroi",
+        "address": "Place Vauban",
+        "postal_code": "",
+        "city": ""
+      },
+      "dates": {
+        "schedules": [
+          "Le 19/10/2026 18:30"
+        ],
+        "start": "19-10-2026 18:30"
+      },
+      "pricing": "",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.charleroi.be/imager/images/1224505/Conseil-communal_2026-04-07-074921_bbvt_6d6ea7935fcaac325b71e84bb3c22257.jpg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:33:52.016961+00:00"
+    },
+    {
+      "id": "e6a1ac1325a9",
+      "url": "https://www.charleroi.be/agenda/conseil-communal-de-novembre",
+      "title": "Conseil communal de novembre",
+      "description": "Le conseil communal de novembre aura lieu le23/11/2026 à 18h30, à l’Hôtel de Villede Charleroi, Place Vauban. Il sera transmis en direct sur notre pageYoutubeet vous pourrez aussi revoir la séance en entier sur notre page​“Conseil”. Enfin, tous les PV sont disponibles :ici.",
+      "category": "",
+      "location": {
+        "venue": "Hôtel de Ville de Charleroi",
+        "address": "Place Vauban",
+        "postal_code": "",
+        "city": ""
+      },
+      "dates": {
+        "schedules": [
+          "Le 23/11/2026 18:30"
+        ],
+        "start": "23-11-2026 18:30"
+      },
+      "pricing": "",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.charleroi.be/imager/images/1224505/Conseil-communal_2026-04-07-074921_bbvt_6d6ea7935fcaac325b71e84bb3c22257.jpg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:33:53.453312+00:00"
+    },
+    {
+      "id": "5c30c04359f5",
+      "url": "https://www.charleroi.be/agenda/conseil-communal-de-decembre",
+      "title": "Conseil communal de décembre",
+      "description": "Le conseil communal de décembre aura lieu le21/12/2026 à 18h30, à l’Hôtel de Villede Charleroi, Place Vauban. Il sera transmis en direct sur notre pageYoutubeet vous pourrez aussi revoir la séance en entier sur notre page​“Conseil”. Enfin, tous les PV sont disponibles :ici.",
+      "category": "",
+      "location": {
+        "venue": "Hôtel de Ville de Charleroi",
+        "address": "Place Vauban",
+        "postal_code": "",
+        "city": ""
+      },
+      "dates": {
+        "schedules": [
+          "Le 21/12/2026 18:30"
+        ],
+        "start": "21-12-2026 18:30"
+      },
+      "pricing": "",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.charleroi.be/imager/images/1224505/Conseil-communal_2026-04-07-074921_bbvt_6d6ea7935fcaac325b71e84bb3c22257.jpg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:33:54.959203+00:00"
+    }
+  ]
+}

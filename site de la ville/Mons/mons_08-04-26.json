@@ -1,0 +1,1426 @@
+{
+  "metadata": {
+    "region": "Mons",
+    "source": "mons.be",
+    "scrape_date": "2026-04-08T07:47:08.846384+00:00",
+    "total_events": 45,
+    "total_pages": 3,
+    "data_completeness": "Phase 1: 45 URLs extraites. Phase 2: 45/45 événements parsés (0 erreurs).",
+    "extraction_mode": "selenium",
+    "pagination": {
+      "load_more_clicks": 2,
+      "total_events_found": 45
+    },
+    "last_execution": {
+      "timestamp": "2026-04-08T07:50:01.057521+00:00",
+      "duration_seconds": 0.0,
+      "status": "SUCCESS",
+      "notes": "Phase 2 terminée. 45 événements parsés (19 appels API uniques)."
+    },
+    "events_extracted": 45,
+    "extraction_date": "2026-04-08T07:50:01.057521+00:00"
+  },
+  "extraction_summary": {
+    "method": "selenium_headless_chrome",
+    "load_more_clicks": 2
+  },
+  "event_urls": [
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/mons-ville-fleurie-?u=951a1786e4af480db25f847f01ee5375",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/prevention-des-morsures-de-chiens?u=7cf71292aced4780979a28680fa08c8d",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-cuesmes?u=226e8ac3431d4c7883cd95bf3e9f0364",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/jam-de-graff-?u=7bbd0caf9da64acd9069b03a6a081c7a",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-mons?u=a2f632434af94f9b87f8194baa500d94",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/la-grande-marche-gourmande-des-routards?u=49a3d3f5bc074f1fa256de02f2986d2a",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/regards-pluriels-lart-belge-et-lutopie-communiste-au-xxe-siecle?u=edb3759e828146059850ccb10e757ed2",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/monstrail-?u=9e14edb50177465c958622830621c2c4",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-epinlieu?u=c4542b9e22ca4a47b9c39fc4482bbb34",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/conference--la-migration-des-oiseaux?u=f35fec803fdc491baf2c3791b3d87480",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/cafe-alzheimer--un-temps-de-partage-et-decoute?u=5f7a3d8941dc43fe8ce24f64f1a33c0d",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/festival-de-printemps?u=a32903e016ff49438f1b22c6ebb002d3",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-nimy?u=febc51783ef344fdb49c0a8c0ec451d5",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/le-silexs-saison-?u=b5682fb7c7f54ef3bf169c97ec13ce18",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/ieme-edition-de-la--marche-du-coeur--a-mons?u=5acf3ab3be5f4bf9bc0195aeb542baee",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/viens-decouvrir-le-ccjm-?u=74bd90b618d34b969d619e6131212c12",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/tous-ensemble-pour-alzheimer-colloque-annuel-?u=75470d1c96604335aeb5a44e2b9d87fd",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/franchising-belgium-day?u=945ca4003b444dd494ee8a8ead374953",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-cuesmes?u=226e8ac3431d4c7883cd95bf3e9f0364",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-mons?u=a2f632434af94f9b87f8194baa500d94",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-epinlieu?u=c4542b9e22ca4a47b9c39fc4482bbb34",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-jemappes?u=af57ebf13aef4905a4812a12a0fca473",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-mons?u=a2f632434af94f9b87f8194baa500d94",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-cuesmes?u=226e8ac3431d4c7883cd95bf3e9f0364",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-nimy?u=febc51783ef344fdb49c0a8c0ec451d5",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-epinlieu?u=c4542b9e22ca4a47b9c39fc4482bbb34",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-cuesmes?u=226e8ac3431d4c7883cd95bf3e9f0364",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/cafe-alzheimer--un-temps-de-partage-et-decoute?u=5f7a3d8941dc43fe8ce24f64f1a33c0d",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-mons?u=a2f632434af94f9b87f8194baa500d94",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-epinlieu?u=c4542b9e22ca4a47b9c39fc4482bbb34",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-cuesmes?u=226e8ac3431d4c7883cd95bf3e9f0364",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-jemappes?u=af57ebf13aef4905a4812a12a0fca473",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-cuesmes?u=226e8ac3431d4c7883cd95bf3e9f0364",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-nimy?u=febc51783ef344fdb49c0a8c0ec451d5",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-epinlieu?u=c4542b9e22ca4a47b9c39fc4482bbb34",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-cuesmes?u=226e8ac3431d4c7883cd95bf3e9f0364",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-epinlieu?u=c4542b9e22ca4a47b9c39fc4482bbb34",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-cuesmes?u=226e8ac3431d4c7883cd95bf3e9f0364",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-nimy?u=febc51783ef344fdb49c0a8c0ec451d5",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/cafe-alzheimer--un-temps-de-partage-et-decoute?u=5f7a3d8941dc43fe8ce24f64f1a33c0d",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-epinlieu?u=c4542b9e22ca4a47b9c39fc4482bbb34",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/cafe-alzheimer--un-temps-de-partage-et-decoute?u=5f7a3d8941dc43fe8ce24f64f1a33c0d",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/cafe-alzheimer--un-temps-de-partage-et-decoute?u=5f7a3d8941dc43fe8ce24f64f1a33c0d",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/cafe-alzheimer--un-temps-de-partage-et-decoute?u=5f7a3d8941dc43fe8ce24f64f1a33c0d",
+    "https://www.mons.be/fr/que-faire-a-mons/agenda/cafe-alzheimer--un-temps-de-partage-et-decoute?u=5f7a3d8941dc43fe8ce24f64f1a33c0d"
+  ],
+  "events": [
+    {
+      "id": "cea63c7a5e52",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/mons-ville-fleurie-?u=951a1786e4af480db25f847f01ee5375",
+      "title": "Mons Ville Fleurie 2026",
+      "description": "Les beaux jours arrivent et, avec eux, le retour de l’opération «Mons Ville Fleurie» qui vous permet de fleurir la façade de votre maison à prix réduit !Comment ?Réservez vos fleurs en complétant le bon de commande disponible ci-dessous ou auprès de l’association de votre village. Diverses variétés sont proposées à partir de 1 euro / fleur (terreau compris). Sur base de votre réservation, venez avec vos bacs et jardinières, c’est avec plaisir qu’ils seront garnis ! Participez au concours de la plus belle façade fleurie organisé par trois associations montoises (Maisières,Cuesmes et Nimy) et gagnez les prix spéciaux. Le règlement du concours est disponible sur le bon de commande de l’association participante. Les habitants de Ghlin et de Saint-Symphorien sont invités à envoyer leur commande à la section de Mons-Centre. Réservation et enlèvement des fleurs auprès des associations horticoles montoises participantes : MONS-CENTRE - SAMEDI 25 AVRILDe 8h00 à 13h00 sur le site des Anciens AbattoirsRue de la Trouille, 17Date limite des commandes le 10 avrilMme Nathalie VANDEVLIEDT : 065/40.52.77invitations@ville.mons.be NIMY - SAMEDI 2 MAIDe 9h00 à 13h00 Salle paroissiale (salle Saint-François)Rue Franche, 30Date limite des commandes le 24 avrilM. Jean-Jacques HAESEVELDE : 0485/86.46.54 jhaesevelde@yahoo.com MAISIÈRES - DIMANCHE 10 MAIDe 10h00 à 13h00 à la salle CalvaCité des Espinois, 79Date limite des commandes le 19 avrilM. Frédéric PIRMEZ : 0476/47.99.69 frederic.pirmez@hotmail.com VILLERS-SAINT-GHISLAIN - VENDREDI 8 MAIDe 17h00 à 20h00 Sous le chapiteau, rue de la Ferme LacroixDate limite des commandes le 26 avrilMme Irène BOMPAS, PAC de Villers : 0494/10.37.58rene.mauret@hotmail.be HAVRÉ - SAMEDI 9 MAIDe 10h00 à 13h00 sous le porche de la conciergerie du Château d’HavréRue du Château, 30Date limite des commandes le 23 avrilMme Maria D : 065/87.36.34 ou 0495/53.62.21maria.d.sallustio@hotmail.com CUESMES - SAMEDI 9 MAIDe 9h00 à 12h00 à l’école communale du CentreRue Ferrer, 1Date limite des commandes le 25 avrilM. Jean-Pierre DUPONT: 0473/25.67.24jpdupont15448@gmail.com Point info :VisitMons, Grand-Place, 27 7000 Mons Tél. 065/33.55.80 ATTENTION : si votre village n'est pas repris dans la liste, vous pouvez réserver et récupérer vos fleurs au point le plus proche de chez vous !",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 01/03/2026 au 10/05/2026 23:59"
+        ],
+        "start": "01-03-2026 00:00",
+        "end": "10-05-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/951a1786e4af480db25f847f01ee5375/@@images/image-6000-f3339621527f9626f1d6cb66b64f6a71.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.024126+00:00"
+    },
+    {
+      "id": "f0636b7a5a6b",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/prevention-des-morsures-de-chiens?u=7cf71292aced4780979a28680fa08c8d",
+      "title": "Prévention des morsures de chiens",
+      "description": "En collaboration avec le Service Prévention, les Maisons Citoyennes et le Département Environnement, l’ASBL Sa-Mé-Pattes propose une série d’animations gratuites autour de la prévention des morsures de chiens. Au programme :Comprendre le langage d’un chienApprendre les bons gestes à adopterPrévenir les situations à risqueDates :01/04 – Maison Citoyenne de Nimy - Résidence du Soleil 6407/04 – Maison Citoyenne de Mons - Allée des Oiseaux 3008/04 – Maison Citoyenne d’Épinlieu - Chemin Cense Gain 152 – MonsHeure : 18h - Public : à partir de 7 ans - Durée : 1h15 Inscription obligatoire : 065/40 56 08 - environnement@ville.mons.be",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 01/04/2026 18:00 au 01/04/2026 19:30"
+        ],
+        "start": "01-04-2026 18:00",
+        "end": "01-04-2026 19:30"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/7cf71292aced4780979a28680fa08c8d/@@images/image-4608-7323ab6660e0bd918e6ff6945876f77e.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.024126+00:00"
+    },
+    {
+      "id": "db78b26c522f",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-cuesmes?u=226e8ac3431d4c7883cd95bf3e9f0364",
+      "title": "Permanence santé MC Cuesmes",
+      "description": "L’agent Proxidem, formé par la Ligue Alzheimer, est chargé d’accueillir, d’informer et d’orienter les personnes confrontées à la démence vers les services et ressources adéquates. Voici le calendrier des permanence santé à la Maison Citoyenne de Cuesmes :26 février - 14h à 16h : Permanence santé12 mars - 14h à 16h - Info santé : \"Le diabète\"09 avril - 14h à 16h : Permanence santé23 avril - 14h à 16h - Info santé : \"Les allergies\"21 mai - 14h à 16h : Permanence santé04 juin - 14h à 16h - Info santé : \"Le cholestérol\"18 juin - 14h à 16h : Permanence santé",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 26/02/2026 14:00 au 26/02/2026 16:00"
+        ],
+        "start": "26-02-2026 14:00",
+        "end": "26-02-2026 16:00"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/226e8ac3431d4c7883cd95bf3e9f0364/@@images/image-5760-0502d9f658fcddd8e9ef45b83927ce0d.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.024126+00:00"
+    },
+    {
+      "id": "097b20361e3f",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/jam-de-graff-?u=7bbd0caf9da64acd9069b03a6a081c7a",
+      "title": "Jam de Graff 2026",
+      "description": "Jam de Graffiti à Mons : un évènement exceptionnel pour tous ! A Mons, les 10, 11 et 12 avril 2026, le Service de Prévention de la Ville de Mons et l’ASBL Propaganza vous invitent à vivre une expérience immersive unique dédiée au graffiti et à la culture urbaine. Cet évènement rassemblera artistes, passionnés et curieux autour d’un week-end 100 % créativité. Des artistes internationaux !Cette Jam accueillera des performances live de graffeurs du IKS Crew Européen, collectif reconnu pour son talent et son identité artistique forte. Les visiteurs auront l’occasion d’observer les techniques, d’échanger avec les artistes et de plonger dans un univers visuel inédit. Un rendez-vous collaboratif et festif !La Jam de Graffiti et de Culture Urbaine à Mons s’annonce comme un moment fort du printemps 2026, célébrant la créativité, l’expression artistique et la dynamique urbaine. Grâce à la collaboration de nombreux partenaires, cet événement promet d’être un rendez-vous culturel haut en couleur, accessible à tous. Trois jours au cœur de l’art urbainVendredi 10 avril (9h – 20h) Ouverture officielle de la Jam et lancement d’un week-end entièrement consacré à l’art du graffiti. Les artistes débuteront leurs fresques en live, offrant au public l’opportunité d’assister aux premières esquisses et à la naissance des œuvres. Samedi 11 avril (9h – 23h) Une journée intense placée sous le signe de la création et du partage. À partir de 18h, l’ambiance montera d’un cran avec des sets DJ qui rythmeront la soirée jusqu’à 23h, pour une immersion complète dans l’univers de la culture urbaine. Dimanche 12 avril (9h – 20h) Dernière journée pour découvrir les œuvres en cours de finalisation et admirer les fresques dans toute leur splendeur. Une occasion unique de contempler le travail accompli tout au long du week-end. Informations pratiquesDates : 10, 11 et 12 avril 2026Lieu : SPOT Mons – Avenue de la Sapinette 5, 7000 Mons",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "Avenue de la Sapinette 5",
+        "postal_code": "7000",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 10/04/2026 au 12/04/2026 23:59"
+        ],
+        "start": "10-04-2026 00:00",
+        "end": "12-04-2026 23:59"
+      },
+      "pricing": "Gratuit",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/7bbd0caf9da64acd9069b03a6a081c7a/@@images/image-3125-d70306c17eccd30cfab0bf727c0aa893.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.024126+00:00"
+    },
+    {
+      "id": "3427b78b0f6a",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-mons?u=a2f632434af94f9b87f8194baa500d94",
+      "title": "Permanence Santé MC Mons",
+      "description": "L’agent Proxidem, formé par la Ligue Alzheimer, est chargé d’accueillir, d’informer et d’orienter les personnes confrontées à la démence vers les services et ressources adéquates. Voici le calendrier des permanence santé à la Maison Citoyenne de MonsVendredis 13 et 27 mars - 10h–12hVendredis 10 et 24 avril - 10h - 12hVendredis 08 et 22 mai - 10h - 12h",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 13/03/2026 10:00 au 13/03/2026 12:00"
+        ],
+        "start": "13-03-2026 10:00",
+        "end": "13-03-2026 12:00"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/a2f632434af94f9b87f8194baa500d94/@@images/image-5472-9a56c82a0158cbc05ae97310a9bdc145.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.024126+00:00"
+    },
+    {
+      "id": "8293409a4eb7",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/la-grande-marche-gourmande-des-routards?u=49a3d3f5bc074f1fa256de02f2986d2a",
+      "title": "La Grande Marche Gourmande des Routards",
+      "description": "Une marche Gourmande avec les Routards de Mons ! Après le succès de nos marches en 2022, 2023 et 2024, nous revenons cette année avec une nouvelle marche gourmande pour célébrer le printemps! Nous, anciens scouts et amis formons l'ASBL \"Les Routards de Mons\" et organisons ces événements pour partager des moments chaleureux et mettre en avant des producteurs locaux. Pour cette édition, nous vous proposons de parcourir Hyon, Spiennes et Mesvin tout en dégustant des produits de la région (soupe, fromage, charcuterie, plat local, dessert givré, bière, ...). Comme toujours, une partie des bénéfices, 3 € par inscription, sera reversée à une association. Cette année, nous soutenons SOS enfant Mons. Rejoignez-nous pour un moment festif, gourmand et engagé AU PROGRAMME 40€ par personne – tarif unique Un véritable parcours de saveurs : Un bol de soupe pour bien démarrerDégustation charcuterie, fromage & bière (ou tapenades, fromage & jus pour les végétariens et/ou sans alcool)Un plat traditionnel montois… surprise Un dessert gourmandUne mignardise à savourer dès votre arrivéeChoisissez simplement votre heure de départ et laissez-vous porter par cette balade gourmande qui marque le retour du printemps HORAIRES Premier départ : 10h30 Départs toutes les 15 minutes Dernier départ : 13h15Merci de respecter l’horaire sélectionné lors de votre inscription. PARCOURS & ACCESSIBILITÉBoucle de 10 kmParcours entièrement fléchéAccessible aux poussettes tout terrain (certains passages peuvent être boueux selon la météo)Merci de rester vigilant(e) et de respecter le code de la routeINSCRIPTIONS Places limitéesRéservation obligatoire via la billetterieVotre ticket vous sera envoyé par e-mail (à présenter en version numérique ou imprimée).",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 11/04/2026 au 11/04/2026 23:59"
+        ],
+        "start": "11-04-2026 00:00",
+        "end": "11-04-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": "https://www.facebook.com/events/1224844012644122/?acontext=%7B%22source%22%3A%2229%22%2C%22ref_notif_type%22%3A%22plan_user_joined%22%2C%22action_history%22%3A%22null%22%7D&notif_id=1772277727770600&notif_t=plan_user_joined&ref=notif"
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/49a3d3f5bc074f1fa256de02f2986d2a/@@images/image-6000-dc48a5f299bd349fa7809284d44fe4cf.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.024126+00:00"
+    },
+    {
+      "id": "1bc6f605c318",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/regards-pluriels-lart-belge-et-lutopie-communiste-au-xxe-siecle?u=edb3759e828146059850ccb10e757ed2",
+      "title": "Regards pluriels. L’art belge et l’utopie communiste au XXe siècle",
+      "description": "L’exposition Regards pluriels. L’art belge et l’utopie communiste au XXe siècle rappelle que les artistes sont aussi des citoyens, qu’ils participent à la vie de la société, adhèrent à des opinions et à des mouvements politiques. À travers un parcours richement documenté, l’exposition tente une approche des différentes formes et des tendances picturales investies par des artistes belges proches, sympathisants ou influencés par l’utopie communiste. Certains ont voulu que leurs œuvres reflètent un engagement immédiatement visible par tous ; d’autres au contraire, y ont investi leurs rêves, leur mélancolie ou leur ironie. La diversité des œuvres produites dans ce contexte récuse l’idée que le communisme serait lié à une seule orientation esthétique. Ce sont des regards pluriels que révèlent les œuvres des quelque soixante artistes ici représentés. Visuel: Jan Vanriet, Red Majakovski 1923, 1985, Huile sur toile, 149 x 192 cm, photo Dominique Provost, © SABAM Belgium, 2026, Collection Jan Vanriet & Semafoor. Activités autour de l’exposition Dimanches gratuits : 03/05 - 07/06 - 05/07 - 02/08. Visites pour individuels* : 3e dimanche du mois (19/04, 17/05, 21/06, 19/07, 16/08) à 15h30. Prix d’entrée à l’expo + 4€. Médiateurs en salle : les dimanches (sauf le 24/05), de 14h30 à 17h30. Compris dans le prix d’entrée. Ciné-Expo* : projection de Déjà s’envole la fleur maigre suivie d’une visite de l’exposition. 12/04 à 11h (séance film + apéro) et 15h30 (visite). Tarifs : film + apéro : 8 euros / visite : entrée expo + 4 euros Déjà s'envole la fleur maigre (1960), chef-d'œuvre du cinéma social belge de Paul Meyer a été restauré il y peu par la Cinémathèque royale de Belgique. Ce film poétique et poignant, longtemps invisible, dépeint avec réalisme la vie difficile des immigrés italiens et des mineurs dans le Borinage. Conférence par Paul Aron, commissaire de l’exposition : 23/04 à 18h30 - 6€ - gratuit/ membres des Amis des musées. Réservations au 32(0)65 40 53 38. Carnet de visite en français, anglais et néerlandais. Carnet de visite “famille”, dès 6 ans : disponible à partir du 25/04, en français et néerlandais. * Réservations : www.visitmons.be / +32(0)65 33 55 80 / info.tourisme@visitmons.be Infos pratiques Regards pluriels. L’art belge et l’utopie communiste au XXe Ouvert du mardi au dimanche, de 10h à 18h Tarifs : 10€ plein /7€ réduit Gratuit pour les – de 3 ans et chaque premier dimanche du mois Où: CAP/musée des Beaux-Arts Rue Neuve, 8 – 7000 Mons Réservations : +32 (0)65 33 55 80 ou via www.visitmons.be Nos visites Visites libres pour groupes: Réservations au +32 (0)65 40 53 46 ou par mail à groupe@visitmons.be Visites guidées pour groupes: Réservations au +32 (0)65 40 53 46 ou par mail à groupe@visitmons.be Durée : 1h30 - 65€/groupe scolaire ou 80€/autre type de groupe + ticket d'entrée - maximum 20 personnes",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 11/04/2026 10:00 au 16/08/2026 18:00"
+        ],
+        "start": "11-04-2026 10:00",
+        "end": "16-08-2026 18:00"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/e44353f945354559a77d4c71904c38da/@@images/image-3543-82244be186e4e985edfaf315dbe882f0.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.024126+00:00"
+    },
+    {
+      "id": "dad074da6fca",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/monstrail-?u=9e14edb50177465c958622830621c2c4",
+      "title": "Mons'Trail 2026",
+      "description": "En avril, Mons devient votre terrain de jeu. Préparez vos baskets et votre souffle : le Mons’Trail vous invite à découvrir la cité montoise autrement, entre chemins secrets, sentiers techniques et forêts environnantes. Que vous veniez pour vous tester ou simplement pour le plaisir de courir en pleine nature, l’expérience s'annonce totale. Ce trail authentique, à l'esprit 100% outdoor, vous promet une immersion inédite dans les paysages variés de notre région. Au programme de cette édition :Trois formats pour tous les niveaux : 7 km, 14 km et 30 km. Des parcours variés : Une alternance de bois, de chemins ruraux et de sentiers techniques soigneusement sélectionnés. Une ambiance conviviale : Une organisation aux petits soins et des ravitaillements prévus pour profiter de chaque kilomètre dans la bonne humeur. Focus sur les parcours :À Mons, on ne fait pas les choses à moitié. Les tracés ont été conçus pour vous surprendre et vous faire vibrer à chaque foulée : 7 km : Parfait pour un échauffement ou une première immersion nature.14 km : Pour goûter aux sentiers plus engagés et aux montées qui réveillent les jambes.30 km : Pour les mordus de trail, une aventure complète entre forêts denses, chemins sinueux et panoramas inattendus.3 (très) bonnes raisons de participer :Repousser tes limites sur des distances qui font sens pour toi ;Explorer Mons et ses environs autrement ;Terminer fier d’avoir vécu un trail authentique, avec une organisation aux petits soins et un esprit 100% outdoor. Prêt à mettre les pieds dans le sentier ? Mons’Trail t’attend pour t’embarquer dans une aventure qui commence dès la première foulée. InscriptionDimanche 12 avril 2026 09:00 - 30km - 5,00 € 09:30 - 14km - 5,00 € 10:00 - 7 km - 5,00 €Plus d'infos",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 12/04/2026 au 12/04/2026 23:59"
+        ],
+        "start": "12-04-2026 00:00",
+        "end": "12-04-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/9e14edb50177465c958622830621c2c4/@@images/image-8042-3c68b22acab7d181332e212014f4698d.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.024126+00:00"
+    },
+    {
+      "id": "e9c64bdd9d09",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-epinlieu?u=c4542b9e22ca4a47b9c39fc4482bbb34",
+      "title": "Permanence santé MC Epinlieu",
+      "description": "L’agent Proxidem, formé par la Ligue Alzheimer, est chargé d’accueillir, d’informer et d’orienter les personnes confrontées à la démence vers les services et ressources adéquates. Voici le calendrier des permanence santé à la Maison Citoyenne d'Epinlieu 23 février - 16h30 à 18h30 - Info santé : \"Alimentation, comment booster son immunité ?\" 09 mars - 15h à 17h : Permanence santé23 mars - 16h à 18h30 : \"Les démences\" 13 avril - 15h à 17h : Permanence santé18 mai - 15h à 17h : Permanence santé08 juin - 15h à 17h : Permanence santé22 juin - 16h30 à 18h30 - Info santé : \"La sexualité\"",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 23/02/2026 16:30 au 23/02/2026 18:30"
+        ],
+        "start": "23-02-2026 16:30",
+        "end": "23-02-2026 18:30"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/c4542b9e22ca4a47b9c39fc4482bbb34/@@images/image-5472-1ed64208c927e9f556b9c92432b728f4.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.024126+00:00"
+    },
+    {
+      "id": "944adbf9839b",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/conference--la-migration-des-oiseaux?u=f35fec803fdc491baf2c3791b3d87480",
+      "title": "Conférence - La migration des oiseaux",
+      "description": "La Ville de Mons organise une conférence gratuite consacrée à la migration des oiseaux. L’activité sera animée par Cathy Zanté, ornithologue chez Natagora – Aves Mons-Tournai. Infos pratiquesDate : mardi 14 avril 2026Heure : 19hLieu : Muséum régional des Sciences naturelles, rue des Gaillers 7, 7000 MonsTarif : gratuitRéservation obligatoire : environnement@ville.mons.be – 065/40 56 03",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 14/04/2026 19:00 au 14/04/2026 20:00"
+        ],
+        "start": "14-04-2026 19:00",
+        "end": "14-04-2026 20:00"
+      },
+      "pricing": "Gratuit",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/f35fec803fdc491baf2c3791b3d87480/@@images/image-4021-5c281b5d4b2b4959ed8bd555b61c0449.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.024126+00:00"
+    },
+    {
+      "id": "42f6da61c164",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/cafe-alzheimer--un-temps-de-partage-et-decoute?u=5f7a3d8941dc43fe8ce24f64f1a33c0d",
+      "title": "Café Alzheimer : un temps de partage et d'écoute",
+      "description": "Les Alzheimer Café sont des lieux d'échange et de partage d'expériences autour de la maladie d'Alzheimer et des démences apparentées. Nous mettons tout en œuvre pour mettre en place une atmosphère conviviale et empreinte d'empathie. 𝐏𝐫𝐨𝐜𝐡𝐚𝐢𝐧𝐞𝐬 𝐝𝐚𝐭𝐞𝐬 (𝐭𝐨𝐮𝐬 𝐥𝐞𝐬 𝟑𝐞 𝐣𝐞𝐮𝐝𝐢𝐬 𝐝𝐮 𝐦𝐨𝐢𝐬) : 19/03, 16/04, 21/05, 19/06, 17/09, 15/10, 19/11 et 17/12/2026.Entre 14h et 16hÀ la Résidence du bois d'Havré.Contact : 065/73 65 25.ergo.kine@gabriellepasselecq.be.𝐑𝐞𝐣𝐨𝐢𝐠𝐧𝐞𝐳-𝐧𝐨𝐮𝐬 𝐩𝐨𝐮𝐫 𝐜𝐞 𝐦𝐨𝐦𝐞𝐧𝐭 𝐝'𝐞́𝐜𝐡𝐚𝐧𝐠𝐞 𝐞𝐭 𝐝𝐞 𝐬𝐨𝐮𝐭𝐢𝐞𝐧 : 𝐧𝐨𝐮𝐬 𝐯𝐨𝐮𝐬 𝐚𝐭𝐭𝐞𝐧𝐝𝐨𝐧𝐬 !",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "À la Résidence du bois d'Havré",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 19/03/2026 14:00 au 19/03/2026 16:00"
+        ],
+        "start": "19-03-2026 14:00",
+        "end": "19-03-2026 16:00"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/5f7a3d8941dc43fe8ce24f64f1a33c0d/@@images/image-2250-af0457cb575b52c55596b055377eccfe.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.035050+00:00"
+    },
+    {
+      "id": "b97fd2a22692",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/festival-de-printemps?u=a32903e016ff49438f1b22c6ebb002d3",
+      "title": "Festival de printemps",
+      "description": "Du 17 avril au 10 mai 2026, la Ville de Mons fête le retour du printemps : venez vous balader dans les rues du centre-ville de Mons où de multiples animations vous seront proposées et découvrez les magnifiques décorations printanières !",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 17/04/2026 au 10/05/2026 23:59"
+        ],
+        "start": "17-04-2026 00:00",
+        "end": "10-05-2026 23:59"
+      },
+      "pricing": "Gratuit",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/a32903e016ff49438f1b22c6ebb002d3/@@images/image-2500-5bb8cea422e0af386ff16723c1c9ea89.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.035050+00:00"
+    },
+    {
+      "id": "82684a9536ab",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-nimy?u=febc51783ef344fdb49c0a8c0ec451d5",
+      "title": "Permanence santé MC Nimy",
+      "description": "L’agent Proxidem, formé par la Ligue Alzheimer, est chargé d’accueillir, d’informer et d’orienter les personnes confrontées à la démence vers les services et ressources adéquates. Voici le calendrier des permanence santé à la Maison Citoyenne de Nimy : 06 et 20 mars - 10h à 12h 3 et 17 avril de 10h à 12h 15 mai de 10h à 12h5 et 19 juin de 10h à 12h",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 06/03/2026 10:00 au 06/03/2026 12:00"
+        ],
+        "start": "06-03-2026 10:00",
+        "end": "06-03-2026 12:00"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/febc51783ef344fdb49c0a8c0ec451d5/@@images/image-5184-40536e194d2376241dc0d95242f275bd.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.035050+00:00"
+    },
+    {
+      "id": "18e56fec5023",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/le-silexs-saison-?u=b5682fb7c7f54ef3bf169c97ec13ce18",
+      "title": "Le SILEX'S saison 2026",
+      "description": "Le SILEX’S vous invite à vivre une expérience unique au cœur d’un site naturel exceptionnel. Situé à Spiennes, ce lieu chargé d’histoire vous plonge dans l’univers fascinant des minières néolithiques de silex, exploitées il y a plus de 6 000 ans et aujourd’hui reconnues par l’UNESCO en tant que Patrimoine mondial. Entre balade en plein air et découverte du passé, explorez les traces laissées par nos ancêtres et découvrez leur savoir-faire à travers un parcours immersif. Pour les plus curieux, l’aventure se prolonge sous terre avec une descente dans la minière, pour une immersion hors du temps. Seul, en famille ou en groupe, chacun peut y trouver son rythme à travers des activités variées, entre exploration, détente et découverte. Un lieu où nature et histoire se rencontrent pour offrir un moment à la fois enrichissant et dépaysant. Découvrez toutes les activités dans le cadre de cette saison et toutes les infos pratiques !",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 18/04/2026 10:00 au 01/11/2026 16:00"
+        ],
+        "start": "18-04-2026 10:00",
+        "end": "01-11-2026 16:00"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/d9809ebee5f14a338c2ba27b0fae1080/@@images/image-2131-eb2fadc7f7425e7031d91e4bfd065ce0.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.035050+00:00"
+    },
+    {
+      "id": "691dcae77b62",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/ieme-edition-de-la--marche-du-coeur--a-mons?u=5acf3ab3be5f4bf9bc0195aeb542baee",
+      "title": "5ième édition de la « Marche du Cœur » à Mons",
+      "description": "CHAQUE PAS COMPTE POUR SORTIR DE LA PRÉCARITÉ ! Le 19 avril prochain, l’Epicerie du Cœur de Mons organisera la cinquième édition de «La Marche du Cœur » au départ de l’UCLouvain FUCaM Mons. L’édition 2026 sera une édition spéciale des 40 ans d’existence des Restos du Cœur ! L’Epicerie du Coeur se mobilise encore cette année et souhaite continuer à amorcer l’élan de solidarité qui permettra d’aider les familles, les bénéficiaires, toujours plus nombreux. Créée en septembre 2019, l'Épicerie du Cœur a pour objectif de promouvoir la solidarité en faveur des plus démunis résidant au sein d’une des 19 communes de Mons. L’ASBL prépare et distribue des colis alimentaires pour plus de 270 familles, chaque colis comprend 3 repas équilibrés par personne, ce qui représente plus de 2000 rations par semaine. Les besoins sont de plus en plus grands. Pour la cinquième année consécutive, l'Épicerie du Coeur organise une « Marche du cœur » afin de récolter des fonds. Celle-ci se déroulera le 19 avril prochain au départ de la maison des étudiants de l’UCLouvain FUCaM Mons. De belles initiatives sont annoncées ! Deux circuits seront proposés: un circuit de 5km et un circuit de 10km. Les marches se veulent décontractées. Ici pas de chronomètre ni de compétition, chacun va à son propre rythme.L’équipe organisationnelle a encore pensé aux plus jeunes cette année. D’une part, le parcours du 5km sera adapté aux plus jeunes avec une approche ludique. D ‘autre part, ils auront l’opportunité de profiter de nombreux divertissements proposés sur le site.Des artisans de la région rejoignent l’initiative. Divers produits seront proposés à l’effigie des 40 ans des Restos du Cœur. Les artisans seront présents de 11 h à 17h.Des groupes musicaux d’univers différents nous accompagneront tout au long de la journée. Enfin, nous vous inviterons à relever un challenge tous ensemble !Le coût de participation pour les marcheurs est de 5 euros (gratuit - 12ans). Dans le but de soutenir davantage la lutte contre la précarité, il est proposé aux participants d’offrir une denrée non-périssable le jour de l'événement. Petits en-cas sucrés, salés et boissons seront proposés à la vente, pour les marcheurs ou toute autre personne qui souhaiterait marquer son soutien par sa seule présence. Les bénéfices récoltés lors de cette journée seront intégralement reversés à l’ASBL. L’événement ne s’organise évidemment pas sans aide. L’Epicerie du Cœur peut compter sur ses bénévoles ainsi que ses partenaires. Parmi eux, nous retrouvons : La Fédération des Restos du Cœur de Belgique, La Ville de Mons, le CPAS de Mons, , les Restos du Rire, l’UCLouvain FUCaM Mons, le CEFUC, Brasserie Dupont, Zeus Computer , les Rotary, le Lion’s Mons Réunion, le Club 44 , l’Agence de Développement Centre-Ville de Mons, … Informations pratiquesDimanche 19 avrilHoraire : départ libre entre 9h et 15h (Petits en-cas sucrés/salés et boissons (en vente sur place) proposés jusqu’à 17H)Artisans présents de 11H à 17HParcours de 5km et de 10km (boucles)Adresse : Maison des étudiants de l’UCLouvain FUCaM Mons - 151, chaussée de Binche, 7000 Mons (parking accessible)Frais d’inscriptions: 5 euros (gratuit pour les -12 ans)",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 19/04/2026 au 19/04/2026 23:59"
+        ],
+        "start": "19-04-2026 00:00",
+        "end": "19-04-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/5acf3ab3be5f4bf9bc0195aeb542baee/@@images/image-1414-986eb9d7ffbfc07b743472dbe6f989b5.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.035050+00:00"
+    },
+    {
+      "id": "ab2027694066",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/viens-decouvrir-le-ccjm-?u=74bd90b618d34b969d619e6131212c12",
+      "title": "Viens découvrir le CCJM !",
+      "description": "Bienvenue au Conseil des Jeunes ! Séances de premier contact jeu et friandises Mardi 21 avril : de 17h à 18h15Mercredi 29 avril : de 14h à 15h30Mercredi 06 mai : de 10h30 à 11h30Mardi 19 mai : de 17h à 18h15Informations : Maison des AdolescentsRue de la Seuwe 237000 MonsRéservations : 0492 91 90 24 ccjm@ville.mons.be",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 21/04/2026 17:00 au 19/05/2026 18:15"
+        ],
+        "start": "21-04-2026 17:00",
+        "end": "19-05-2026 18:15"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/74bd90b618d34b969d619e6131212c12/@@images/image-5200-011dd8cf38c34c34e5a196b28896e677.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.035050+00:00"
+    },
+    {
+      "id": "c3cd8d427dcb",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/tous-ensemble-pour-alzheimer-colloque-annuel-?u=75470d1c96604335aeb5a44e2b9d87fd",
+      "title": "Tous ensemble pour Alzheimer. Colloque annuel 2026",
+      "description": "Tous ensemble pour Alzheimer : le 32e colloque annuel s’installe à Mons Le jeudi 23 avril 2026, l’Université de Mons accueillera la 32e édition du colloque annuel de la Ligue Alzheimer ASBL. Placée sous le thème « Tous Ensemble Pour Alzheimer », cette journée d’échanges et de réflexion réunira experts, professionnels du secteur et citoyens autour des enjeux liés à la maladie et aux démences. Cette édition marquera également les 30 années d’engagement de la Ligue. La matinée sera consacrée aux avancées de la recherche fondamentale ainsi qu'aux questions éthiques et sociétales, avec les interventions de spécialistes de l'UCL et d'experts en éthique sociale. L’après-midi, après un intermède musical, une table ronde abordera la réalité du terrain. Les discussions porteront sur l’entraide collective, l’engagement citoyen et les actions de proximité, en présence de professionnels de la santé et de représentants des médias. Reconnue comme journée de formation par l'AVIQ, cette rencontre est ouverte à tous : familles, proches et professionnels du secteur. Informations pratiques :Date : Jeudi 23 avril 2026, de 09h00 à 16h00Lieu : Université de Mons, Amphithéâtre Van Gogh (Chemin du Champ de Mars 31, 7000 Mons)Tarif : 25 €Détails et inscriptions : https://alzheimer.be/tous-ensemble-pour-alzheimer-colloque-annuel-2026/",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 23/04/2026 au 23/04/2026 23:59"
+        ],
+        "start": "23-04-2026 00:00",
+        "end": "23-04-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/75470d1c96604335aeb5a44e2b9d87fd/@@images/image-1080-54876ab2482a1a2d439d921de380a498.png",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.035050+00:00"
+    },
+    {
+      "id": "1a0ecf062ac9",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/franchising-belgium-day?u=945ca4003b444dd494ee8a8ead374953",
+      "title": "Franchising Belgium Day",
+      "description": "La Ville de Mons partenaire du Franchising Belgium DayDans le cadre de sa politique de redynamisation commerciale du centre-ville, la Ville de Mons s’associe au Franchising Belgium Day. Cette collaboration vise à attirer de nouveaux concepts, à soutenir l’entrepreneuriat et à renforcer l’attractivité du cœur de ville. La franchise, un modèle pour entreprendreLa franchise est un modèle entrepreneurial dans lequel un indépendant exploite le concept, la marque et le savoir-faire d’une enseigne déjà établie. Elle permet de se lancer en s’appuyant sur un modèle éprouvé, une notoriété existante et un accompagnement. Un salon pour découvrir des opportunités concrètesLe Franchising Belgium Day s’adresse à toute personne souhaitant entreprendre via la franchise. Les visiteurs pourront rencontrer près de 40 enseignes issues de secteurs variés (horeca, retail, services, bien-être…). Au programme :rencontres avec les enseignes qui recrutent conférences et témoignages échanges avec des experts de la franchise Infos pratiques :Lieu : Palais des Congrès de Mons – Av. Mélina Mercouri 9/2, 7000 MonsDate : Jeudi 23 avril 2026Horaire : 10h à 17h30Inscription gratuite (badge) : https://www.franchisingbelgiumday.be/",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 23/04/2026 10:00 au 23/04/2026 17:30"
+        ],
+        "start": "23-04-2026 10:00",
+        "end": "23-04-2026 17:30"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/945ca4003b444dd494ee8a8ead374953/@@images/image-1440-47a68277ae7ab1ba3da8961fdd435026.png",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.035050+00:00"
+    },
+    {
+      "id": "d1abe5ba785a",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-cuesmes?u=226e8ac3431d4c7883cd95bf3e9f0364",
+      "title": "Permanence santé MC Cuesmes",
+      "description": "L’agent Proxidem, formé par la Ligue Alzheimer, est chargé d’accueillir, d’informer et d’orienter les personnes confrontées à la démence vers les services et ressources adéquates. Voici le calendrier des permanence santé à la Maison Citoyenne de Cuesmes :26 février - 14h à 16h : Permanence santé12 mars - 14h à 16h - Info santé : \"Le diabète\"09 avril - 14h à 16h : Permanence santé23 avril - 14h à 16h - Info santé : \"Les allergies\"21 mai - 14h à 16h : Permanence santé04 juin - 14h à 16h - Info santé : \"Le cholestérol\"18 juin - 14h à 16h : Permanence santé",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 12/03/2026 14:00 au 12/03/2026 16:00"
+        ],
+        "start": "12-03-2026 14:00",
+        "end": "12-03-2026 16:00"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/226e8ac3431d4c7883cd95bf3e9f0364/@@images/image-5760-0502d9f658fcddd8e9ef45b83927ce0d.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.039798+00:00"
+    },
+    {
+      "id": "6ffb872a5e76",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-mons?u=a2f632434af94f9b87f8194baa500d94",
+      "title": "Permanence Santé MC Mons",
+      "description": "L’agent Proxidem, formé par la Ligue Alzheimer, est chargé d’accueillir, d’informer et d’orienter les personnes confrontées à la démence vers les services et ressources adéquates. Voici le calendrier des permanence santé à la Maison Citoyenne de MonsVendredis 13 et 27 mars - 10h–12hVendredis 10 et 24 avril - 10h - 12hVendredis 08 et 22 mai - 10h - 12h",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 27/03/2026 10:00 au 27/03/2026 12:00"
+        ],
+        "start": "27-03-2026 10:00",
+        "end": "27-03-2026 12:00"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/a2f632434af94f9b87f8194baa500d94/@@images/image-5472-9a56c82a0158cbc05ae97310a9bdc145.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.040796+00:00"
+    },
+    {
+      "id": "55eed34a2446",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-epinlieu?u=c4542b9e22ca4a47b9c39fc4482bbb34",
+      "title": "Permanence santé MC Epinlieu",
+      "description": "L’agent Proxidem, formé par la Ligue Alzheimer, est chargé d’accueillir, d’informer et d’orienter les personnes confrontées à la démence vers les services et ressources adéquates. Voici le calendrier des permanence santé à la Maison Citoyenne d'Epinlieu 23 février - 16h30 à 18h30 - Info santé : \"Alimentation, comment booster son immunité ?\" 09 mars - 15h à 17h : Permanence santé23 mars - 16h à 18h30 : \"Les démences\" 13 avril - 15h à 17h : Permanence santé18 mai - 15h à 17h : Permanence santé08 juin - 15h à 17h : Permanence santé22 juin - 16h30 à 18h30 - Info santé : \"La sexualité\"",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 09/03/2026 16:30 au 09/03/2026 18:30"
+        ],
+        "start": "09-03-2026 16:30",
+        "end": "09-03-2026 18:30"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/c4542b9e22ca4a47b9c39fc4482bbb34/@@images/image-5472-1ed64208c927e9f556b9c92432b728f4.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.040796+00:00"
+    },
+    {
+      "id": "0e69b122bb3d",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-jemappes?u=af57ebf13aef4905a4812a12a0fca473",
+      "title": "Permanence santé MC Jemappes",
+      "description": "L’agent Proxidem, formé par la Ligue Alzheimer, est chargé d’accueillir, d’informer et d’orienter les personnes confrontées à la démence vers les services et ressources adéquates. Voici le calendrier des permanence santé à la Maison Citoyenne de Jemappes : 02 mars - 16h30 à 18h30 - Info santé : \"La dépression\"20 avril - 16h30 à 18h30 - Info santé : \"Application santé, DMG... à quoi ça sert ?\"11 mai - 16h30 à 18h30 - Info santé : \"Les démences\"29 juin - 16h30 à 18h30 - Info santé : \"La sexualité\"",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 02/03/2026 16:30 au 02/03/2026 18:30"
+        ],
+        "start": "02-03-2026 16:30",
+        "end": "02-03-2026 18:30"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/af57ebf13aef4905a4812a12a0fca473/@@images/image-6000-45375d3e74967166c55e93bd7d17f512.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.040796+00:00"
+    },
+    {
+      "id": "10ef366beb59",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-mons?u=a2f632434af94f9b87f8194baa500d94",
+      "title": "Permanence Santé MC Mons",
+      "description": "L’agent Proxidem, formé par la Ligue Alzheimer, est chargé d’accueillir, d’informer et d’orienter les personnes confrontées à la démence vers les services et ressources adéquates. Voici le calendrier des permanence santé à la Maison Citoyenne de MonsVendredis 13 et 27 mars - 10h–12hVendredis 10 et 24 avril - 10h - 12hVendredis 08 et 22 mai - 10h - 12h",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 10/04/2026 10:00 au 10/04/2026 12:00"
+        ],
+        "start": "10-04-2026 10:00",
+        "end": "10-04-2026 12:00"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/a2f632434af94f9b87f8194baa500d94/@@images/image-5472-9a56c82a0158cbc05ae97310a9bdc145.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.040796+00:00"
+    },
+    {
+      "id": "bd3942e5224b",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-cuesmes?u=226e8ac3431d4c7883cd95bf3e9f0364",
+      "title": "Permanence santé MC Cuesmes",
+      "description": "L’agent Proxidem, formé par la Ligue Alzheimer, est chargé d’accueillir, d’informer et d’orienter les personnes confrontées à la démence vers les services et ressources adéquates. Voici le calendrier des permanence santé à la Maison Citoyenne de Cuesmes :26 février - 14h à 16h : Permanence santé12 mars - 14h à 16h - Info santé : \"Le diabète\"09 avril - 14h à 16h : Permanence santé23 avril - 14h à 16h - Info santé : \"Les allergies\"21 mai - 14h à 16h : Permanence santé04 juin - 14h à 16h - Info santé : \"Le cholestérol\"18 juin - 14h à 16h : Permanence santé",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 09/04/2026 14:00 au 09/04/2026 16:00"
+        ],
+        "start": "09-04-2026 14:00",
+        "end": "09-04-2026 16:00"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/226e8ac3431d4c7883cd95bf3e9f0364/@@images/image-5760-0502d9f658fcddd8e9ef45b83927ce0d.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.040796+00:00"
+    },
+    {
+      "id": "f520f6f539e6",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-nimy?u=febc51783ef344fdb49c0a8c0ec451d5",
+      "title": "Permanence santé MC Nimy",
+      "description": "L’agent Proxidem, formé par la Ligue Alzheimer, est chargé d’accueillir, d’informer et d’orienter les personnes confrontées à la démence vers les services et ressources adéquates. Voici le calendrier des permanence santé à la Maison Citoyenne de Nimy : 06 et 20 mars - 10h à 12h 3 et 17 avril de 10h à 12h 15 mai de 10h à 12h5 et 19 juin de 10h à 12h",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 20/03/2026 10:00 au 20/03/2026 12:00"
+        ],
+        "start": "20-03-2026 10:00",
+        "end": "20-03-2026 12:00"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/febc51783ef344fdb49c0a8c0ec451d5/@@images/image-5184-40536e194d2376241dc0d95242f275bd.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.040796+00:00"
+    },
+    {
+      "id": "695247e225f4",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-epinlieu?u=c4542b9e22ca4a47b9c39fc4482bbb34",
+      "title": "Permanence santé MC Epinlieu",
+      "description": "L’agent Proxidem, formé par la Ligue Alzheimer, est chargé d’accueillir, d’informer et d’orienter les personnes confrontées à la démence vers les services et ressources adéquates. Voici le calendrier des permanence santé à la Maison Citoyenne d'Epinlieu 23 février - 16h30 à 18h30 - Info santé : \"Alimentation, comment booster son immunité ?\" 09 mars - 15h à 17h : Permanence santé23 mars - 16h à 18h30 : \"Les démences\" 13 avril - 15h à 17h : Permanence santé18 mai - 15h à 17h : Permanence santé08 juin - 15h à 17h : Permanence santé22 juin - 16h30 à 18h30 - Info santé : \"La sexualité\"",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 23/03/2026 16:30 au 23/03/2026 18:30"
+        ],
+        "start": "23-03-2026 16:30",
+        "end": "23-03-2026 18:30"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/c4542b9e22ca4a47b9c39fc4482bbb34/@@images/image-5472-1ed64208c927e9f556b9c92432b728f4.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.040796+00:00"
+    },
+    {
+      "id": "c2b3a56272a7",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-cuesmes?u=226e8ac3431d4c7883cd95bf3e9f0364",
+      "title": "Permanence santé MC Cuesmes",
+      "description": "L’agent Proxidem, formé par la Ligue Alzheimer, est chargé d’accueillir, d’informer et d’orienter les personnes confrontées à la démence vers les services et ressources adéquates. Voici le calendrier des permanence santé à la Maison Citoyenne de Cuesmes :26 février - 14h à 16h : Permanence santé12 mars - 14h à 16h - Info santé : \"Le diabète\"09 avril - 14h à 16h : Permanence santé23 avril - 14h à 16h - Info santé : \"Les allergies\"21 mai - 14h à 16h : Permanence santé04 juin - 14h à 16h - Info santé : \"Le cholestérol\"18 juin - 14h à 16h : Permanence santé",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 23/04/2026 14:00 au 23/04/2026 16:00"
+        ],
+        "start": "23-04-2026 14:00",
+        "end": "23-04-2026 16:00"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/226e8ac3431d4c7883cd95bf3e9f0364/@@images/image-5760-0502d9f658fcddd8e9ef45b83927ce0d.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.040796+00:00"
+    },
+    {
+      "id": "22b6d99ec98a",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/cafe-alzheimer--un-temps-de-partage-et-decoute?u=5f7a3d8941dc43fe8ce24f64f1a33c0d",
+      "title": "Café Alzheimer : un temps de partage et d'écoute",
+      "description": "Les Alzheimer Café sont des lieux d'échange et de partage d'expériences autour de la maladie d'Alzheimer et des démences apparentées. Nous mettons tout en œuvre pour mettre en place une atmosphère conviviale et empreinte d'empathie. 𝐏𝐫𝐨𝐜𝐡𝐚𝐢𝐧𝐞𝐬 𝐝𝐚𝐭𝐞𝐬 (𝐭𝐨𝐮𝐬 𝐥𝐞𝐬 𝟑𝐞 𝐣𝐞𝐮𝐝𝐢𝐬 𝐝𝐮 𝐦𝐨𝐢𝐬) : 19/03, 16/04, 21/05, 19/06, 17/09, 15/10, 19/11 et 17/12/2026.Entre 14h et 16hÀ la Résidence du bois d'Havré.Contact : 065/73 65 25.ergo.kine@gabriellepasselecq.be.𝐑𝐞𝐣𝐨𝐢𝐠𝐧𝐞𝐳-𝐧𝐨𝐮𝐬 𝐩𝐨𝐮𝐫 𝐜𝐞 𝐦𝐨𝐦𝐞𝐧𝐭 𝐝'𝐞́𝐜𝐡𝐚𝐧𝐠𝐞 𝐞𝐭 𝐝𝐞 𝐬𝐨𝐮𝐭𝐢𝐞𝐧 : 𝐧𝐨𝐮𝐬 𝐯𝐨𝐮𝐬 𝐚𝐭𝐭𝐞𝐧𝐝𝐨𝐧𝐬 !",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "À la Résidence du bois d'Havré",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 23/03/2026 14:00 au 23/03/2026 16:00"
+        ],
+        "start": "23-03-2026 14:00",
+        "end": "23-03-2026 16:00"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/5f7a3d8941dc43fe8ce24f64f1a33c0d/@@images/image-2250-af0457cb575b52c55596b055377eccfe.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.040796+00:00"
+    },
+    {
+      "id": "4882fac979a4",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-mons?u=a2f632434af94f9b87f8194baa500d94",
+      "title": "Permanence Santé MC Mons",
+      "description": "L’agent Proxidem, formé par la Ligue Alzheimer, est chargé d’accueillir, d’informer et d’orienter les personnes confrontées à la démence vers les services et ressources adéquates. Voici le calendrier des permanence santé à la Maison Citoyenne de MonsVendredis 13 et 27 mars - 10h–12hVendredis 10 et 24 avril - 10h - 12hVendredis 08 et 22 mai - 10h - 12h",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 24/04/2026 10:00 au 24/04/2026 12:00"
+        ],
+        "start": "24-04-2026 10:00",
+        "end": "24-04-2026 12:00"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/a2f632434af94f9b87f8194baa500d94/@@images/image-5472-9a56c82a0158cbc05ae97310a9bdc145.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.040796+00:00"
+    },
+    {
+      "id": "53640864e633",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-epinlieu?u=c4542b9e22ca4a47b9c39fc4482bbb34",
+      "title": "Permanence santé MC Epinlieu",
+      "description": "L’agent Proxidem, formé par la Ligue Alzheimer, est chargé d’accueillir, d’informer et d’orienter les personnes confrontées à la démence vers les services et ressources adéquates. Voici le calendrier des permanence santé à la Maison Citoyenne d'Epinlieu 23 février - 16h30 à 18h30 - Info santé : \"Alimentation, comment booster son immunité ?\" 09 mars - 15h à 17h : Permanence santé23 mars - 16h à 18h30 : \"Les démences\" 13 avril - 15h à 17h : Permanence santé18 mai - 15h à 17h : Permanence santé08 juin - 15h à 17h : Permanence santé22 juin - 16h30 à 18h30 - Info santé : \"La sexualité\"",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 13/04/2026 16:30 au 13/04/2026 18:30"
+        ],
+        "start": "13-04-2026 16:30",
+        "end": "13-04-2026 18:30"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/c4542b9e22ca4a47b9c39fc4482bbb34/@@images/image-5472-1ed64208c927e9f556b9c92432b728f4.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.040796+00:00"
+    },
+    {
+      "id": "be2455506612",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-cuesmes?u=226e8ac3431d4c7883cd95bf3e9f0364",
+      "title": "Permanence santé MC Cuesmes",
+      "description": "L’agent Proxidem, formé par la Ligue Alzheimer, est chargé d’accueillir, d’informer et d’orienter les personnes confrontées à la démence vers les services et ressources adéquates. Voici le calendrier des permanence santé à la Maison Citoyenne de Cuesmes :26 février - 14h à 16h : Permanence santé12 mars - 14h à 16h - Info santé : \"Le diabète\"09 avril - 14h à 16h : Permanence santé23 avril - 14h à 16h - Info santé : \"Les allergies\"21 mai - 14h à 16h : Permanence santé04 juin - 14h à 16h - Info santé : \"Le cholestérol\"18 juin - 14h à 16h : Permanence santé",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 14/05/2026 14:00 au 14/05/2026 16:00"
+        ],
+        "start": "14-05-2026 14:00",
+        "end": "14-05-2026 16:00"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/226e8ac3431d4c7883cd95bf3e9f0364/@@images/image-5760-0502d9f658fcddd8e9ef45b83927ce0d.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.040796+00:00"
+    },
+    {
+      "id": "70f4fca6465d",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-jemappes?u=af57ebf13aef4905a4812a12a0fca473",
+      "title": "Permanence santé MC Jemappes",
+      "description": "L’agent Proxidem, formé par la Ligue Alzheimer, est chargé d’accueillir, d’informer et d’orienter les personnes confrontées à la démence vers les services et ressources adéquates. Voici le calendrier des permanence santé à la Maison Citoyenne de Jemappes : 02 mars - 16h30 à 18h30 - Info santé : \"La dépression\"20 avril - 16h30 à 18h30 - Info santé : \"Application santé, DMG... à quoi ça sert ?\"11 mai - 16h30 à 18h30 - Info santé : \"Les démences\"29 juin - 16h30 à 18h30 - Info santé : \"La sexualité\"",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 02/04/2026 16:30 au 02/04/2026 18:30"
+        ],
+        "start": "02-04-2026 16:30",
+        "end": "02-04-2026 18:30"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/af57ebf13aef4905a4812a12a0fca473/@@images/image-6000-45375d3e74967166c55e93bd7d17f512.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.040796+00:00"
+    },
+    {
+      "id": "29265a5487fb",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-cuesmes?u=226e8ac3431d4c7883cd95bf3e9f0364",
+      "title": "Permanence santé MC Cuesmes",
+      "description": "L’agent Proxidem, formé par la Ligue Alzheimer, est chargé d’accueillir, d’informer et d’orienter les personnes confrontées à la démence vers les services et ressources adéquates. Voici le calendrier des permanence santé à la Maison Citoyenne de Cuesmes :26 février - 14h à 16h : Permanence santé12 mars - 14h à 16h - Info santé : \"Le diabète\"09 avril - 14h à 16h : Permanence santé23 avril - 14h à 16h - Info santé : \"Les allergies\"21 mai - 14h à 16h : Permanence santé04 juin - 14h à 16h - Info santé : \"Le cholestérol\"18 juin - 14h à 16h : Permanence santé",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 21/05/2026 14:00 au 21/05/2026 16:00"
+        ],
+        "start": "21-05-2026 14:00",
+        "end": "21-05-2026 16:00"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/226e8ac3431d4c7883cd95bf3e9f0364/@@images/image-5760-0502d9f658fcddd8e9ef45b83927ce0d.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.040796+00:00"
+    },
+    {
+      "id": "4373ada3b416",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-nimy?u=febc51783ef344fdb49c0a8c0ec451d5",
+      "title": "Permanence santé MC Nimy",
+      "description": "L’agent Proxidem, formé par la Ligue Alzheimer, est chargé d’accueillir, d’informer et d’orienter les personnes confrontées à la démence vers les services et ressources adéquates. Voici le calendrier des permanence santé à la Maison Citoyenne de Nimy : 06 et 20 mars - 10h à 12h 3 et 17 avril de 10h à 12h 15 mai de 10h à 12h5 et 19 juin de 10h à 12h",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 03/04/2026 10:00 au 03/04/2026 12:00"
+        ],
+        "start": "03-04-2026 10:00",
+        "end": "03-04-2026 12:00"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/febc51783ef344fdb49c0a8c0ec451d5/@@images/image-5184-40536e194d2376241dc0d95242f275bd.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.040796+00:00"
+    },
+    {
+      "id": "e98db19bb7f9",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-epinlieu?u=c4542b9e22ca4a47b9c39fc4482bbb34",
+      "title": "Permanence santé MC Epinlieu",
+      "description": "L’agent Proxidem, formé par la Ligue Alzheimer, est chargé d’accueillir, d’informer et d’orienter les personnes confrontées à la démence vers les services et ressources adéquates. Voici le calendrier des permanence santé à la Maison Citoyenne d'Epinlieu 23 février - 16h30 à 18h30 - Info santé : \"Alimentation, comment booster son immunité ?\" 09 mars - 15h à 17h : Permanence santé23 mars - 16h à 18h30 : \"Les démences\" 13 avril - 15h à 17h : Permanence santé18 mai - 15h à 17h : Permanence santé08 juin - 15h à 17h : Permanence santé22 juin - 16h30 à 18h30 - Info santé : \"La sexualité\"",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 27/04/2026 16:30 au 27/04/2026 18:30"
+        ],
+        "start": "27-04-2026 16:30",
+        "end": "27-04-2026 18:30"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/c4542b9e22ca4a47b9c39fc4482bbb34/@@images/image-5472-1ed64208c927e9f556b9c92432b728f4.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.040796+00:00"
+    },
+    {
+      "id": "7596a0adaba3",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-cuesmes?u=226e8ac3431d4c7883cd95bf3e9f0364",
+      "title": "Permanence santé MC Cuesmes",
+      "description": "L’agent Proxidem, formé par la Ligue Alzheimer, est chargé d’accueillir, d’informer et d’orienter les personnes confrontées à la démence vers les services et ressources adéquates. Voici le calendrier des permanence santé à la Maison Citoyenne de Cuesmes :26 février - 14h à 16h : Permanence santé12 mars - 14h à 16h - Info santé : \"Le diabète\"09 avril - 14h à 16h : Permanence santé23 avril - 14h à 16h - Info santé : \"Les allergies\"21 mai - 14h à 16h : Permanence santé04 juin - 14h à 16h - Info santé : \"Le cholestérol\"18 juin - 14h à 16h : Permanence santé",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 28/05/2026 14:00 au 28/05/2026 16:00"
+        ],
+        "start": "28-05-2026 14:00",
+        "end": "28-05-2026 16:00"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/226e8ac3431d4c7883cd95bf3e9f0364/@@images/image-5760-0502d9f658fcddd8e9ef45b83927ce0d.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.040796+00:00"
+    },
+    {
+      "id": "7eadad8f9f2f",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-epinlieu?u=c4542b9e22ca4a47b9c39fc4482bbb34",
+      "title": "Permanence santé MC Epinlieu",
+      "description": "L’agent Proxidem, formé par la Ligue Alzheimer, est chargé d’accueillir, d’informer et d’orienter les personnes confrontées à la démence vers les services et ressources adéquates. Voici le calendrier des permanence santé à la Maison Citoyenne d'Epinlieu 23 février - 16h30 à 18h30 - Info santé : \"Alimentation, comment booster son immunité ?\" 09 mars - 15h à 17h : Permanence santé23 mars - 16h à 18h30 : \"Les démences\" 13 avril - 15h à 17h : Permanence santé18 mai - 15h à 17h : Permanence santé08 juin - 15h à 17h : Permanence santé22 juin - 16h30 à 18h30 - Info santé : \"La sexualité\"",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 18/05/2026 16:30 au 18/05/2026 18:30"
+        ],
+        "start": "18-05-2026 16:30",
+        "end": "18-05-2026 18:30"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/c4542b9e22ca4a47b9c39fc4482bbb34/@@images/image-5472-1ed64208c927e9f556b9c92432b728f4.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.040796+00:00"
+    },
+    {
+      "id": "64bbd1cde2e4",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-cuesmes?u=226e8ac3431d4c7883cd95bf3e9f0364",
+      "title": "Permanence santé MC Cuesmes",
+      "description": "L’agent Proxidem, formé par la Ligue Alzheimer, est chargé d’accueillir, d’informer et d’orienter les personnes confrontées à la démence vers les services et ressources adéquates. Voici le calendrier des permanence santé à la Maison Citoyenne de Cuesmes :26 février - 14h à 16h : Permanence santé12 mars - 14h à 16h - Info santé : \"Le diabète\"09 avril - 14h à 16h : Permanence santé23 avril - 14h à 16h - Info santé : \"Les allergies\"21 mai - 14h à 16h : Permanence santé04 juin - 14h à 16h - Info santé : \"Le cholestérol\"18 juin - 14h à 16h : Permanence santé",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 04/06/2026 14:00 au 04/06/2026 16:00"
+        ],
+        "start": "04-06-2026 14:00",
+        "end": "04-06-2026 16:00"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/226e8ac3431d4c7883cd95bf3e9f0364/@@images/image-5760-0502d9f658fcddd8e9ef45b83927ce0d.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.040796+00:00"
+    },
+    {
+      "id": "4a35dc156a9c",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-nimy?u=febc51783ef344fdb49c0a8c0ec451d5",
+      "title": "Permanence santé MC Nimy",
+      "description": "L’agent Proxidem, formé par la Ligue Alzheimer, est chargé d’accueillir, d’informer et d’orienter les personnes confrontées à la démence vers les services et ressources adéquates. Voici le calendrier des permanence santé à la Maison Citoyenne de Nimy : 06 et 20 mars - 10h à 12h 3 et 17 avril de 10h à 12h 15 mai de 10h à 12h5 et 19 juin de 10h à 12h",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 17/04/2026 10:00 au 17/04/2026 12:00"
+        ],
+        "start": "17-04-2026 10:00",
+        "end": "17-04-2026 12:00"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/febc51783ef344fdb49c0a8c0ec451d5/@@images/image-5184-40536e194d2376241dc0d95242f275bd.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.040796+00:00"
+    },
+    {
+      "id": "503c50155056",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/cafe-alzheimer--un-temps-de-partage-et-decoute?u=5f7a3d8941dc43fe8ce24f64f1a33c0d",
+      "title": "Café Alzheimer : un temps de partage et d'écoute",
+      "description": "Les Alzheimer Café sont des lieux d'échange et de partage d'expériences autour de la maladie d'Alzheimer et des démences apparentées. Nous mettons tout en œuvre pour mettre en place une atmosphère conviviale et empreinte d'empathie. 𝐏𝐫𝐨𝐜𝐡𝐚𝐢𝐧𝐞𝐬 𝐝𝐚𝐭𝐞𝐬 (𝐭𝐨𝐮𝐬 𝐥𝐞𝐬 𝟑𝐞 𝐣𝐞𝐮𝐝𝐢𝐬 𝐝𝐮 𝐦𝐨𝐢𝐬) : 19/03, 16/04, 21/05, 19/06, 17/09, 15/10, 19/11 et 17/12/2026.Entre 14h et 16hÀ la Résidence du bois d'Havré.Contact : 065/73 65 25.ergo.kine@gabriellepasselecq.be.𝐑𝐞𝐣𝐨𝐢𝐠𝐧𝐞𝐳-𝐧𝐨𝐮𝐬 𝐩𝐨𝐮𝐫 𝐜𝐞 𝐦𝐨𝐦𝐞𝐧𝐭 𝐝'𝐞́𝐜𝐡𝐚𝐧𝐠𝐞 𝐞𝐭 𝐝𝐞 𝐬𝐨𝐮𝐭𝐢𝐞𝐧 : 𝐧𝐨𝐮𝐬 𝐯𝐨𝐮𝐬 𝐚𝐭𝐭𝐞𝐧𝐝𝐨𝐧𝐬 !",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "À la Résidence du bois d'Havré",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 24/03/2026 14:00 au 24/03/2026 16:00"
+        ],
+        "start": "24-03-2026 14:00",
+        "end": "24-03-2026 16:00"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/5f7a3d8941dc43fe8ce24f64f1a33c0d/@@images/image-2250-af0457cb575b52c55596b055377eccfe.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.040796+00:00"
+    },
+    {
+      "id": "6f8127c47097",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/permanence-sante-mc-epinlieu?u=c4542b9e22ca4a47b9c39fc4482bbb34",
+      "title": "Permanence santé MC Epinlieu",
+      "description": "L’agent Proxidem, formé par la Ligue Alzheimer, est chargé d’accueillir, d’informer et d’orienter les personnes confrontées à la démence vers les services et ressources adéquates. Voici le calendrier des permanence santé à la Maison Citoyenne d'Epinlieu 23 février - 16h30 à 18h30 - Info santé : \"Alimentation, comment booster son immunité ?\" 09 mars - 15h à 17h : Permanence santé23 mars - 16h à 18h30 : \"Les démences\" 13 avril - 15h à 17h : Permanence santé18 mai - 15h à 17h : Permanence santé08 juin - 15h à 17h : Permanence santé22 juin - 16h30 à 18h30 - Info santé : \"La sexualité\"",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 25/05/2026 16:30 au 25/05/2026 18:30"
+        ],
+        "start": "25-05-2026 16:30",
+        "end": "25-05-2026 18:30"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/c4542b9e22ca4a47b9c39fc4482bbb34/@@images/image-5472-1ed64208c927e9f556b9c92432b728f4.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.040796+00:00"
+    },
+    {
+      "id": "b48db1021832",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/cafe-alzheimer--un-temps-de-partage-et-decoute?u=5f7a3d8941dc43fe8ce24f64f1a33c0d",
+      "title": "Café Alzheimer : un temps de partage et d'écoute",
+      "description": "Les Alzheimer Café sont des lieux d'échange et de partage d'expériences autour de la maladie d'Alzheimer et des démences apparentées. Nous mettons tout en œuvre pour mettre en place une atmosphère conviviale et empreinte d'empathie. 𝐏𝐫𝐨𝐜𝐡𝐚𝐢𝐧𝐞𝐬 𝐝𝐚𝐭𝐞𝐬 (𝐭𝐨𝐮𝐬 𝐥𝐞𝐬 𝟑𝐞 𝐣𝐞𝐮𝐝𝐢𝐬 𝐝𝐮 𝐦𝐨𝐢𝐬) : 19/03, 16/04, 21/05, 19/06, 17/09, 15/10, 19/11 et 17/12/2026.Entre 14h et 16hÀ la Résidence du bois d'Havré.Contact : 065/73 65 25.ergo.kine@gabriellepasselecq.be.𝐑𝐞𝐣𝐨𝐢𝐠𝐧𝐞𝐳-𝐧𝐨𝐮𝐬 𝐩𝐨𝐮𝐫 𝐜𝐞 𝐦𝐨𝐦𝐞𝐧𝐭 𝐝'𝐞́𝐜𝐡𝐚𝐧𝐠𝐞 𝐞𝐭 𝐝𝐞 𝐬𝐨𝐮𝐭𝐢𝐞𝐧 : 𝐧𝐨𝐮𝐬 𝐯𝐨𝐮𝐬 𝐚𝐭𝐭𝐞𝐧𝐝𝐨𝐧𝐬 !",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "À la Résidence du bois d'Havré",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 25/03/2026 14:00 au 25/03/2026 16:00"
+        ],
+        "start": "25-03-2026 14:00",
+        "end": "25-03-2026 16:00"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/5f7a3d8941dc43fe8ce24f64f1a33c0d/@@images/image-2250-af0457cb575b52c55596b055377eccfe.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.040796+00:00"
+    },
+    {
+      "id": "1ea77e86f8ba",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/cafe-alzheimer--un-temps-de-partage-et-decoute?u=5f7a3d8941dc43fe8ce24f64f1a33c0d",
+      "title": "Café Alzheimer : un temps de partage et d'écoute",
+      "description": "Les Alzheimer Café sont des lieux d'échange et de partage d'expériences autour de la maladie d'Alzheimer et des démences apparentées. Nous mettons tout en œuvre pour mettre en place une atmosphère conviviale et empreinte d'empathie. 𝐏𝐫𝐨𝐜𝐡𝐚𝐢𝐧𝐞𝐬 𝐝𝐚𝐭𝐞𝐬 (𝐭𝐨𝐮𝐬 𝐥𝐞𝐬 𝟑𝐞 𝐣𝐞𝐮𝐝𝐢𝐬 𝐝𝐮 𝐦𝐨𝐢𝐬) : 19/03, 16/04, 21/05, 19/06, 17/09, 15/10, 19/11 et 17/12/2026.Entre 14h et 16hÀ la Résidence du bois d'Havré.Contact : 065/73 65 25.ergo.kine@gabriellepasselecq.be.𝐑𝐞𝐣𝐨𝐢𝐠𝐧𝐞𝐳-𝐧𝐨𝐮𝐬 𝐩𝐨𝐮𝐫 𝐜𝐞 𝐦𝐨𝐦𝐞𝐧𝐭 𝐝'𝐞́𝐜𝐡𝐚𝐧𝐠𝐞 𝐞𝐭 𝐝𝐞 𝐬𝐨𝐮𝐭𝐢𝐞𝐧 : 𝐧𝐨𝐮𝐬 𝐯𝐨𝐮𝐬 𝐚𝐭𝐭𝐞𝐧𝐝𝐨𝐧𝐬 !",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "À la Résidence du bois d'Havré",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 16/04/2026 14:00 au 16/04/2026 16:00"
+        ],
+        "start": "16-04-2026 14:00",
+        "end": "16-04-2026 16:00"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/5f7a3d8941dc43fe8ce24f64f1a33c0d/@@images/image-2250-af0457cb575b52c55596b055377eccfe.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.040796+00:00"
+    },
+    {
+      "id": "842220ecb5fb",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/cafe-alzheimer--un-temps-de-partage-et-decoute?u=5f7a3d8941dc43fe8ce24f64f1a33c0d",
+      "title": "Café Alzheimer : un temps de partage et d'écoute",
+      "description": "Les Alzheimer Café sont des lieux d'échange et de partage d'expériences autour de la maladie d'Alzheimer et des démences apparentées. Nous mettons tout en œuvre pour mettre en place une atmosphère conviviale et empreinte d'empathie. 𝐏𝐫𝐨𝐜𝐡𝐚𝐢𝐧𝐞𝐬 𝐝𝐚𝐭𝐞𝐬 (𝐭𝐨𝐮𝐬 𝐥𝐞𝐬 𝟑𝐞 𝐣𝐞𝐮𝐝𝐢𝐬 𝐝𝐮 𝐦𝐨𝐢𝐬) : 19/03, 16/04, 21/05, 19/06, 17/09, 15/10, 19/11 et 17/12/2026.Entre 14h et 16hÀ la Résidence du bois d'Havré.Contact : 065/73 65 25.ergo.kine@gabriellepasselecq.be.𝐑𝐞𝐣𝐨𝐢𝐠𝐧𝐞𝐳-𝐧𝐨𝐮𝐬 𝐩𝐨𝐮𝐫 𝐜𝐞 𝐦𝐨𝐦𝐞𝐧𝐭 𝐝'𝐞́𝐜𝐡𝐚𝐧𝐠𝐞 𝐞𝐭 𝐝𝐞 𝐬𝐨𝐮𝐭𝐢𝐞𝐧 : 𝐧𝐨𝐮𝐬 𝐯𝐨𝐮𝐬 𝐚𝐭𝐭𝐞𝐧𝐝𝐨𝐧𝐬 !",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "À la Résidence du bois d'Havré",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 21/05/2026 14:00 au 21/05/2026 16:00"
+        ],
+        "start": "21-05-2026 14:00",
+        "end": "21-05-2026 16:00"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/5f7a3d8941dc43fe8ce24f64f1a33c0d/@@images/image-2250-af0457cb575b52c55596b055377eccfe.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.056509+00:00"
+    },
+    {
+      "id": "aca39667357d",
+      "url": "https://www.mons.be/fr/que-faire-a-mons/agenda/cafe-alzheimer--un-temps-de-partage-et-decoute?u=5f7a3d8941dc43fe8ce24f64f1a33c0d",
+      "title": "Café Alzheimer : un temps de partage et d'écoute",
+      "description": "Les Alzheimer Café sont des lieux d'échange et de partage d'expériences autour de la maladie d'Alzheimer et des démences apparentées. Nous mettons tout en œuvre pour mettre en place une atmosphère conviviale et empreinte d'empathie. 𝐏𝐫𝐨𝐜𝐡𝐚𝐢𝐧𝐞𝐬 𝐝𝐚𝐭𝐞𝐬 (𝐭𝐨𝐮𝐬 𝐥𝐞𝐬 𝟑𝐞 𝐣𝐞𝐮𝐝𝐢𝐬 𝐝𝐮 𝐦𝐨𝐢𝐬) : 19/03, 16/04, 21/05, 19/06, 17/09, 15/10, 19/11 et 17/12/2026.Entre 14h et 16hÀ la Résidence du bois d'Havré.Contact : 065/73 65 25.ergo.kine@gabriellepasselecq.be.𝐑𝐞𝐣𝐨𝐢𝐠𝐧𝐞𝐳-𝐧𝐨𝐮𝐬 𝐩𝐨𝐮𝐫 𝐜𝐞 𝐦𝐨𝐦𝐞𝐧𝐭 𝐝'𝐞́𝐜𝐡𝐚𝐧𝐠𝐞 𝐞𝐭 𝐝𝐞 𝐬𝐨𝐮𝐭𝐢𝐞𝐧 : 𝐧𝐨𝐮𝐬 𝐯𝐨𝐮𝐬 𝐚𝐭𝐭𝐞𝐧𝐝𝐨𝐧𝐬 !",
+      "category": "",
+      "location": {
+        "venue": "Administration communale",
+        "address": "À la Résidence du bois d'Havré",
+        "postal_code": "",
+        "city": "Mons"
+      },
+      "dates": {
+        "schedules": [
+          "Du 19/06/2026 14:00 au 19/06/2026 16:00"
+        ],
+        "start": "19-06-2026 14:00",
+        "end": "19-06-2026 16:00"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": false,
+      "url_image": "https://agenda.enwallonie.be/mons/administration-communale/5f7a3d8941dc43fe8ce24f64f1a33c0d/@@images/image-2250-af0457cb575b52c55596b055377eccfe.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:50:01.057521+00:00"
+    }
+  ]
+}

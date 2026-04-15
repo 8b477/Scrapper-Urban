@@ -1,0 +1,940 @@
+{
+  "metadata": {
+    "region": "La Louvière",
+    "source": "lalouviere.be",
+    "scrape_date": "2026-04-08T07:47:02.513027+00:00",
+    "total_events": 29,
+    "total_pages": 2,
+    "data_completeness": "Phase 1: 29 URLs extraites. Phase 2: 29/29 événements parsés (0 erreurs).",
+    "extraction_mode": "api_rest",
+    "pagination": {
+      "total_pages_requested": 2,
+      "pages_successfully_retrieved": 2,
+      "events_per_page": [
+        20,
+        9
+      ]
+    },
+    "last_execution": {
+      "timestamp": "2026-04-08T07:49:02.242745+00:00",
+      "duration_seconds": 11.5,
+      "status": "SUCCESS",
+      "notes": "Phase 2 terminée. 29 événements parsés en 12s."
+    },
+    "events_extracted": 29,
+    "extraction_date": "2026-04-08T07:49:02.242745+00:00"
+  },
+  "extraction_summary": {
+    "page_1": {
+      "url": "https://www.lalouviere.be/agenda/@results",
+      "events_found": 20
+    },
+    "page_2": {
+      "url": "https://www.lalouviere.be/agenda/@results?b_start=20",
+      "events_found": 9
+    }
+  },
+  "event_urls": [
+    "https://www.lalouviere.be/agenda/?u=eb65650314684abb9e8cc36493abe0e5",
+    "https://www.lalouviere.be/agenda/?u=5df5e273d3764b1d8cb2aa1a835f8d58",
+    "https://www.lalouviere.be/agenda/?u=a8caed456b504c2791749fbed7d85547",
+    "https://www.lalouviere.be/agenda/?u=e9ac430daca747048e17465d8d63c247",
+    "https://www.lalouviere.be/agenda/?u=8d6fec543a304804804dcda8567c2e32",
+    "https://www.lalouviere.be/agenda/?u=d611accfa5f14e4ab3d14f10a7de78df",
+    "https://www.lalouviere.be/agenda/?u=1894f2e9ba634680bcc918d466a27824",
+    "https://www.lalouviere.be/agenda/?u=a4d1c90bf8ff4488b22bdc34f543a579",
+    "https://www.lalouviere.be/agenda/?u=863b943e1606424880ae409a12139902",
+    "https://www.lalouviere.be/agenda/?u=6b14bcad7b0848abab2e8fdbb21828f3",
+    "https://www.lalouviere.be/agenda/?u=7daafa8e83114e93802d6cff67f0003d",
+    "https://www.lalouviere.be/agenda/?u=27cba86c73eb4297ac468571b5be1289",
+    "https://www.lalouviere.be/agenda/?u=14bd8e1e9b5e425b907988370bbb3116",
+    "https://www.lalouviere.be/agenda/?u=4277cbd5a18e42b38e565a2f6f4d580f",
+    "https://www.lalouviere.be/agenda/?u=f1a7dd483b134e8ca3740d7ecfe0a54f",
+    "https://www.lalouviere.be/agenda/?u=44e882b005f44c259391c9491bbabdd9",
+    "https://www.lalouviere.be/agenda/?u=0978b7ca5d6740d29ed1237e1e51f3d4",
+    "https://www.lalouviere.be/agenda/?u=e32220e7aa264e36b51bd495697cbcd4",
+    "https://www.lalouviere.be/agenda/?u=5029183a9f104e9b8fa0d0751f2b0e7b",
+    "https://www.lalouviere.be/agenda/?u=56af8937a4064b4d9247953af85a6579",
+    "https://www.lalouviere.be/agenda/?u=1386d7d499fa48a1a89cb23bf6c5b714",
+    "https://www.lalouviere.be/agenda/?u=794fc4ae03e74c0f870c81bd91f16c3e",
+    "https://www.lalouviere.be/agenda/?u=77f17e239e1c40b5a8fba40a2dc00d9e",
+    "https://www.lalouviere.be/agenda/?u=a0c426413ec84712b1a3576ddbef10d4",
+    "https://www.lalouviere.be/agenda/?u=18821eda83dc4333acd675a4f1dc984b",
+    "https://www.lalouviere.be/agenda/?u=7d7e42c2ec4b467a82fc9279763bec74",
+    "https://www.lalouviere.be/agenda/?u=af1eebee6560459bb53d0db2f8fa9426",
+    "https://www.lalouviere.be/agenda/?u=2f789024d7784554a914c26a9c5bf673",
+    "https://www.lalouviere.be/agenda/?u=0dd3a13345f647c6b0184f31869c4b69"
+  ],
+  "events": [
+    {
+      "id": "05157ba89ef3",
+      "url": "https://www.lalouviere.be/agenda/?u=eb65650314684abb9e8cc36493abe0e5",
+      "title": "2025-2026 : le Mill Hors les Murs !",
+      "description": "Dès le 1er septembre 2025, le Mill va bénéficier d’importants travaux de rénovation énergétique pour mieux accueillir son public et préserver ses collections. Ce vaste chantier permettra d’améliorer notre isolation thermique, de remplacer nos systèmes de chauffage et d’éclairage et de réduire notre consommation énergétique. Dès lors, le musée sera fermé au public jusqu’en octobre 2026. Pas de panique ! L’équipe du musée vous a concocté un programme d’activités sur mesure pour que les enfants des écoles continuent à découvrir nos collections et le métier de sculpteur. En savoir +",
+      "category": "Stages et cours",
+      "location": {
+        "venue": "",
+        "address": "Place Communale 21",
+        "postal_code": "7100",
+        "city": "La Louvière"
+      },
+      "dates": {
+        "schedules": [
+          "Du 12/08/2025 11:00 au 01/09/2026 12:00"
+        ],
+        "start": "12-08-2025 11:00",
+        "end": "01-09-2026 12:00"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "+3264282530",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://agenda.enwallonie.be/la-louviere/culture/eb65650314684abb9e8cc36493abe0e5/@@images/image-750-c540007307a9bfecd9690062065edd1f.jpeg",
+      "organiser": "Musée Ianchelevici",
+      "parsed_at": "2026-04-08T07:48:50.849341+00:00"
+    },
+    {
+      "id": "4082543a361a",
+      "url": "https://www.lalouviere.be/agenda/?u=5df5e273d3764b1d8cb2aa1a835f8d58",
+      "title": "L’intime et le territoire. La collection artistique louviéroise se livre au Gazomètre",
+      "description": "L’intime et le territoire. La collection artistique louviéroise se livre au Gazomètre 21.03 > 20.06. 2026 Le Mill investit la bibliothèque du Gazomètre le temps d’une exposition qui explore la thématique « Habiter ». Une sélection d’œuvres de la collection communale dialogue avec l’espace, offrant un parcours original où intimité, territoire, patrimoine et lien social se rencontrent. Une manière de prolonger la mission du musée dans un lieu vivant, ouvert à tous, chargé d’histoires et d’émotions… le cadre idéal pour partager l’art autrement, surprendre, questionner et inspirer. Exposition hors les murs - Gazomètre Rue du Gazomètre 50, 7100 La Louvière MA : 10 à 19h, ME > VE : 10 à 18h, SA: 9 à 16h. Fermé le lundi, dimanche et les jours fériés >Découvrez les activités scolaires Les activités proposées : 28.03 - 14h : Habiter le monde, s'habiter soi - ce que l'art fait naître en nous Activité famille par Stéphane Mansy05.05 > 08.05 : Habiter, inventer, rêver ! Stage enfant 6-12 ans - 9h-16h Stage par Marjorie de Cicco et Maroussia Ryelandt30.05, 13.06 et 20.06 : Cycle d'ateliers slam \"L'oeuvre en moi\" - écrire et dire à partir des oeuvres de l'exposition Par Laura Schlichter, slameuse poétesse et performeuse05.06 - 19h : Rencontre avec le collagiste François Liénard - Travail entre mémoire, images et détournements10.06 - 19h : Bien au-delà du Paysage. Le Hainaut et la région du Centre vus par les artistes Conférence par Benoît GoffinLégende et copyright de la photo : Francesca Scarito et Dominique Gastout, Dé_marches, 2015, impression à jet d’encre pigmentaire 9 couleurs (K3) sur papier Hahnemûhle 100% cotton Copyright F. Scarito",
+      "category": "Exposition et rencontre artistique",
+      "location": {
+        "venue": "",
+        "address": "Rue du Gazomètre 50",
+        "postal_code": "7100",
+        "city": "La Louvière"
+      },
+      "dates": {
+        "schedules": [
+          "Du 21/03/2026 10:00 au 20/06/2026 18:00"
+        ],
+        "start": "21-03-2026 10:00",
+        "end": "20-06-2026 18:00"
+      },
+      "pricing": "Gratuit",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://agenda.enwallonie.be/la-louviere/culture/5df5e273d3764b1d8cb2aa1a835f8d58/@@images/image-750-5bf366c86af47a236f768f850acdab9a.jpeg",
+      "organiser": "Musée Ianchelevici",
+      "parsed_at": "2026-04-08T07:48:51.209709+00:00"
+    },
+    {
+      "id": "2b54379d165d",
+      "url": "https://www.lalouviere.be/agenda/?u=a8caed456b504c2791749fbed7d85547",
+      "title": "À la découverte de l'avenir de votre quartier",
+      "description": "En avril, les membres du Collège communal viennent à la rencontre des citoyennes et citoyens, à La Louvière et dans les anciennes communes. Ces réunions de proximité vous permettront de découvrir les projets menés dans votre quartier, qu’ils soient réalisés, en cours ou à venir, mais aussi d’échanger directement avec les membres du Collège lors de moments de questions-réponses. Une occasion de s’informer, de partager ses préoccupations et de contribuer au dialogue local. Mercredi 15 avril à 19h - Quartiers : Maurage, Boussoit, Trivières et Strépy-Bracquegnies Ecole communale - rue des Canadiens - RéfectoireJeudi 16 avril à 19h - Quartiers : Houdeng-Goegnies et Houdeng-Aimeries Centre culturel Evance Jennard à Houdeng-Aimeries - rue du Football, 1Mercredi 22 avril à 19h - Quartiers : Haine-Saint-Paul et Haine-Saint-Pierre Ecole communale à Haine-St-Pierre - rue A. Parent, 20 - RéfectoireJeudi 23 avril à 19h - Quartiers : La Louvière, Besonrieux et Saint-VaastVenez nombreux·ses participer à ces échanges !",
+      "category": "",
+      "location": {
+        "venue": "",
+        "address": "",
+        "postal_code": "",
+        "city": ""
+      },
+      "dates": {
+        "schedules": [
+          "Du 15/04/2026 19:00 au 23/04/2026 21:00"
+        ],
+        "start": "15-04-2026 19:00",
+        "end": "23-04-2026 21:00"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://agenda.enwallonie.be/la-louviere/administration-communale/a8caed456b504c2791749fbed7d85547/@@images/image-3125-05de523f82a9f1afb0e73dc946695e6b.jpeg",
+      "organiser": "Administration communale",
+      "parsed_at": "2026-04-08T07:48:51.609600+00:00"
+    },
+    {
+      "id": "b3abcc791915",
+      "url": "https://www.lalouviere.be/agenda/?u=e9ac430daca747048e17465d8d63c247",
+      "title": "Le Jardin des Loups",
+      "description": "Le printemps revient au cœur du centre-ville louviérois et avec lui, Le Jardin des Loups, l’événement printanier incontournable de la Région du Centre. 𝐃𝐮 𝟐𝟒 𝐚𝐯𝐫𝐢𝐥 𝐚𝐮 𝟏𝟎 𝐦𝐚𝐢 𝐝𝐞 𝟏𝟎𝐡 𝐚̀ 𝟐𝟐𝐡, la place Maugrétout se transforme en un véritable jardin urbain convivial et festif, où verdure, pelouse, fleurs et plantes prennent place pour offrir aux familles un espace de détente, de rencontres et de découvertes. 𝐔𝐧 𝐥𝐢𝐞𝐮 𝐩𝐨𝐮𝐫 𝐥𝐞𝐬 𝐟𝐚𝐦𝐢𝐥𝐥𝐞𝐬 Petits et grands sont invités à profiter d’un moment agréable dans une ambiance chaleureuse et printanière, au cœur même de la ville. 𝐃𝐞𝐬 𝐚𝐜𝐭𝐢𝐯𝐢𝐭𝐞́𝐬 𝐩𝐨𝐮𝐫 𝐭𝐨𝐮𝐭𝐞 𝐥𝐚 𝐟𝐚𝐦𝐢𝐥𝐥𝐞 Châteaux gonflables : 4€ / heureTir à l’arc et lancer d’anneaux : 2€ / 30 minutes (nouveauté 2026)Grimages et présence de mascottesAteliers cirque, danse, magie, vélo et artsAteliers \"Découvertes de la nature\"Concerts acoustiques de groupes locaux𝐔𝐧 𝐞𝐬𝐩𝐚𝐜𝐞 𝐛𝐚𝐫 𝐚𝐮𝐱 𝐬𝐚𝐯𝐞𝐮𝐫𝐬 𝐥𝐨𝐜𝐚𝐥𝐞𝐬 Découvrez une sélection de gins locaux proposés par notre partenaire Le Moulin du Loup, dans une belle ambiance détendue. 𝐃𝐞𝐬 𝐬𝐚𝐯𝐞𝐮𝐫𝐬 𝐜𝐮𝐥𝐢𝐧𝐚𝐢𝐫𝐞𝐬 𝐢𝐧𝐞́𝐝𝐢𝐭𝐞𝐬 Chaque semaine, des foodtrucks proposeront une variété de cuisines du monde pour régaler toute la famille. 𝐓𝐞𝐦𝐩𝐬 𝐟𝐨𝐫𝐭s Le Marché fleuri prendra place aux côtés du Jardin des Loups les 9 et 10 mai, pour célébrer le printemps dans une ambiance florale. Le Jardin des Loups, c’est avant tout un lieu où les familles sont les bienvenues pour profiter du retour des beaux jours. Nous remercions chaleureusement nos sponsors et partenaires pour leur soutien précieux dans la réalisation de cet événement : La Ville de La Louvière, Calandro Bâches, Mignone, Centrissime, la RCVW, la Wallonie, Le Moulin du Loup, La Maison du Vélo, Contrat Rivière Haine, le Daily-Bul.",
+      "category": "",
+      "location": {
+        "venue": "",
+        "address": "Place Maugrétout",
+        "postal_code": "7100",
+        "city": "La Louvière"
+      },
+      "dates": {
+        "schedules": [
+          "Du 24/04/2026 10:00 au 10/05/2026 22:00"
+        ],
+        "start": "24-04-2026 10:00",
+        "end": "10-05-2026 22:00"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://agenda.enwallonie.be/la-louviere/la-louviere-centre-ville/e9ac430daca747048e17465d8d63c247/@@images/image-750-2db885d009f84c28ee77e7f07a644d25.jpeg",
+      "organiser": "La Louvière Centre-Ville",
+      "parsed_at": "2026-04-08T07:48:51.976573+00:00"
+    },
+    {
+      "id": "4a614f9c69c3",
+      "url": "https://www.lalouviere.be/agenda/?u=8d6fec543a304804804dcda8567c2e32",
+      "title": "Stage inclusif : Les explorateurs du temps",
+      "description": "Au programme : accessible à tous les publics, y compris aux personnes en situation de handicap, cette semaine invite les enfants à découvrir la mine dans un cadre bienveillant et stimulant. Encadrés par les professionnels de l’asbl Loisirs IncluS, ils explorent, apprennent et s’amusent grâce à des activités adaptées à chacun. Pour qui ? de 4 à 12 ansOù ? Musée de la Mine et du Développement Durable Bois-Du-Luc - rue Saint-Patrice,2b - 7100 La LouvièreQuand ? Du 27 au 30 avril 2026 de 9h à 16hAccueil : de 8h30 jusque 17hPrix ? 25 € la journée – 60 € la semaine (réduction possible avec la mutuelle et déduction fiscale)",
+      "category": "Stages et cours",
+      "location": {
+        "venue": "",
+        "address": "Rue Saint-Patrice 2",
+        "postal_code": "7110",
+        "city": "Houdeng-Aimeries"
+      },
+      "dates": {
+        "schedules": [
+          "Du 27/04/2026 09:00 au 30/04/2026 16:00"
+        ],
+        "start": "27-04-2026 09:00",
+        "end": "30-04-2026 16:00"
+      },
+      "pricing": "Payant",
+      "audience": "Parent",
+      "contact": {
+        "phone": "+3264282000",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://agenda.enwallonie.be/la-louviere/accueil-temps-libre/copy_of_18821eda83dc4333acd675a4f1dc984b/@@images/image-750-825beeede80a537e87405eb33dd4f631.jpeg",
+      "organiser": "Accueil temps libre",
+      "parsed_at": "2026-04-08T07:48:52.377342+00:00"
+    },
+    {
+      "id": "e67015a546e9",
+      "url": "https://www.lalouviere.be/agenda/?u=d611accfa5f14e4ab3d14f10a7de78df",
+      "title": "Skateboard",
+      "description": "Pour qui ? De 7 ans à 13 ansOù ? Skatepark Strépy-Bracquegnies - rue Victorien Ergot, 33 - 7110 Strépy-BracquegniesQuand ? Du lundi 27 avril au jeudi 30 avril 2026 - de 9h à 16h30 Accueil ? de 8h30 jusque 17hPrix ? 105€ la semaine",
+      "category": "Stages et cours",
+      "location": {
+        "venue": "",
+        "address": "Rue Victorien Ergot 33",
+        "postal_code": "7110",
+        "city": "Strépy-Bracquegnies"
+      },
+      "dates": {
+        "schedules": [
+          "Du 27/04/2026 09:00 au 30/04/2026 16:30"
+        ],
+        "start": "27-04-2026 09:00",
+        "end": "30-04-2026 16:30"
+      },
+      "pricing": "Payant",
+      "audience": "Parent",
+      "contact": {
+        "phone": "https://wingskate.com",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://agenda.enwallonie.be/la-louviere/accueil-temps-libre/d611accfa5f14e4ab3d14f10a7de78df/@@images/image-750-9fa6ef5cccffe05fdee916acdbcd9a82.jpeg",
+      "organiser": "Accueil temps libre",
+      "parsed_at": "2026-04-08T07:48:52.766830+00:00"
+    },
+    {
+      "id": "78b6c58a9ef4",
+      "url": "https://www.lalouviere.be/agenda/?u=1894f2e9ba634680bcc918d466a27824",
+      "title": "Équitation",
+      "description": "Pour qui ? De 3 ans à 12 ansOù ? Ecurie du cheval jaune - rue de Mignault, 70 - 7100 BesonrieuxQuand ? Du lundi 27 avril au jeudi 30 avril 2026 - de 9h à 16hAccueil ? de 8h15 à 17h30Prix ? 140€ la semaine (boissons et collations de l’après-midi comprises)",
+      "category": "Stages et cours",
+      "location": {
+        "venue": "",
+        "address": "Rue de Mignault 70",
+        "postal_code": "7100",
+        "city": "Besonrieux"
+      },
+      "dates": {
+        "schedules": [
+          "Du 27/04/2026 09:00 au 30/04/2026 16:00"
+        ],
+        "start": "27-04-2026 09:00",
+        "end": "30-04-2026 16:00"
+      },
+      "pricing": "Payant",
+      "audience": "Parent",
+      "contact": {
+        "phone": "+32496133957",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://agenda.enwallonie.be/la-louviere/accueil-temps-libre/1894f2e9ba634680bcc918d466a27824/@@images/image-750-519ecad5e5387859f8ccfa973c3cba62.jpeg",
+      "organiser": "Accueil temps libre",
+      "parsed_at": "2026-04-08T07:48:53.176258+00:00"
+    },
+    {
+      "id": "368384db21a4",
+      "url": "https://www.lalouviere.be/agenda/?u=a4d1c90bf8ff4488b22bdc34f543a579",
+      "title": "Immersion anglais",
+      "description": "Au programme : pâtisserie, jeux dynamiques et de société, lectures, bricolages,... en anglaisPour qui ? Enfants de 3 ans (propreté acquise) à 10 ans et également accessible aux enfants en situation de handicapOù ? Ecole libre du Sacré Coeur - rue Parmentier, 23 - 7100 La LouvièreQuand ? Du lundi 27 avril au jeudi 30 avril 2026 - de 9h à 16hAccueil ? Gratuit de 8h à 17hPrix ? 90€ la semaine , réduction 10 % fratries",
+      "category": "Stages et cours",
+      "location": {
+        "venue": "",
+        "address": "Rue Parmentier 23",
+        "postal_code": "7100",
+        "city": "La Louvière"
+      },
+      "dates": {
+        "schedules": [
+          "Du 27/04/2026 09:00 au 30/04/2026 16:00"
+        ],
+        "start": "27-04-2026 09:00",
+        "end": "30-04-2026 16:00"
+      },
+      "pricing": "Payant",
+      "audience": "Parent",
+      "contact": {
+        "phone": "+32492550992",
+        "website": "https://www.lesminicurieux.com"
+      },
+      "accessibility": true,
+      "url_image": "https://agenda.enwallonie.be/la-louviere/accueil-temps-libre/a4d1c90bf8ff4488b22bdc34f543a579/@@images/image-750-e8559a2848c9a1cfcc8ef050ec4f6884.jpeg",
+      "organiser": "Accueil temps libre",
+      "parsed_at": "2026-04-08T07:48:53.582472+00:00"
+    },
+    {
+      "id": "76f62e21f530",
+      "url": "https://www.lalouviere.be/agenda/?u=863b943e1606424880ae409a12139902",
+      "title": "Initiation à la langue anglaise et multiactivités",
+      "description": "Au programme : stage mené par une équipe qualifiée et dynamique qui combine à la fois l’initiation à la langue anglaise, les expériences scientifiques, les activités récréatives et sportives. Tout cela avec une approche active, bienveillante et innovantePour qui ? Enfants de 2,5 ans à 12 ansOù ? Ecole communale de Baume – rue des Rentiers, 152 ou rue de Baume, 48 7100 La LouvièreQuand ? Du lundi 27 avril au jeudi 30 avril 2026 de 9h à 16hAccueil : gratuit de 8h - 17hPrix : 80€ les 4 jours - 95€ les 5 joursDéclaré à l'ONE",
+      "category": "Stages et cours",
+      "location": {
+        "venue": "",
+        "address": "Rue de Baume 48",
+        "postal_code": "7100",
+        "city": "La Louvière"
+      },
+      "dates": {
+        "schedules": [
+          "Du 27/04/2026 09:00 au 30/04/2026 16:00"
+        ],
+        "start": "27-04-2026 09:00",
+        "end": "30-04-2026 16:00"
+      },
+      "pricing": "Payant",
+      "audience": "Parent",
+      "contact": {
+        "phone": "+32470122200",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://agenda.enwallonie.be/la-louviere/accueil-temps-libre/863b943e1606424880ae409a12139902/@@images/image-750-256cbbc07318a46fe9dfff53a2e9b4b9.jpeg",
+      "organiser": "Accueil temps libre",
+      "parsed_at": "2026-04-08T07:48:53.991300+00:00"
+    },
+    {
+      "id": "36d047d59dc3",
+      "url": "https://www.lalouviere.be/agenda/?u=6b14bcad7b0848abab2e8fdbb21828f3",
+      "title": "Hockey sur gazon",
+      "description": "Pour qui ? De 4 à 17 ansOù ? Royal La Louvière Hockey Club - Avenue Léopold III, 6 - 7100 La Louvière (Saint-Vaast)Quand ? du lundi 27 avril au vendredi 01 mai 2026 de 9h à 16hAccueil ? 8h30 jusque 17hPrix : 100 € la semaine",
+      "category": "Stages et cours",
+      "location": {
+        "venue": "",
+        "address": "Avenue Léopold III 10",
+        "postal_code": "7100",
+        "city": "Saint-Vaast"
+      },
+      "dates": {
+        "schedules": [
+          "Du 27/04/2026 09:00 au 01/05/2026 16:00"
+        ],
+        "start": "27-04-2026 09:00",
+        "end": "01-05-2026 16:00"
+      },
+      "pricing": "Payant",
+      "audience": "Jeune, Parent",
+      "contact": {
+        "phone": "+32496732892",
+        "website": "https://www.llhc.be"
+      },
+      "accessibility": true,
+      "url_image": "https://agenda.enwallonie.be/la-louviere/accueil-temps-libre/6b14bcad7b0848abab2e8fdbb21828f3/@@images/image-750-e65c8e517f0c0e3ba23649896f66de5a.jpeg",
+      "organiser": "Accueil temps libre",
+      "parsed_at": "2026-04-08T07:48:54.376205+00:00"
+    },
+    {
+      "id": "e3f444d27d49",
+      "url": "https://www.lalouviere.be/agenda/?u=7daafa8e83114e93802d6cff67f0003d",
+      "title": "Apprentissage vélo",
+      "description": "Au programme : apprentissage et entraînement en matinée (encadré par un professeur d’éducation physique), activités culturelles et créatives en après-midi et une journée au SPARKOH. Pour qui ? Enfants de 4 ans à 12 ansOù ? école Paroissiale - rue Ernest Milcamps, 1 (grille rouge) – 7100 La LouvièreQuand ? Du lundi 27 avril au vendredi 01 mai 2026 - de 9h à 16hAccueil ? de 8h à 17hPrix ? 130€ la semaine (1 collation offerte , accueil et les sorties) - réduction si fratrie",
+      "category": "Stages et cours",
+      "location": {
+        "venue": "",
+        "address": "Rue Ernest Milcamps 1",
+        "postal_code": "7100",
+        "city": "La Louvière"
+      },
+      "dates": {
+        "schedules": [
+          "Du 27/04/2026 09:00 au 01/05/2026 16:00"
+        ],
+        "start": "27-04-2026 09:00",
+        "end": "01-05-2026 16:00"
+      },
+      "pricing": "Payant",
+      "audience": "Parent",
+      "contact": {
+        "phone": "+32498786887",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://agenda.enwallonie.be/la-louviere/accueil-temps-libre/7daafa8e83114e93802d6cff67f0003d/@@images/image-750-7f62a4ad45657f2df1f8778d3f39a2a9.jpeg",
+      "organiser": "Accueil temps libre",
+      "parsed_at": "2026-04-08T07:48:54.876058+00:00"
+    },
+    {
+      "id": "d7d2899a995e",
+      "url": "https://www.lalouviere.be/agenda/?u=27cba86c73eb4297ac468571b5be1289",
+      "title": "Multisports spécial grand jeu d’ambiance « Mafia de Cuba »",
+      "description": "Au programme : multisports et grand jeu d’ambiancePour qui ? Enfants de 6 ans à 13 ansOù ? ISM La Louvière (Hall sportif) - rue de l’Olive, 5 - 7100 La LouvièreQuand ? Du lundi 27 avril au vendredi 01 mai 2026 - de 9h à 16h30Accueil ? Gratuit de 8h jusque 17h30Prix ? 90€ la semaine",
+      "category": "Stages et cours",
+      "location": {
+        "venue": "",
+        "address": "Rue de l'Olive 5",
+        "postal_code": "7100",
+        "city": "La Louvière"
+      },
+      "dates": {
+        "schedules": [
+          "Du 27/04/2026 09:00 au 01/05/2026 16:30"
+        ],
+        "start": "27-04-2026 09:00",
+        "end": "01-05-2026 16:30"
+      },
+      "pricing": "Payant",
+      "audience": "Parent",
+      "contact": {
+        "phone": "+32491109000",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://agenda.enwallonie.be/la-louviere/accueil-temps-libre/27cba86c73eb4297ac468571b5be1289/@@images/image-750-dc7a39331fc5dc7a2a01fcf8d586492b.jpeg",
+      "organiser": "Accueil temps libre",
+      "parsed_at": "2026-04-08T07:48:55.269511+00:00"
+    },
+    {
+      "id": "d92f5a2a11cf",
+      "url": "https://www.lalouviere.be/agenda/?u=14bd8e1e9b5e425b907988370bbb3116",
+      "title": "Stage sportif et multiactivités",
+      "description": "Au programme : initiation à différents sports (uni-hockey, basket-ball, football, volleyball, baseball…) et différentes activités ludiques ( petits jeux, bricolages, activités culinaires simples, piscine, jeux d’orientation, jeux de stratégie)Pour qui ? les enfants de 3 à 12 ansOù ? Ecole Saint-Donat - rue Cardinal Mercier, 17 - 7110 Houdeng-GoegniesQuand ? du lundi 27 avril au vendredi 01 mai 2026 - de 9h à 16hAccueil : gratuit de 8h30 jusque 16h30Prix : 95 €Contact : ASBL Balle au Centre - Drugmand Julien - 0497/21 21 26 - di Trapani Julien - 0497/27 70 49 - balleaucentre.asbl@gmail.comDéclaré à l'ONE",
+      "category": "Stages et cours",
+      "location": {
+        "venue": "",
+        "address": "Rue Cardinal Mercier 17",
+        "postal_code": "7110",
+        "city": "Houdeng-Goegnies"
+      },
+      "dates": {
+        "schedules": [
+          "Du 27/04/2026 09:00 au 01/05/2026 16:00"
+        ],
+        "start": "27-04-2026 09:00",
+        "end": "01-05-2026 16:00"
+      },
+      "pricing": "Payant",
+      "audience": "Parent",
+      "contact": {
+        "phone": "+32497212126",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://agenda.enwallonie.be/la-louviere/accueil-temps-libre/14bd8e1e9b5e425b907988370bbb3116/@@images/image-750-5ad047b551da247f6e7c41d0ca2c9252.jpeg",
+      "organiser": "Accueil temps libre",
+      "parsed_at": "2026-04-08T07:48:55.669595+00:00"
+    },
+    {
+      "id": "93cede76271e",
+      "url": "https://www.lalouviere.be/agenda/?u=4277cbd5a18e42b38e565a2f6f4d580f",
+      "title": "Multiactivités",
+      "description": "Au programme : activités créatives, ludiques, culinaires, culturelles et sportives.Pour qui ? 3 à 12 ansOù ? Les Joyeux Turlutins - Rue Keuwet 2-4 – 7100 La LouvièreQuand ? Du lundi 27 avril au samedi 09 mai 2026 (sauf 1er mai) - de 6h30 à 21h (du lundi au jeudi) - de 6h30 à 22h (le vendredi) - de 8h à 18h (le samedi)Prix ? 7,5 € par jour pour le premier enfant et 5,5€ pour les suivantsContact : ASBL Les Joyeux Turlutins - 064/277 975 ou 064/264 601Déclaré et agréé par l'ONE",
+      "category": "Stages et cours",
+      "location": {
+        "venue": "",
+        "address": "Rue Keuwet 2",
+        "postal_code": "7100",
+        "city": "La Louvière"
+      },
+      "dates": {
+        "schedules": [
+          "Du 27/04/2026 06:30 au 09/05/2026 18:00"
+        ],
+        "start": "27-04-2026 06:30",
+        "end": "09-05-2026 18:00"
+      },
+      "pricing": "Payant",
+      "audience": "Parent",
+      "contact": {
+        "phone": "+3264277975",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://agenda.enwallonie.be/la-louviere/accueil-temps-libre/4277cbd5a18e42b38e565a2f6f4d580f/@@images/image-750-9af35af20cf1b56e9a409e6610499b2f.jpeg",
+      "organiser": "Accueil temps libre",
+      "parsed_at": "2026-04-08T07:48:56.059406+00:00"
+    },
+    {
+      "id": "74a20f4d278f",
+      "url": "https://www.lalouviere.be/agenda/?u=f1a7dd483b134e8ca3740d7ecfe0a54f",
+      "title": "Stage multiactivités",
+      "description": "Au programme : activités créatives, ludiques, culinaires, culturelles, sportives, défis…. sur les thèmes « un jour un métier », « les gardiens de la nature », « les explorateurs 2.0», « sous l’océan », « les petites bêtes du jardin »Pour qui ? 2,5 ans à 12 ansOù ? Ecole Saint-Antoine (accueil, 1ère, 2ème et 3ème maternelle) - Rue du Châlet, 15 - 7100 La Louvière. Institut Saint-Joseph technique (de la 1ère à la 6ème primaire) - Rue Gustave Boël - 7100 La LouvièreQuand ? Du lundi 27 avril au jeudi 30 avril 2026 - de 9h à 16hAccueil ? De 6h30 à 18hPrix ? 32 € la semaine (hors activités extra)Déclaré et agréé par l'ONE",
+      "category": "Stages et cours",
+      "location": {
+        "venue": "",
+        "address": "",
+        "postal_code": "",
+        "city": ""
+      },
+      "dates": {
+        "schedules": [
+          "Du 27/04/2026 09:00 au 30/04/2026 16:00"
+        ],
+        "start": "27-04-2026 09:00",
+        "end": "30-04-2026 16:00"
+      },
+      "pricing": "Payant",
+      "audience": "Parent",
+      "contact": {
+        "phone": "+3264238043",
+        "website": "http://new.pirouline.be"
+      },
+      "accessibility": true,
+      "url_image": "https://agenda.enwallonie.be/la-louviere/accueil-temps-libre/f1a7dd483b134e8ca3740d7ecfe0a54f/@@images/image-750-b49a9b9d0cd8dfb5e0dfb8eb88756246.jpeg",
+      "organiser": "Accueil temps libre",
+      "parsed_at": "2026-04-08T07:48:56.442530+00:00"
+    },
+    {
+      "id": "9f4dadf0661d",
+      "url": "https://www.lalouviere.be/agenda/?u=44e882b005f44c259391c9491bbabdd9",
+      "title": "Stage multiactivités : Les chapardeurs de l’art",
+      "description": "Au programme : Une semaine d’activités qui s’articulera autour d’un artiste chapardeur qui a dérobé les joyaux de la couronne et mis le bazar dans la collection d’art du muséePour qui ? 3 à 12 ansOù ? Latitude Jeunes – rue Warocqué, 19 – 7100 La LouvièreQuand ? Du lundi 27 avril au jeudi 30 avril 2026 - de 9h à 16hAccueil ? Gratuit de 7h30 jusque 17h30 Prix ? 60 € la semaine de 4 jours Déclaré et agréé par l'ONE",
+      "category": "Stages et cours",
+      "location": {
+        "venue": "",
+        "address": "Rue Arthur Warocqué 19",
+        "postal_code": "7100",
+        "city": "La Louvière"
+      },
+      "dates": {
+        "schedules": [
+          "Du 27/04/2026 09:00 au 30/04/2026 16:00"
+        ],
+        "start": "27-04-2026 09:00",
+        "end": "30-04-2026 16:00"
+      },
+      "pricing": "Payant",
+      "audience": "Parent",
+      "contact": {
+        "phone": "+3271507817",
+        "website": "https://www.lesassociationssolidaris.be"
+      },
+      "accessibility": true,
+      "url_image": "https://agenda.enwallonie.be/la-louviere/accueil-temps-libre/44e882b005f44c259391c9491bbabdd9/@@images/image-750-8bb0b9f0e1263108161636b702d7d47c.jpeg",
+      "organiser": "Accueil temps libre",
+      "parsed_at": "2026-04-08T07:48:56.859208+00:00"
+    },
+    {
+      "id": "141e11579af1",
+      "url": "https://www.lalouviere.be/agenda/?u=0978b7ca5d6740d29ed1237e1e51f3d4",
+      "title": "Multiactivités",
+      "description": "Au programme : activités sportives, manuelles, sorties culturelles et visite d’une fromagerie pour les petits et initiation BMX pour les plus grands Pour qui ? Enfants de 4 ans à 12 ansOù ? école Paroissiale - rue Ernest Milcamps, 1 (grille rouge) – 7100 La LouvièreQuand ? Du lundi 27 avril au vendredi 01 mai 2026 - de 9h à 16hAccueil ? de 8h à 17hPrix ? 130€ la semaine (1 collation offerte , accueil et les sorties) - réduction si fratrie",
+      "category": "Stages et cours",
+      "location": {
+        "venue": "",
+        "address": "Rue Ernest Milcamps 1",
+        "postal_code": "7100",
+        "city": "La Louvière"
+      },
+      "dates": {
+        "schedules": [
+          "Du 27/04/2026 09:00 au 01/05/2026 16:00"
+        ],
+        "start": "27-04-2026 09:00",
+        "end": "01-05-2026 16:00"
+      },
+      "pricing": "Payant",
+      "audience": "Parent",
+      "contact": {
+        "phone": "+32498786887",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://agenda.enwallonie.be/la-louviere/accueil-temps-libre/copy_of_7daafa8e83114e93802d6cff67f0003d/@@images/image-750-7f62a4ad45657f2df1f8778d3f39a2a9.jpeg",
+      "organiser": "Accueil temps libre",
+      "parsed_at": "2026-04-08T07:48:57.259372+00:00"
+    },
+    {
+      "id": "9f1e2590f20d",
+      "url": "https://www.lalouviere.be/agenda/?u=e32220e7aa264e36b51bd495697cbcd4",
+      "title": "Pêche & découverte nature",
+      "description": "Au programme : initiation, perfectionnement à la pêche, biodiversité, respect de l’environnementPour qui ? de 6 ans à 16 ans Où ? Étangs de Strépy – Ferme Delsamme - rue des Etangs - 7110 Strépy-BracquegniesQuand ? Du mercredi 29 avril au vendredi 01 mai 2026 - de 8h30 à 16hPrix ? 130€ la semaine",
+      "category": "Stages et cours",
+      "location": {
+        "venue": "",
+        "address": "Rue des Étangs",
+        "postal_code": "7110",
+        "city": "Strépy-Bracquegnies"
+      },
+      "dates": {
+        "schedules": [
+          "Du 29/04/2026 08:30 au 01/05/2026 16:00"
+        ],
+        "start": "29-04-2026 08:30",
+        "end": "01-05-2026 16:00"
+      },
+      "pricing": "Payant",
+      "audience": "Parent",
+      "contact": {
+        "phone": "+32472296530",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://agenda.enwallonie.be/la-louviere/accueil-temps-libre/e32220e7aa264e36b51bd495697cbcd4/@@images/image-750-ec67153e63a0006837e4db044f3238e0.jpeg",
+      "organiser": "Accueil temps libre",
+      "parsed_at": "2026-04-08T07:48:57.671471+00:00"
+    },
+    {
+      "id": "f2027f01bdda",
+      "url": "https://www.lalouviere.be/agenda/?u=5029183a9f104e9b8fa0d0751f2b0e7b",
+      "title": "Équitation : journées à thème",
+      "description": "Au programme : équifun, equifeel, barres au sol et TAPPour qui ? De 3 ans à 12 ansOù ? Ecurie du cheval jaune - rue de Mignault, 70 - 7100 BesonrieuxQuand ? Du lundi 4 au mercredi 7 mai 2026 - de 9h à 16hAccueil ? de 8h15 à 17h30Prix ? 35€ la journée (boissons et collations de l’après-midi comprises)",
+      "category": "Stages et cours",
+      "location": {
+        "venue": "",
+        "address": "Rue de Mignault 70",
+        "postal_code": "7100",
+        "city": "Besonrieux"
+      },
+      "dates": {
+        "schedules": [
+          "Du 04/05/2026 09:00 au 07/05/2026 16:00"
+        ],
+        "start": "04-05-2026 09:00",
+        "end": "07-05-2026 16:00"
+      },
+      "pricing": "Payant",
+      "audience": "Parent",
+      "contact": {
+        "phone": "+32496133957",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://agenda.enwallonie.be/la-louviere/accueil-temps-libre/copy_of_1894f2e9ba634680bcc918d466a27824/@@images/image-750-519ecad5e5387859f8ccfa973c3cba62.jpeg",
+      "organiser": "Accueil temps libre",
+      "parsed_at": "2026-04-08T07:48:58.071331+00:00"
+    },
+    {
+      "id": "a7a9f8746c92",
+      "url": "https://www.lalouviere.be/agenda/?u=56af8937a4064b4d9247953af85a6579",
+      "title": "Initiation à la langue anglaise et multiactivités",
+      "description": "Au programme : stage mené par une équipe qualifiée et dynamique qui combine à la fois l’initiation à la langue anglaise, les expériences scientifiques, les activités récréatives et sportives. Tout cela avec une approche active, bienveillante et innovantePour qui ? Enfants de 2,5 ans à 12 ansOù ? Ecole communale de Baume – rue des Rentiers, 152 ou rue de Baume, 48 7100 La LouvièreQuand ? Du lundi 4 au vendredi 8 mai 2026 - de 9h à 16hAccueil : gratuit de 8h - 17hPrix : 80€ les 4 jours - 95€ les 5 joursDéclaré à l'ONE",
+      "category": "Stages et cours",
+      "location": {
+        "venue": "",
+        "address": "Rue de Baume 48",
+        "postal_code": "7100",
+        "city": "La Louvière"
+      },
+      "dates": {
+        "schedules": [
+          "Du 04/05/2026 09:00 au 08/05/2026 16:00"
+        ],
+        "start": "04-05-2026 09:00",
+        "end": "08-05-2026 16:00"
+      },
+      "pricing": "Payant",
+      "audience": "Parent",
+      "contact": {
+        "phone": "+32470122200",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://agenda.enwallonie.be/la-louviere/accueil-temps-libre/copy_of_863b943e1606424880ae409a12139902/@@images/image-750-256cbbc07318a46fe9dfff53a2e9b4b9.jpeg",
+      "organiser": "Accueil temps libre",
+      "parsed_at": "2026-04-08T07:48:58.476143+00:00"
+    },
+    {
+      "id": "c6b991bcd7a8",
+      "url": "https://www.lalouviere.be/agenda/?u=1386d7d499fa48a1a89cb23bf6c5b714",
+      "title": "Stage multiactivités : Anim’animal",
+      "description": "Au programme : à travers l’art, le jeu et l’observation, les enfants découvriront la vie qui bouge, qui vole, qui rampe et qui chante autour d’eux. Peindre, modeler, inventer, mimer, observer...Chaque jour sera une aventure créative pour explorer les liens entre les humains et les animaux. Entre imaginaire et nature, Anim’animal invite à s’émerveiller du vivant sous toutes ses formes ! Une semaine pour célébrer le monde merveilleux des animaux !Pour qui ? 3 à 12 ansOù ? Latitude Jeunes – rue Warocqué, 19 – 7100 La LouvièreQuand ? Du lundi 4 mai au vendredi 8 mai 2026 - de 9h à 16hAccueil ? Gratuit de 7h30 jusque 17h30 Prix ? 75 € la semaine de 5 jours Déclaré et agréé par l'ONE",
+      "category": "Stages et cours",
+      "location": {
+        "venue": "",
+        "address": "Rue Arthur Warocqué 19",
+        "postal_code": "7100",
+        "city": "La Louvière"
+      },
+      "dates": {
+        "schedules": [
+          "Du 04/05/2026 09:00 au 08/05/2026 16:00"
+        ],
+        "start": "04-05-2026 09:00",
+        "end": "08-05-2026 16:00"
+      },
+      "pricing": "Payant",
+      "audience": "Parent",
+      "contact": {
+        "phone": "+3271507817",
+        "website": "https://www.lesassociationssolidaris.be"
+      },
+      "accessibility": true,
+      "url_image": "https://agenda.enwallonie.be/la-louviere/accueil-temps-libre/copy_of_44e882b005f44c259391c9491bbabdd9/@@images/image-750-8bb0b9f0e1263108161636b702d7d47c.jpeg",
+      "organiser": "Accueil temps libre",
+      "parsed_at": "2026-04-08T07:48:58.876185+00:00"
+    },
+    {
+      "id": "454bbfdbb9aa",
+      "url": "https://www.lalouviere.be/agenda/?u=794fc4ae03e74c0f870c81bd91f16c3e",
+      "title": "Stage multiactivités",
+      "description": "Au programme : activités créatives, ludiques, culinaires, culturelles, sportives, défis…. sur les thèmes « mission Coopération », « l’île aux défis », « les petits jardiniers », « les dragons et créatures fantastiques », « les pirates » Pour qui ? 2,5 ans à 12 ansOù ? Ecole Saint-Antoine - Rue du Chalet, 15 - 7100 La Louvière ; Ecole Saint-Donat - Rue Cardinal Mercier, 16 - 7110Houdeng-Goegnies ; Institut Saint-Joseph technique (de la 1ère à la 6ème primaire) - Rue Gustave Boël - 7100 La LouvièreQuand ? Du lundi 4 mai au vendredi 8 mai 2026 - de 9h à 16hAccueil ? De 6h30 à 18hPrix ? 40 € la semaine (hors activités extra)Déclaré et agréé par l'ONE",
+      "category": "Stages et cours",
+      "location": {
+        "venue": "",
+        "address": "",
+        "postal_code": "",
+        "city": ""
+      },
+      "dates": {
+        "schedules": [
+          "Du 04/05/2026 09:00 au 08/05/2026 16:00"
+        ],
+        "start": "04-05-2026 09:00",
+        "end": "08-05-2026 16:00"
+      },
+      "pricing": "Payant",
+      "audience": "Parent",
+      "contact": {
+        "phone": "+3264238043",
+        "website": "http://new.pirouline.be"
+      },
+      "accessibility": true,
+      "url_image": "https://agenda.enwallonie.be/la-louviere/accueil-temps-libre/copy_of_f1a7dd483b134e8ca3740d7ecfe0a54f/@@images/image-750-b49a9b9d0cd8dfb5e0dfb8eb88756246.jpeg",
+      "organiser": "Accueil temps libre",
+      "parsed_at": "2026-04-08T07:48:59.275706+00:00"
+    },
+    {
+      "id": "c35876dc1f7f",
+      "url": "https://www.lalouviere.be/agenda/?u=77f17e239e1c40b5a8fba40a2dc00d9e",
+      "title": "Immersion anglais",
+      "description": "Au programme : pâtisserie, jeux dynamiques et de société, lectures, bricolages,... en anglaisPour qui ? Enfants de 3 ans (propreté acquise) à 10 ans et également accessible aux enfants en situation de handicapOù ? Ecole libre du Sacré Coeur - rue Parmentier, 23 - 7100 La LouvièreQuand ? Du lundi 4 mai au jeudi 8 mai 2026 - de 9h à 16hAccueil ? Gratuit de 8h à 17hPrix ? 90€ la semaine , réduction 10 % fratries",
+      "category": "Stages et cours",
+      "location": {
+        "venue": "",
+        "address": "Rue Parmentier 23",
+        "postal_code": "7100",
+        "city": "La Louvière"
+      },
+      "dates": {
+        "schedules": [
+          "Du 04/05/2026 09:00 au 08/05/2026 10:00"
+        ],
+        "start": "04-05-2026 09:00",
+        "end": "08-05-2026 10:00"
+      },
+      "pricing": "Payant",
+      "audience": "Parent",
+      "contact": {
+        "phone": "+32492550992",
+        "website": "https://www.lesminicurieux.com"
+      },
+      "accessibility": true,
+      "url_image": "https://agenda.enwallonie.be/la-louviere/accueil-temps-libre/copy_of_a4d1c90bf8ff4488b22bdc34f543a579/@@images/image-750-e8559a2848c9a1cfcc8ef050ec4f6884.jpeg",
+      "organiser": "Accueil temps libre",
+      "parsed_at": "2026-04-08T07:48:59.659287+00:00"
+    },
+    {
+      "id": "f55b6cdc3e15",
+      "url": "https://www.lalouviere.be/agenda/?u=a0c426413ec84712b1a3576ddbef10d4",
+      "title": "Stage créatif & sportif : Les 4 éléments",
+      "description": "Au Programme : ce stage, organisé en demi-journées entre la piscine et le musée Kéramis, se fera sous l’égide des 4 éléments – la terre, l’eau, l’air et le feu – à travers le jeu, la création et le mouvement. A Keramis, en atelier, les stagiaires découvriront la terre comme matière vivante, pleine d’énergies à modeler. Le feu, étape finale et mystérieuse, viendra révéler leurs œuvres durant la cuisson. Au Point d’Eau, les maillots enfilés, l’eau les immergera dans des moments de détente, de jeux et de plaisir partagé. Durant tout le stage, il planera dans l’air le souffle de la créativité. Pensé comme une véritable aventure sportive et artistique, ce stage se déroule dans un cadre sécurisé, bienveillant et stimulant, adapté à tous les enfants, sans prérequis. Créer, expérimenter, s’amuser et ressentir les énergies de la Terre... pour repartir avec des souvenirs forts et des créations uniques.Pour qui ? Enfants de 5 à 12 ans aussi accessible aux enfants porteurs de handicaps sur accord préalable des 2 équipes, l’accessibilité dépendra de l’encadrement nécessaire. Où ? Keramis – Centre de la Céramique - Place des Fours-Bouteilles, 1 - 7100 La Louvière - Point d’eau - Rue Sylvain Guyaux, 121- 7100 La LouvièreQuand ? Du lundi 04 mai au vendredi 08 mai 2026 - de 9h à 16hAccueil : gratuit et possible sur demande dès 8h30 jusque 17hPrix ? 130 € la semaine – 110€ par enfant supplémentaire vivant sous le même toitContact : Keramis - 064/236 075 – edu@keramis.be - Point d'eau - 064/236 660 - veroniquepointdeau@gmail.com",
+      "category": "Stages et cours",
+      "location": {
+        "venue": "",
+        "address": "Place des Fours Bouteilles 1",
+        "postal_code": "7100",
+        "city": "La Louvière"
+      },
+      "dates": {
+        "schedules": [
+          "Du 04/05/2026 09:00 au 08/05/2026 16:00"
+        ],
+        "start": "04-05-2026 09:00",
+        "end": "08-05-2026 16:00"
+      },
+      "pricing": "Payant",
+      "audience": "Parent",
+      "contact": {
+        "phone": "+3264236075",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://agenda.enwallonie.be/la-louviere/accueil-temps-libre/a0c426413ec84712b1a3576ddbef10d4/@@images/image-750-c5bd4e92a9a994bc9efcc81967b42899.jpeg",
+      "organiser": "Accueil temps libre",
+      "parsed_at": "2026-04-08T07:49:00.059077+00:00"
+    },
+    {
+      "id": "90e500f2c024",
+      "url": "https://www.lalouviere.be/agenda/?u=18821eda83dc4333acd675a4f1dc984b",
+      "title": "Créa’nature : les petits explorateurs du vivant",
+      "description": "Au programme : partir à la découverte de la nature, grimper sur les terrils et observer le monde qui nous entoure. Imaginer ensuite son propre univers rempli d’êtres vivants en utilisant le dessin, la peinture et plein d’autres techniques. À la fin de la semaine, les enfants auront créé leur propre petit coin de nature comme de vrai explorateur-artiste !Pour qui ? de 4 à 14 ansOù ? Musée de la Mine et du Développement Durable Bois-Du-Luc - rue Saint-Patrice,2b - 7100 La LouvièreQuand ? Du 04 au 08 mai 2026 de 9h à 16hAccueil : de 8h30 jusque 17hPrix ? 75 € la semaine (réduction possible avec la mutuelle et déduction fiscale)",
+      "category": "Stages et cours",
+      "location": {
+        "venue": "",
+        "address": "Rue Saint-Patrice 2",
+        "postal_code": "7110",
+        "city": "Houdeng-Aimeries"
+      },
+      "dates": {
+        "schedules": [
+          "Du 04/05/2026 09:00 au 08/05/2026 16:00"
+        ],
+        "start": "04-05-2026 09:00",
+        "end": "08-05-2026 16:00"
+      },
+      "pricing": "Payant",
+      "audience": "Parent",
+      "contact": {
+        "phone": "+3264282000",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://agenda.enwallonie.be/la-louviere/accueil-temps-libre/18821eda83dc4333acd675a4f1dc984b/@@images/image-750-825beeede80a537e87405eb33dd4f631.jpeg",
+      "organiser": "Accueil temps libre",
+      "parsed_at": "2026-04-08T07:49:00.459334+00:00"
+    },
+    {
+      "id": "22c97d7316e6",
+      "url": "https://www.lalouviere.be/agenda/?u=7d7e42c2ec4b467a82fc9279763bec74",
+      "title": "Multiactivités : Les Pyjamasques le cercle des héros",
+      "description": "Au programme : activités créatives, artistiques et sportives autour de tes héros préférésPour qui ? Enfants de 2,5 ans à 5,5 ans (maternelles)Où ? École communale - Place Maugrétout, 11 - 7100 La LouvièreQuand ? Du lundi 04 mai au vendredi 08 mai 2025 - de 9h à 16hAccueil ? de 7h45 à 17h30Prix ? 110 €",
+      "category": "Stages et cours",
+      "location": {
+        "venue": "",
+        "address": "Place Maugrétout 11",
+        "postal_code": "7100",
+        "city": "La Louvière"
+      },
+      "dates": {
+        "schedules": [
+          "Du 04/05/2026 09:00 au 08/05/2026 16:00"
+        ],
+        "start": "04-05-2026 09:00",
+        "end": "08-05-2026 16:00"
+      },
+      "pricing": "Payant",
+      "audience": "Parent",
+      "contact": {
+        "phone": "+32474559214",
+        "website": "https://www.dynarythmique.be"
+      },
+      "accessibility": true,
+      "url_image": "https://agenda.enwallonie.be/la-louviere/accueil-temps-libre/7d7e42c2ec4b467a82fc9279763bec74/@@images/image-750-91b5ac22087c503e79af5729227d2f68.jpeg",
+      "organiser": "Accueil temps libre",
+      "parsed_at": "2026-04-08T07:49:00.926374+00:00"
+    },
+    {
+      "id": "f4736be4462d",
+      "url": "https://www.lalouviere.be/agenda/?u=af1eebee6560459bb53d0db2f8fa9426",
+      "title": "Atelier créatif : au fil de la vie",
+      "description": "Au programme : Au cours de ce stage créatif, à travers de belles histoires, on va parcourir toutes les étapes de la vie humaine. On grimpera dans un arbre généalogique à la découverte de la naissance d’une famille jusqu’ à la vie qui s’achève. On voyagera à travers les rites qui célèbrent les cycles de la vie ici et ailleurs. Avec nos crayons et nos pinceaux, on créera des personnages de tous âges inspirés par nos histoires et ses passages, entre mémoire et rêves, un joyeux cortège !Pour qui ? enfants de 4 à 9 ansOù ? Centre culturel Evance Jennard - rue du Football, 18 – 7110 Houdeng-AimeriesQuand ? lundi 04 mai au vendredi 08 mai 2026 – de 9h à 16hAccueil : de 8h30 jusque 17h30 Prix : 75 € (réduction de 5€ à l'inscription du 2ème enfant d'une même famille) et 10€ pour l’accueilAccueil : 8h30 - 17h30 (sauf vendredi après-midi)",
+      "category": "Stages et cours",
+      "location": {
+        "venue": "",
+        "address": "Rue du Football 18",
+        "postal_code": "7110",
+        "city": "Houdeng-Aimeries"
+      },
+      "dates": {
+        "schedules": [
+          "Du 04/05/2026 09:00 au 08/05/2026 16:00"
+        ],
+        "start": "04-05-2026 09:00",
+        "end": "08-05-2026 16:00"
+      },
+      "pricing": "Payant",
+      "audience": "Parent",
+      "contact": {
+        "phone": "+32472585360",
+        "website": "https://www.central-lalouviere.be/agenda-atelier"
+      },
+      "accessibility": true,
+      "url_image": "https://agenda.enwallonie.be/la-louviere/accueil-temps-libre/af1eebee6560459bb53d0db2f8fa9426/@@images/image-750-b0db4f30a32179c6bea7dbcc456b9a1c.jpeg",
+      "organiser": "Accueil temps libre",
+      "parsed_at": "2026-04-08T07:49:01.326353+00:00"
+    },
+    {
+      "id": "fda4d1cbb094",
+      "url": "https://www.lalouviere.be/agenda/?u=2f789024d7784554a914c26a9c5bf673",
+      "title": "Atelier créatif : traces de vie",
+      "description": "Au programme : Créer un petit musée rassemblant souvenirs, trésors, trouvailles ou merveilles pour honorer l’histoire d’une personne, d’un animal ou même d’un végétal ! Pour réaliser ce cabinet de curiosité*, les enfants déploieront leurs talents d’artiste, de chercheur, d’historien, de sculpteur ou de journaliste ! Avec tout le matériel créatif nécessaire, ils deviendront les créateur d’un petit univers chargé d’histoire.Pour qui ? enfants de 9 à 12 ansOù ? Les ateliers la tête en l’air – rue Keramis, 26 – 7100 La Louvière (bâtiment arrière)Quand ? lundi 04 mai au vendredi 08 mai 2026 – de 9h à 16hAccueil : de 8h30 jusque 17h30 Prix : 75 € (réduction de 5€ à l'inscription du 2ème enfant d'une même famille) et 10€ pour l’accueilAccueil : 8h30 - 17h30 (sauf vendredi après-midi)",
+      "category": "Stages et cours",
+      "location": {
+        "venue": "",
+        "address": "Rue Kéramis 26",
+        "postal_code": "7100",
+        "city": "La Louvière"
+      },
+      "dates": {
+        "schedules": [
+          "Du 04/05/2026 09:00 au 08/05/2026 16:00"
+        ],
+        "start": "04-05-2026 09:00",
+        "end": "08-05-2026 16:00"
+      },
+      "pricing": "Payant",
+      "audience": "Parent",
+      "contact": {
+        "phone": "+32472585360",
+        "website": "https://www.central-lalouviere.be/agenda-atelier"
+      },
+      "accessibility": true,
+      "url_image": "https://agenda.enwallonie.be/la-louviere/accueil-temps-libre/copy_of_af1eebee6560459bb53d0db2f8fa9426/@@images/image-750-b0db4f30a32179c6bea7dbcc456b9a1c.jpeg",
+      "organiser": "Accueil temps libre",
+      "parsed_at": "2026-04-08T07:49:01.825932+00:00"
+    },
+    {
+      "id": "a76db9d659f2",
+      "url": "https://www.lalouviere.be/agenda/?u=0dd3a13345f647c6b0184f31869c4b69",
+      "title": "Multiactivités : Dynasport & super détective",
+      "description": "Au programme : un stage pour les enfants qui aiment bouger et faire fonctionner leur cerveau ensemble. Car oui, c’est en unissant nos talents de super détectives que nous pourrons résoudre les énigmes incroyables à résoudre chaque jour. Ce stage plongera les enfants dans une ambiance dynamique, motivante par ses nombreux challenges sportifs mais aussi dans une atmosphère mystérieuse par les jeux d’énigmes envoûtantesPour qui ? Enfants de 6 à 12 ansOù ? École communale - Place Maugrétout, 11 - 7100 La LouvièreQuand ? Du lundi 04 mai au vendredi 08 mai 2025 - de 9h à 16hAccueil ? de 7h45 à 17h30Prix ? 110 €",
+      "category": "Stages et cours",
+      "location": {
+        "venue": "",
+        "address": "Place Maugrétout 11",
+        "postal_code": "7100",
+        "city": "La Louvière"
+      },
+      "dates": {
+        "schedules": [
+          "Du 04/05/2026 09:00 au 08/05/2026 16:00"
+        ],
+        "start": "04-05-2026 09:00",
+        "end": "08-05-2026 16:00"
+      },
+      "pricing": "Payant",
+      "audience": "Parent",
+      "contact": {
+        "phone": "+32474559214",
+        "website": "https://www.dynarythmique.be"
+      },
+      "accessibility": true,
+      "url_image": "https://agenda.enwallonie.be/la-louviere/accueil-temps-libre/copy_of_7d7e42c2ec4b467a82fc9279763bec74/@@images/image-750-91b5ac22087c503e79af5729227d2f68.jpeg",
+      "organiser": "Accueil temps libre",
+      "parsed_at": "2026-04-08T07:49:02.242745+00:00"
+    }
+  ]
+}

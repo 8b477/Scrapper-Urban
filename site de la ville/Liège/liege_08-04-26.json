@@ -1,0 +1,408 @@
+{
+  "metadata": {
+    "region": "Liège",
+    "source": "liege.be",
+    "scrape_date": "2026-04-08T07:47:05.146386+00:00",
+    "total_events": 12,
+    "total_pages": 1,
+    "data_completeness": "Phase 1: 12 URLs extraites. Phase 2: 12/12 événements parsés (0 erreurs).",
+    "extraction_mode": "requests",
+    "pagination": {
+      "total_pages_requested": 2,
+      "pages_successfully_retrieved": 1,
+      "events_per_page": [
+        12
+      ]
+    },
+    "last_execution": {
+      "timestamp": "2026-04-08T07:49:48.657576+00:00",
+      "duration_seconds": 45.5,
+      "status": "SUCCESS",
+      "notes": "Phase 2 terminée. 12 événements parsés en 46s."
+    },
+    "events_extracted": 12,
+    "extraction_date": "2026-04-08T07:49:48.657576+00:00"
+  },
+  "extraction_summary": {
+    "page_1": {
+      "url": "https://www.liege.be/fr/evenements/agenda/@@faceted_query?b_start:int=0",
+      "events_found": 12
+    }
+  },
+  "event_urls": [
+    "https://www.liege.be/fr/vie-communale/services-communaux/sports/evenements/je-cours-pour-ma-forme-printemps-2026",
+    "https://www.liege.be/fr/decouvrir/culture/musees/la-boverie/expos-evenements/Actuellement/robert-doisneau-instants-donnes-a-la-boverie",
+    "https://www.liege.be/fr/evenements/expo-ernest-celestine-et-les-autres-la-vie-et-l2019oeuvre-de-monique-martin",
+    "https://www.liege.be/fr/vivre-a-liege/environnement/la-maison-de-lalimentation-durable-inclusive/evenements-madil/cuisine-ton-quartier",
+    "https://www.liege.be/fr/vivre-a-liege/commerce/alimentation-locale/actualites-alimentation-locale/court-circuit-marche-des-producteurs-locaux",
+    "https://www.liege.be/fr/vie-communale/services-communaux/tourisme/evenements/acces-a-la-vue-panoramique-de-la-cite-administrative",
+    "https://www.liege.be/fr/vivre-a-liege/commerce/alimentation-locale/actualites-alimentation-locale/festival-nourrir-liege-2026",
+    "https://www.liege.be/fr/vie-communale/services-communaux/seniors/evenements/le-printemps-sportif-des-aines",
+    "https://www.liege.be/fr/vie-communale/services-communaux/culture/evenements/les-grandes-conferences-liegeoises-salome-saque",
+    "https://www.liege.be/fr/vie-communale/services-communaux/tourisme/evenements/rallye-du-patrimoine-2026",
+    "https://www.liege.be/fr/evenements/liege-bastogne-liege",
+    "https://www.liege.be/fr/evenements/festival-international-du-film-de-comedie-de-liege-2026"
+  ],
+  "events": [
+    {
+      "id": "ce2af80ee5bb",
+      "url": "https://www.liege.be/fr/vie-communale/services-communaux/sports/evenements/je-cours-pour-ma-forme-printemps-2026",
+      "title": "Je Cours Pour Ma Forme - Printemps 2026",
+      "description": "\"Je cours pour ma forme\"est destiné à toute personne souhaitant courir en groupe quels que soient son niveau et sa condition physique. Il n'y a aucun prérequis, les animateurs formés sont là pour écoler les participants. Il y aura un seul groupe (0-5km) dont l’objectif sera de pouvoir courir 5km (ou 40min) au terme des 12 semaines d’entraînement. Un programme de 12 semaines quelque soit votre âge ou votre niveau et les entraînements auront lieule mercredi à 18h et le dimanche à 10h. Premier entraînement le mercredi 8 avril 2026 à 18h dans le Parc de la Boverie devant le bâtiment des sports nautiques (situé au pied de la passerelle). Ce 1er entraînement sera précédé d'une courte séance d'informations/questions-réponses. Inscription en ligne le jour de la reprise, valable pour les deux séances hebdomadaires.Participation offerte par la Ville de Liège et l’ASBL Liège Sport.Assurance obligatoire : 5 €- Le numéro de compte pour ce versement ainsi que le lien vers le formulaire d’inscription vous seront communiqués lors du 1er entraînement. [email protected]",
+      "category": "Sport",
+      "location": {
+        "venue": "Parc de la Boverie",
+        "address": "",
+        "postal_code": "",
+        "city": "Liège"
+      },
+      "dates": {
+        "schedules": [
+          "08/04/2026 de 18:00 à 20:00"
+        ],
+        "start": "08-04-2026 18:00",
+        "end": "08-04-2026 20:00"
+      },
+      "pricing": "",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.liege.be/fr/vie-communale/services-communaux/sports/evenements/images/jcpmf2026-900px.jpg/@@images/5acace62-b713-49e2-bed1-e1d1be364dfd.jpeg",
+      "organiser": "Service des Sports",
+      "parsed_at": "2026-04-08T07:49:03.359289+00:00"
+    },
+    {
+      "id": "5204d0fc01f9",
+      "url": "https://www.liege.be/fr/decouvrir/culture/musees/la-boverie/expos-evenements/Actuellement/robert-doisneau-instants-donnes-a-la-boverie",
+      "title": "Robert Doisneau - 31.10.2025 – 19.04.2026",
+      "description": "La Boverie accueille une rétrospective d’envergure consacrée à l’un des plus grands maîtres de la photographie du XXe siècle. Près de 400 clichés allant de ses débuts dans les années 1930 jusqu’à la fin de sa carrière y sont présentés dans un parcours riche et sensible. L’exposition réunit aussi bien ses images les plus emblématiques que de nombreuses photographies inédites, offrant une vision complète et renouvelée de son œuvre. Après son grand succès à Paris, cette étape liégeoise marque le début d’une tournée internationale et s’enrichit d’une sélection belge. Loin du simple cliché, chaque photographie de Doisneau porte la trace d’un regard à la fois curieux, tendre, libre et généreux. Il saisit avec justesse la poésie du quotidien, les moments de grâce comme les instants de gravité. L’exposition explore les grands thèmes qui traversent son œuvre : l’enfance, les ateliers d’artistes, les écrivains, les bistrots, les années Vogue, mais aussi la dureté des banlieues et la fragilité de la condition humaine. À travers des photographies, des documents rares, des dispositifs interactifs, des enregistrements et des témoignages sonores, le visiteur est invité à découvrir le lien intime entre l’artiste et les mondes qu’il a traversés. À Liège, le public découvrira une sélection belge inédite, mettant en lumière les paysages et les figures emblématiques du pays : de la Tour cybernétique aux hauts fourneaux de Liège, des figures folkloriques comme les Gilles au charme intemporel de Bruges, sans oublier ses photos de l’Expo 58 et de Georges Simenon. 📍La Boverie, Liège📅 31.10.2025 – 19.04.2026📧[email protected]📞 +32(0)488 35 50 77Inscrivez-vous sur la liste d'attentehttps://www.expo-doisneau.com/liege Une production de Tempora et l’Atelier Robert Doisneau en partenariat avec La Boverie.",
+      "category": "Exposition",
+      "location": {
+        "venue": "La Boverie",
+        "address": "",
+        "postal_code": "",
+        "city": "Liège"
+      },
+      "dates": {
+        "schedules": [
+          "Du 31/10/2025 10:00 au 19/04/2026 18:00"
+        ],
+        "start": "31-10-2025 10:00",
+        "end": "19-04-2026 18:00"
+      },
+      "pricing": "Tous",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 4 238 55 01",
+        "website": "http://www.laboverie.com/"
+      },
+      "accessibility": true,
+      "url_image": "https://www.liege.be/fr/decouvrir/culture/musees/la-boverie/expos-evenements/les-prochaines-expos/images/nicolas-schoffer-a-liege-le-27-mars-1962-liege.jpg/@@images/f78dd9d3-4b1d-4d7f-beeb-df6cb3ebc32e.jpeg",
+      "organiser": "La Boverie",
+      "parsed_at": "2026-04-08T07:49:04.342892+00:00"
+    },
+    {
+      "id": "9d86abc631ed",
+      "url": "https://www.liege.be/fr/evenements/expo-ernest-celestine-et-les-autres-la-vie-et-l2019oeuvre-de-monique-martin",
+      "title": "Expo : Ernest, Célestine et les autres. La vie et l’œuvre de Monique Martin.",
+      "description": "Une exposition des Fonds patrimoniaux de la Ville de Liège et des Ateliers du Texte et de l’Image A.S.B.L. en collaboration avec la Fondation Monique Martin.« Je ne dessine pas pour les enfants, mais bien pour ceux qui aiment les enfants, qui aiment les gens, qui observent les gens de l’intérieur (…). Ce n’est pas un dessin enfantin. C’est du dessin, tout simplement ».Monique Martin a 53 ans lorsque paraît le premier album d’Ernest et Célestine en 1981. Sous le pseudonyme Gabrielle Vincent, elle donne vie à cette série devenue emblématique, portée par deux personnages attachants : Ernest, le grand ours au cœur généreux, et Célestine, la petite souris malicieuse.Au-delà de ce succès international, l’exposition propose de s’immerger dans l’univers de Monique Martin pour découvrir le parcours artistique d’une créatrice aux multiples facettes : tantôt peintre et dessinatrice, tantôt illustratrice, observatrice sensible du quotidien.À travers plus d’une centaine d’œuvres originales, ses livres, sa correspondance ainsi que des objets personnels, l’exposition explore les thèmes chers à l’artiste. Elle met en lumière la diversité des techniques picturales et narratives employées par Monique Martin, révélant un parcours artistique dense, nourri par les voyages, les rencontres et les inspirations puisées dans son quotidien à Bruxelles, où elle a vécu toute sa vie. Aux Fonds patrimoniaux de la Ville de Liège (Îlot Saint-Georges – 4000 Liège)Du 13.03 au 22.05.2026 du lundi au vendredi de 14h à 17h.Gratuit, groupes sur réservation par mail :[email protected]Ouverture exceptionnelle les 4 et 5 avril de 14h à 17h dans le cadre du Festival LaBD : Pendant toute la durée de l’exposition, présence d’unBlow Book Dispenser",
+      "category": "Exposition",
+      "location": {
+        "venue": "Les Fonds patrimoniaux",
+        "address": "",
+        "postal_code": "",
+        "city": "Liège"
+      },
+      "dates": {
+        "schedules": [
+          "Du 13/03/2026 14:00 au 22/05/2026 17:00"
+        ],
+        "start": "13-03-2026 14:00",
+        "end": "22-05-2026 17:00"
+      },
+      "pricing": "Gratuit",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 4 221 94 72",
+        "website": "https://www.liege.be/fr/annuaire/administration-communale/departement-de-la-culture/les-musees-communaux/les-fonds-patrimoniaux"
+      },
+      "accessibility": true,
+      "url_image": "https://www.liege.be/fr/evenements/images/bandeau-expo-ernest-celestine-et-les-autres-la-vie.jpg/@@images/a8273b22-9973-46dc-afb2-c8388451a443.jpeg",
+      "organiser": "Les Fonds patrimoniaux",
+      "parsed_at": "2026-04-08T07:49:10.509069+00:00"
+    },
+    {
+      "id": "5c5560b15fd6",
+      "url": "https://www.liege.be/fr/vivre-a-liege/environnement/la-maison-de-lalimentation-durable-inclusive/evenements-madil/cuisine-ton-quartier",
+      "title": "Les rencontres « Cuisine ton Quartier » au Beau Mur",
+      "description": "Le Beau Mur, en collaboration avec la Ceinture Aliment-Terre Liégeoise (CATL) et la Maison de l’Alimentation durable et inclusive de Liège (MAdiL), portent le projet \"Cuisine ton quartier\", un rendez-vous hebdomadaire de rencontre et d’échange sur une préoccupation universelle : se nourrir. L’objectif ? Se retrouver pour un moment qui sent bon, qui fait du bien, qui donne envie de se réunir, de s’échanger des bons plans, des recettes, …. Mais aussi se questionner, s’entraider…. Et pourquoi pas, rêver son quartier ! Tous les mardis de 10h à 13h, en dehors des congés scolaires. Sans inscriptions , participation à prix libre pour rembourser les achats du jour.",
+      "category": "Atelier - animation",
+      "location": {
+        "venue": "Centre liégeois du Beau-Mur",
+        "address": "",
+        "postal_code": "",
+        "city": "Liège"
+      },
+      "dates": {
+        "schedules": [
+          "Du 26/08/2025 10:00 au 06/07/2026 11:00"
+        ],
+        "start": "26-08-2025 10:00",
+        "end": "06-07-2026 11:00"
+      },
+      "pricing": "libre",
+      "audience": "Adulte",
+      "contact": {
+        "phone": "",
+        "website": "https://www.madil.be"
+      },
+      "accessibility": true,
+      "url_image": "",
+      "organiser": "La Ceinture Aliment Terre Liégeoise (CATL)",
+      "parsed_at": "2026-04-08T07:49:16.659005+00:00"
+    },
+    {
+      "id": "13e88ef1f294",
+      "url": "https://www.liege.be/fr/vivre-a-liege/commerce/alimentation-locale/actualites-alimentation-locale/court-circuit-marche-des-producteurs-locaux",
+      "title": "Court-circuit : marché des producteurs locaux",
+      "description": "Du 2 avril au 29 octobre 2026, la place de la Cathédrale accueillera chaque jeudi, de 12h à 18h, une vingtaine de producteurs. Fidèles participants ou nouveaux venus, ils viendront y présenter leurs produits et partager leur passion avec le public dans une atmosphère conviviale. Ce rendez-vous hebdomadaire s’inscrit dans la volonté de favoriser les circuits courts et de soutenir l’économie locale, tout en proposant aux Liégeoises et aux Liégeois une autre manière de consommer : plus proche des producteurs, plus responsable et plus durable. Les visiteurs pourront y découvrir une large diversité de produits : fruits et légumes de saison, fromages et produits laitiers, pains et pâtisseries artisanales, viandes et charcuteries, confitures et douceurs, miels et produits de la ruche, fleurs, bières locales ou encore cosmétiques naturels, permettant aussi de faire ses courses sur place et de réunir facilement les ingrédients nécessaires à la préparation d’un repas complet. Une invitation à (re)découvrir la richesse du terroir local. Afin de garantir l’ancrage local de l’événement, l’ensemble des produits proposés provient de la province de Liège ou d’un rayon de 50 kilomètres autour de la ville. Cette démarche permet de privilégier une production de proximité et de limiter les intermédiaires. Dans un souci de transparence, chaque producteur dispose d’un panneau d’information précisant l’origine de ses produits ainsi que ses méthodes de production, permettant au public de faire des choix éclairés. Le « Court-Circuit » met également en avant les initiatives locales engagées en faveur d’une alimentation durable, créant un espace de rencontres, d’échanges et de sensibilisation autour d’une consommation plus responsable. Des moments festifs ponctueront également la saison, notamment avec les « Apéros des producteurs » ainsi que des démonstrations de live cooking permettant de découvrir des recettes réalisées à partir des produits présents sur le marché. Un rendez-vous gourmand, local et convivial qui rythmera à nouveau les jeudis liégeois. Cette année, le festival « Nourrir Liège » célèbre sa 10e édition et prendra ses quartiers au cœur du « Court-Circuit », sur la place de la Cathédrale. Une belle occasion de rencontrer les acteurs de l’alimentation locale et durable tout en profitant d’une programmation riche de plus de 150 animations ludiques, culturelles et musicales. Organisé en Cité ardente par la Ceinture Aliment-Terre Liégeoise (CATL), ce festival dédié à la transition alimentaire se déroulera du 9 au 19 avril 2026. Pendant dix jours, de nombreuses balades, spectacles, ateliers, dégustations et débats seront proposés à travers toute la ville de Liège, invitant le public à découvrir les initiatives locales et à réfléchir ensemble aux enjeux d’une alimentation plus durable. Pour cette édition anniversaire, « Nourrir Liège » s’associe au festival européen Brood Pain Brot, un projet transfrontalier reliant Maastricht, Aachen et Liège. Ce partenariat mettra à l’honneur le pain local, la filière céréalière et le savoir-faire artisanal, tout en favorisant les échanges entre citoyens, producteurs et territoires au-delà des frontières.",
+      "category": "Foire - Brocante - marché",
+      "location": {
+        "venue": "Rendez-vous des producteurs locaux - Court-Circuit",
+        "address": "",
+        "postal_code": "",
+        "city": "Liège"
+      },
+      "dates": {
+        "schedules": [
+          "09/04/2026 de 12:00 à 18:00 16/04/2026 de 12:00 à 18:00 23/04/2026 de 12:00 à 18:00 30/04/2026 de 12:00 à 18:00 07/05/2026 de 12:00 à 18:00 21/05/2026 de 12:00 à 18:00 Toutes les dates"
+        ],
+        "start": "02-04-2026 12:00",
+        "end": "02-04-2026 18:00"
+      },
+      "pricing": "",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 4 221 92 29",
+        "website": "https://www.liege.be/fr/annuaire/administration-communale/departement-du-developpement-economique-et-commercial/service-des-foires-et-marches"
+      },
+      "accessibility": true,
+      "url_image": "",
+      "organiser": "Service des Foires et Marchés",
+      "parsed_at": "2026-04-08T07:49:23.598226+00:00"
+    },
+    {
+      "id": "a8df81866bad",
+      "url": "https://www.liege.be/fr/vie-communale/services-communaux/tourisme/evenements/acces-a-la-vue-panoramique-de-la-cite-administrative",
+      "title": "Accès à la vue panoramique de la Cité administrative",
+      "description": "Tous les premiers dimanches du mois, la terrasse du 18e étage de la Cité est également accessible à tous pour découvrir Liège et ses joyaux grâce à un panorama incroyable.Le fil de la Meuse, les Coteaux de la Citadelle et la Montagne de Bueren, les toits des édifices remarquables, le tracé du tram qui se précise...nombreuses sont les richesses patrimoniales liégeoises qui prennent une tout autre ampleur en prenant de la hauteur.",
+      "category": "Visite - balade",
+      "location": {
+        "venue": "",
+        "address": "",
+        "postal_code": "",
+        "city": "Liège"
+      },
+      "dates": {
+        "schedules": [
+          "03/05/2026 de 10:30 à 18:00 07/06/2026 de 10:30 à 18:00 05/07/2026 de 10:30 à 18:00 02/08/2026 de 10:30 à 18:00 06/09/2026 de 10:30 à 18:00 04/10/2026 de 10:30 à 18:00 Toutes les dates"
+        ],
+        "start": "07-01-2024 10:30",
+        "end": "07-01-2024 18:00"
+      },
+      "pricing": "Gratuit",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.liege.be/fr/vie-communale/services-communaux/tourisme/evenements/images/panorama-liege-cite-administrative.jpg/@@images/576090be-79e1-4ed0-97f7-4a1015a86c28.jpeg",
+      "organiser": "",
+      "parsed_at": "2026-04-08T07:49:25.524898+00:00"
+    },
+    {
+      "id": "f63943239e87",
+      "url": "https://www.liege.be/fr/vivre-a-liege/commerce/alimentation-locale/actualites-alimentation-locale/festival-nourrir-liege-2026",
+      "title": "Festival Nourrir Liège 2026",
+      "description": "Du 9 au 19 avril, la Ville de Liège participe au festival Nourrir Liège – festival de la transition alimentaire Les services de la Ville de Liège se mobilise. L'occasion de découvrir les actions menées en faveur d'une politique alimentaire durable. Programme complet sur :https://nourrirliege.be",
+      "category": "Festival",
+      "location": {
+        "venue": "",
+        "address": "",
+        "postal_code": "",
+        "city": "Liège"
+      },
+      "dates": {
+        "schedules": [
+          "Du 09/04/2026 au 19/04/2026"
+        ],
+        "start": "09-04-2026 00:00",
+        "end": "19-04-2026 23:59"
+      },
+      "pricing": "",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.liege.be/fr/vivre-a-liege/commerce/alimentation-locale/actualites-alimentation-locale/images/nourrir-liege-2026.png/@@images/d0a5fe13-1c8f-4cfc-89b2-6d7d533f4da1.png",
+      "organiser": "Festival Nourrir Liège",
+      "parsed_at": "2026-04-08T07:49:29.425171+00:00"
+    },
+    {
+      "id": "5e9cd37805a9",
+      "url": "https://www.liege.be/fr/vie-communale/services-communaux/seniors/evenements/le-printemps-sportif-des-aines",
+      "title": "Le Printemps Sportif des Aînés",
+      "description": "Le Service InterG-Seniors, en collaboration avec le Conseil Consultatif Communal des Aînés, le Service des Sports, l’ASBL Sports et Loisirs, l’ASBL Liège Seniors et l’ASBL Liège Sport, vous donne rendez-vous pour une nouvelle édition du Printemps Sportif des Aînés. Gratuite et ouverte à toutes les personnes de plus de 50 ans, cette journée placée sous le signe du mouvement et de la bonne humeur mettra à l’honneur le thème : « De la balle au ballon ! » Au programme : une belle diversité d’activités sportives et ludiques spécialement pensées pour les seniors, à découvrir dans une ambiance conviviale et dynamique. Que l’on souhaite bouger, tester une nouvelle discipline ou simplement partager un moment actif et chaleureux, chacun pourra y trouver son rythme. Au-delà de l’activité physique, cette journée est aussi une occasion de se rencontrer, d’échanger et de célébrer le plaisir de rester actif ensemble. [email protected]–04/238 52 41",
+      "category": "Sport",
+      "location": {
+        "venue": "Centre sportif de Grivegnée",
+        "address": "",
+        "postal_code": "",
+        "city": "Liège"
+      },
+      "dates": {
+        "schedules": [
+          "14/04/2026 de 09:00 à 15:00"
+        ],
+        "start": "14-04-2026 09:00",
+        "end": "14-04-2026 15:00"
+      },
+      "pricing": "gratuit",
+      "audience": "Senior",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "",
+      "organiser": "Service InterG-Seniors",
+      "parsed_at": "2026-04-08T07:49:30.708517+00:00"
+    },
+    {
+      "id": "7d8e554b5493",
+      "url": "https://www.liege.be/fr/vie-communale/services-communaux/culture/evenements/les-grandes-conferences-liegeoises-salome-saque",
+      "title": "Les Grandes Conférences Liégeoises : Salomé SAQUÉ",
+      "description": "Journaliste et autrice Face aux crises sociales, climatiques et démocratiques, la jeunesse apparaît tour à tour inquiète, lucide, en colère… et profondément mobilisée. Cette conférence interroge ce que signifie résister aujourd’hui quand on est jeune : résister au découragement, aux récits simplistes, aux inégalités qui se creusent. À partir d’enquêtes, d’analyses et de faits concrets, elle propose de comprendre les ressorts de l’engagement des jeunes générations, leurs colères comme leurs solutions, et les leviers réels pour transformer le monde plutôt que s’y résigner. Salomé Saqué est journaliste et autrice. Elle travaille sur les questions de démocratie, de justice sociale, de climat et de montée des extrêmes, avec une attention particulière portée à la jeunesse et à ses conditions de vie. Connue pour son approche rigoureuse et accessible, elle décrypte les mécanismes politiques et médiatiques contemporains et donne des clés de compréhension pour penser l’engagement et la résistance collective aujourd’hui.",
+      "category": "Conférence - débat",
+      "location": {
+        "venue": "",
+        "address": "",
+        "postal_code": "",
+        "city": "Liège"
+      },
+      "dates": {
+        "schedules": [
+          "16/04/2026 à partir de 20:15"
+        ],
+        "start": "16-04-2026 20:15",
+        "end": "16-04-2026 23:59"
+      },
+      "pricing": "Payant, Tarif réduit/Etudiant",
+      "audience": "Adulte, Etudiant, Senior",
+      "contact": {
+        "phone": "+32 (0) 4 221 93 69",
+        "website": "http://gclg.be/"
+      },
+      "accessibility": true,
+      "url_image": "https://www.liege.be/fr/vie-communale/services-communaux/culture/evenements/images/salome-saque-copyright-emma-birsky.jpg/@@images/dc2980f2-a1ef-467e-85b3-da9d5bcf1f46.jpeg",
+      "organiser": "Les Grandes Conférences Liégeoises",
+      "parsed_at": "2026-04-08T07:49:36.409315+00:00"
+    },
+    {
+      "id": "c81f1a59ed1b",
+      "url": "https://www.liege.be/fr/vie-communale/services-communaux/tourisme/evenements/rallye-du-patrimoine-2026",
+      "title": "Rallye du Patrimoine 2026",
+      "description": "Liège est réputée pour la richesse et la variété de son patrimoine. Le patrimoine liégeois est trop souvent résumé aux grands monuments de l’hypercentre, alors que nombreux quartiers regorgent de trésors. Pour vous emmener à la découverte de ce patrimoine remarquable mais méconnu,le Rallye du Patrimoinevous invite à sortir des sentiers battus en vous ouvrant les portes de lieux rarement accessibles au public. Pour cette première édition, cap sur Outremeuse, un quartier insulaire entre Ourthe et Meuse qui a conservé de nombreuses traces de sa riche histoire. Une plongée dans les anciennes ruelles, à la découverte de nombreux lieux emblématiques : • musée Grétry,• musée Tchantchès et Nanèsse (République libre d’Outremeuse),• ancien Institut d’Anatomie (ULiège),• fresque de Paul Delvaux (ULiège),• église Saint-Pholien,• salle capitulaire du XIVe siècle (ESA Saint-Luc),• ancienne Maternité de Bavière (Académie Grétry),• église Saint-Nicolas (Vierge noire),• ancien couvent des Récollets (Auberge de Jeunesse). Le Rallye du Patrimoine, c’est donc une occasion unique de découvrir, en famille ou entre amis, la richesse d’un quartier de Liège. De nombreuses animations sont prévues à l’Auberge de Jeunesse de Liège entre 15h45 et 17h45 : jeux en bois, atelier dessins, sérigraphie de vêtements par les étudiants de l’ESA Saint-Luc (venez « personnaliser » vos vêtements !), spectacle de marionnettes à 16h15 et 17h, et visite guidée de la maison « Chabot » (Art Déco) à 15h45 et 16h45. • Samedi 25 avril 2026.• Participation gratuite.• Questionnaire pour les enfants (moins de 13 ans) et les adultes.• Départ et arrivée à l’Auberge de Jeunesse de Liège, rue Georges Simenon 2 à 4020 Liège.• Départ entre 13h15 et 15h30• Proclamation des résultats à 17h45 à l’Auberge de Jeunesse de Liège.• Réservation recommandée viale formulaire en ligneou par téléphone au04 258 61 24. Plus d’informations: [email protected] 04 258 61 24",
+      "category": "Visite - balade",
+      "location": {
+        "venue": "Auberge de Jeunesse Georges Simenon",
+        "address": "",
+        "postal_code": "",
+        "city": "Liège"
+      },
+      "dates": {
+        "schedules": [
+          "25/04/2026 de 13:15 à 19:00"
+        ],
+        "start": "25-04-2026 13:15",
+        "end": "25-04-2026 19:00"
+      },
+      "pricing": "Gratuit",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": "https://www.liege.be/fr/annuaire/politique/cabinet-de-mme-carine-clotuche"
+      },
+      "accessibility": true,
+      "url_image": "",
+      "organiser": "Cabinet de Mme Carine CLOTUCHE, Échevine des Finances, de l'Environnement et de la Biodiversité, du Patrimoine et de l'Égalité Hommes-Femmes",
+      "parsed_at": "2026-04-08T07:49:37.057838+00:00"
+    },
+    {
+      "id": "49e98c93e055",
+      "url": "https://www.liege.be/fr/evenements/liege-bastogne-liege",
+      "title": "Liège-Bastogne-Liège",
+      "description": "La mythique course cycliste Liège-Bastogne-Liège revient le dimanche 26 avril, quai des Ardennes. La veille, samedi 25 avril, la présentation des équipes se fera sur l’espace Tivoli entre 13h30 et 16h30. Des animations sur le site sont prévues par les organisateurs et leurs partenaires (dont la Ville de Liège). Les mesures de circulation mises en place par la Police de Liège seront publiées ultérieurement. Nous vous attendons nombreux pour encourager les coureurs et profiter de l’ambiance unique de l’un des moments forts du cyclisme !",
+      "category": "Sport",
+      "location": {
+        "venue": "",
+        "address": "",
+        "postal_code": "",
+        "city": "Liège"
+      },
+      "dates": {
+        "schedules": [
+          "26/04/2026"
+        ],
+        "start": "26-04-2026 00:00",
+        "end": "26-04-2026 23:59"
+      },
+      "pricing": "",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": "https://www.liege-bastogne-liege.be/fr"
+      },
+      "accessibility": true,
+      "url_image": "https://www.liege.be/fr/evenements/images/w-affiche-lbl.jpg/@@images/aaaa844a-e3e3-48e8-b731-4fa656fcb431.jpeg",
+      "organiser": "Liège Bastogne Liège",
+      "parsed_at": "2026-04-08T07:49:39.841473+00:00"
+    },
+    {
+      "id": "05d9d2f4cbc7",
+      "url": "https://www.liege.be/fr/evenements/festival-international-du-film-de-comedie-de-liege-2026",
+      "title": "Festival International du Film de Comédie de Liège 2026",
+      "description": "Le Festival International du Film de Comédie de Liège (le « FIFCL ») fête sa 11ᵉ édition ! Depuis 2016, il est le seul festival en Europe entièrement dédié aux comédies internationales, accueillant films, équipes et invités de prestige tels que Jean Reno, Carole Bouquet, Nathalie Baye, Benoît Poelvoorde, Lambert Wilson ou Dany Boon. Chaque année, près de 22 000 festivaliers se retrouvent à Liège pour célébrer tous les visages de la comédie dans une atmosphère conviviale et festive. Lieux :Palais des Congrès, cinémas Palace, Sauvenière, Le Parc, Churchill, ainsi que le Walk of Fame situé rue Pont d’Avroy.",
+      "category": "Cinéma",
+      "location": {
+        "venue": "",
+        "address": "",
+        "postal_code": "",
+        "city": "Liège"
+      },
+      "dates": {
+        "schedules": [
+          "10/11/2026 11/11/2026 12/11/2026 13/11/2026 14/11/2026 Toutes les dates"
+        ],
+        "start": "10-11-2026 00:00",
+        "end": "10-11-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": "https://www.fifcl.be/"
+      },
+      "accessibility": true,
+      "url_image": "https://www.liege.be/fr/evenements/images/fifcl-or-bandeau.png/@@images/97d18af0-83f7-4e61-91cf-f3743a951fc1.png",
+      "organiser": "Festival International du Film de Comédie de Liège",
+      "parsed_at": "2026-04-08T07:49:48.657576+00:00"
+    }
+  ]
+}

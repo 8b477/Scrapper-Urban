@@ -1,0 +1,1687 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Centre de Contrôle - Site de la Ville Scraper</title>
+		<style>
+			:root {
+				--bg: #0f1117;
+				--surface: #1a1d27;
+				--surface2: #242836;
+				--border: #2e3345;
+				--text: #e4e6f0;
+				--text-dim: #8b8fa3;
+				--accent: #6c5ce7;
+				--accent-hover: #7f71ed;
+				--green: #00b894;
+				--orange: #fdcb6e;
+				--red: #e17055;
+				--blue: #74b9ff;
+			}
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+			}
+			body {
+				font-family:
+					"Segoe UI",
+					system-ui,
+					-apple-system,
+					sans-serif;
+				background: var(--bg);
+				color: var(--text);
+				min-height: 100vh;
+			}
+			.header {
+				background: var(--surface);
+				border-bottom: 1px solid var(--border);
+				padding: 16px 32px;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+			}
+			.header h1 {
+				font-size: 20px;
+				font-weight: 600;
+				display: flex;
+				align-items: center;
+				gap: 10px;
+			}
+			.header h1 span {
+				color: var(--accent);
+			}
+			.header-status {
+				display: flex;
+				align-items: center;
+				gap: 16px;
+				font-size: 13px;
+				color: var(--text-dim);
+			}
+			.status-dot {
+				width: 8px;
+				height: 8px;
+				border-radius: 50%;
+				background: var(--green);
+				display: inline-block;
+			}
+			.container {
+				max-width: 1400px;
+				margin: 0 auto;
+				padding: 24px;
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				gap: 24px;
+			}
+			.full-width {
+				grid-column: 1 / -1;
+			}
+			.card {
+				background: var(--surface);
+				border: 1px solid var(--border);
+				border-radius: 12px;
+				overflow: hidden;
+			}
+			.card-header {
+				padding: 16px 20px;
+				border-bottom: 1px solid var(--border);
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+			}
+			.card-header h2 {
+				font-size: 15px;
+				font-weight: 600;
+			}
+			.card-body {
+				padding: 20px;
+			}
+			.city-grid {
+				display: grid;
+				grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+				gap: 16px;
+			}
+			.city-card {
+				background: var(--surface2);
+				border: 1px solid var(--border);
+				border-radius: 10px;
+				padding: 18px;
+				transition: border-color 0.2s;
+				cursor: default;
+			}
+			.city-card:hover {
+				border-color: var(--accent);
+			}
+			.city-name {
+				font-size: 16px;
+				font-weight: 600;
+				text-transform: capitalize;
+				margin-bottom: 12px;
+				display: flex;
+				align-items: center;
+				gap: 8px;
+			}
+			.city-name .icon {
+				font-size: 18px;
+			}
+			.city-stats {
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				gap: 8px;
+				margin-bottom: 14px;
+			}
+			.stat {
+				font-size: 12px;
+				color: var(--text-dim);
+			}
+			.stat-value {
+				font-size: 18px;
+				font-weight: 700;
+				color: var(--text);
+			}
+			.city-actions {
+				display: flex;
+				gap: 8px;
+				flex-wrap: wrap;
+			}
+			.btn {
+				padding: 8px 14px;
+				border: none;
+				border-radius: 7px;
+				font-size: 12px;
+				font-weight: 600;
+				cursor: pointer;
+				transition: all 0.15s;
+				display: inline-flex;
+				align-items: center;
+				gap: 5px;
+				text-decoration: none;
+			}
+			.btn:disabled {
+				opacity: 0.5;
+				cursor: not-allowed;
+			}
+			.btn-primary {
+				background: var(--accent);
+				color: white;
+			}
+			.btn-primary:hover:not(:disabled) {
+				background: var(--accent-hover);
+			}
+			.btn-secondary {
+				background: var(--surface2);
+				color: var(--text);
+				border: 1px solid var(--border);
+			}
+			.btn-secondary:hover:not(:disabled) {
+				background: var(--border);
+			}
+			.btn-success {
+				background: var(--green);
+				color: white;
+			}
+			.btn-success:hover:not(:disabled) {
+				filter: brightness(1.1);
+			}
+			.btn-orange {
+				background: var(--orange);
+				color: #1a1d27;
+			}
+			.btn-orange:hover:not(:disabled) {
+				filter: brightness(1.1);
+			}
+			.btn-sm {
+				padding: 6px 10px;
+				font-size: 11px;
+			}
+			.btn-lg {
+				padding: 10px 20px;
+				font-size: 14px;
+			}
+			.action-panel {
+				display: flex;
+				flex-direction: column;
+				gap: 16px;
+			}
+			.action-row {
+				display: flex;
+				align-items: center;
+				gap: 12px;
+				flex-wrap: wrap;
+			}
+			select,
+			input[type="number"] {
+				background: var(--surface2);
+				border: 1px solid var(--border);
+				border-radius: 7px;
+				padding: 8px 12px;
+				color: var(--text);
+				font-size: 13px;
+				outline: none;
+			}
+			select:focus,
+			input[type="number"]:focus {
+				border-color: var(--accent);
+			}
+			label {
+				font-size: 13px;
+				color: var(--text-dim);
+				font-weight: 500;
+			}
+			.console {
+				background: #0a0c10;
+				border: 1px solid var(--border);
+				border-radius: 8px;
+				font-family: "Cascadia Code", "Fira Code", "Consolas", monospace;
+				font-size: 12px;
+				line-height: 1.6;
+				max-height: 400px;
+				overflow-y: auto;
+				padding: 14px;
+			}
+			.console-line {
+				color: var(--text-dim);
+				white-space: pre-wrap;
+				word-break: break-all;
+			}
+			.console-line.success {
+				color: var(--green);
+			}
+			.console-line.error {
+				color: var(--red);
+			}
+			.console-line.info {
+				color: var(--blue);
+			}
+			.console-line.separator {
+				color: var(--accent);
+			}
+			.console-empty {
+				color: var(--text-dim);
+				font-style: italic;
+				text-align: center;
+				padding: 30px;
+			}
+			.task-list {
+				max-height: 300px;
+				overflow-y: auto;
+			}
+			.task-item {
+				display: flex;
+				align-items: center;
+				gap: 12px;
+				padding: 10px 14px;
+				border-bottom: 1px solid var(--border);
+				font-size: 13px;
+			}
+			.task-item:last-child {
+				border-bottom: none;
+			}
+			.task-badge {
+				padding: 3px 8px;
+				border-radius: 4px;
+				font-size: 11px;
+				font-weight: 600;
+				text-transform: uppercase;
+				white-space: nowrap;
+			}
+			.task-badge.pending {
+				background: var(--surface2);
+				color: var(--text-dim);
+			}
+			.task-badge.running {
+				background: rgba(116, 185, 255, 0.15);
+				color: var(--blue);
+			}
+			.task-badge.success {
+				background: rgba(0, 184, 148, 0.15);
+				color: var(--green);
+			}
+			.task-badge.error {
+				background: rgba(225, 112, 85, 0.15);
+				color: var(--red);
+			}
+			.task-label {
+				flex: 1;
+			}
+			.task-time {
+				color: var(--text-dim);
+				font-size: 11px;
+			}
+
+			/* Modal */
+			.modal-overlay {
+				display: none;
+				position: fixed;
+				inset: 0;
+				background: rgba(0, 0, 0, 0.7);
+				z-index: 1000;
+				justify-content: center;
+				align-items: center;
+			}
+			.modal-overlay.active {
+				display: flex;
+			}
+			.modal {
+				background: var(--surface);
+				border: 1px solid var(--border);
+				border-radius: 14px;
+				width: 90%;
+				max-width: 900px;
+				max-height: 85vh;
+				overflow: hidden;
+				display: flex;
+				flex-direction: column;
+			}
+			.modal-header {
+				padding: 18px 24px;
+				border-bottom: 1px solid var(--border);
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+			}
+			.modal-header h2 {
+				font-size: 17px;
+			}
+			.modal-close {
+				background: none;
+				border: none;
+				color: var(--text-dim);
+				font-size: 22px;
+				cursor: pointer;
+				padding: 4px 8px;
+				border-radius: 6px;
+			}
+			.modal-close:hover {
+				background: var(--surface2);
+				color: var(--text);
+			}
+			.modal-body {
+				padding: 20px 24px;
+				overflow-y: auto;
+				flex: 1;
+			}
+			.modal-footer {
+				padding: 14px 24px;
+				border-top: 1px solid var(--border);
+				display: flex;
+				justify-content: flex-end;
+				gap: 10px;
+			}
+
+			/* Confirm modal specifics */
+			.confirm-icon {
+				font-size: 36px;
+				margin-bottom: 12px;
+			}
+			.confirm-title {
+				font-size: 16px;
+				font-weight: 600;
+				margin-bottom: 8px;
+			}
+			.confirm-desc {
+				font-size: 13px;
+				color: var(--text-dim);
+				line-height: 1.6;
+				margin-bottom: 16px;
+			}
+			.confirm-detail {
+				background: var(--surface2);
+				border: 1px solid var(--border);
+				border-radius: 8px;
+				padding: 12px 16px;
+				font-size: 12px;
+				margin-bottom: 16px;
+			}
+			.confirm-detail dt {
+				color: var(--text-dim);
+				margin-bottom: 2px;
+			}
+			.confirm-detail dd {
+				color: var(--text);
+				font-weight: 600;
+				margin-bottom: 8px;
+			}
+			.confirm-detail dd:last-child {
+				margin-bottom: 0;
+			}
+			.cache-warning {
+				background: rgba(253, 203, 110, 0.1);
+				border: 1px solid rgba(253, 203, 110, 0.3);
+				border-radius: 8px;
+				padding: 12px 16px;
+				margin-bottom: 16px;
+				font-size: 12px;
+			}
+			.cache-warning strong {
+				color: var(--orange);
+			}
+			.json-link {
+				display: inline-flex;
+				align-items: center;
+				gap: 6px;
+				color: var(--blue);
+				font-size: 12px;
+				text-decoration: none;
+				padding: 4px 10px;
+				border-radius: 5px;
+				background: rgba(116, 185, 255, 0.1);
+				transition: background 0.15s;
+			}
+			.json-link:hover {
+				background: rgba(116, 185, 255, 0.2);
+			}
+
+			/* Event list */
+			.event-item {
+				padding: 14px;
+				border: 1px solid var(--border);
+				border-radius: 8px;
+				margin-bottom: 10px;
+				background: var(--surface2);
+			}
+			.event-title {
+				font-weight: 600;
+				font-size: 14px;
+				margin-bottom: 6px;
+			}
+			.event-meta {
+				font-size: 12px;
+				color: var(--text-dim);
+				display: flex;
+				gap: 16px;
+				flex-wrap: wrap;
+			}
+			.event-meta span {
+				display: inline-flex;
+				align-items: center;
+				gap: 4px;
+			}
+
+			/* Checkbox toggle */
+			.toggle-row {
+				display: flex;
+				align-items: center;
+				gap: 8px;
+				margin-top: 8px;
+			}
+			.toggle {
+				position: relative;
+				width: 36px;
+				height: 20px;
+				cursor: pointer;
+			}
+			.toggle input {
+				opacity: 0;
+				width: 0;
+				height: 0;
+			}
+			.toggle-slider {
+				position: absolute;
+				inset: 0;
+				background: var(--border);
+				border-radius: 10px;
+				transition: 0.2s;
+			}
+			.toggle-slider::before {
+				content: "";
+				position: absolute;
+				width: 14px;
+				height: 14px;
+				left: 3px;
+				bottom: 3px;
+				background: white;
+				border-radius: 50%;
+				transition: 0.2s;
+			}
+			.toggle input:checked + .toggle-slider {
+				background: var(--orange);
+			}
+			.toggle input:checked + .toggle-slider::before {
+				transform: translateX(16px);
+			}
+
+			/* Checkbox city selector */
+			.city-selector {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 6px;
+				margin-top: 8px;
+			}
+			.city-chip {
+				display: inline-flex;
+				align-items: center;
+				gap: 5px;
+				padding: 5px 10px;
+				border-radius: 6px;
+				font-size: 12px;
+				font-weight: 600;
+				cursor: pointer;
+				border: 1px solid var(--border);
+				background: var(--surface2);
+				color: var(--text-dim);
+				transition: all 0.15s;
+				user-select: none;
+			}
+			.city-chip:hover {
+				border-color: var(--accent);
+				color: var(--text);
+			}
+			.city-chip.selected {
+				background: rgba(108, 92, 231, 0.2);
+				border-color: var(--accent);
+				color: var(--text);
+			}
+			.city-chip input[type="checkbox"] {
+				display: none;
+			}
+			.chip-check {
+				width: 14px;
+				height: 14px;
+				border: 2px solid var(--border);
+				border-radius: 3px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				font-size: 10px;
+				transition: all 0.15s;
+			}
+			.city-chip.selected .chip-check {
+				background: var(--accent);
+				border-color: var(--accent);
+			}
+			.select-all-btn {
+				font-size: 11px;
+				color: var(--accent);
+				cursor: pointer;
+				background: none;
+				border: none;
+				padding: 4px 8px;
+				font-weight: 600;
+			}
+			.select-all-btn:hover {
+				text-decoration: underline;
+			}
+			/* Export section */
+			.export-grid {
+				display: grid;
+				grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+				gap: 10px;
+			}
+			.export-card {
+				background: var(--surface2);
+				border: 1px solid var(--border);
+				border-radius: 8px;
+				padding: 12px;
+				display: flex;
+				flex-direction: column;
+				gap: 8px;
+			}
+			.export-card-name {
+				font-size: 14px;
+				font-weight: 600;
+				text-transform: capitalize;
+			}
+			.export-card-meta {
+				font-size: 11px;
+				color: var(--text-dim);
+			}
+			.export-btns {
+				display: flex;
+				gap: 6px;
+				flex-wrap: wrap;
+			}
+			::-webkit-scrollbar {
+				width: 6px;
+			}
+			::-webkit-scrollbar-track {
+				background: transparent;
+			}
+			::-webkit-scrollbar-thumb {
+				background: var(--border);
+				border-radius: 3px;
+			}
+			::-webkit-scrollbar-thumb:hover {
+				background: var(--text-dim);
+			}
+			@media (max-width: 768px) {
+				.container {
+					grid-template-columns: 1fr;
+					padding: 16px;
+				}
+				.city-grid {
+					grid-template-columns: 1fr;
+				}
+				.header {
+					padding: 14px 16px;
+				}
+			}
+			.spinner {
+				display: inline-block;
+				width: 14px;
+				height: 14px;
+				border: 2px solid rgba(255, 255, 255, 0.3);
+				border-top-color: white;
+				border-radius: 50%;
+				animation: spin 0.7s linear infinite;
+			}
+			@keyframes spin {
+				to {
+					transform: rotate(360deg);
+				}
+			}
+			.pulse {
+				animation: pulse-anim 1.5s infinite;
+			}
+			@keyframes pulse-anim {
+				0%,
+				100% {
+					opacity: 1;
+				}
+				50% {
+					opacity: 0.4;
+				}
+			}
+
+			/* ── NAVBAR STYLES ── */
+			.navbar {
+				background: var(--surface);
+				border-bottom: 1px solid var(--border);
+				padding: 0 32px;
+				display: flex;
+				align-items: center;
+				height: 60px;
+				gap: 40px;
+				box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+			}
+			.navbar-brand {
+				font-size: 16px;
+				font-weight: 700;
+				color: var(--accent);
+				display: flex;
+				align-items: center;
+				gap: 8px;
+				text-decoration: none;
+				white-space: nowrap;
+				transition: color 0.2s;
+			}
+			.navbar-brand:hover {
+				color: var(--accent-hover);
+			}
+			.nav-links {
+				display: flex;
+				gap: 24px;
+				list-style: none;
+				margin: 0;
+				padding: 0;
+				flex: 1;
+			}
+			.nav-link {
+				color: var(--text-dim);
+				text-decoration: none;
+				font-size: 13px;
+				font-weight: 500;
+				transition: color 0.2s;
+				padding: 20px 0;
+				border-bottom: 2px solid transparent;
+				display: inline-flex;
+				align-items: center;
+				gap: 6px;
+			}
+			.nav-link:hover {
+				color: var(--text);
+				border-bottom-color: var(--accent);
+			}
+			.nav-link.active {
+				color: var(--accent);
+				border-bottom-color: var(--accent);
+			}
+		</style>
+	</head>
+	<body>
+		<!-- Navigation Bar -->
+		<nav class="navbar">
+			<a href="http://localhost:5001" class="navbar-brand">🏢 Site de la Ville</a>
+			<ul class="nav-links">
+				<li><a href="http://localhost:5000" class="nav-link">📦 Quefaire.be</a></li>
+				<li><a href="http://localhost:5001" class="nav-link active">🏢 Site de la Ville</a></li>
+			</ul>
+		</nav>
+
+		<div class="header">
+			<h1>
+				<svg
+					width="24"
+					height="24"
+					viewBox="0 0 24 24"
+					fill="none"
+					stroke="currentColor"
+					stroke-width="2"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					style="color: var(--accent)">
+					<rect x="4" y="2" width="16" height="20" rx="2" ry="2" />
+					<line x1="9" y1="6" x2="15" y2="6" />
+					<line x1="9" y1="10" x2="15" y2="10" />
+					<line x1="9" y1="14" x2="15" y2="14" />
+					<line x1="9" y1="18" x2="15" y2="18" />
+				</svg>
+				<span>Site de la Ville</span> Scraper
+			</h1>
+			<div class="header-status">
+				<span><span class="status-dot"></span> Serveur actif</span>
+				<span id="clock"></span>
+			</div>
+		</div>
+
+		<div class="container">
+			<!-- Cities Overview -->
+			<div class="card full-width">
+				<div class="card-header">
+					<h2>&#127963; Villes</h2>
+					<button class="btn btn-sm btn-secondary" onclick="refreshCities()">&#8635; Rafraîchir</button>
+				</div>
+				<div class="card-body">
+					<div class="city-grid" id="cityGrid">
+						<div class="console-empty">Chargement...</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Actions -->
+			<div class="card">
+				<div class="card-header">
+					<h2>&#9881; Actions</h2>
+				</div>
+				<div class="card-body action-panel">
+					<div>
+						<label>Scraper l'agenda</label>
+						<div style="display: flex; align-items: center; gap: 8px; margin-top: 6px">
+							<span style="font-size: 12px; color: var(--text-dim)">Villes:</span>
+							<button class="select-all-btn" onclick="toggleAllCities('url')">Tout sélectionner</button>
+						</div>
+						<div class="city-selector" id="urlCitySelector"></div>
+						<div class="action-row" style="margin-top: 10px">
+							<button class="btn btn-primary" onclick="confirmExtractUrls()" id="btnExtractUrls">
+								&#9654; Scraper l'agenda
+							</button>
+						</div>
+						<div class="toggle-row">
+							<label class="toggle"><input type="checkbox" id="forceUrls" /><span class="toggle-slider"></span></label>
+							<label style="cursor: pointer" onclick="document.getElementById('forceUrls').click()"
+								>Forcer (ignorer le cache)</label
+							>
+						</div>
+					</div>
+					<hr style="border: none; border-top: 1px solid var(--border)" />
+					<div>
+						<label>Scraper les détails</label>
+						<div style="display: flex; align-items: center; gap: 8px; margin-top: 6px">
+							<span style="font-size: 12px; color: var(--text-dim)">Villes:</span>
+							<button class="select-all-btn" onclick="toggleAllCities('detail')">Tout sélectionner</button>
+						</div>
+						<div class="city-selector" id="detailCitySelector"></div>
+						<div class="action-row" style="margin-top: 10px">
+							<label>Max events:</label>
+							<input type="number" id="maxEvents" placeholder="Tous" min="1" style="width: 80px" />
+							<button class="btn btn-success" onclick="confirmExtractDetails()" id="btnExtractDetails">
+								&#9654; Scraper Détails
+							</button>
+						</div>
+						<div class="toggle-row">
+							<label class="toggle"
+								><input type="checkbox" id="forceDetails" /><span class="toggle-slider"></span
+							></label>
+							<label style="cursor: pointer" onclick="document.getElementById('forceDetails').click()"
+								>Forcer (ignorer le cache)</label
+							>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Export JSON -->
+			<div class="card">
+				<div class="card-header">
+					<h2>&#128229; Export JSON</h2>
+					<button class="btn btn-sm btn-secondary" onclick="refreshCities()">&#8635; Rafraîchir</button>
+				</div>
+				<div class="card-body">
+					<div class="export-grid" id="exportGrid">
+						<div class="console-empty">Chargement...</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Task History -->
+			<div class="card">
+				<div class="card-header">
+					<h2>&#128203; Tâches</h2>
+					<span id="taskCount" style="font-size: 12px; color: var(--text-dim)"></span>
+				</div>
+				<div class="card-body" style="padding: 0">
+					<div class="task-list" id="taskList">
+						<div class="console-empty">Aucune tâche lancée</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Console -->
+			<div class="card full-width">
+				<div class="card-header">
+					<h2>&#128424; Console</h2>
+					<div style="display: flex; gap: 8px; align-items: center">
+						<span id="consoleTaskLabel" style="font-size: 12px; color: var(--text-dim)"></span>
+						<button class="btn btn-sm btn-secondary" onclick="clearConsole()">Effacer</button>
+					</div>
+				</div>
+				<div class="card-body" style="padding: 12px">
+					<div class="console" id="console">
+						<div class="console-empty">En attente d'une commande...</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Confirm Modal -->
+		<div class="modal-overlay" id="confirmModal" onclick="if (event.target === this) closeConfirmModal();">
+			<div class="modal" style="max-width: 520px">
+				<div class="modal-header">
+					<h2 id="confirmModalTitle">Confirmation</h2>
+					<button class="modal-close" onclick="closeConfirmModal()">&times;</button>
+				</div>
+				<div class="modal-body" id="confirmModalBody"></div>
+				<div class="modal-footer">
+					<button class="btn btn-secondary" onclick="closeConfirmModal()">Annuler</button>
+					<button class="btn btn-primary" id="confirmModalBtn" onclick="executeConfirmedAction()">Confirmer</button>
+				</div>
+			</div>
+		</div>
+
+		<!-- Events Modal -->
+		<div class="modal-overlay" id="eventsModal" onclick="if (event.target === this) closeEventsModal();">
+			<div class="modal">
+				<div class="modal-header">
+					<h2 id="modalTitle">Événements</h2>
+					<button class="modal-close" onclick="closeEventsModal()">&times;</button>
+				</div>
+				<div class="modal-body" id="modalBody"></div>
+			</div>
+		</div>
+
+		<script>
+			let currentTaskId = null;
+			let pollInterval = null;
+			let citiesData = [];
+			let pendingAction = null;
+
+			// Mapping slug → nom affiché
+			const CITY_NAMES = {
+				charleroi: "Charleroi",
+				lalouviere: "La Louvière",
+				liege: "Liège",
+				mons: "Mons",
+				namur: "Namur",
+			};
+
+			// ─── Init ──────────────────────────────────
+			document.addEventListener("DOMContentLoaded", () => {
+				refreshCities();
+				refreshTasks();
+				updateClock();
+				setInterval(updateClock, 1000);
+				setInterval(refreshTasks, 3000);
+			});
+
+			function updateClock() {
+				document.getElementById("clock").textContent = new Date().toLocaleTimeString("fr-FR");
+			}
+
+			// ─── Cities ────────────────────────────────
+			async function refreshCities() {
+				try {
+					const res = await fetch("/api/cities");
+					citiesData = await res.json();
+					renderCities(citiesData);
+					populateSelects(citiesData);
+				} catch (e) {
+					console.error("Erreur chargement villes:", e);
+				}
+			}
+
+			function renderCities(cities) {
+				const grid = document.getElementById("cityGrid");
+				if (!cities.length) {
+					grid.innerHTML = '<div class="console-empty">Aucune ville configurée</div>';
+					return;
+				}
+				grid.innerHTML = cities
+					.map((c) => {
+						const lastExec = c.metadata?.last_execution;
+						const statusText = lastExec?.status || "N/A";
+						const statusColor = statusText === "SUCCESS" ? "var(--green)" : "var(--text-dim)";
+						const lastDate =
+							c.metadata?.last_execution?.timestamp ?
+								new Date(c.metadata.last_execution.timestamp).toLocaleDateString("fr-FR", {
+									day: "2-digit",
+									month: "2-digit",
+									year: "numeric",
+									hour: "2-digit",
+									minute: "2-digit",
+								})
+							:	"\u2014";
+						const jsonLink =
+							c.has_data ?
+								`<a class="json-link" href="/api/city/${c.city}/json" target="_blank" title="Ouvrir le JSON brut">&#128196; JSON</a>`
+							:	"";
+						return `
+				<div class="city-card">
+					<div class="city-name">
+						<span class="icon">&#128205;</span>
+						${formatCityName(c.city)}
+						${jsonLink}
+					</div>
+					<div class="city-stats">
+						<div class="stat"><div class="stat-value">${c.urls_count || 0}</div>URLs</div>
+						<div class="stat"><div class="stat-value">${c.events_count || 0}</div>Événements</div>
+						<div class="stat">
+							<div style="font-size:12px;color:${statusColor};font-weight:600">${statusText}</div>
+							Dernier statut
+						</div>
+						<div class="stat">
+							<div style="font-size:12px;color:var(--text)">${lastDate}</div>
+							Dernière exec.
+						</div>
+					</div>
+					<div class="city-actions">
+						<button class="btn btn-sm btn-primary" onclick="viewUrls('${c.city}')" ${c.urls_count > 0 ? "" : 'disabled title="Aucune URL disponible"'}>&#128279; URLs (${c.urls_count || 0})</button>
+						<button class="btn btn-sm btn-success" onclick="viewDetails('${c.city}')" ${c.has_data ? "" : 'disabled title="Aucune donnée disponible"'}>&#128202; Détails</button>
+						${c.events_count > 0 ? `<button class="btn btn-sm btn-secondary" onclick="viewEvents('${c.city}')">&#128065; Events</button>` : ""}
+					</div>
+				</div>`;
+					})
+					.join("");
+			}
+
+			function populateSelects(cities) {
+				const urlSelector = document.getElementById("urlCitySelector");
+				const detailSelector = document.getElementById("detailCitySelector");
+				urlSelector.innerHTML = "";
+				detailSelector.innerHTML = "";
+				cities.forEach((c) => {
+					const name = formatCityName(c.city);
+					urlSelector.innerHTML += `<label class="city-chip" onclick="toggleChip(this)"><input type="checkbox" value="${c.city}" data-group="url"><span class="chip-check">&#10003;</span>${name}</label>`;
+					detailSelector.innerHTML += `<label class="city-chip" onclick="toggleChip(this)"><input type="checkbox" value="${c.city}" data-group="detail"><span class="chip-check">&#10003;</span>${name}</label>`;
+				});
+				renderExportGrid(cities);
+			}
+
+			function toggleChip(chip) {
+				const cb = chip.querySelector('input[type="checkbox"]');
+				cb.checked = !cb.checked;
+				chip.classList.toggle("selected", cb.checked);
+			}
+
+			function toggleAllCities(group) {
+				const selector = group === "url" ? "urlCitySelector" : "detailCitySelector";
+				const chips = document.getElementById(selector).querySelectorAll(".city-chip");
+				const allSelected = [...chips].every((c) => c.querySelector("input").checked);
+				chips.forEach((chip) => {
+					const cb = chip.querySelector("input");
+					cb.checked = !allSelected;
+					chip.classList.toggle("selected", cb.checked);
+				});
+			}
+
+			function getSelectedCities(group) {
+				const selector = group === "url" ? "urlCitySelector" : "detailCitySelector";
+				const checked = document.getElementById(selector).querySelectorAll("input:checked");
+				return [...checked].map((cb) => cb.value);
+			}
+
+			function renderExportGrid(cities) {
+				const grid = document.getElementById("exportGrid");
+				if (!cities.length) {
+					grid.innerHTML = '<div class="console-empty">Aucune ville</div>';
+					return;
+				}
+				grid.innerHTML = cities
+					.map((c) => {
+						const eventsCount = c.events_count || 0;
+						const urlsCount = c.urls_count || 0;
+						const lastDate =
+							c.metadata?.scrape_date ? new Date(c.metadata.scrape_date).toLocaleDateString("fr-FR") : "—";
+						return `
+					<div class="export-card">
+						<div class="export-card-name">&#128205; ${formatCityName(c.city)}</div>
+						<div class="export-card-meta">${urlsCount} URLs · ${eventsCount} events · ${lastDate}</div>
+						<div class="export-btns">
+							${c.has_data ? `<a class="btn btn-sm btn-primary" href="/api/city/${c.city}/json" download style="text-decoration:none">&#128229; JSON</a>` : '<span style="font-size:11px;color:var(--text-dim)">Pas de données</span>'}
+							${c.has_data ? `<a class="btn btn-sm btn-secondary" href="/api/city/${c.city}/json" target="_blank" style="text-decoration:none">&#128065; Voir</a>` : ""}
+						</div>
+					</div>`;
+					})
+					.join("");
+			}
+
+			function formatCityName(city) {
+				return CITY_NAMES[city] || city.charAt(0).toUpperCase() + city.slice(1);
+			}
+
+			// ─── Confirm Modal Logic ───────────────────
+			function showConfirmModal(title, bodyHtml, action, btnText = "Confirmer", btnClass = "btn-primary") {
+				document.getElementById("confirmModalTitle").textContent = title;
+				document.getElementById("confirmModalBody").innerHTML = bodyHtml;
+				const btn = document.getElementById("confirmModalBtn");
+				btn.textContent = btnText;
+				btn.className = "btn " + btnClass;
+				pendingAction = action;
+				document.getElementById("confirmModal").classList.add("active");
+			}
+
+			function closeConfirmModal() {
+				document.getElementById("confirmModal").classList.remove("active");
+				pendingAction = null;
+			}
+
+			function executeConfirmedAction() {
+				const action = pendingAction;
+				closeConfirmModal();
+				if (action) action();
+			}
+
+			function formatAge(minutes) {
+				if (minutes < 60) return `${minutes} min`;
+				const h = Math.floor(minutes / 60);
+				const m = minutes % 60;
+				return m > 0 ? `${h}h ${m}min` : `${h}h`;
+			}
+
+			// ─── Confirm Extract URLs (Agenda) ─────────
+			async function confirmExtractUrls() {
+				const selectedCities = getSelectedCities("url");
+				const force = document.getElementById("forceUrls").checked;
+				const cityLabel =
+					selectedCities.length === 0 ? "Toutes les villes"
+					: selectedCities.length === citiesData.length ? "Toutes les villes"
+					: selectedCities.map(formatCityName).join(", ");
+				const isAll = selectedCities.length === 0 || selectedCities.length === citiesData.length;
+
+				// Check cache
+				if (!force && !isAll) {
+					for (const city of selectedCities) {
+						const cacheRes = await fetch("/api/cache/check", {
+							method: "POST",
+							headers: { "Content-Type": "application/json" },
+							body: JSON.stringify({ city, action: "urls" }),
+						});
+						const cache = await cacheRes.json();
+						if (cache.cached) {
+							const cacheDetails = [];
+							for (const c of selectedCities) {
+								const r = await fetch("/api/cache/check", {
+									method: "POST",
+									headers: { "Content-Type": "application/json" },
+									body: JSON.stringify({ city: c, action: "urls" }),
+								});
+								const cr = await r.json();
+								cacheDetails.push(
+									`<dd>${formatCityName(c)}: ${cr.cached ? formatAge(cr.age_minutes) : "pas de cache"}</dd>`,
+								);
+							}
+							showConfirmModal(
+								"Données en cache",
+								`<div class="confirm-icon">&#9888;&#65039;</div>
+								<div class="cache-warning"><strong>Cache actif</strong> — Certaines villes ont déjà été scrapées récemment.</div>
+								<div class="confirm-detail"><dt>Âge par ville</dt>${cacheDetails.join("")}</div>
+								<p style="font-size:12px;color:var(--text-dim)">Activez <strong>"Forcer"</strong> ou confirmez pour relancer.</p>`,
+								() => doExtractUrls(selectedCities),
+								"Lancer quand même",
+								"btn-orange",
+							);
+							return;
+						}
+					}
+				}
+
+				if (!force && isAll) {
+					const cacheRes = await fetch("/api/cache/check", {
+						method: "POST",
+						headers: { "Content-Type": "application/json" },
+						body: JSON.stringify({ city: "", action: "urls" }),
+					});
+					const cache = await cacheRes.json();
+					if (cache.all_cached) {
+						const details = Object.entries(cache.cities)
+							.map(([c, v]) => `<dd>${formatCityName(c)}: ${v.cached ? formatAge(v.age_minutes) : "pas de cache"}</dd>`)
+							.join("");
+						showConfirmModal(
+							"Données en cache",
+							`<div class="confirm-icon">&#9888;&#65039;</div>
+							<div class="cache-warning"><strong>Cache actif</strong> — Toutes les villes ont été scrapées récemment (&lt; 12h).</div>
+							<div class="confirm-detail"><dt>Âge par ville</dt>${details}</div>
+							<p style="font-size:12px;color:var(--text-dim)">Activez <strong>"Forcer"</strong> ou confirmez pour relancer.</p>`,
+							() => doExtractUrls(selectedCities),
+							"Lancer quand même",
+							"btn-orange",
+						);
+						return;
+					}
+				}
+
+				// No cache hit — show normal confirm
+				showConfirmModal(
+					"Scraper l'agenda",
+					`<div class="confirm-icon">&#128269;</div>
+					<div class="confirm-title">Scraping de l'agenda municipal</div>
+					<div class="confirm-desc">
+						Ce script va se connecter au <strong>site municipal</strong> de chaque ville sélectionnée
+						et récupérer la liste des événements publiés sur leur agenda en ligne.
+						Les URLs seront sauvegardées dans le fichier JSON.
+					</div>
+					<div class="confirm-detail">
+						<dt>Ville(s)</dt><dd>${cityLabel}</dd>
+						<dt>Durée estimée</dt><dd>~15-30 secondes par ville</dd>
+					</div>
+					${force ? '<p style="font-size:12px;color:var(--orange);font-weight:600">&#9889; Mode forcé — le cache sera ignoré</p>' : ""}`,
+					() => doExtractUrls(selectedCities),
+					"Lancer le scraping",
+					"btn-primary",
+				);
+			}
+
+			function confirmExtractUrlsCity(city) {
+				const chips = document.getElementById("urlCitySelector").querySelectorAll(".city-chip");
+				chips.forEach((chip) => {
+					const cb = chip.querySelector("input");
+					const match = cb.value === city;
+					cb.checked = match;
+					chip.classList.toggle("selected", match);
+				});
+				confirmExtractUrls();
+			}
+
+			async function doExtractUrls(cities) {
+				const btn = document.getElementById("btnExtractUrls");
+				btn.disabled = true;
+				btn.innerHTML = '<span class="spinner"></span> En cours...';
+				try {
+					// Toujours envoyer une liste de villes pour bénéficier du parallélisme
+					const allCities =
+						cities.length === 0 || cities.length === citiesData.length ? citiesData.map((c) => c.city) : cities;
+					const body = allCities.length === 1 ? { city: allCities[0] } : { cities: allCities };
+
+					const res = await fetch("/api/run/extract-urls", {
+						method: "POST",
+						headers: { "Content-Type": "application/json" },
+						body: JSON.stringify(body),
+					});
+					const data = await res.json();
+					if (data.task_ids) {
+						watchTasks(data.task_ids);
+					} else if (data.task_id) {
+						watchTasks([data.task_id]);
+					}
+				} catch (e) {
+					appendConsole("Erreur: " + e.message, "error");
+				} finally {
+					btn.disabled = false;
+					btn.innerHTML = "&#9654; Scraper l'agenda";
+				}
+			}
+
+			// ─── Confirm Extract Details ───────────────
+			async function confirmExtractDetails() {
+				const selectedCities = getSelectedCities("detail");
+				const maxEvents = document.getElementById("maxEvents").value;
+				const force = document.getElementById("forceDetails").checked;
+				const isAll = selectedCities.length === 0 || selectedCities.length === citiesData.length;
+				const cityLabel = isAll ? "Toutes les villes" : selectedCities.map(formatCityName).join(", ");
+
+				if (!force && !isAll) {
+					for (const city of selectedCities) {
+						const cacheRes = await fetch("/api/cache/check", {
+							method: "POST",
+							headers: { "Content-Type": "application/json" },
+							body: JSON.stringify({ city, action: "details" }),
+						});
+						const cache = await cacheRes.json();
+						if (cache.cached) {
+							const cacheDetails = [];
+							for (const c of selectedCities) {
+								const r = await fetch("/api/cache/check", {
+									method: "POST",
+									headers: { "Content-Type": "application/json" },
+									body: JSON.stringify({ city: c, action: "details" }),
+								});
+								const cr = await r.json();
+								cacheDetails.push(
+									`<dd>${formatCityName(c)}: ${cr.cached ? formatAge(cr.age_minutes) : "pas de cache"}</dd>`,
+								);
+							}
+							showConfirmModal(
+								"Données en cache",
+								`<div class="confirm-icon">&#9888;&#65039;</div>
+								<div class="cache-warning"><strong>Cache actif</strong> — Certaines villes ont déjà leurs détails scrapés récemment.</div>
+								<div class="confirm-desc">Le scraping des détails visite <strong>chaque page d'événement</strong> sur le site municipal. C'est une opération longue.</div>
+								<div class="confirm-detail"><dt>Âge par ville</dt>${cacheDetails.join("")}</div>
+								<p style="font-size:12px;color:var(--text-dim)">Activez <strong>"Forcer"</strong> ou confirmez pour relancer.</p>`,
+								() => doExtractDetails(selectedCities, maxEvents),
+								"Lancer quand même",
+								"btn-orange",
+							);
+							return;
+						}
+					}
+				}
+
+				if (!force && isAll) {
+					const cacheRes = await fetch("/api/cache/check", {
+						method: "POST",
+						headers: { "Content-Type": "application/json" },
+						body: JSON.stringify({ city: "", action: "details" }),
+					});
+					const cache = await cacheRes.json();
+					if (cache.all_cached) {
+						const details = Object.entries(cache.cities)
+							.map(([c, v]) => `<dd>${formatCityName(c)}: ${v.cached ? formatAge(v.age_minutes) : "pas de cache"}</dd>`)
+							.join("");
+						showConfirmModal(
+							"Données en cache",
+							`<div class="confirm-icon">&#9888;&#65039;</div>
+							<div class="cache-warning"><strong>Cache actif</strong> — Toutes les villes ont leurs détails scrapés récemment.</div>
+							<div class="confirm-detail"><dt>Âge par ville</dt>${details}</div>
+							<p style="font-size:12px;color:var(--text-dim)">Activez <strong>"Forcer"</strong> ou confirmez pour relancer.</p>`,
+							() => doExtractDetails(selectedCities, maxEvents),
+							"Lancer quand même",
+							"btn-orange",
+						);
+						return;
+					}
+				}
+
+				showConfirmModal(
+					"Scraper les détails",
+					`<div class="confirm-icon">&#128196;</div>
+					<div class="confirm-title">Scraping des détails d'événements</div>
+					<div class="confirm-desc">
+						Ce script va visiter <strong>chaque page d'événement</strong> sur le site municipal
+						afin d'extraire les informations complètes : titre, description,
+						lieu, dates, tarif, images, etc.
+					</div>
+					<div class="confirm-detail">
+						<dt>Ville(s)</dt><dd>${cityLabel}</dd>
+						<dt>Max événements</dt><dd>${maxEvents || "Tous"}</dd>
+						<dt>Durée estimée</dt><dd>~2-5 minutes par ville</dd>
+					</div>
+					${force ? '<p style="font-size:12px;color:var(--orange);font-weight:600">&#9889; Mode forcé — le cache sera ignoré</p>' : ""}`,
+					() => doExtractDetails(selectedCities, maxEvents),
+					"Lancer le scraping",
+					"btn-success",
+				);
+			}
+
+			function confirmExtractDetailsCity(city) {
+				const chips = document.getElementById("detailCitySelector").querySelectorAll(".city-chip");
+				chips.forEach((chip) => {
+					const cb = chip.querySelector("input");
+					const match = cb.value === city;
+					cb.checked = match;
+					chip.classList.toggle("selected", match);
+				});
+				confirmExtractDetails();
+			}
+
+			async function doExtractDetails(cities, maxEvents) {
+				const btn = document.getElementById("btnExtractDetails");
+				btn.disabled = true;
+				btn.innerHTML = '<span class="spinner"></span> En cours...';
+				try {
+					// Toujours envoyer une liste de villes pour bénéficier du parallélisme
+					const allCities =
+						cities.length === 0 || cities.length === citiesData.length ? citiesData.map((c) => c.city) : cities;
+					const body =
+						allCities.length === 1 ?
+							{ city: allCities[0], max_events: maxEvents || null }
+						:	{ cities: allCities, max_events: maxEvents || null };
+
+					const res = await fetch("/api/run/extract-details", {
+						method: "POST",
+						headers: { "Content-Type": "application/json" },
+						body: JSON.stringify(body),
+					});
+					const data = await res.json();
+					if (data.task_ids) {
+						watchTasks(data.task_ids);
+					} else if (data.task_id) {
+						watchTasks([data.task_id]);
+					}
+				} catch (e) {
+					appendConsole("Erreur: " + e.message, "error");
+				} finally {
+					btn.disabled = false;
+					btn.innerHTML = "&#9654; Scraper Détails";
+				}
+			}
+
+			// ─── Task Watching ─────────────────────────
+			// Suivi multi-tâches : chaque ville tourne en parallèle
+			const taskOutputLengths = {}; // {taskId: lastLength}
+
+			function watchTasks(taskIds) {
+				if (pollInterval) clearInterval(pollInterval);
+				Object.keys(taskOutputLengths).forEach((k) => delete taskOutputLengths[k]);
+				clearConsole();
+
+				const label = taskIds.length === 1 ? `Tâche: ${taskIds[0]}` : `${taskIds.length} tâches en parallèle`;
+				document.getElementById("consoleTaskLabel").textContent = label;
+				appendConsole(`▶ ${taskIds.length} tâche(s) démarrée(s)...`, "info");
+
+				taskIds.forEach((id) => {
+					taskOutputLengths[id] = 0;
+				});
+				currentTaskId = taskIds[taskIds.length - 1];
+
+				const pendingTasks = new Set(taskIds);
+
+				pollInterval = setInterval(async () => {
+					for (const taskId of [...pendingTasks]) {
+						try {
+							const res = await fetch(`/api/tasks/${taskId}`);
+							const task = await res.json();
+							const output = task.output || [];
+							const lastLen = taskOutputLengths[taskId] || 0;
+							const prefix = taskIds.length > 1 ? `[${task.city || taskId}] ` : "";
+
+							if (output.length > lastLen) {
+								for (let i = lastLen; i < output.length; i++) {
+									const line = output[i];
+									let cls = "";
+									if (
+										line.includes("+") ||
+										line.toLowerCase().includes("succes") ||
+										line.toLowerCase().includes("success")
+									)
+										cls = "success";
+									else if (
+										line.includes("x ") ||
+										line.toLowerCase().includes("erreur") ||
+										line.toLowerCase().includes("error")
+									)
+										cls = "error";
+									else if (line.includes("===") || line.includes("---")) cls = "separator";
+									else if (line.startsWith("[")) cls = "info";
+									appendConsole(prefix + line, cls);
+								}
+								taskOutputLengths[taskId] = output.length;
+							}
+
+							if (task.status === "success" || task.status === "error") {
+								const emoji = task.status === "success" ? "✓" : "✗";
+								appendConsole(`${emoji} [${task.city || taskId}] Terminé: ${task.status.toUpperCase()}`, task.status);
+								pendingTasks.delete(taskId);
+							}
+						} catch (e) {
+							console.error("Poll error:", e);
+						}
+					}
+
+					if (pendingTasks.size === 0) {
+						clearInterval(pollInterval);
+						pollInterval = null;
+						appendConsole(`\n✓ Toutes les tâches terminées.`, "success");
+						refreshCities();
+						refreshTasks();
+					}
+				}, 1000);
+			}
+
+			// Compatibilité pour les anciens appels directs
+			function watchTask(taskId) {
+				watchTasks([taskId]);
+			}
+
+			// ─── Tasks List ────────────────────────────
+			async function refreshTasks() {
+				try {
+					const res = await fetch("/api/tasks");
+					const tasks = await res.json();
+					renderTasks(tasks);
+				} catch (e) {}
+			}
+
+			function renderTasks(tasks) {
+				const list = document.getElementById("taskList");
+				const count = document.getElementById("taskCount");
+				if (!tasks.length) {
+					list.innerHTML = '<div class="console-empty">Aucune tâche lancée</div>';
+					count.textContent = "";
+					return;
+				}
+				const running = tasks.filter((t) => t.status === "running").length;
+				count.textContent = running > 0 ? `${running} en cours` : `${tasks.length} tâche(s)`;
+				tasks.sort((a, b) => (b.created_at || "").localeCompare(a.created_at || ""));
+				list.innerHTML = tasks
+					.map((t) => {
+						const time = t.created_at ? new Date(t.created_at).toLocaleTimeString("fr-FR") : "";
+						const runningClass = t.status === "running" ? "pulse" : "";
+						return `
+				<div class="task-item" style="cursor:pointer" onclick="watchTask('${t.id}');">
+					<span class="task-badge ${t.status} ${runningClass}">${t.status}</span>
+					<span class="task-label">${t.label || t.script}</span>
+					<span class="task-time">${time}</span>
+				</div>`;
+					})
+					.join("");
+			}
+
+			// ─── Console ───────────────────────────────
+			function appendConsole(text, cls = "") {
+				const con = document.getElementById("console");
+				const empty = con.querySelector(".console-empty");
+				if (empty) empty.remove();
+				const line = document.createElement("div");
+				line.className = "console-line" + (cls ? " " + cls : "");
+				line.textContent = text;
+				con.appendChild(line);
+				con.scrollTop = con.scrollHeight;
+			}
+
+			function clearConsole() {
+				document.getElementById("console").innerHTML = "";
+			}
+
+			// ─── Events Modal ──────────────────────────
+			async function viewEvents(city) {
+				document.getElementById("modalTitle").textContent = `Événements — ${formatCityName(city)}`;
+				document.getElementById("modalBody").innerHTML = '<div class="console-empty">Chargement...</div>';
+				document.getElementById("eventsModal").classList.add("active");
+				try {
+					const res = await fetch(`/api/city/${city}/events`);
+					const data = await res.json();
+					const events = data.events || [];
+					if (!events.length) {
+						document.getElementById("modalBody").innerHTML = '<div class="console-empty">Aucun événement</div>';
+						return;
+					}
+					document.getElementById("modalBody").innerHTML = `
+					<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px">
+						<span style="color:var(--text-dim);font-size:13px">${events.length} événement(s) — ${data.file || ""}</span>
+						<a class="json-link" href="/api/city/${city}/json" target="_blank">&#128196; Ouvrir le JSON</a>
+					</div>
+					${events
+						.map(
+							(ev) => `
+					<div class="event-item">
+						<div class="event-title">${escapeHtml(ev.title || "Sans titre")}</div>
+						<div class="event-meta">
+							${ev.category ? `<span>&#127991; ${escapeHtml(ev.category)}</span>` : ""}
+							${ev.location?.city ? `<span>&#128205; ${escapeHtml(ev.location.city)}</span>` : ""}
+							${ev.pricing ? `<span>&#128176; ${escapeHtml(ev.pricing)}</span>` : ""}
+							${ev.audience ? `<span>&#128101; ${escapeHtml(ev.audience)}</span>` : ""}
+						</div>
+						${ev.description ? `<p style="margin-top:8px;font-size:12px;color:var(--text-dim);max-height:60px;overflow:hidden">${escapeHtml(ev.description.substring(0, 200))}${ev.description.length > 200 ? "..." : ""}</p>` : ""}
+					</div>`,
+						)
+						.join("")}`;
+				} catch (e) {
+					document.getElementById("modalBody").innerHTML = `<div class="console-empty">Erreur: ${e.message}</div>`;
+				}
+			}
+
+			function closeEventsModal() {
+				document.getElementById("eventsModal").classList.remove("active");
+			}
+
+			// ─── View URLs Modal ────────────────────────
+			async function viewUrls(city) {
+				document.getElementById("modalTitle").textContent = `URLs — ${formatCityName(city)}`;
+				document.getElementById("modalBody").innerHTML = '<div class="console-empty">Chargement...</div>';
+				document.getElementById("eventsModal").classList.add("active");
+				try {
+					const res = await fetch(`/api/city/${city}/urls`);
+					const data = await res.json();
+					const urls = data.urls || [];
+					if (!urls.length) {
+						document.getElementById("modalBody").innerHTML = '<div class="console-empty">Aucune URL extraite</div>';
+						return;
+					}
+					document.getElementById("modalBody").innerHTML = `
+						<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px">
+							<span style="color:var(--text-dim);font-size:13px">${urls.length} URL(s) — ${data.file || ""}</span>
+							<div style="display:flex;gap:8px">
+								<button class="btn btn-sm btn-secondary" onclick="copyAllUrls()">&#128203; Copier tout</button>
+								<a class="json-link" href="/api/city/${city}/json" target="_blank">&#128196; JSON</a>
+							</div>
+						</div>
+						<div id="urlsList" style="font-family:'Cascadia Code','Fira Code','Consolas',monospace;font-size:12px;background:#0a0c10;border:1px solid var(--border);border-radius:8px;padding:14px;max-height:60vh;overflow-y:auto">
+							${urls
+								.map(
+									(
+										url,
+										i,
+									) => `<div style="padding:4px 0;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:8px">
+								<span style="color:var(--text-dim);min-width:30px;text-align:right">${i + 1}.</span>
+								<a href="${escapeHtml(url)}" target="_blank" rel="noopener" style="color:var(--blue);text-decoration:none;word-break:break-all">${escapeHtml(url)}</a>
+							</div>`,
+								)
+								.join("")}
+						</div>`;
+					window._currentUrls = urls;
+				} catch (e) {
+					document.getElementById("modalBody").innerHTML = `<div class="console-empty">Erreur: ${e.message}</div>`;
+				}
+			}
+
+			function copyAllUrls() {
+				if (window._currentUrls) {
+					navigator.clipboard.writeText(window._currentUrls.join("\n")).then(() => {
+						const btn = event.target;
+						const orig = btn.innerHTML;
+						btn.innerHTML = "&#10003; Copié!";
+						setTimeout(() => (btn.innerHTML = orig), 1500);
+					});
+				}
+			}
+
+			// ─── View Details/Metadata Modal ────────────
+			async function viewDetails(city) {
+				document.getElementById("modalTitle").textContent = `Détails — ${formatCityName(city)}`;
+				document.getElementById("modalBody").innerHTML = '<div class="console-empty">Chargement...</div>';
+				document.getElementById("eventsModal").classList.add("active");
+				try {
+					const res = await fetch(`/api/city/${city}/metadata`);
+					const data = await res.json();
+					const meta = data.metadata;
+					const summary = data.extraction_summary;
+					if (!meta) {
+						document.getElementById("modalBody").innerHTML =
+							'<div class="console-empty">Aucune métadonnée disponible</div>';
+						return;
+					}
+					const lastExec = meta.last_execution || {};
+					const pagination = meta.pagination || {};
+					const statusColor = lastExec.status === "SUCCESS" ? "var(--green)" : "var(--red)";
+					const scrapeDate = meta.scrape_date ? new Date(meta.scrape_date).toLocaleString("fr-FR") : "—";
+					const extractDate = meta.extraction_date ? new Date(meta.extraction_date).toLocaleString("fr-FR") : "—";
+					const execDate = lastExec.timestamp ? new Date(lastExec.timestamp).toLocaleString("fr-FR") : "—";
+
+					let summaryHtml = "";
+					if (summary) {
+						summaryHtml = `
+						<div style="margin-top:20px">
+							<h3 style="font-size:14px;margin-bottom:10px">&#128202; Résumé d'extraction par page</h3>
+							<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px">
+								${Object.entries(summary)
+									.map(
+										([page, info]) => `
+								<div style="background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:12px">
+									<div style="font-weight:600;font-size:13px;margin-bottom:6px;text-transform:capitalize">${page.replace("_", " ")}</div>
+									<div style="font-size:12px;color:var(--text-dim)">Événements: <strong style="color:var(--text)">${info.events_found}</strong></div>
+									<div style="font-size:12px;color:var(--text-dim)">Param: <code style="color:var(--blue)">${escapeHtml(info.pagination_param || "")}</code></div>
+								</div>`,
+									)
+									.join("")}
+							</div>
+						</div>`;
+					}
+
+					document.getElementById("modalBody").innerHTML = `
+						<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px">
+							<span style="color:var(--text-dim);font-size:13px">${data.file || ""}</span>
+							<a class="json-link" href="/api/city/${city}/json" target="_blank">&#128196; JSON brut</a>
+						</div>
+
+						<!-- General Info -->
+						<div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:20px">
+							<div style="background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:14px">
+								<div style="font-size:12px;color:var(--text-dim);margin-bottom:4px">Région</div>
+								<div style="font-size:18px;font-weight:700">${escapeHtml(meta.region || "—")}</div>
+							</div>
+							<div style="background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:14px">
+								<div style="font-size:12px;color:var(--text-dim);margin-bottom:4px">Total événements</div>
+								<div style="font-size:18px;font-weight:700;color:var(--accent)">${meta.total_events || 0}</div>
+							</div>
+							<div style="background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:14px">
+								<div style="font-size:12px;color:var(--text-dim);margin-bottom:4px">Source</div>
+								<div style="font-size:14px;font-weight:600">${escapeHtml(meta.source || "—")}</div>
+							</div>
+							<div style="background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:14px">
+								<div style="font-size:12px;color:var(--text-dim);margin-bottom:4px">Mode d'extraction</div>
+								<div style="font-size:14px;font-weight:600;text-transform:capitalize">${escapeHtml(meta.extraction_mode || "—")}</div>
+							</div>
+						</div>
+
+						<!-- Dates -->
+						<h3 style="font-size:14px;margin-bottom:10px">&#128197; Dates</h3>
+						<div style="background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:14px;margin-bottom:20px">
+							<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;font-size:13px">
+								<div><span style="color:var(--text-dim)">Scrape</span><br><strong>${scrapeDate}</strong></div>
+								<div><span style="color:var(--text-dim)">Extraction</span><br><strong>${extractDate}</strong></div>
+								<div><span style="color:var(--text-dim)">Dernière exec.</span><br><strong>${execDate}</strong></div>
+							</div>
+						</div>
+
+						<!-- Last Execution -->
+						${
+							lastExec.status ?
+								`
+						<h3 style="font-size:14px;margin-bottom:10px">&#9889; Dernière exécution</h3>
+						<div style="background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:14px;margin-bottom:20px">
+							<div style="display:flex;gap:20px;align-items:center;flex-wrap:wrap;font-size:13px">
+								<div><span style="color:var(--text-dim)">Statut</span><br><strong style="color:${statusColor}">${escapeHtml(lastExec.status)}</strong></div>
+								<div><span style="color:var(--text-dim)">Durée</span><br><strong>${lastExec.duration_seconds || "—"}s</strong></div>
+							</div>
+							${lastExec.notes ? `<div style="margin-top:10px;font-size:12px;color:var(--text-dim);line-height:1.5">${escapeHtml(lastExec.notes)}</div>` : ""}
+						</div>`
+							:	""
+						}
+
+						<!-- Pagination -->
+						${
+							pagination.total_pages_requested ?
+								`
+						<h3 style="font-size:14px;margin-bottom:10px">&#128195; Pagination</h3>
+						<div style="background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:14px;margin-bottom:20px">
+							<div style="display:flex;gap:20px;font-size:13px;flex-wrap:wrap">
+								<div><span style="color:var(--text-dim)">Pages demandées</span><br><strong>${pagination.total_pages_requested}</strong></div>
+								<div><span style="color:var(--text-dim)">Pages récupérées</span><br><strong style="color:var(--green)">${pagination.pages_successfully_retrieved}</strong></div>
+								<div><span style="color:var(--text-dim)">Events/page</span><br><strong>[${(pagination.events_per_page || []).join(", ")}]</strong></div>
+							</div>
+						</div>`
+							:	""
+						}
+
+						<!-- Data Completeness -->
+						${
+							meta.data_completeness ?
+								`
+						<h3 style="font-size:14px;margin-bottom:10px">&#128200; Complétude</h3>
+						<div style="background:rgba(108,92,231,0.1);border:1px solid rgba(108,92,231,0.3);border-radius:8px;padding:14px;font-size:13px;line-height:1.6;margin-bottom:20px">
+							${escapeHtml(meta.data_completeness)}
+						</div>`
+							:	""
+						}
+
+						${summaryHtml}`;
+				} catch (e) {
+					document.getElementById("modalBody").innerHTML = `<div class="console-empty">Erreur: ${e.message}</div>`;
+				}
+			}
+
+			function escapeHtml(text) {
+				const d = document.createElement("div");
+				d.textContent = text;
+				return d.innerHTML;
+			}
+
+			document.addEventListener("keydown", (e) => {
+				if (e.key === "Escape") {
+					closeConfirmModal();
+					closeEventsModal();
+				}
+			});
+		</script>
+	</body>
+</html>

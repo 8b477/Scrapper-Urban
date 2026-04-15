@@ -1,0 +1,3285 @@
+{
+  "metadata": {
+    "region": "Namur",
+    "source": "namur.be",
+    "scrape_date": "2026-04-15T08:33:02.044844+00:00",
+    "total_events": 104,
+    "total_pages": 6,
+    "data_completeness": "Phase 1: 104 URLs extraites. Phase 2: 104/104 événements parsés (0 erreurs).",
+    "extraction_mode": "requests",
+    "pagination": {
+      "total_pages_requested": 6,
+      "pages_successfully_retrieved": 6,
+      "events_per_page": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        4
+      ]
+    },
+    "last_execution": {
+      "timestamp": "2026-04-15T08:39:58.011319+00:00",
+      "duration_seconds": 305.6,
+      "status": "SUCCESS",
+      "notes": "Phase 2 terminée. 104 événements parsés en 306s."
+    },
+    "events_extracted": 104,
+    "extraction_date": "2026-04-15T08:39:58.011319+00:00"
+  },
+  "extraction_summary": {
+    "page_1": {
+      "url": "https://www.namur.be/fr/agenda/agenda/@@faceted_query?c4%5B%5D=faceted-agenda-ungrouped-view-items",
+      "events_found": 20
+    },
+    "page_2": {
+      "url": "https://www.namur.be/fr/agenda/agenda/@@faceted_query?b_start:int=20&c4%5B%5D=faceted-agenda-ungrouped-view-items",
+      "events_found": 20
+    },
+    "page_3": {
+      "url": "https://www.namur.be/fr/agenda/agenda/@@faceted_query?b_start:int=40&c4%5B%5D=faceted-agenda-ungrouped-view-items",
+      "events_found": 20
+    },
+    "page_4": {
+      "url": "https://www.namur.be/fr/agenda/agenda/@@faceted_query?b_start:int=60&c4%5B%5D=faceted-agenda-ungrouped-view-items",
+      "events_found": 20
+    },
+    "page_5": {
+      "url": "https://www.namur.be/fr/agenda/agenda/@@faceted_query?b_start:int=80&c4%5B%5D=faceted-agenda-ungrouped-view-items",
+      "events_found": 20
+    },
+    "page_6": {
+      "url": "https://www.namur.be/fr/agenda/agenda/@@faceted_query?b_start:int=100&c4%5B%5D=faceted-agenda-ungrouped-view-items",
+      "events_found": 4
+    }
+  },
+  "event_urls": [
+    "https://www.namur.be/fr/agenda/atelier-d2019initiation-au-krump-2013-nach",
+    "https://www.namur.be/fr/agenda/rize-2013-david-lachapelle",
+    "https://www.namur.be/fr/agenda/des-rites-pour-la-vie-jusqu-a-la-mort-par-gabriel-ringlet",
+    "https://www.namur.be/fr/agenda/la-semaine-de-la-danse",
+    "https://www.namur.be/fr/agenda/les-rhodos-dindons-improvisation-theatrale",
+    "https://www.namur.be/fr/agenda/exposition-deleves-de-lacademie-des-beaux-arts-de-namur",
+    "https://www.namur.be/fr/agenda/le-sans-abrisme-autrement",
+    "https://www.namur.be/fr/loisirs/culture/lectures/bibliotheques/agenda-bibliotheques/lire-sins-r2019lache-marathon-de-lecture-en-wallon-1",
+    "https://www.namur.be/fr/loisirs/culture/musees/les-bateliers/agenda-bateliers/d-apres-nature",
+    "https://www.namur.be/fr/agenda/faire-face-au-nucleaire",
+    "https://www.namur.be/fr/agenda/faire-face-au-nucleaire-1",
+    "https://www.namur.be/fr/loisirs/culture/musees/les-bateliers/agenda-bateliers/maison-de-famille",
+    "https://www.namur.be/fr/agenda/effel",
+    "https://www.namur.be/fr/agenda/sortie-de-residence-dartistes-robin-bodeus-charlotte-lobert-camille-thiry",
+    "https://www.namur.be/fr/agenda/bal-folk-sur-la-place-darmes",
+    "https://www.namur.be/fr/agenda/201ccalligraphie-du-silence201d-de-pierre-warrant",
+    "https://www.namur.be/fr/agenda/academie-des-beaux-arts-from-musafrica",
+    "https://www.namur.be/fr/agenda/folknam-1",
+    "https://www.namur.be/fr/agenda/bourse-echange-semis-plantes-boutures",
+    "https://www.namur.be/fr/agenda/remise-des-prix-du-30e-concours-de-poesie-du-kiwanis-namur-comte",
+    "https://www.namur.be/fr/agenda/nulle-part-est-un-endroit-2013-nach",
+    "https://www.namur.be/fr/agenda/erheda_the-foos",
+    "https://www.namur.be/fr/agenda/blind-2013-hendrickx-ntela-cie-konzi",
+    "https://www.namur.be/fr/agenda/contes-d2019ecorces-et-de-brindilles",
+    "https://www.namur.be/fr/agenda/dimanche-en-musique-concerts-de-mai",
+    "https://www.namur.be/fr/agenda/moving-family-day",
+    "https://www.namur.be/fr/agenda/verdurtroc",
+    "https://www.namur.be/fr/agenda/flow-2013-m2211al-collectif",
+    "https://www.namur.be/fr/agenda/balade-spectacle-mille-baisers-flawinne",
+    "https://www.namur.be/fr/ma-ville/administration/services-communaux/sports/agenda-sports/jogging-les-passerelles-2",
+    "https://www.namur.be/fr/agenda/copie-colle-4-2013-mini-festival-de-l2019image-imprimee",
+    "https://www.namur.be/fr/agenda/slow-fashion-week",
+    "https://www.namur.be/fr/agenda/from-sweelinck-to-duke-ellington",
+    "https://www.namur.be/fr/agenda/atelier-slam-scene-ouverte-avec-gaelane",
+    "https://www.namur.be/fr/agenda/tchodron",
+    "https://www.namur.be/fr/loisirs/culture/lectures/bibliotheques/agenda-bibliotheques/exposition-adrien-albert",
+    "https://www.namur.be/fr/agenda/place-aux-filles",
+    "https://www.namur.be/fr/agenda/corrida-de-bouge-1",
+    "https://www.namur.be/fr/agenda/fete-des-voisins-1",
+    "https://www.namur.be/fr/agenda/colloque-consacre-aux-dynamiques-des-centres-villes",
+    "https://www.namur.be/fr/loisirs/culture/lectures/bibliotheques/agenda-bibliotheques/lecture-publique-avec-espace-p",
+    "https://www.namur.be/fr/agenda/le-voyage-de-charlie-1",
+    "https://www.namur.be/fr/agenda/rallye-de-wallonie",
+    "https://www.namur.be/fr/agenda/release-massacres-belges",
+    "https://www.namur.be/fr/agenda/foire-aux-livres-1",
+    "https://www.namur.be/fr/ma-ville/environnement/bien-etre-animal/agenda/conference-gratuite-les-races-de-chiens-a-la-mode-au-dela-de-l2019esthetique-quels-sont-les-risques",
+    "https://www.namur.be/fr/agenda/ashes-of-m-vastum-morbific-degraved",
+    "https://www.namur.be/fr/agenda/flora-coup-dur-a-belvedere",
+    "https://www.namur.be/fr/agenda/bal-folk-au-cinex-3",
+    "https://www.namur.be/fr/agenda/impact-sport-namur",
+    "https://www.namur.be/fr/agenda/a-la-decouverte-de-namur-la-romaine",
+    "https://www.namur.be/fr/agenda/les-dimanches-festifs-a-terra-nova",
+    "https://www.namur.be/fr/agenda/dimanche-en-musique-concerts-daout",
+    "https://www.namur.be/fr/agenda/den-der-hale-amour",
+    "https://www.namur.be/fr/agenda/sacha-ferra-plat-pays",
+    "https://www.namur.be/fr/agenda/dresscode-suicide-sue",
+    "https://www.namur.be/fr/agenda/marche-de-lascension",
+    "https://www.namur.be/fr/agenda/la-citadelle-de-namur-et-le-fort-de-saint-heribert",
+    "https://www.namur.be/fr/agenda/namur-en-mai-2",
+    "https://www.namur.be/fr/ma-ville/administration/services-communaux/sports/agenda-sports/jogging-les-foulees-du-cndp",
+    "https://www.namur.be/fr/agenda/trio-memento",
+    "https://www.namur.be/fr/agenda/nuit-blanche-a-namur-1",
+    "https://www.namur.be/fr/loisirs/culture/lectures/bibliotheques/agenda-bibliotheques/nuit-blanche-et-printemps-des-bibliotheques-2026",
+    "https://www.namur.be/fr/agenda/nuit-blanche-a-namur-les-graffitis-des-galeries-de-boufflers",
+    "https://www.namur.be/fr/agenda/heavy-fuzz-high-desert-queen-baevar-apex-ten",
+    "https://www.namur.be/fr/agenda/canamurois-challenge-2026",
+    "https://www.namur.be/fr/agenda/les-souterrains-a-petits-pas-5",
+    "https://www.namur.be/fr/agenda/marche-adeps-1",
+    "https://www.namur.be/fr/agenda/ras-nucleaire-2013-rien-a-signaler",
+    "https://www.namur.be/fr/agenda/harmony2019s-brass-band",
+    "https://www.namur.be/fr/agenda/crethconnect-2026",
+    "https://www.namur.be/fr/agenda/sirens-of-lesbos",
+    "https://www.namur.be/fr/agenda/namur-en-choeurs",
+    "https://www.namur.be/fr/agenda/dimanche-en-famille-2013-pierre-et-le-loup-sur-la-route-2013-cie-artichoke",
+    "https://www.namur.be/fr/agenda/le-medecin-malgre-lui",
+    "https://www.namur.be/fr/agenda/bal-folk-au-cinex",
+    "https://www.namur.be/fr/agenda/27e-marche-de-la-fraise",
+    "https://www.namur.be/fr/agenda/namuraid-1",
+    "https://www.namur.be/fr/agenda/les-plantes-et-leurs-bienfaits-au-moyen-age-1",
+    "https://www.namur.be/fr/agenda/le-chateau-a-petits-pas",
+    "https://www.namur.be/fr/agenda/pilgrims-plays-queen",
+    "https://www.namur.be/fr/agenda/fete-de-la-musique-2",
+    "https://www.namur.be/fr/agenda/this-is-tina",
+    "https://www.namur.be/fr/ma-ville/administration/services-communaux/sports/agenda-sports/jogging-erpent-village-1",
+    "https://www.namur.be/fr/agenda/les-medievales-de-la-citadelle-1",
+    "https://www.namur.be/fr/agenda/a-la-decouverte-des-galeries-de-la-citadelle-1",
+    "https://www.namur.be/fr/ma-ville/changements-climatiques/climat-energie-et-alimentation-durable/agenda-climat/journee-potagers-ouverts",
+    "https://www.namur.be/fr/agenda/festival-musical-a-leglise-du-sacre-coeur-de-saint-servais-1",
+    "https://www.namur.be/fr/ma-ville/administration/services-communaux/sports/agenda-sports/jogging-de-la-miaou-5",
+    "https://www.namur.be/fr/agenda/pour-un-monde-a-refaire",
+    "https://www.namur.be/fr/agenda/201cpour-un-monde-a-refaire-201d",
+    "https://www.namur.be/fr/agenda/la-citadelle-de-namur-et-le-fort-de-saint-heribert-1",
+    "https://www.namur.be/fr/agenda/brocante-de-temploux-1",
+    "https://www.namur.be/fr/agenda/les-solidarites",
+    "https://www.namur.be/fr/ma-ville/administration/services-communaux/sports/agenda-sports/jogging-de-malonne-5",
+    "https://www.namur.be/fr/agenda/40-44-namur-de-l2019occupation-a-la-liberation",
+    "https://www.namur.be/fr/ma-ville/administration/services-communaux/sports/agenda-sports/jogging-de-la-ville-3",
+    "https://www.namur.be/fr/ma-ville/administration/services-communaux/sports/agenda-sports/jogging-la-naninnoise-5",
+    "https://www.namur.be/fr/ma-ville/administration/services-communaux/sports/agenda-sports/jogging-le-tronquoy-3",
+    "https://www.namur.be/fr/agenda/festival-musical-a-leglise-du-sacre-coeur-de-saint-servais-2",
+    "https://www.namur.be/fr/ma-ville/administration/services-communaux/sports/agenda-sports/jogging-festirun-2",
+    "https://www.namur.be/fr/agenda/club-des-maquettistes-et-figurinistes-namurois",
+    "https://www.namur.be/fr/ma-ville/administration/services-communaux/sports/agenda-sports/jogging-la-gelbressoise-6",
+    "https://www.namur.be/fr/ma-ville/administration/services-communaux/sports/agenda-sports/la-corrida-de-namur"
+  ],
+  "events": [
+    {
+      "id": "a0233027e09d",
+      "url": "https://www.namur.be/fr/agenda/atelier-d2019initiation-au-krump-2013-nach",
+      "title": "Atelier d’initiation au Krump – Nach",
+      "description": "Image en vignette © Pierre Gondard Par la chorégraphe Nach Atelier d’initiation au krump en introduction à la conférence dansée Nulle part est un endroit. Lors de cet atelier, la chorégraphe Nach introduira le vocabulaire de la danse krump et ses relations avec d’autres techniques (danse contact, butô, impro…). Elle vous initiera à la prise de parole dansée. Nach rencontre le krump par hasard à l’âge de vingt-deux ans. La rue est sa première école : elle trouve une communauté qui lui transmet son savoir et les bases de cette danse urbaine. Habitée par le krump, la chorégraphe ouvre sa pratique à la recherche des danses de l’expression des infériorités qui veulent se raconter. Elle construit une gestuelle qui lui permet de se raconter, de se rencontrer soi mais aussi tous ses personnages multiples. Elle propose aujourd’hui des workshops qui retracent ces voyages et ces rencontres. Instagram :https://www.instagram.com/nachkeepon/?hl=fr Site web :https://nachvan.com",
+      "category": "Sport",
+      "location": {
+        "venue": "Le Delta",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "15/04/2026 à partir de 16:00"
+        ],
+        "start": "15-04-2026 16:00",
+        "end": "15-04-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 77 67 73",
+        "website": "http://www.ledelta.be"
+      },
+      "accessibility": true,
+      "url_image": "",
+      "organiser": "Le Delta",
+      "parsed_at": "2026-04-15T08:34:54.904399+00:00"
+    },
+    {
+      "id": "6d6b73a8c78f",
+      "url": "https://www.namur.be/fr/agenda/rize-2013-david-lachapelle",
+      "title": "Rize – David LaChapelle",
+      "description": "Documentaire musical consacré à la naissance du krump, né dans les bas quartiers de Los Angeles au cours des années 1990. Depuis longtemps à son contact, le photographe David LaChapelle a saisi les prémices de cette danse urbaine issue du mal de vivre des exclu·es du rêve américain. D’une vitesse et d’une difficulté jamais égalées, cette danse agressive prend ses racines dans les danses tribales. Rize suit cette fascinante évolution à travers l’histoire de Tommy le Clown, un éducateur de South Central à Los Angeles, qui a inventé cette danse en réponse aux émeutes raciales consécutives à l’affaire Rodney King.",
+      "category": "Cinéma",
+      "location": {
+        "venue": "Le Delta",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "15/04/2026 à partir de 20:00"
+        ],
+        "start": "15-04-2026 20:00",
+        "end": "15-04-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 77 67 73",
+        "website": "http://www.ledelta.be"
+      },
+      "accessibility": true,
+      "url_image": "",
+      "organiser": "Le Delta",
+      "parsed_at": "2026-04-15T08:34:57.741563+00:00"
+    },
+    {
+      "id": "6c78eb3c7c0f",
+      "url": "https://www.namur.be/fr/agenda/des-rites-pour-la-vie-jusqu-a-la-mort-par-gabriel-ringlet",
+      "title": "Des rites pour la Vie jusqu' à la mort- par Gabriel Ringlet",
+      "description": "À partir de son livre Des rites pour la Vie, Gabriel Ringlet explore la force symbolique des gestes et célébrations qui accompagnent nos passages de vie, y compris la fin de vie.",
+      "category": "Conférence",
+      "location": {
+        "venue": "Amphithéâtre Pedro Arrupe 02",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "15/04/2026 de 20:00 à 22:30"
+        ],
+        "start": "15-04-2026 20:00",
+        "end": "15-04-2026 22:30"
+      },
+      "pricing": "Payant",
+      "audience": "Pour adultes, Pour seniors",
+      "contact": {
+        "phone": "+32 (0) 81 43 56 58",
+        "website": "http://www.pallianam.be"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-04-15-ringlet.png/@@images/8be044bc-411a-4a8a-86df-b8d779b5c9c6.png",
+      "organiser": "Association des soins palliatifs en province de Namur - PalliaNam",
+      "parsed_at": "2026-04-15T08:35:00.620327+00:00"
+    },
+    {
+      "id": "aa64f57184b1",
+      "url": "https://www.namur.be/fr/agenda/la-semaine-de-la-danse",
+      "title": "La semaine de la danse",
+      "description": "Image en vignette © le Delta - Alvin Une semaine dense et variée pour mettre en mouvement votre corps et votre esprit. Une semaine pour vivre au rythme de la danse et la célébrer sous toutes ses formes avec : un focus sur le krump, des ateliers pratiques et créatifs, deux conférences dansées, du cinéma, des spectacles regroupant des danseur·euse·s professionnel·le·s et amateur·e·s.",
+      "category": "Festival",
+      "location": {
+        "venue": "Le Delta",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "Du 15/04/2026 au 22/04/2026"
+        ],
+        "start": "15-04-2026 00:00",
+        "end": "22-04-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 77 67 73",
+        "website": "http://www.ledelta.be"
+      },
+      "accessibility": true,
+      "url_image": "",
+      "organiser": "Le Delta",
+      "parsed_at": "2026-04-15T08:35:03.478743+00:00"
+    },
+    {
+      "id": "3d5463cda8ef",
+      "url": "https://www.namur.be/fr/agenda/les-rhodos-dindons-improvisation-theatrale",
+      "title": "Les Rhodos Dindons – Spectacle d'improvisation",
+      "description": "Depuis bientôt 3 ans, une drôle de basse-cour anime la scène namuroise : les Rhodos Dindons, une équipe d’improvisation théâtrale composée de 11 comédiens. Cette saison, ils reviennent avec 3 rencontres hautes en couleurs en plein centre-ville de Namur. Le principe est simple : rien n’est écrit, tout se construit sur scène, sous vos yeux. Découvrez un spectacle unique et convivial. Rires et émotions garantis ! Lieu : IND – Institut Notre-Dame, rue Julie Billiart 19 – 5000 Namur. Tarifs : 7 € en prévente (8 € sur place) — enfants moins de 12 ans : 4 € en prévente (5 € sur place). Alors, prêts à venir glouglouter avec eux ? Réservez vos places !",
+      "category": "Spectacle",
+      "location": {
+        "venue": "",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "18/04/2026 à partir de 20:00 Toutes les dates"
+        ],
+        "start": "13-12-2025 20:00",
+        "end": "13-12-2025 23:59"
+      },
+      "pricing": "",
+      "audience": "",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2025/nammagpng-2.png/@@images/03adf80a-17bc-4e50-921c-dd0a8028a147.png",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:35:06.013108+00:00"
+    },
+    {
+      "id": "ff8340460fd3",
+      "url": "https://www.namur.be/fr/agenda/exposition-deleves-de-lacademie-des-beaux-arts-de-namur",
+      "title": "Exposition d'élèves de l'Académie des Beaux Arts de Namur",
+      "description": "Accès libre au Hangar aux Affûts et dans la poudrière inférieure Les vendredi 10, 17 - samedi 11, 18 et dimanche 12, 19 avril 2026De 12h à 20 h",
+      "category": "Exposition & Art plastique",
+      "location": {
+        "venue": "Hangar aux Affûts",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "Du 10/04/2026 au 19/04/2026"
+        ],
+        "start": "10-04-2026 00:00",
+        "end": "19-04-2026 23:59"
+      },
+      "pricing": "Gratuit",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": "https://www.namur.be/fr/annuaire/citadelle-terra-nova/hangar-aux-affuts"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-04-10-images-1.png/@@images/6ad18dc5-831e-49c4-aced-413224b860df.png",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:35:08.567477+00:00"
+    },
+    {
+      "id": "e864585e53e0",
+      "url": "https://www.namur.be/fr/agenda/le-sans-abrisme-autrement",
+      "title": "Le sans-abrisme autrement",
+      "description": "Le sans-abrisme est encore trop souvent perçu comme un échec individuel.Pourtant, la réalité est bien plus complexe. Du 07.04.2026 au 27.04.2026, en collaboration avec le Relais social urbain namurois, l’Observatoire wallon du Sans-Abrisme (SPW Intérieur et Action sociale) vous propose une exposition photo gratuite qui plonge au cœur du quotidien des personnes accompagnées par le dispositif « Housing First » (où le sans-abrisme est un défi systémique, et le logement un droit inconditionnel & un point de départ de toute reconstruction).Dans le cadre de cette expo, la photographie ne se contente pas d’illustrer une situation sociale, elle : L'expo invite donc à changer de perspective, grâce à la force du témoignage visuel & à l’humanité de l’accompagnement. En pratique : Dates : du 07.04.2026 au 27.04.2026Horaires : du lundi au vendredi de 09h00 à 17h00 Lieu : Parlement de Wallonie (rue Notre-Dame 1, 5000 Namur) Tarif : gratuit Pour tous renseignements : [email protected] [email protected]",
+      "category": "Exposition & Art plastique",
+      "location": {
+        "venue": "",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "Du 07/04/2026 09:00 au 27/04/2026 17:00"
+        ],
+        "start": "07-04-2026 09:00",
+        "end": "27-04-2026 17:00"
+      },
+      "pricing": "Gratuit",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/img-sans-abrisme-04-26.jpg/@@images/22b669d5-6811-4c58-8613-1382c38d1e3c.jpeg",
+      "organiser": "SPW Intérieur et Action sociale",
+      "parsed_at": "2026-04-15T08:35:10.825554+00:00"
+    },
+    {
+      "id": "56f6341ecf87",
+      "url": "https://www.namur.be/fr/loisirs/culture/lectures/bibliotheques/agenda-bibliotheques/lire-sins-r2019lache-marathon-de-lecture-en-wallon-1",
+      "title": "Lîre sins r’lache Marathon de lecture en wallon",
+      "description": "À l’occasion de la Fête aux langues de Wallonie, la Ville de Namur et les Bibliothèques de Namur Capitale participent au marathon de lecture en langues régionales (champenois, francique, gaumais, picard, wallon...) coordonné par l’association Èl Môjo dès Walons. Ce marathon, qui a lieu dans de nombreuses bibliothèques de Wallonie, consiste à former une chaine de lecture à voix haute impliquant un maximum de lectrices et de lecteurs. Entre le 1er et le 30 avril 2026, nous vous accueillons à La Célestine afin de réaliser ensemble des captures vidéo de vos lectures ou interprétations de textes en wallon (de 30 secondes à 3 minutes, mention du titre et de l’autrice ou de l’auteur comprise). Lisez le texte de votre choix ou sélectionnez-en un parmi ceux mis à votre disposition. Le choix est vaste : prose, poésie, théâtre, littérature jeunesse, bande dessinée, proverbe, chanson, comptine… Vous n'êtes pas à l'aise avec la prononciation de certains mots ? Des séances de coaching seront assurées par les Rèlîs Namurwès à La Célestine aux dates suivantes : Vous souhaitez participer mais vous ne pouvez pas vous déplacer ? Votre contribution peut être transmise par mail ([email protected]). La bibliothèque gagnante sera celle qui parviendra à réunir le plus grand nombre de lectrices et de lecteurs, et à former ainsi la plus longue chaine de lecture. La proclamation des résultats se déroulera lors de la Fête aux langues de Wallonie. Des prix individuels d’interprétation seront également décernés ! Du 1er au 30 avril 2026, aux heures d'ouverture de La Célestine, ou chez vous Plus d'infos : 081/24 64 40 [email protected]",
+      "category": "Fêtes & Folklore, Littérature",
+      "location": {
+        "venue": "La Célestine - Bibliothèque communale de Namur",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "Du 01/04/2026 10:00 au 30/04/2026 18:00"
+        ],
+        "start": "01-04-2026 10:00",
+        "end": "30-04-2026 18:00"
+      },
+      "pricing": "Gratuit",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 24 64 40",
+        "website": "https://www.namur.be/fr/annuaire/administration-communale-de-namur/departement-de-la-culture-et-des-loisirs-dcl/bibliotheques"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/loisirs/culture/lectures/bibliotheques/agenda-bibliotheques/facebook-marathonlecturewallon.png/@@images/93396bf8-9b20-402e-ae3f-92cd832d2bc9.png",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:35:14.218949+00:00"
+    },
+    {
+      "id": "a04df6c4fbaf",
+      "url": "https://www.namur.be/fr/loisirs/culture/musees/les-bateliers/agenda-bateliers/d-apres-nature",
+      "title": "D’après Nature",
+      "description": "Exposition hommage au peintre anglais du 18esiècle John Constable à travers des peintures anciennes de paysages des collections de la Ville de Namur et le travail des cinq artistes actuels : Anne Liebhaberg · Anne Marie Finné · Michel Peetz· Philippe Tasiaux · Simon Delneuville. A l'occasion de cette exposition, plusieurs animations seront organisées : Le 11 avril à 14H00Visite en compagnie des artistes et de l’historienne d’art Marie-Claire TOUSSAINT Le 25 avril à 18H00Airs for the Seasons, de James Oswald, concert avec l’ensemble Les Menus-Plaisirs du Roy : 4 € Le 2 juin à 18H30Conférence de Pierre WAT, docteur en histoire de l’art, Professeur à la Sorbonne, spécialiste du romantisme : 2 € Le 13 juin à 18H00Fête d’anniversaire de John Constable : balade narrative et gâteau. RÉSERVATION OBLIGATOIRE À L’ACCUEIL DU PÔLE MUSÉAL - 081 24 87 20",
+      "category": "Exposition & Art plastique",
+      "location": {
+        "venue": "Musée des Arts décoratifs",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "Du 05/03/2026 au 14/06/2026"
+        ],
+        "start": "05-03-2026 00:00",
+        "end": "14-06-2026 23:59"
+      },
+      "pricing": "Gratuit",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/loisirs/culture/musees/les-bateliers/agenda-bateliers/affiche-constable.jpg/@@images/9fc52007-1473-437d-a4c4-bede1fd8f83e.jpeg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:35:16.600678+00:00"
+    },
+    {
+      "id": "24d64c24b32d",
+      "url": "https://www.namur.be/fr/agenda/faire-face-au-nucleaire",
+      "title": "(Faire) face au nucléaire",
+      "description": "À travers les œuvres de dix artistes belges et internationaux, l’exposition donne à voir les enjeux du nucléaire civil et militaire. À la croisée de l’art et de l’information, elle fait dialoguer les représentations réalistes créées par ces artistes en photo et en vidéo, et tente de lever un coin du voile sur une industrie contradictoire en de nombreux aspects. L’énergie nucléaire est une composante essentielle dans la lutte contre le réchauffement climatique, en raison de ses faibles émissions de gaz à effet de serre. Elle offre une source d’électricité bas carbone, alternative aux énergies fossiles qui contribuent à ce réchauffement. Cependant, des aspects comme la gestion des déchets radioactifs et les risques liés aux accidents restent des points de discussion et de préoccupation bien légitimes. Près de quarante ans après la catastrophe de Tchernobyl survenue en Ukraine le 26 avril 1986, cette exposition engage une réflexion sur les connaissances scientifiques de la radioactivité et sur le nucléaire militaire plus difficile d’accès encore. Le paradoxe nucléaire est abordé par les artistes sous forme de traces, d’empreintes photographiques. Au même titre que ses qualités documentaires, la photographie en tant qu’empreinte leur a permis de consigner les effets insaisissables de la radioactivité. Son invisibilité est déjouée par la réaction des composants chimiques des pellicules argentiques auxquelles plusieurs ont recouru. Au-delà de sa mesure, l’inscription de la radioactivité apparaît dans la matérialité même de l’image. Les victimes humaines y trouvent également une voix, si peu audible hors du champ de l’expression artistique. Un périmètre à l’intérieur duquel s’exposent les termes d’un débat public.",
+      "category": "Exposition & Art plastique",
+      "location": {
+        "venue": "Le Delta",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "Du 28/03/2026 au 02/08/2026"
+        ],
+        "start": "28-03-2026 00:00",
+        "end": "02-08-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 77 67 73",
+        "website": "http://www.ledelta.be"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-03-28-c-cecile-massart.jpg/@@images/ce4271f1-0070-4447-b2f8-69e7bd08c3b9.jpeg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:35:18.995091+00:00"
+    },
+    {
+      "id": "7b6cc2b28977",
+      "url": "https://www.namur.be/fr/agenda/faire-face-au-nucleaire-1",
+      "title": "(Faire) face au nucléaire",
+      "description": "Image en vignette © Jürgen Nefzger À travers les œuvres de dix artistes belges et internationaux, l’exposition donne à voir les enjeux du nucléaire civil et militaire. À la croisée de l’art et de l’information, elle fait dialoguer les représentations réalistes créées par ces artistes en photo et en vidéo, et tente de lever un coin du voile sur une industrie contradictoire en de nombreux aspects. L’énergie nucléaire est une composante essentielle dans la lutte contre le réchauffement climatique, en raison de ses faibles émissions de gaz à effet de serre. Elle offre une source d’électricité bas carbone, alternative aux énergies fossiles qui contribuent à ce réchauffement. Cependant, des aspects comme la gestion des déchets radioactifs et les risques liés aux accidents restent des points de discussion et de préoccupation bien légitimes. Près de quarante ans après la catastrophe de Tchernobyl survenue en Ukraine le 26 avril 1986, cette exposition engage une réflexion sur les connaissances scientifiques de la radioactivité et sur le nucléaire militaire plus difficile d’accès encore. Le paradoxe nucléaire est abordé par les artistes sous forme de traces, d’empreintes photographiques. Au même titre que ses qualités documentaires, la photographie en tant qu’empreinte leur a permis de consigner les effets insaisissables de la radioactivité. Son invisibilité est déjouée par la réaction des composants chimiques des pellicules argentiques auxquelles plusieurs ont recouru. Au-delà de sa mesure, l’inscription de la radioactivité apparaît dans la matérialité même de l’image. Les victimes humaines y trouvent également une voix, si peu audible hors du champ de l’expression artistique. Un périmètre à l’intérieur duquel s’exposent les termes d’un débat public. Avec des œuvres de Takashi Arai, Lucas Castel, Julian Charriere, David Fathi, Guillaume Herbaut, Cécile Massart, Jürgen Nefzger, Jacqueline Salmon, Anaïs Tondeur, Wim Wenders",
+      "category": "Exposition & Art plastique",
+      "location": {
+        "venue": "Le Delta",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "Du 28/03/2026 au 02/08/2026"
+        ],
+        "start": "28-03-2026 00:00",
+        "end": "02-08-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 77 67 73",
+        "website": "http://www.ledelta.be"
+      },
+      "accessibility": true,
+      "url_image": "",
+      "organiser": "Le Delta",
+      "parsed_at": "2026-04-15T08:35:21.749057+00:00"
+    },
+    {
+      "id": "4e3149f67346",
+      "url": "https://www.namur.be/fr/loisirs/culture/musees/les-bateliers/agenda-bateliers/maison-de-famille",
+      "title": "Maison de famille",
+      "description": "L’exposition « Maison de famille » au Musée des Arts décoratifs plonge le visiteur dans la vie quotidienne d’une famille de nobles dans un hôtel particulier au 18esiècle. Le réveil, le bain, la préparation des repas, les jeux de société et les divertissements des enfants, la leçon de musique, le goûter dans la salle d’apparat… Chaque moment de la journée y est illustré à travers une scénographie immersive et une sélection d'œuvres et objets d’époque, parfois insolites tels des bottes de postillon ou un scriban en forme de dromadaire. De nouvelles acquisitions sont exposées ainsi que des œuvres restaurées. Rue Saintraint, 5 - Namur Le musée est ouvert du mardi au dimanche, de 10h00 à 18h00. +32 (0) 81 24 87 20 [email protected]",
+      "category": "Exposition & Art plastique",
+      "location": {
+        "venue": "Musée des Arts décoratifs",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "Du 01/01/2026 00:00 au 31/12/2026 23:00"
+        ],
+        "start": "01-01-2026 00:00",
+        "end": "31-12-2026 23:00"
+      },
+      "pricing": "Gratuit pour certains publics, Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 24 87 20",
+        "website": "https://www.namur.be/fr/loisirs/culture/musees/les-bateliers/musee-des-arts-decoratifs"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/loisirs/culture/musees/les-bateliers/agenda-bateliers/maison-de-famille-petit-comte-1.png/@@images/49b1d713-a64d-433f-9735-49aa53f9924f.png",
+      "organiser": "Musée des Arts décoratifs",
+      "parsed_at": "2026-04-15T08:35:24.960438+00:00"
+    },
+    {
+      "id": "b484a56b171c",
+      "url": "https://www.namur.be/fr/agenda/effel",
+      "title": "Effel",
+      "description": "Un jeudi par mois, la Ville, la Province et la Philharmonique de Namur vous invitent à une exploration musicale pour oreilles curieuses. Fondé en 2023 au Conservatoire Royal de Bruxelles, Effel est un quatuor de saxophones international explorant un répertoire méconnu. Entre Debussy, Vincent David et Guillermo Lago, ils mettent en lumière la richesse de leurinstrument. Lauréats de la bourse Horlait-Depsens, ils se forment auprès de grands maîtres et partagent avec passion une vision nouvelle du saxophone classique. PROGRAMME“Suite Bergamasque” de Claude Debussy“Esquisses” de Vincent David“Ciudades” de Guillermo Lago DISTRIBUTIONKristóf Havasi – saxophone sopranoDavid Patyra – saxophone altoJorge Esteban Larreina – saxophone ténorKacper Puczko – saxophone baryton",
+      "category": "Musique & Concert",
+      "location": {
+        "venue": "Centre Culturel Régional",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "16/04/2026 de 12:30 à 13:30"
+        ],
+        "start": "16-04-2026 12:30",
+        "end": "16-04-2026 13:30"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 22 60 26",
+        "website": "http://www.theatredenamur.be"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-04-16-effel-quartet-c-abel-verheyden-carree.jpeg/@@images/f9e091b7-6a8a-41e2-bb2a-6f5710552808.jpeg",
+      "organiser": "Na! Pôle musical de Namur",
+      "parsed_at": "2026-04-15T08:35:27.827073+00:00"
+    },
+    {
+      "id": "8b9fb09bcfda",
+      "url": "https://www.namur.be/fr/agenda/sortie-de-residence-dartistes-robin-bodeus-charlotte-lobert-camille-thiry",
+      "title": "Sortie de résidence d'artistes : Robin Bodéüs, Charlotte Lobert, Camille Thiry",
+      "description": "Les sorties de résidence, une invitation à passer un début de soirée en compagnie d’artistes dans leurs espaces de travail éphémères au Centre culturel de Namur, sur le site des anciens Abattoirs de Bomel. Au plus près de leurs processus de création, ces artistes vous partagent leurs démarches, leurs inspirations et leurs dernières étapes de travail lors d'un moment d'échange en toute convivialité. Vous ferez cette fois la rencontre de : Robin Bodéüs (arts plastiques / street art) Charlotte Lobert (arts plastiques) Camille Thiry (arts visuels, écriture et scénographie)",
+      "category": "Exposition & Art plastique",
+      "location": {
+        "venue": "Ateliers Bis - Abattoirs de Bomel",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "16/04/2026 de 18:00 à 21:00"
+        ],
+        "start": "16-04-2026 18:00",
+        "end": "16-04-2026 21:00"
+      },
+      "pricing": "Gratuit",
+      "audience": "Pour adultes",
+      "contact": {
+        "phone": "+32 (0) 81 22 60 26",
+        "website": "http://www.tccnamur.be"
+      },
+      "accessibility": true,
+      "url_image": "",
+      "organiser": "Le Théâtre et le Centre Culturel de Namur",
+      "parsed_at": "2026-04-15T08:35:30.905262+00:00"
+    },
+    {
+      "id": "cb00eb77bc5d",
+      "url": "https://www.namur.be/fr/agenda/bal-folk-sur-la-place-darmes",
+      "title": "Bal Folk sur la place d'Armes",
+      "description": "Bal folk sous chapiteau sur la place d’Armes dès 20h avec Accordance (et animation à la danse) et dès 21h45, avec La Rawette. Ce vendredi 17 avril, Folknam, en collaboration avec Folknam Musique Trad, remet le bal folk du vendredi soir à l’honneur, dans le cadre de la journée du Folklore. Retrouvons-nous sous le chapiteau de la place d’Armes dès 20h. Accordance ouvrira la soirée avec ses airs traditionnels et une animation à la danse. Ensuite, à partir de 21h45, ce sera au tour de La Rawette de vous faire bouger et renouer avec les airs wallons d’antan.",
+      "category": "Musique & Concert",
+      "location": {
+        "venue": "Place d'Armes",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "17/04/2026 de 20:00 à 23:30"
+        ],
+        "start": "17-04-2026 20:00",
+        "end": "17-04-2026 23:30"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 498 73 19 33",
+        "website": "http://www.folknam.be"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-04-17-bal-folk-affiche.jpg/@@images/254226c2-44a9-4af8-93b5-9f9635f275f7.jpeg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:35:33.822853+00:00"
+    },
+    {
+      "id": "025ebf7a4957",
+      "url": "https://www.namur.be/fr/agenda/201ccalligraphie-du-silence201d-de-pierre-warrant",
+      "title": "“Calligraphie du silence” de Pierre Warrant",
+      "description": "Une mise en scène et en musique du dernier recueil de poésie de Pierre Warrant, “Calligraphie du silence” (éd. Abrapalabra, 2026). Avec Bruno Georis (textes) et Sigrid Vandenbogaerde (violoncelle) et en présence de l’auteur. « plus liquide qu’un poème un bateau bouge à l’intérieur. » Quelques mots, les deux premiers vers du recueil… et Pierre Warrant ouvre à sa manière un itinéraire que l’on devine incertain, peut-être tremblant, et probablement creusé profond à l’intérieur de soi. Un itinéraire dont on pressent l’intimité et la proximité avec nos propres chemins. Le silence hantera le voyage et les pages : le titre l’indique d’emblée. Quel silence ? Même s’il aime la philosophie, Pierre Warrant ne construit pas une poésie d’abord métaphysique ou conceptuelle. Le silence ici touche les corps et les peaux. Il est la part, ou le lot, de qui s’en va, mais aussi de qui reste. Il s’étend sur le temps, les heures, ces instants presque inouïs où la parole ne parvient plus à quitter un corps souffrant ou trop épuisé pour maintenir le lien, mais où le lien persiste néanmoins. Nous voilà aux confins, avec l’espérance que ce silence, au moins, soit partagé. – Geneviève Bergé (extrait de la postface de “Calligraphie du silence”).",
+      "category": "Littérature",
+      "location": {
+        "venue": "Maison de la Poésie",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "17/04/2026 de 20:00 à 21:30 18/04/2026 de 20:00 à 21:30 Toutes les dates"
+        ],
+        "start": "17-04-2026 20:00",
+        "end": "17-04-2026 21:30"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 22 53 49",
+        "website": "http://www.maisondelapoesie.be"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-04-17-calligraphie-du-silence.jpg/@@images/4223ae27-a44c-4a5e-9ca3-f4e634ea593b.jpeg",
+      "organiser": "Maison de la Poésie",
+      "parsed_at": "2026-04-15T08:35:36.844450+00:00"
+    },
+    {
+      "id": "d15b70780f9c",
+      "url": "https://www.namur.be/fr/agenda/academie-des-beaux-arts-from-musafrica",
+      "title": "ACADEMIE DES BEAUX-ARTS FROM MUSAFRICA",
+      "description": "L’exposition\"Académie des Beaux-Arts from MusAfrica\"célèbre la rencontre entre les élèves de l’Académie et les collections du musée MusAfrica. Les élèves adultes des cours de BD-Illustration, Création textile, Dessin, Gravure, Infographie, Peinture, Reliure et Sérigraphie se sont inspirés d’objets et témoignages historiques pour créer des œuvres originales. Les élèves de Céramique et Sculpture ont réinterprété masques, statuettes et colliers, offrant une nouvelle lecture artistique. Les jeunes de 9 à 17 ans, en cours pluridisciplinaires, ont exploré la thématique africaine via le collage, le dessin et la recherche textile. Cette exposition met en lumière la richesse culturelle africaine à travers une démarche créative et intergénérationnelle, alliant tradition et modernité. MA-VEN - 11h à 18h / DIM 12h à 18h",
+      "category": "Exposition & Art plastique",
+      "location": {
+        "venue": "Galerie du Beffroi",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "Du 17/04/2026 au 24/04/2026"
+        ],
+        "start": "17-04-2026 00:00",
+        "end": "24-04-2026 23:59"
+      },
+      "pricing": "Gratuit",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/affiche-expo-aca-musafrica-2026.jpg/@@images/a213ab65-a505-4a6b-9da3-77788ddcfbe1.jpeg",
+      "organiser": "Académie des Beaux-Arts de Namur",
+      "parsed_at": "2026-04-15T08:35:39.353487+00:00"
+    },
+    {
+      "id": "84555fd1506f",
+      "url": "https://www.namur.be/fr/agenda/folknam-1",
+      "title": "28e Journée du Folklore et des Traditions",
+      "description": "L'association namuroise \"FolkNam\" organise chaque année, le troisième samedi du mois d'avril, la \"Journée du Folklore et des Traditions\", une grande journée de fête folklorique qui marque le démarrage de la saison touristique à Namur. La 28e Journée du Folklore et des Traditions se déroulera le vendredi 17 avril et le samedi 18 avril 2026 à Namur. Le vendredi soir, un grand Bal Folk, organisé sous chapiteau sur la place d'Armes, marquera le début des festivités. Samedi, tout au long de la journée, le Village historique organisé sur la place d'Armes et la Place de l’Ange sera un espace de présentation des activités de plusieurs groupes folkloriques namurois (groupes de reconstitution historique et groupes de musiques et de danse folk). Un marché artisanal permettra aussi aux artisans de traditions de présenter leur savoir-faire au public. Le Cortège Folklorique et Traditionnel organisé l'après-midi dans les rues de Namur permettra à tous les groupes folkloriques namurois de présenter la richesse et la diversité du patrimoine culturel folklorique namurois au public présent. Le Cortège se terminera par un rondeau haut en couleurs organisé sur la Place Maurice Servais, proche de la Place d'Armes. Place d'Armes, Place de l'Ange, Place Maurice Servais et Rues de Namur [email protected]",
+      "category": "Fêtes & Folklore",
+      "location": {
+        "venue": "Centre-ville",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "18/04/2026"
+        ],
+        "start": "18-04-2026 00:00",
+        "end": "18-04-2026 23:59"
+      },
+      "pricing": "Gratuit",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/25-04-17-folknam.jpg/@@images/ff846e9e-8be5-41e3-87e9-7247bb0d2b0e.jpeg",
+      "organiser": "Folknam",
+      "parsed_at": "2026-04-15T08:35:41.511928+00:00"
+    },
+    {
+      "id": "a0a8eb8a6269",
+      "url": "https://www.namur.be/fr/agenda/bourse-echange-semis-plantes-boutures",
+      "title": "Bourse échange : semis, plantes, boutures",
+      "description": "Venez nombreux pour échanger vos pépites végétales et partager vos meilleurs conseils de jardinage ! Avis aux mains vertes et aux curieux ! Le 18 avril, la Librairie Écologique de Nature & Progrès à Jambes vous ouvre ses portes pour une matinée dédiée au partage et à la biodiversité. Que vous soyez jardinier aguerri ou débutant, c’est le moment idéal pour diversifier votre jardin ou votre potager. Ramenez, échangez, cultivez ! Le principe est simple et accessible à tous :",
+      "category": "Divers",
+      "location": {
+        "venue": "",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "18/04/2026 de 10:00 à 13:00"
+        ],
+        "start": "18-04-2026 10:00",
+        "end": "18-04-2026 13:00"
+      },
+      "pricing": "Gratuit",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 30 36 90",
+        "website": "http://www.natpro.be"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2025/26-04-18-bourse-affiche.jpg/@@images/a4dabe79-9fe5-4736-b731-0ff2bbbb562b.jpeg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:35:43.561837+00:00"
+    },
+    {
+      "id": "b28bb19befec",
+      "url": "https://www.namur.be/fr/agenda/remise-des-prix-du-30e-concours-de-poesie-du-kiwanis-namur-comte",
+      "title": "Remise des prix du 30e Concours de poésie du Kiwanis Namur Comté",
+      "description": "La 30ème édition du Concours de poésie organisé par le Kiwanis Club Namur Comté à destination du public scolaire, et en partenariat avec la Maison de la Poésie, touche à sa fin. Cette année encore, les jeunes auteur·rices se sont emparé·es du thème du Printemps des Poètes pour laisser jaillir leurs voix intérieures : “Liberté : une force vitale, déployée”. Comme le veut la tradition, la remise des prix se déroulera dans une ambiance chaleureuse, célébrant la créativité et l’engagement poétique des élèves. Le poète Aurélien Dony et le musicien Barnabé offriront une lecture musicale des textes primés, mêlant les mots aux notes pour une immersion poétique unique. Une publication regroupant l’ensemble des textes reçus sera remise à chaque participant·e. La cérémonie se clôturera autour d’un verre de l’amitié, pour saluer ensemble cette belle éruption de poésie.",
+      "category": "Littérature",
+      "location": {
+        "venue": "Maison de la Poésie",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "18/04/2026 de 14:00 à 15:30"
+        ],
+        "start": "18-04-2026 14:00",
+        "end": "18-04-2026 15:30"
+      },
+      "pricing": "Gratuit",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 22 53 49",
+        "website": "http://www.maisondelapoesie.be"
+      },
+      "accessibility": true,
+      "url_image": "",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:35:45.799830+00:00"
+    },
+    {
+      "id": "04ebe09fd757",
+      "url": "https://www.namur.be/fr/agenda/nulle-part-est-un-endroit-2013-nach",
+      "title": "Nulle part est un endroit – Nach",
+      "description": "Nach revient sur son parcours et fait le récit de son émancipation par le mouvement. Pendant une dizaine d’années, elle s’est immergée dans la communauté krump avant de s’ouvrir à de nouvelles manières de bouger comme le butô japonais, le kathakali ou le flamenco. Alternant paroles, photos et danses, Nach exprime son travail et combien le krump est un catalyseur pour se réinventer et s’émanciper.",
+      "category": "Conférence",
+      "location": {
+        "venue": "Le Delta",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "18/04/2026 à partir de 19:00"
+        ],
+        "start": "18-04-2026 19:00",
+        "end": "18-04-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 77 67 73",
+        "website": "http://www.ledelta.be"
+      },
+      "accessibility": true,
+      "url_image": "",
+      "organiser": "Le Delta",
+      "parsed_at": "2026-04-15T08:35:48.215185+00:00"
+    },
+    {
+      "id": "728dc6239f84",
+      "url": "https://www.namur.be/fr/agenda/erheda_the-foos",
+      "title": "ErHeDa_The Foo's",
+      "description": "Préparez-vous à une soirée explosive le samedi 18 avril au mythique Belvédère de Namur ! ErHeDa et The Foo's, deux formations survoltées, vont enflammer la scène pour un double concert inoubliable. Erheda ErHeDa, ce cover band atypique bien connu dans la région liégeoise, déploie une énergie brute et une setlist qui surprend : de Rage Against The Machines à Dolly Parton, en passant par Nirvana, PJ Harvey, Oasis ou Portishead. Leur chanteuse charismatique et explosive porte un style mélodique unique, mêlant rock pur, moments suspendus et reprises nostalgiques des années 90. Un show animal, sensible et énergique qui vous fera sauter dans tous les sens ! THE FOO'S Le tribute belge des Foo Fighters composé de 6 musiciens qui incarnent à merveille l'esprit explosif et la dynamique de scène qui caractérise ce groupe culte. The Foo's n'a qu'une ambition, restituer l'énergie pure, les riffs accrocheurs de guitare et le timbre vocal si singulier de Dave Grohl qui ont élevé les Foo Fighters au rang d'icône du rock moderne. Le set de The Foo's traverse l'ensemble du répertoire des Foo Fighters.",
+      "category": "Musique & Concert",
+      "location": {
+        "venue": "Belvédère",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "18/04/2026 à partir de 19:00"
+        ],
+        "start": "18-04-2026 19:00",
+        "end": "18-04-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 81 39 00",
+        "website": "http://www.belvedere-namur.be"
+      },
+      "accessibility": true,
+      "url_image": "",
+      "organiser": "Belvédère",
+      "parsed_at": "2026-04-15T08:35:51.272248+00:00"
+    },
+    {
+      "id": "b6ad37dc270c",
+      "url": "https://www.namur.be/fr/agenda/blind-2013-hendrickx-ntela-cie-konzi",
+      "title": "Blind – Hendrickx Ntela/Cie Konzi",
+      "description": "Dans un monde où nous pensons être libres, où tout semble normal et où tout geste est éphémère, sommes-nous vraiment libres de penser par nous-mêmes ? Venus de Belgique, d’Espagne, de France et du Sénégal, cinq danseur·euses évoquent l’aveuglement (in)conscient des citoyen·nes, nourri par un système générateur de désirs inatteignables. Ils traduisent par la puissance sincère du krump les fissures de la liberté européenne érigée en modèle. Spectacle proposé dans le cadre du Réseau Danse Wallon",
+      "category": "Spectacle",
+      "location": {
+        "venue": "Le Delta",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "18/04/2026 à partir de 20:30"
+        ],
+        "start": "18-04-2026 20:30",
+        "end": "18-04-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 77 67 73",
+        "website": "http://www.ledelta.be"
+      },
+      "accessibility": true,
+      "url_image": "",
+      "organiser": "Le Delta",
+      "parsed_at": "2026-04-15T08:35:53.786868+00:00"
+    },
+    {
+      "id": "abee0d7ef3d9",
+      "url": "https://www.namur.be/fr/agenda/contes-d2019ecorces-et-de-brindilles",
+      "title": "Contes d’écorces et de brindilles",
+      "description": "Image en vignette © Puppet Spirit Spectacle familial de contes et marionnettes Lili est une petite fille qui adore les histoires … et sa Mamy se coupe en quatre pour la contenter ! Lili en veut toujours plus et Mamy développe des trésors d’imagination. Lors de leurs balades dans la nature, elles glanent des objets insolites qui prennent vie, se transformant en marionnettes au fil de ses récits. Un soupçon de réalisme, une pincée de fantaisie, une louche de bonne humeur, pour aborder les sujets de la vie quotidienne, du plus simple au plus complexe. Un spectacle créé et joué par Krystina Vassileva. Une collaboration Maison du Conte de Namur et Puppet Spirit asbl. Les recettes seront versées à l’Espace Bien-être « L’Essentiel » du CHU de Namur et au Fonds Emile Salamon.",
+      "category": "Littérature",
+      "location": {
+        "venue": "Maison du Conte",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "Du 18/04/2026 15:00 au 19/04/2026 16:30"
+        ],
+        "start": "18-04-2026 15:00",
+        "end": "19-04-2026 16:30"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 489 93 35 48",
+        "website": "http://www.maisonducontenamur.be"
+      },
+      "accessibility": true,
+      "url_image": "",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:35:56.403467+00:00"
+    },
+    {
+      "id": "f0556c22194f",
+      "url": "https://www.namur.be/fr/agenda/dimanche-en-musique-concerts-de-mai",
+      "title": "Dimanche en musique : concert d'avril",
+      "description": "Tous les dimanches d’avril à fin septembre, rendez-vous au kiosque de la place Maurice Servais pour des lunchs musicaux.La programmation, proposée par le Service Culture, est éclectique et brasse l’ensemble des styles musicaux.Elle met à l’honneur des musiciennes et musiciens locaux, jeunes talents ou artistes confirmés. Chaque dimanche, un nouveau concert. Voici la programmation pour le mois d'avrilde 11h à 12h :",
+      "category": "Musique & Concert",
+      "location": {
+        "venue": "Place Maurice Servais",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "19/04/2026"
+        ],
+        "start": "19-04-2026 00:00",
+        "end": "19-04-2026 23:59"
+      },
+      "pricing": "Gratuit",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2025/25-08-03-logo-kiosque.jpg/@@images/23a9a01c-c587-45b9-8426-b5fb0ee0eeea.jpeg",
+      "organiser": "Visit Namur - Office du Tourisme de Namur (Halle al'Chair)",
+      "parsed_at": "2026-04-15T08:35:59.135664+00:00"
+    },
+    {
+      "id": "8c424940c008",
+      "url": "https://www.namur.be/fr/agenda/moving-family-day",
+      "title": "Moving Family Day",
+      "description": "Envie de bouger et de passer un super moment en famille ?La Mutualité Chrétienne vous donne rendez-vous le dimanche 19 avril au Centre Sportif Saint-Berthuin à Malonne pour le Moving Family Day !",
+      "category": "Divers, Sport",
+      "location": {
+        "venue": "Hall sportif de Saint-Berthuin",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "19/04/2026 de 09:00 à 16:00"
+        ],
+        "start": "19-04-2026 09:00",
+        "end": "19-04-2026 16:00"
+      },
+      "pricing": "Gratuit",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-04-19-mfd-publi-communes-a5-v2.jpg/@@images/5a566e7e-f696-4093-b245-1e48979526b8.jpeg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:36:01.321021+00:00"
+    },
+    {
+      "id": "6c53761ae708",
+      "url": "https://www.namur.be/fr/agenda/verdurtroc",
+      "title": "Verdur'Troc - Bourse d'échanges de plantes",
+      "description": "Le Service Nature & Espaces verts a le plaisir de vous inviter au Verdur’Troc, sa traditionnelle bourse d’échanges de plantes. Passionnés, amateurs ou visiteurs curieux, … échanges ou achats de plantes,… tout le monde y trouvera son bonheur. Des stands de jardinage, des animations et des ateliers seront là pour que tout-un-chacun passe un moment convivial lors de cet événement : Pour nous aider à organiser l’événement, pourriez-vouscompléter le formulaire. Il vous donne également la possibilité de poser vos éventuelles questions à ce propos. Intéressé·e ? Alors sortez vos plants, boutures et petits pots, … Événement accessible aux personnes à mobilité réduite Plus d’infos :[email protected]– 0800 935 62 Dimanche 19 avril 2026 de 9h à 13h Rue Frères Biéva 203 à 5020 Vedrin – site du Service Nature & Espaces verts",
+      "category": "Salon & Foire",
+      "location": {
+        "venue": "Nature & Espaces verts",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "19/04/2026 de 09:00 à 13:00"
+        ],
+        "start": "19-04-2026 09:00",
+        "end": "19-04-2026 13:00"
+      },
+      "pricing": "Gratuit",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 800 93 562",
+        "website": "https://www.namur.be/fr/annuaire/administration-communale-de-namur/departement-du-cadre-de-vie-dcv/nature-espaces-verts"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2025/25-04-27-nev-1.jpg/@@images/9bca44cb-921f-417f-9f27-30c836482b2b.jpeg",
+      "organiser": "Nature & Espaces verts",
+      "parsed_at": "2026-04-15T08:36:04.168931+00:00"
+    },
+    {
+      "id": "e73fa993a66b",
+      "url": "https://www.namur.be/fr/agenda/flow-2013-m2211al-collectif",
+      "title": "Flow – M∑AL collectif",
+      "description": "FLOW propose une expérience artistique singulière, à voir et à écouter, mais aussi à vivre corporellement, comme un espace d’apprentissage du mouvement en interaction directe avec le son. FLOW est à la fois un concert, une performance chorégraphique et un atelier dansé : un moment suspendu où les jeunes enfants et les adultes qui les accompagnent découvrent, à travers le jeu et l’écoute, que le corps peut entrer en musique, et que la musique peut devenir un terrain de jeu partagé.",
+      "category": "Spectacle",
+      "location": {
+        "venue": "Le Delta",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "19/04/2026 à partir de 09:30"
+        ],
+        "start": "19-04-2026 09:30",
+        "end": "19-04-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Pour enfants",
+      "contact": {
+        "phone": "+32 (0) 81 77 67 73",
+        "website": "http://www.ledelta.be"
+      },
+      "accessibility": true,
+      "url_image": "",
+      "organiser": "Le Delta",
+      "parsed_at": "2026-04-15T08:36:07.551092+00:00"
+    },
+    {
+      "id": "a835d6eeeba6",
+      "url": "https://www.namur.be/fr/agenda/balade-spectacle-mille-baisers-flawinne",
+      "title": "Balade Théâtralisée \"Mille baisers de Flawinne\"",
+      "description": "Portée par le théâtre des Zygomars, compagnie de théâtre jeune public nichée à Flawinne, elle sera construite autour d’une trame chronologique et thématique, avec pour fil rouge les « Baisers de Flawinne ». Depuis les années soixante, cette pâtisserie fait partie de l’identité des Flawinnois. Symbole de rencontre, le baiser est également un geste d’affection et d’amour qui remonte à l’aube de l’humanité. L’écriture des textes qui alimenteront les différentes scènes de la balade-spectacle se fera sur la base d’anecdotes ou photos récoltés auprès des villageois. Trois scènes seront proposées dans trois zones géographiques du village, chacune inspirée par un événement marquant de l’histoire locale. Ces anecdotes serviront également de sources d'inspiration pour la création d'œuvres artistiques réalisées par les enfants de l’école Sainte-Marie de Flawinne. La Baiser de Flawinne, petite gourmandise locale à la réputation internationale, est au cœur d’une balade spectacle mitonnée par le Théâtre des Zygomars avec les habitants et habitantes ainsi que les écoles du village. Venez découvrir les sentiers et l'histoire, grande ou petite, de Flawinne. De Louis XIV au retour triomphal du Baiser de Pittsburg en 1964, l’occasion de voyager dans le temps, en compagnies de comédiennes et comédiens namurois en costume d'époque. Départ du Château de Flawinne (Drève Flovana) toutes les 30 minutes de 10h à 16h30. Arrivée : église de Flawinne. Durée : 1h30. 081 24 65 13 Par email",
+      "category": "Balade & Visite",
+      "location": {
+        "venue": "",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "19/04/2026 de 10:00 à 16:30"
+        ],
+        "start": "19-04-2026 10:00",
+        "end": "19-04-2026 16:30"
+      },
+      "pricing": "Gratuit",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/bandeau-baisers-de-flawinne-web.jpg/@@images/6d2b0270-9aa3-43af-8f43-b06efedbdc60.jpeg",
+      "organiser": "Culture",
+      "parsed_at": "2026-04-15T08:36:09.177087+00:00"
+    },
+    {
+      "id": "508601445134",
+      "url": "https://www.namur.be/fr/ma-ville/administration/services-communaux/sports/agenda-sports/jogging-les-passerelles-2",
+      "title": "Jogging \"Les Passerelles\"",
+      "description": "",
+      "category": "",
+      "location": {
+        "venue": "Parking - Centre sportif La Plante",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "19/04/2026 à partir de 10:00"
+        ],
+        "start": "19-04-2026 10:00",
+        "end": "19-04-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/ma-ville/administration/services-communaux/sports/agenda-sports/affiche-jogging-la-passerelle.jpg/@@images/96e169ad-b3a3-46f4-aaf9-6f2a6b064527.jpeg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:36:11.224150+00:00"
+    },
+    {
+      "id": "48ab2bfcd8c0",
+      "url": "https://www.namur.be/fr/agenda/copie-colle-4-2013-mini-festival-de-l2019image-imprimee",
+      "title": "Copié collé # 4 – Mini-festival de l’image imprimée",
+      "description": "A travers divers ateliers, un public de tous âges pourra venir s’initier aux diverses techniques de production d’images reproductibles, comme la sérigraphie, la linogravure, la pointe sèche, le monotype ou la gravure sur TetraPak. Pour cette édition, nous invitons les participantes et participants à s’inspirer du monde de la danse pour développer leur créativité ! La participation à cet événement est entièrement gratuite !",
+      "category": "Divers",
+      "location": {
+        "venue": "Le Delta",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "19/04/2026 à partir de 13:00"
+        ],
+        "start": "19-04-2026 13:00",
+        "end": "19-04-2026 23:59"
+      },
+      "pricing": "Gratuit",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 77 67 73",
+        "website": "http://www.ledelta.be"
+      },
+      "accessibility": true,
+      "url_image": "",
+      "organiser": "Le Delta",
+      "parsed_at": "2026-04-15T08:36:13.809142+00:00"
+    },
+    {
+      "id": "58cf21b1f9dd",
+      "url": "https://www.namur.be/fr/agenda/slow-fashion-week",
+      "title": "Slow Fashion Week",
+      "description": "La Slow Fashion Week de Namur revient pour sa 3e édition du 20 au 25 avril, avec un programme élargi et de nouveaux partenaires. Cette année, l'événement mise sur la sensibilisation et l'action militante. La Slow Fashion Week est un événement dédié à promouvoir une mode durable en mettant en lumière les acteurs locaux engagés. Pendant une semaine, il s’agit de comprendre les problèmes liés à la fast-fashion et de découvrir des alternatives responsables. Cette édition propose plusieurs nouveautés, souvent gratuites, grâce à de nouveaux partenaires : Les activités classiques comprennent : Au-delà d’un simple événement, la Slow Fashion Week invite à repenser notre relation aux vêtements et à faire de Namur un centre important de la mode durable en Belgique.",
+      "category": "Divers",
+      "location": {
+        "venue": "",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "Du 20/04/2026 au 25/04/2026"
+        ],
+        "start": "20-04-2026 00:00",
+        "end": "25-04-2026 23:59"
+      },
+      "pricing": "",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/ico-slow-fashion-week-04-2026.jpg/@@images/e607ccd9-f335-4eff-aa18-aaa4daf26ad3.jpeg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:36:16.319982+00:00"
+    },
+    {
+      "id": "5b83920058fb",
+      "url": "https://www.namur.be/fr/agenda/from-sweelinck-to-duke-ellington",
+      "title": "FROM SWEELINCK TO DUKE ELLINGTON",
+      "description": "Het Orgel Trio (HOT) nous invite à une soirée unique sur les deux orgues Thomas de Saint-Loup, offrant un voyage virevoltant du 17e au 20e siècle, de Jan Pieterszoon Sweelinck à Duke Ellington. Les pages de musique ancienne se parent d’une teinte jazzy grâce à des improvisations envoûtantes, et les grands standards du jazz se mêlent harmonieusement aux compositions baroques.Un concert imaginé par l’organiste Berry van Berkum, le clarinettiste Steven Kamperman et le contrebassiste Dion Nijland !",
+      "category": "Musique & Concert",
+      "location": {
+        "venue": "Grand Manège (Namur Concert Hall)",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "21/04/2026"
+        ],
+        "start": "21-04-2026 00:00",
+        "end": "21-04-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": "http://www.grandmanege.be"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-04-21-duke.png/@@images/b2a2c4ba-1608-46f7-ae7b-107c172603ae.png",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:36:20.071292+00:00"
+    },
+    {
+      "id": "a594698e0bad",
+      "url": "https://www.namur.be/fr/agenda/atelier-slam-scene-ouverte-avec-gaelane",
+      "title": "Atelier Slam + scène ouverte avec Gaélane !",
+      "description": "Rendez-vous mensuel du Slam Club Namur avec Gaélane, Championne de Belgique de Slam 2023. Au programme : un atelier d'écriture Slam et de coaching scénique suivi d'une scène ouverte à tous·tes ! AU PROGRAMME DU MARDI 21 AVRIL 17h : atelier d’écriture Slam et de coaching scénique animé par Gaélane ; 19h : pause repas pour les participant·es de l’atelier (prévoir son lunch) ; 19h30 : ouverture des portes pour le public et des inscriptions pour la scène ouverte ; 20h : scène ouverte ! Gaélane Habitée par la poésie depuis toujours, Gaélane cherche à la faire germer un peu partout, de toutes les façons. Artiste multidisciplinaire, elle écrit, performe et chorégraphie. En 2022, Gaélane découvre le slam et devient, la même année, Championne de slam de Belgique. Celui-ci devient alors une véritable obsession : faire danser les mots devant le micro, envoûter le silence, transporter un public avec des histoires. C’est ça qui la fait vibrer. Son premier recueil de poésie “Mange mon cœur avant qu’il ne refroidisse” est sorti en septembre 2025 aux éditions Les Bonnes Feuilles. Image en vignette ©Nicolas Burgeff",
+      "category": "Littérature",
+      "location": {
+        "venue": "Maison de la Poésie",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "21/04/2026 de 17:00 à 22:00"
+        ],
+        "start": "21-04-2026 17:00",
+        "end": "21-04-2026 22:00"
+      },
+      "pricing": "Payant",
+      "audience": "Pour adolescents, Pour adultes, Pour seniors",
+      "contact": {
+        "phone": "+32 (0) 81 22 53 49",
+        "website": "http://www.maisondelapoesie.be"
+      },
+      "accessibility": true,
+      "url_image": "",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:36:25.255942+00:00"
+    },
+    {
+      "id": "5c539a243f5e",
+      "url": "https://www.namur.be/fr/agenda/tchodron",
+      "title": "Tchodron",
+      "description": "Un spectacle pour les grands et aussi pour les plus jeunes dès 10 ans. Cette petite boule de feu, on l’a découverte pendant le festival Cocq en stock la saison dernière ! On a été emporté par l’énergie de ces jeunes acteurs et actrices qui se déchaînent au jeu, à la musique, avec les marionnettes et à la danse pour désenchaîner gaiement nos sorcières oubliées. Un spectacle pour les grands et aussi pour les plus jeunes dès 10 ans. Les sorcières n’existent pas. La nature non plus. Mais alors, qu’est-ce qui se cache derrière ces objets de nos imaginaires ? Que fait-on des dons de guérisseur et guérisseuse ? Que fait-ont des plantes vertueuses ? Les mots sorcière et nature sont le fruit de siècles de peurs et de suspicions, de tentatives de contrôle des femmes et du vivant. Et pourtant l’humain provient bel et bien de cette grande nature - qu’il s’efforce d’effacer de son quotidien. Aujourd’hui, comment se relier à notre passé, à nos peurs, à ce qui nous dépasse, au vivant ? Sur la scène, on s’envole dans une libération des corps et des voix. Parce que oui, les « sorcières » ça décape et décapote. Et elles ne manqueront pas de revenir sur scène à travers d’autres corps, d’autres voix, glissant sur le manche d’une guitare endiablée, sautant sur une basse assourdie par son besoin de crier. Avec: Blanche Delhausse, Sarah Mélotte-Piront – Mise en scène: Muriel Clairembourg – Écriture : Blanche Delhausse – Composition : Sarah Mélotte-Piront – Marionnettes : Anaëlle Impe, assisté par Sarah Mélotte-Piron – Construction décors : Claude Mélotte – Visuel : Marie Hardy – Avec le soutien du festival VTS, du centre culturel de Bièvre et du Théâtre des 4 mains – Un projet porté par Une Petite Compagnie Durée : 1h Âge conseillé : + 10 ans",
+      "category": "Spectacle",
+      "location": {
+        "venue": "Théâtre Jardin Passion",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "Du 21/04/2026 20:30 au 25/04/2026 21:45"
+        ],
+        "start": "21-04-2026 20:30",
+        "end": "25-04-2026 21:45"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 472 96 53 16",
+        "website": "http://www.theatrejardinpassion.be"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-04-21-tchodron.jpg/@@images/183ba615-3f44-400d-a3f3-9900b809bae5.jpeg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:36:28.337198+00:00"
+    },
+    {
+      "id": "b5ee12315ada",
+      "url": "https://www.namur.be/fr/loisirs/culture/lectures/bibliotheques/agenda-bibliotheques/exposition-adrien-albert",
+      "title": "Exposition Adrien Albert",
+      "description": "Au cours de cette année scolaire 2025-2026, la Librairie Point Virgule, en partenariat avec la maison d’édition L’école des loisirs, a invité les classes de maternelle et de primaire d’écoles namuroises à participer à un grand concours \"Quelle aventure !\" de création collective autour d'Adrien Albert. La Célestine accueille l'exposition avec des réalisations des classes participantes. Durant tous les jours d'ouverture au public de La Célestine, du 21 au 30 avril Espace Virgule (rez-de-chaussée) Entrée libre Plus d'infos : 081/24 64 40 [email protected]",
+      "category": "Exposition & Art plastique",
+      "location": {
+        "venue": "La Célestine - Bibliothèque communale de Namur",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "Du 21/04/2026 10:00 au 30/04/2026 18:00"
+        ],
+        "start": "21-04-2026 10:00",
+        "end": "30-04-2026 18:00"
+      },
+      "pricing": "Gratuit",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 24 64 40",
+        "website": "https://www.namur.be/fr/annuaire/administration-communale-de-namur/departement-de-la-culture-et-des-loisirs-dcl/bibliotheques"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/loisirs/culture/lectures/bibliotheques/agenda-bibliotheques/affiche.png/@@images/bb3b74ae-0837-44aa-9e4a-2c471f073d98.png",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:36:31.591755+00:00"
+    },
+    {
+      "id": "2f1b54b8481e",
+      "url": "https://www.namur.be/fr/agenda/place-aux-filles",
+      "title": "Place aux filles",
+      "description": "\"Place aux filles*\" est un jogging (ou marche) exclusivement féminin de 3,6km ou 7,2km dans les rues de Namur. L’accès à l’espace public reste aujourd’hui profondément inégalitaire entre les garçons et les filles*. Le sexisme, les discriminations et le harcèlement de rue freinent encore fortement la présence des filles* dans leur pratique sportive comme la course à pied : elles portent une attention à l’horaire, aux lieux par lesquels elles passent, tentent parfois d’être accompagnées, ... \"Place aux filles*\" est un jogging (ou marche) exclusivement féminin de 3,6km ou 7,2km dans les rues de Namur. Cet événement encourage les jeunes filles, adolescentes et adultes qui le désirent à s’approprier l’espace public, que ce soit pour une pratique sportive ou plus largement. Et les garçons ? Ils seront là pour supporter et encourager activement les coureuses par des pancartes, des chants, de la musique, ... C’est l’occasion d’explorer des rôles habituellement moins visibles pour eux tout en étant pleinement impliqués. Un village associatif œuvrant sur le terrain pour plus d’inclusivité et de solidarité entre les genres proposera des animations, des jeux, des expériences, … 𝐇𝐨𝐫𝐚𝐢𝐫𝐞𝐬 : Primaires : 9h30>10h30 (remise des dossards à 9h) Secondaires : 10h30>11h30 (remise des dossards à 10h) Grand public : 13h>14h (remise des dossards à 12h) Village associatif : 9h>15h 𝐈𝐧𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧𝐬 :www.laicite.com(onglet \"agenda\")",
+      "category": "Sport",
+      "location": {
+        "venue": "Place Maurice Servais",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "22/04/2026 de 09:00 à 15:00"
+        ],
+        "start": "22-04-2026 09:00",
+        "end": "22-04-2026 15:00"
+      },
+      "pricing": "Gratuit",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 73 01 31",
+        "website": "http://www.laicite.com"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-04-22-place-aux-filles.jpg/@@images/06402c15-fcc5-4111-9cd3-8a132509131b.jpeg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:36:33.936595+00:00"
+    },
+    {
+      "id": "5b5472b2c73b",
+      "url": "https://www.namur.be/fr/agenda/corrida-de-bouge-1",
+      "title": "Corrida de Bouge",
+      "description": "Rendez-vous le mercredi 22 avril 2026 pour venir défier notre parcours dorénavant réputé! Vous étiez 400 joggeurs lors de l'édition 2025... 3 km, 6 km et 9 km OPEN / Kids 600m ou 2 km Infos et inscriptions:https://www.goaltiming.be/courses/b465bf50-06aa-11f1-9751-9156638440c6 Organisateur : Epsis Claire d'Assise de Bouge - 081/20.77.00 -[email protected]-https://www.facebook.com/events/2121156825314375?locale=fr_FR Epsis Claire d'Assise de Bouge rue des Anges 2 5004 Bouge",
+      "category": "Sport",
+      "location": {
+        "venue": "",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "22/04/2026 de 18:00 à 23:00"
+        ],
+        "start": "22-04-2026 18:00",
+        "end": "22-04-2026 23:00"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:36:35.391036+00:00"
+    },
+    {
+      "id": "fa0c018c8ff3",
+      "url": "https://www.namur.be/fr/agenda/fete-des-voisins-1",
+      "title": "Fête des Voisins",
+      "description": "Photo en vignette © Centre culturel de Namur Une belle occasion de faire la fête dans le quartier et de vous mettre à l’honneur autour d’une auberge espagnole. Avec également l’illusionniste Biboz. CÔTÉ AMBIANCE La soirée débutera à 19:00 avec un apéro qui vous est offert jusqu'à 20:30 L’occasion de se retrouver, de se donner des nouvelles du quartier et d’accueillir les nouveaux habitants. N’hésitez pas à en parler autour de vous, à vos voisins, aux nouveaux venus, aux personnes plus isolées. CÔTÉ REPAS Nous créerons ensemble le menu avec les envies, le savoir-faire, les spécialités de chaque voisin. Le principe est celui de l’auberge espagnole : chacun amène quelque chose à manger pour soi et à partager avec d’autres. Une spécialité, un plat dont vous seul avez le secret. Du salé ou du sucré… L’idée est de se régaler et de partager ensemble ce moment. Ouverture du buffet à 20:30. CÔTÉ INVITÉ On vous réserve une surprise avec les tours de passe-passe de Biboz XIII. Biboz XIII est illusionniste, il est aussi un habitué du quartier ! L’artiste a carte blanche pour la soirée avec une formule close-up : une soirée placée sous le signe de la magie et de la convivialité.",
+      "category": "Fêtes & Folklore",
+      "location": {
+        "venue": "Le Théâtre et le Centre Culturel de Namur",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "22/04/2026 de 19:00 à 23:00"
+        ],
+        "start": "22-04-2026 19:00",
+        "end": "22-04-2026 23:00"
+      },
+      "pricing": "Gratuit",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 22 60 26",
+        "website": "http://www.tccnamur.be"
+      },
+      "accessibility": true,
+      "url_image": "",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:36:37.884339+00:00"
+    },
+    {
+      "id": "11aefebb0fe6",
+      "url": "https://www.namur.be/fr/agenda/colloque-consacre-aux-dynamiques-des-centres-villes",
+      "title": "Colloque consacré aux dynamiques des centres-villes",
+      "description": "Temps forts de la journée : Lien d’inscription:",
+      "category": "Conférence",
+      "location": {
+        "venue": "La Bourse",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "23/04/2026 de 08:00 à 17:00"
+        ],
+        "start": "23-04-2026 08:00",
+        "end": "23-04-2026 17:00"
+      },
+      "pricing": "",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 26 26 38",
+        "website": "http://www.namurcentreville.be"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-04-23-rcvw-savethedate.jpg/@@images/1ec229e0-50da-47e5-96b3-fc3d38898fe4.jpeg",
+      "organiser": "Namur CentreVille - Gestion du centre ville",
+      "parsed_at": "2026-04-15T08:36:41.887347+00:00"
+    },
+    {
+      "id": "ca63425fbc4e",
+      "url": "https://www.namur.be/fr/loisirs/culture/lectures/bibliotheques/agenda-bibliotheques/lecture-publique-avec-espace-p",
+      "title": "Lecture publique avec Espace P",
+      "description": "Les Bibliothèques de Namur Capitale vous proposent une lecture publique avec Espace P Namur autour de la place du travail du sexe dans la littérature. Un moment d'échange avec des personnes concernées ainsi que des professionnel.les de terrain pour aller à la rencontre de la thématique proposée. Une occasion de discuter des préjugés, du stigmate et de tenter, ensemble, de les déconstruire. À partir de 16 ans Espace Houyoux (étage 0A) Sur inscription : 081/24 64 40 [email protected]",
+      "category": "Conférence, Littérature",
+      "location": {
+        "venue": "La Célestine - Bibliothèque communale de Namur",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "23/04/2026 de 16:45 à 18:00"
+        ],
+        "start": "23-04-2026 16:45",
+        "end": "23-04-2026 18:00"
+      },
+      "pricing": "Gratuit",
+      "audience": "Pour adolescents, Pour adultes",
+      "contact": {
+        "phone": "+32 (0) 81 24 64 40",
+        "website": "https://www.namur.be/fr/annuaire/administration-communale-de-namur/departement-de-la-culture-et-des-loisirs-dcl/bibliotheques"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/loisirs/culture/lectures/bibliotheques/agenda-bibliotheques/format-carre-espacep-3.png/@@images/6740d446-d9f0-4691-bbcf-f86de35dbf70.png",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:36:46.106066+00:00"
+    },
+    {
+      "id": "f2046e9be13c",
+      "url": "https://www.namur.be/fr/agenda/le-voyage-de-charlie-1",
+      "title": "Le voyage de Charlie",
+      "description": "De retour de l’école, Charlie retrouve sa chambre et ses amis imaginaires, Félix et Lily, ses jouets préférés. Avec eux, elle partage les moments forts de sa journée et les souvenirs marquants de sa jeune vie, traversée par un tourbillon d’émotions : joie, peur, tristesse, colère, allégresse… Autant de sentiments universels que les artistes nous proposent d’explorer, en mots… et en musique ! Un véritable voyage au cœur des émotions, porté par les œuvres de Vivaldi, Schumann, Glass, Gershwin ou Beethoven. Formé de solistes virtuoses, l’Ensemble Tropisme est le projet de musicien·nes passionné·es, unis par l’amitié et l’envie de transmettre. Leur mission : éveiller les jeunes esprits à la richesse des émotions, à travers les sons, les mots et la magie du spectacle. Un moment à la fois ludique et sensible, pour apprendre à reconnaître, exprimer et partager ce que l’on ressent — grâce à la musique.",
+      "category": "Spectacle",
+      "location": {
+        "venue": "Grand Manège (Namur Concert Hall)",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "24/04/2026"
+        ],
+        "start": "24-04-2026 00:00",
+        "end": "24-04-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": "http://www.grandmanege.be"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-04-21-charlie.png/@@images/cfa61f26-e5d3-4a94-935b-d3a8205091f4.png",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:36:49.733450+00:00"
+    },
+    {
+      "id": "e8d265489aa3",
+      "url": "https://www.namur.be/fr/agenda/rallye-de-wallonie",
+      "title": "43ème édition du Rallye de Wallonie",
+      "description": "Le Rallye de Wallonie est bien entendu repris en BRC division 1 et se déroulera le week-end du 24, 25 et 26 avril.L’épreuve namuroise intègre le calendrier du championnat de Belgique de division 2.",
+      "category": "Sport",
+      "location": {
+        "venue": "Esplanade de la Citadelle",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "Du 24/04/2026 au 26/04/2026"
+        ],
+        "start": "24-04-2026 00:00",
+        "end": "26-04-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2025/25-04-25-rallyedewallonie.jpg/@@images/a989d5dd-5ac6-4c05-8fb5-4967b445f0de.jpeg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:36:53.436968+00:00"
+    },
+    {
+      "id": "b3f283478b7b",
+      "url": "https://www.namur.be/fr/agenda/release-massacres-belges",
+      "title": "Release Massacrés Belges",
+      "description": "Soirée explosive dédiée aux sons les plus brûlants de la scène belge Soirée explosive dédiée aux sons les plus brûlants de la scène belge ! Trois groupes à (re)découvrir au Belvédère avec des lives sans compromis. 𝐉𝐨𝐬𝐲 & 𝐓𝐡𝐞 𝐏𝐨𝐧𝐲https://josyandthepony.bandcamp.com/https://www.facebook.com/josyandthepony𝐁𝐢𝐠 𝐅𝐚𝐭 𝐋𝐮𝐤𝐮𝐦https://bigfatlukum.bandcamp.com/album/familial-distinguhttps://www.facebook.com/BigFatLukum𝐒𝐞𝐜𝐭𝐞https://sectebxl.bandcamp.com/album/secte https://www.facebook.com/profile.php?id=100033687737806",
+      "category": "Musique & Concert",
+      "location": {
+        "venue": "Belvédère",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "25/04/2026 à partir de 19:30"
+        ],
+        "start": "25-04-2026 19:30",
+        "end": "25-04-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 81 39 00",
+        "website": "http://www.belvedere-namur.be"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-04-25-massacres-belges.jpg/@@images/9f699e96-cfe1-4737-92ef-9b69d0394a13.jpeg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:36:56.862843+00:00"
+    },
+    {
+      "id": "187fe48ed8a6",
+      "url": "https://www.namur.be/fr/agenda/foire-aux-livres-1",
+      "title": "Foire aux livres",
+      "description": "L'ASBL Cinex organise une foire aux livres le dimanche 26/04/2026 de 10h à 16h à la Salle Masson. Achat au poids, ambiance conviviale et atelier conte pour enfant à 14h. Bar et petite restauration sur place.",
+      "category": "Salon & Foire",
+      "location": {
+        "venue": "Maison de Quartier Saint-Nicolas (Asbl Cinex)",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "26/04/2026 de 10:00 à 16:00"
+        ],
+        "start": "26-04-2026 10:00",
+        "end": "26-04-2026 16:00"
+      },
+      "pricing": "Gratuit",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 22 40 92",
+        "website": "http://www.cinex.be"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-04-26-foire-livres.jpg/@@images/20ee3aff-00da-4369-b56c-ea8dd6909f03.jpeg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:37:12.262879+00:00"
+    },
+    {
+      "id": "c923f9a17738",
+      "url": "https://www.namur.be/fr/ma-ville/environnement/bien-etre-animal/agenda/conference-gratuite-les-races-de-chiens-a-la-mode-au-dela-de-l2019esthetique-quels-sont-les-risques",
+      "title": "Les races de chiens à la mode : au-delà de l’esthétique, quels sont les risques ?",
+      "description": "Conférence gratuite Les tendances influencent de + en + le choix des chiens… mais à quel prix ? VétérinaireComportementalisteRefuge (Sans Collier) Hypertypes, santé, comportements, abandons,… des enjeux essentiels pour mieux comprendre les conséquences de ces effets de mode Mardi 28 avril 2026 à 19h Inscription OBLIGATOIRE 0800 935 62 [email protected]",
+      "category": "Conférence",
+      "location": {
+        "venue": "Eco - Conseil",
+        "address": "La Bourse de Namur | Place d’Armes 1 à 5000 Namur",
+        "postal_code": "5000",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "28/04/2026 de 19:00 à 21:00"
+        ],
+        "start": "28-04-2026 19:00",
+        "end": "28-04-2026 21:00"
+      },
+      "pricing": "Gratuit",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 800 93 562",
+        "website": "https://www.namur.be/fr/annuaire/administration-communale-de-namur/departement-du-cadre-de-vie-dcv/eco-conseil"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/ma-ville/environnement/bien-etre-animal/agenda/affiche-races-chiens-a-la-mode.png/@@images/b5e54f04-d6a8-44a2-85f1-561701c25ec1.png",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:37:19.528975+00:00"
+    },
+    {
+      "id": "755977cc16f5",
+      "url": "https://www.namur.be/fr/agenda/ashes-of-m-vastum-morbific-degraved",
+      "title": "Ashes of M. | VASTUM | MORBIFIC | DEGRAVED",
+      "description": "Nouvelle édition des concerts Metal par ASHES OF M. avec Vastum, Morbific et Degraved.",
+      "category": "Musique & Concert",
+      "location": {
+        "venue": "Belvédère",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "29/04/2026 à partir de 19:00"
+        ],
+        "start": "29-04-2026 19:00",
+        "end": "29-04-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 81 39 00",
+        "website": "http://www.belvedere-namur.be"
+      },
+      "accessibility": true,
+      "url_image": "",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:37:22.620251+00:00"
+    },
+    {
+      "id": "75007f5d33cb",
+      "url": "https://www.namur.be/fr/agenda/flora-coup-dur-a-belvedere",
+      "title": "FLORA | COUP DUR à Belvédère",
+      "description": "Le Belvédère vous propose une soirée de travailleurs de la musique sous forme de deux jeunes projets portés par des musiciens qui ne comptent pas leurs heures pour mettre le meilleur de leur talent à votre écoute. FLORA (BE) Pop / Pop Rock / Pop-rock alternative / Francophone FLORA est un projet pop francophone porté par une auteure-compositrice et musicienne belge. À travers des chansons sensibles et directes, le projet explore l’intime, les émotions et les questionnements du quotidien. Les textes en français sont sincères, accessibles, et portés par des mélodies pop actuelles. FLORA revendique une esthétique fait-maison, simple et assumée, où l’authenticité et l’émotion priment. Un univers personnel et humain, pensé pour créer un lien sincère avec le public, aussi bien à l’écoute que sur scène. Coup Dur (BE) Yéyé / Chanson Française Formé fin 2025 et basé entre Bruxelles, Strasbourg et Anvers, Coup Dur est un trio Yéyé né après internet. Composé d’Avril De Broucker (Lavomatic) à la guitare, de Clémence D'Hulst (Fake Empire) à la basse et de César Laloux (Ada Oda) à la batterie.Chansons en français chatoyantes, tendres avec une pointe de romantisme acide et des accents garage, le groupe invite le twist dans notre ère qui connait le doom scrolling, les dates nuls avec des égotiques, basic-fit et les masterclass en ligne pour devenir un serial entrepreneur.",
+      "category": "Musique & Concert",
+      "location": {
+        "venue": "Belvédère",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "01/05/2026 à partir de 20:00"
+        ],
+        "start": "01-05-2026 20:00",
+        "end": "01-05-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 81 39 00",
+        "website": "http://www.belvedere-namur.be"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-05-01-flora.jpg/@@images/4c6b5367-4f2f-46ae-8bee-3fdfda0aabaf.jpeg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:37:24.689889+00:00"
+    },
+    {
+      "id": "d919821720a7",
+      "url": "https://www.namur.be/fr/agenda/bal-folk-au-cinex-3",
+      "title": "Bal folk au Cinex",
+      "description": "Un bal folk, c’est une soirée où la musique traditionnelle fait danser tout le monde, débutants comme habitués. Deux groupes se partagent la scène et le public partage rondes, scottishes, mazurkas et danses collectives faciles à apprendre dans une ambiance conviviale. Entrée libre, participation au chapeau (c’est vous qui fixez le prix).",
+      "category": "Musique & Concert",
+      "location": {
+        "venue": "Maison de Quartier Saint-Nicolas (Asbl Cinex)",
+        "address": "Rendez-vous dès 20h15 au Cinex, rue Ponty 4, 5000 Namur.",
+        "postal_code": "5000",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "01/05/2026 à partir de 20:15"
+        ],
+        "start": "01-05-2026 20:15",
+        "end": "01-05-2026 23:59"
+      },
+      "pricing": "Gratuit pour certains publics",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 22 40 92",
+        "website": "http://www.cinex.be"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-03-06-bal-folk.jpg/@@images/0958b396-b28c-4f37-b94b-1b8d6ff23267.jpeg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:37:27.093979+00:00"
+    },
+    {
+      "id": "861d0b3ab310",
+      "url": "https://www.namur.be/fr/agenda/impact-sport-namur",
+      "title": "Impact Sport Namur",
+      "description": "Un tournoi de futsal à Tabora festif et ouvert à tous, avec animations et artistes invités. Un événement sportif attendu revient cette année avec une nouvelle édition qui s’annonce encore plus riche et conviviale. Ce grand rendez‑vous de futsal à Tabora, ouvert à tous les publics, propose bien plus qu’un simple tournoi : il s’agit d’une véritable journée de rassemblement, de partage et d’animation destinée à faire vibrer toute la ville. Sur place, les visiteurs pourront assister à des matchs disputés dans une ambiance chaleureuse, mais également profiter de performances artistiques variées. Des invités spéciaux, des artistes et des danseuses seront présents pour rythmer la journée, Au‑delà du loisir, cet événement se veut un moment de rencontre et de cohésion, ouvert à tous les âges, il invite les habitants de Namur à se retrouver, se divertir, s’encourager et célébrer ensemble l’énergie positive que peut apporter un rendez‑vous sportif. Impact sport Namur 0470122710 [email protected]",
+      "category": "Sport",
+      "location": {
+        "venue": "Centre Namurois des Sports (Tabora)",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "02/05/2026 de 14:00 à 19:00"
+        ],
+        "start": "02-05-2026 14:00",
+        "end": "02-05-2026 19:00"
+      },
+      "pricing": "Gratuit",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-05-02-impact-affiche.jpg/@@images/8ce73d2e-e753-4f1b-9a89-594c0c193471.jpeg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:37:29.058447+00:00"
+    },
+    {
+      "id": "668ffda2fe79",
+      "url": "https://www.namur.be/fr/agenda/a-la-decouverte-de-namur-la-romaine",
+      "title": "A la découverte de Namur-la-Romaine",
+      "description": "Capitale d’un Comté sous l’Ancien Régime, chef-lieu de province et capitale régionale aujourd’hui, Namur a traversé l’histoire par ses intérêts géographiques, économiques, politiques et militaires.Le Champeau, colline sur laquelle se dresse aujourd’hui fièrement la citadelle, a permis depuis des temps immémoriaux, le contrôle de la Confluence et de la ville.Au cours des dernières décennies, l’intérêt des curieux et passionnés s’est particulièrement porté sur l’histoire du château comtal et de ses forts, ouvrage militaire resté à la postérité sous le nom qu’on lui connaît aujourd’hui : la citadelle de Namur. Mais saviez-vous, qu’à la pointe de l’éperon barré, l’Archéologie avait mis au jour les vestiges d’une petite fortificationde l’armée romaine ? Saviez-vous que le Grognon et la rive gauche de la Sambre avaient au cours de l’Antiquité, vu se développer une petite agglomération galloromaine ? Partir à la découverte de « Namur-la-Romaine », voici l’objectif que s’est fixé pour vous le Comité animation citadelle. Une balade thématique parsemée de nombreuses surprises, réalisées au regard des découvertes archéologiques les plus récentes. « Alea iacta est ! ».",
+      "category": "Balade & Visite",
+      "location": {
+        "venue": "Citadelle de Namur - Terra Nova (CAC)",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "03/05/2026 à partir de 14:00"
+        ],
+        "start": "03-05-2026 14:00",
+        "end": "03-05-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-05-03-namur-romaine.png/@@images/d7956e41-7221-44de-9753-6dbfa66ba923.png",
+      "organiser": "Visit Namur - Office du Tourisme de Namur (Halle al'Chair)",
+      "parsed_at": "2026-04-15T08:37:31.561964+00:00"
+    },
+    {
+      "id": "558af1f6e24b",
+      "url": "https://www.namur.be/fr/agenda/les-dimanches-festifs-a-terra-nova",
+      "title": "Les dimanches festifs à Terra Nova",
+      "description": "Petits concerts les premiers dimanches de mai à septembre (sauf en juillet) sur la terrasse de Terra Nova. De mai à septembre, la terrasse du Centre du Visiteur Terra Nova vous invite à vivre des moments musicaux conviviaux au cœur de la citadelle de Namur. Chaque premier dimanche du mois, à l’exception de juillet en raison de l’organisation des Médiévales de la Citadelle, de petits concerts en plein air viendront rythmer votre promenade. Installez-vous en terrasse, profitez de la vue et laissez-vous porter par la musique : quatre dates, quatre artistes ou ensembles musicaux, aux univers variés, pour une parenthèse culturelle accessible à tous. Pour accompagner ces instants gourmands, plusieurs artisans namurois, dont certains produits sont proposés au Self-Terroir “Made in Namur”, seront présents sur place. Ils vous feront découvrir et déguster leurs spécialités, dans une ambiance chaleureuse et locale. Musique, saveurs du terroir et panorama exceptionnel… Le dimanche 3 mai : DardarSwing Duo Avec Alexandre Tripodi et Muriel d'Ailleurs C'est la rencontre entre un violon jazz, une guitare manouche et une irrésistible voix aux accents rétro. Les musiciens se sont rencontrés autour de leur passion pour la musique de Django Reinhardt et le swing des années 30. Ils interprètent aujourd'hui un répertoire empreint de rythmes et de couleurs, quelques compositions mais surtout les grands airs du jazz manouche et chansons d'autrefois. Producteur, artisans présent : la boulangerie Lefranc (Bois-de-Villers).",
+      "category": "Musique & Concert",
+      "location": {
+        "venue": "Citadelle de Namur - Terra Nova (CAC)",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "03/05/2026 de 15:00 à 16:00"
+        ],
+        "start": "03-05-2026 15:00",
+        "end": "03-05-2026 16:00"
+      },
+      "pricing": "Gratuit",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 24 73 70",
+        "website": "http://citadelle.namur.be"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-05-03-dimanche-festif.jpg/@@images/62314fa1-ae40-4dee-a7d5-80904dd00466.jpeg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:37:34.097975+00:00"
+    },
+    {
+      "id": "e135249a193a",
+      "url": "https://www.namur.be/fr/agenda/dimanche-en-musique-concerts-daout",
+      "title": "Dimanche en musique: concerts de Mai",
+      "description": "Tous les dimanches d’avril à fin septembre, rendez-vous au kiosque de la place Maurice Servais pour des lunchs musicaux.La programmation, proposée par le Service Culture, est éclectique et brasse l’ensemble des styles musicaux.Elle met à l’honneur des musiciennes et musiciens locaux, jeunes talents ou artistes confirmés. Chaque dimanche, un nouveau concert. Voici les concerts prévus en août de 11h à 12h",
+      "category": "",
+      "location": {
+        "venue": "Place Maurice Servais",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "Du 03/05/2026 au 31/05/2026"
+        ],
+        "start": "03-05-2026 00:00",
+        "end": "31-05-2026 23:59"
+      },
+      "pricing": "Gratuit",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2025/25-08-03-logo-kiosque.jpg/@@images/23a9a01c-c587-45b9-8426-b5fb0ee0eeea.jpeg",
+      "organiser": "Visit Namur - Office du Tourisme de Namur (Halle al'Chair)",
+      "parsed_at": "2026-04-15T08:37:37.603451+00:00"
+    },
+    {
+      "id": "19e81ce73be2",
+      "url": "https://www.namur.be/fr/agenda/den-der-hale-amour",
+      "title": "Den der hale + Amour",
+      "description": "Le Belvédère vous propose un 𝐣𝐞𝐮𝐝𝐢 𝐬𝐨𝐢𝐫 𝐣𝐨𝐮𝐢𝐬𝐬𝐢𝐟 à la limite de l'exploration sonore, mêlant post-rock, krautrock et psychédelisme sombre dans des paysages sonores immersifs. 𝐀𝐌𝐎𝐔𝐑 (𝐁) Groupe namurois qui évolue dans les zones aventureuses du post-rock, du krautrock et du psychédélisme sombre, Amour façonne des environnements sonores immersifs et habités.https://www.facebook.com/Amourprogrock 𝐃𝐄𝐍 𝐃𝐄𝐑 𝐇𝐀𝐋𝐄 (𝐒𝐄) En provenance de Suède, Den Der Hale explore un territoire musical hypnotique et profond, mêlant textures krautrock, résonances post-rock et atmosphères obscures. Signé chez Fat Cat Records, le groupe livre une expérience sonore intense et captivante.https://www.facebook.com/denderhaleband",
+      "category": "Musique & Concert",
+      "location": {
+        "venue": "Belvédère",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "07/05/2026 à partir de 20:00"
+        ],
+        "start": "07-05-2026 20:00",
+        "end": "07-05-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 81 39 00",
+        "website": "http://www.belvedere-namur.be"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-05-07-den-der-hale-amour.jpg/@@images/1d89c12d-e5f7-46fe-b7fb-cb1db068928a.jpeg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:37:40.192749+00:00"
+    },
+    {
+      "id": "b0c9273f2aaf",
+      "url": "https://www.namur.be/fr/agenda/sacha-ferra-plat-pays",
+      "title": "Sacha Ferra - Plat Pays",
+      "description": "Malgré son physique de quarantenaire post-dépressif, c’est lui qui le dit dans son premier spectacle « Plat Pays », Sacha Ferra a de la suite de vannes dans les idées. Il faut dire que ce jeune bruxellois a été biberonné à l’humour. Dans sa famille, faire une blague c’est dire je t’aime. Enfin, c’est plutôt ne pas le dire mais le faire savoir quand même. A tel point que dans son quotidien, Sacha avoue ne plus faire la distinction entre premier et second degré. L’humour c’est sa nature, sa philosophie, sa ligne de conduite. Enfant, il a visionné en boucle les spectacles de Gad Elmaleh avec son père. Depuis, il a dévoré des milliers de vidéos youtube de gens qui le font marrer. Rire, ça lui donne la sensation d’être vivant. Et c’est aussi ce qui pousse Sacha à faire marrer son monde en permanence. C’est comme ça qu’il s’est construit et qu’il a trouvé sa place à l’adolescence, il a endossé le costume du rigolo pour ses camarades de classe. Ils ont été les premiers à se plier sur un de ses sketchs lors d’un voyage scolaire. Un bel encouragement pour Sacha qui ira auretour tester ses blagues dans un concours du Kings of Comédy Club de Bruxelles. C’est sa première scène, il y va discrètement, n’en parle pas à son entourage et arrive en quart de finale. Un encouragement de plus pour acquérir l’assurance nécessaire pour écumer les scènes ouvertes de Bruxelles et du Brabant Wallon. Sacha fait rire tout le temps, c’est régressif presque, ça lui rappelle l’enfance, la famille, l’insouciance. Chez lui, on le soutient doucement. Son grand-père qui scellera son sort en lui accordant le droit de faire ce qui le rend heureux, même si dans la famille on a le culte du travail laborieux. Il faut souffrir et rentrer fatigué sinon on n’a pas de mérite. L’avantage, Sacha est travailleur, le deuxième avantage, il fait ce qu’il aime et mesure sa chance. Au fil du temps, Sacha élabore un répertoire de stand-up qui décortique les particularités de son plat pays. Le bruxellois parle de ce qu’il connait le mieux : son quotidien et son entourage. En faisant des blagues, il déclare sa flamme à la Belgique, l’air de rien, comme toujours. Il applique aussi un autre grand principe de la famille Ferra, rire de soi avant tout. Quand tu es capable de rire de toi, dès que les autres le font, ça ne te fait plus mal. Voilà qui deviendra un mantra pour la vie et le cœur de son spectacle. Puisque partout, on se paye la tête des belges, il va lui-même donner les bonnes raisons de le faire en exposant le génie belge. Son Plat Pays raconte qu’en Belgique, être trop sérieux c’est impossible. L’issue nationale est de créer une distance avec les situations qui nous dépassent. Rien n’est grave, tout est bien quand on peut rire de soi. Depuis sa première scène au Kings of comedy, il s’en est passé des vannes. Sur toutes les scènes ouvertes du pays, en première partie de Kody, Pablo Andres, Guillermo Guiz, Thomas Wiesel et Gad Elmaleh, clin d’œil inespéré aux heures passées devant ses spectacles dans l’enfance. On a aussi vu Sacha au Festival d’Avignon et à Montreux. La scène c’est sa maison et à la différence du foyer familial, il s’y passe un truc fantastique, on le laisse terminer ses phrases sans lui renvoyer une blague au visage. Il savoure, il écoute les rires du public, s’en nourrit pour s’améliorer et avancer. Depuis quelques temps, il mouille la chemise pour faire marrer sur les réseaux sociaux. Ce qui n’était pas une évidence au départ le devient au fil des retours et des rires virtuels qui s’alignent dans les commentaires sous ses vidéos. Encore une autre façon de dire aux gens qu’il les aime sans le dire.",
+      "category": "Spectacle",
+      "location": {
+        "venue": "Billetterie du Théâtre",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "07/05/2026 à partir de 20:30"
+        ],
+        "start": "07-05-2026 20:30",
+        "end": "07-05-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 22 60 26",
+        "website": "http://www.theatredenamur.be"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-05-26-affiche-sacha-ferra-convertimage.jpg/@@images/92b95536-7f2b-4882-aa8a-94caa76ba426.jpeg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:37:42.714603+00:00"
+    },
+    {
+      "id": "9cc24b6092a6",
+      "url": "https://www.namur.be/fr/agenda/dresscode-suicide-sue",
+      "title": "Dresscode + Suicide Sue",
+      "description": "Quand l’élégance New-Wave rencontre la fougue du Rock indépendant : ne manquez pas l'événement Dresscode & Suicide Sue ! DRESSCODE Duo namurois né d'une passion commune et d'un désir vibrant de retrouver la scène, Dresscode marie avec élégance l'électronique et un rock atmosphérique. Inspirés par la New-Wave, ils créent une identité sonore unique : tandis que David Brichard invite au lâcher-prise avec sa voix singulière et ses rythmes entraînants. Fred Hyat sculpte des sons de guitare aériens et hypnotiques. Forts d'un parcours riche (Festival de Dour, Cirque Royal, Pure Demo), ils transforment, avec l'appui de FlorianGilot à la batterie, leurs réflexions personnelles en un voyage musical captivant. https://www.facebook.com/DresscodeMusicBelgiumhttps://www.dresscode-music.com/ SUICIDE SUE Duo bruxellois formé en 2019, Suicide Sue propose un rock indépendant aux saveurs de blues et de psychédélisme . Porté par Benjamin D'Agresta et Giuseppe Ferrara, le groupe allie guitares puissantes et textes profonds pour une atmosphère hors du commun. Après deux EPs remarqués, ils franchissent une nouvelle étape avec leur premier album, Chiaroscuro (mai 2025) , explorant une orchestration riche inspirée par l’élégance de l’Art Nouveau bruxellois . Sur scène, le duo devient un quatuor électrique avec Thomas Dimmers et Gabriel Policardo, offrant une expérience aussi intense et raffinée qu’un vieux bourbon. https://www.facebook.com/suicidesueband",
+      "category": "Musique & Concert",
+      "location": {
+        "venue": "Belvédère",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "13/05/2026 à partir de 20:00"
+        ],
+        "start": "13-05-2026 20:00",
+        "end": "13-05-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 81 39 00",
+        "website": "http://www.belvedere-namur.be"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-05-13-fb-evenement-2026-2.jpg/@@images/9e11eed7-a05c-4931-8ac1-1fc77d94bdc0.jpeg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:37:45.697699+00:00"
+    },
+    {
+      "id": "20403e366979",
+      "url": "https://www.namur.be/fr/agenda/marche-de-lascension",
+      "title": "Marché de l'Ascension",
+      "description": "L’Ascension aura lieu cette année le jeudi 14 Mai 2026, le marché de Jambes a lieu toute la journée et s’étend sur un périmètre élargi. Plus de 150 ambulants sont associés aux commerçants jambois pour faire de cette journée un moment de détente et de shopping agrémenté de la présence de plusieurs forains. Ce marché annuel attire un large public. Début de la vente à 08.00 - Fin de la vente à 18.00 081 24 72 99 Avant le 31 mars 2026 à 23h59",
+      "category": "Brocante & Marché",
+      "location": {
+        "venue": "",
+        "address": "Jambes : Rues d’Enhaive, de Coppin, de Dave, Avenues Jean Materne et Bovesse",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "14/05/2026 de 08:00 à 18:00"
+        ],
+        "start": "14-05-2026 08:00",
+        "end": "14-05-2026 18:00"
+      },
+      "pricing": "Gratuit",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2025/dsc3979-web.jpg/@@images/4ff12a37-7cf7-4385-821d-7adb634dea68.jpeg",
+      "organiser": "Domaine public et Sécurité - DPS",
+      "parsed_at": "2026-04-15T08:37:47.754991+00:00"
+    },
+    {
+      "id": "3f09117a2824",
+      "url": "https://www.namur.be/fr/agenda/la-citadelle-de-namur-et-le-fort-de-saint-heribert",
+      "title": "La citadelle de Namur et le Fort de Saint-Héribert",
+      "description": "Visite guidée des abris anti-gaz dans les souterrains de la Citadelle, repas au Made In Namur, trajet en Citad’In et visite du Fort de Saint-Héribert.",
+      "category": "Balade & Visite",
+      "location": {
+        "venue": "Citadelle de Namur - Centre du Visiteur Terra Nova",
+        "address": "Citadelle de Namur, Route Merveilleuse, Namur, Belgique",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "14/05/2026 de 10:30 à 16:30"
+        ],
+        "start": "14-05-2026 10:30",
+        "end": "14-05-2026 16:30"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 24 73 75",
+        "website": "https://citadelle.namur.be/fr/evenements"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-05-14-fort-cita.png/@@images/7ae3ac37-a02e-45fb-a90f-6fce24d53b79.png",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:37:51.193059+00:00"
+    },
+    {
+      "id": "25d2003a1f76",
+      "url": "https://www.namur.be/fr/agenda/namur-en-mai-2",
+      "title": "Namur en Mai",
+      "description": "Au programme, une ville de Namur métamorphosée pour accueillir des centaines de spectacles et de compagnies pour faire rêver les petits et les grands..Préparez-vous pour un week-end magique à vivre les yeux grands ouverts et le cœur dans les étoiles !",
+      "category": "Fêtes & Folklore",
+      "location": {
+        "venue": "Centre-ville",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "Du 14/05/2026 au 16/05/2026"
+        ],
+        "start": "14-05-2026 00:00",
+        "end": "16-05-2026 23:59"
+      },
+      "pricing": "Gratuit pour certains publics",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-05-14-nam-mai-2026-1024x681.png/@@images/cf974985-db70-477b-8bee-3a9f64eaabfc.png",
+      "organiser": "Namur en Mai",
+      "parsed_at": "2026-04-15T08:37:53.797628+00:00"
+    },
+    {
+      "id": "2d91e02c350f",
+      "url": "https://www.namur.be/fr/ma-ville/administration/services-communaux/sports/agenda-sports/jogging-les-foulees-du-cndp",
+      "title": "Jogging \"les Foulées du CNDP\"",
+      "description": "",
+      "category": "",
+      "location": {
+        "venue": "Collège Notre Dame de la Paix",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "17/05/2026 à partir de 09:00"
+        ],
+        "start": "17-05-2026 09:00",
+        "end": "17-05-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:37:56.143026+00:00"
+    },
+    {
+      "id": "53931729a5fc",
+      "url": "https://www.namur.be/fr/agenda/trio-memento",
+      "title": "Trio Memento",
+      "description": "Le Trio Memento, formé à Bruxelles par Jungbin Lim (piano), Pierre Vopat (violon) et Álvaro Quintero (violoncelle), explore un répertoire varié.Avec Du Sud au Nord, ils traversent le Nouveau Monde à travers Piazzolla, Villani-Côrtes et Schoenfield.Formés auprès de maîtres comme Avedis Kouyoumdjian et Guy Danel, ils offrent une interprétation nuancée, entre virtuosité et expressivité. PROGRAMMEUn parcours musical à travers le nouveau mondeAstor Piazzolla – Estaciones PorteñasEdmundo Villani-Côrtes – Prelúdio et ChorinhoPaul Schoenfield – Café Music DISTRIBUTIONJungbin Lim – pianoPierre Vopat – violonÁlvaro Quintero – violoncelle",
+      "category": "Musique & Concert",
+      "location": {
+        "venue": "Centre Culturel Régional",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "21/05/2026 de 12:30 à 13:30"
+        ],
+        "start": "21-05-2026 12:30",
+        "end": "21-05-2026 13:30"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 22 60 26",
+        "website": "http://www.theatredenamur.be"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-05-21-trio-memento-carree-600x600.jpg/@@images/f0887272-8889-40ba-849e-72c02fb3420c.jpeg",
+      "organiser": "Na! Pôle musical de Namur",
+      "parsed_at": "2026-04-15T08:37:59.222460+00:00"
+    },
+    {
+      "id": "3d351b6c6b19",
+      "url": "https://www.namur.be/fr/agenda/nuit-blanche-a-namur-1",
+      "title": "Nuit Blanche à Namur",
+      "description": "Après deux éditions couronnées de succès, les institutions culturelles namuroises ouvrent à nouveau leurs portes au publicà la tombée de la nuit. L’occasion d’explorer ces lieux chargés d’histoire(s) dans une ambiance festive et décalée et de se laisser gagner par la magie vespérale, avec ou sans lampe de poche. Pour cette 3e édition, une quinzaine de lieux répartis aux quatre coins de la ville s’animeront et vibreront au rythme des visites et activités qui seront proposées gratuitement de 18h à minuit. Au programme, mini concerts, animations théâtrales, Escape Game, chasses au trésor, jeux… Le Musée des Arts décoratifs proposera de marcher dans les pas des gardiens du musée afin de retrouver la lampe magique du Sultan qu’une ancienne chercheuse a caché afin d’obtenir la vie éternelle et le pouvoir, risquant de priver les œuvres du musée de s’animer toutes les nuits. Grâce à leur téléphone, les gardiens d’un soir pourront interagir avec les œuvres pour récupérer le bougeoir magique et laisser aux œuvres le loisir de s’animer la nuit! +32 (0) 81 24 87 20",
+      "category": "Exposition & Art plastique",
+      "location": {
+        "venue": "Musée des Arts décoratifs",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "22/05/2026"
+        ],
+        "start": "22-05-2026 00:00",
+        "end": "22-05-2026 23:59"
+      },
+      "pricing": "Gratuit",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-05-22-nuit-blanche.png/@@images/660ce929-ac98-43b9-b41e-23f113b73749.png",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:38:02.778161+00:00"
+    },
+    {
+      "id": "387779b63ff7",
+      "url": "https://www.namur.be/fr/loisirs/culture/lectures/bibliotheques/agenda-bibliotheques/nuit-blanche-et-printemps-des-bibliotheques-2026",
+      "title": "Nuit Blanche et Printemps des bibliothèques 2026",
+      "description": "À l’occasion de la Nuit Blanche 2026 à Namur, des institutions muséales, culturelles, patrimoniales et scientifiques ouvrent leurs portes ensemble, le temps d’une nocturne de 18h à minuit. Deux des Bibliothèques de Namur Capitale proposeront des ateliers ludiques qui seront aussi l'occasion de fêter le Printemps des bibliothèques ayant lieu le même jour. Programme de La Célestine : « Et si la plus grande histoire jamais racontée était un mensonge ? » : un slogan intriguant qui donne envie de lire ! Les bibliothécaires vous invitent à plonger dans les bandeaux de livres pour vous les réapproprier. Quelles sont ces phrases choc ? Qu’est-ce qui influence le choix de vos lectures ? La Célestine vous propose d’agrémenter une « fresque des slogans », d’associer les livres avec des bandeaux mélangés, de jouer avec des couvertures de livre, etc. Mettez-vous dans la peau des éditeurs et regardez vos livres d’autre œil ! Programme du CeRHiN : \"Ne toussez plus, sucez un Zubes\" : un slogan que personne n'oserait plus éditer aujourd'hui. Les collections de journaux anciens du CeRHiN ne servent pas qu’à relire l’actualité du passé mais nous font (re)découvrir les mentalités d’autrefois… par le biais des publicités, par exemple ! Vos archivistes ont déniché ces slogans qui font sourire... ou grincer des dents. Ils vous invitent à décortiquer les injonctions qui se cachent derrière ces images à l’allure inoffensive : du poids à perdre, des cheveux à blondir, des muscles à gonfler, une maison à nettoyer ou encore des enfants à nourrir… Parviendrez-vous à deviner ce qu’on tente de vous vendre ? Gratuit, sans réservation Plus d'infos : 081/24 64 40 [email protected]",
+      "category": "Divers, Littérature",
+      "location": {
+        "venue": "Centre de Ressources Historiques Namuroises (CeRHiN)",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "22/05/2026 de 18:00 à 23:59"
+        ],
+        "start": "22-05-2026 18:00",
+        "end": "22-05-2026 23:59"
+      },
+      "pricing": "Gratuit",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 24 64 40",
+        "website": "https://www.namur.be/fr/annuaire/administration-communale-de-namur/departement-de-la-culture-et-des-loisirs-dcl/bibliotheques"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/loisirs/culture/lectures/bibliotheques/agenda-bibliotheques/format-carre-nuit-blanche.png/@@images/3a120cdd-b4ff-4dbd-8d0e-16c96aa9090c.png",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:38:05.786740+00:00"
+    },
+    {
+      "id": "7edc52aa86d5",
+      "url": "https://www.namur.be/fr/agenda/nuit-blanche-a-namur-les-graffitis-des-galeries-de-boufflers",
+      "title": "Nuit blanche à Namur \"Les graffitis des galeries de Boufflers\"",
+      "description": "Visite des galeries de Boufflers avec un focus sur les graffitis. Les visiteurs tirent au sort un graffiti à trouver dans les galeries et reçoivent une récompense s’ils parviennent à le trouver. Activité de 20 minutes à effectuer en boucle dans le cadre de la Nuit blanche, pendant laquelle les musées namurois proposent des activités gratuites de 18h à minuit.",
+      "category": "Exposition & Art plastique",
+      "location": {
+        "venue": "",
+        "address": "Citadelle de Namur, Route Merveilleuse, Namur, Belgique",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "22/05/2026 de 18:00 à 23:59"
+        ],
+        "start": "22-05-2026 18:00",
+        "end": "22-05-2026 23:59"
+      },
+      "pricing": "Gratuit",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-05-22-galerienuit-blanches-cita.png/@@images/116a31e4-4dec-4d76-933f-6a7eb74cc5fc.png",
+      "organiser": "Citadelle de Namur - Evénements",
+      "parsed_at": "2026-04-15T08:38:07.944276+00:00"
+    },
+    {
+      "id": "c3f86aafad58",
+      "url": "https://www.namur.be/fr/agenda/heavy-fuzz-high-desert-queen-baevar-apex-ten",
+      "title": "HEAVY FUZZ: High Desert Queen + Baevar + Apex Ten",
+      "description": "Heavy Fuzz presents : Sylvain's 30th Birthday Bash A Stoner & Doom Celebration at Le Belvédère Namur https://www.facebook.com/highdesertqueen Prévente: 13 € Sur placehttps://www.billetweb.fr/high-desert-queen-usa-daevar-ger... 15 €",
+      "category": "Musique & Concert",
+      "location": {
+        "venue": "Belvédère",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "22/05/2026 à partir de 19:00"
+        ],
+        "start": "22-05-2026 19:00",
+        "end": "22-05-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 81 39 00",
+        "website": "http://www.belvedere-namur.be"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-05-22-high-desert-queen-daevar-apex-ten.jpg/@@images/613e726c-2da5-4070-8f8e-1c512fab1b44.jpeg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:38:10.379436+00:00"
+    },
+    {
+      "id": "e23518962a08",
+      "url": "https://www.namur.be/fr/agenda/canamurois-challenge-2026",
+      "title": "Canamurois Challenge 2026",
+      "description": "Le Canamurois Challenge, organisé le 24 mai 2026, consiste en un lâcher spectaculaire de 10 000 canards en plastique sur la Sambre, offrant une expérience ludique et conviviale pour toutes et tous. La course, qui débute à 14h, est supervisée par un huissier pour garantir l’équité et la transparence du classement. Les canards seront récupérés en fin de course grâce à un grand entonnoir.Une seconde course mettra en scène les canamurois, des «canards-escargots», un clin d’oeil au symbole de Namur. Ici, le dernier arrivé sera récompensé. Ces canards-escargots seront en vente au nombre de 600 et au prix de 50€ l’unité.",
+      "category": "Fêtes & Folklore",
+      "location": {
+        "venue": "",
+        "address": "Quai des Joghiers 1, 5000 Namur, Belgique",
+        "postal_code": "5000",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "24/05/2026"
+        ],
+        "start": "24-05-2026 00:00",
+        "end": "24-05-2026 23:59"
+      },
+      "pricing": "Gratuit",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-05-24-canamurois.jpeg/@@images/4adc54fa-832c-48a2-bd16-cf30810c673a.jpeg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:38:11.661062+00:00"
+    },
+    {
+      "id": "f94ae4cd7b3f",
+      "url": "https://www.namur.be/fr/agenda/les-souterrains-a-petits-pas-5",
+      "title": "Les souterrains à petits pas",
+      "description": "Une balade familiale qui invite à explorer les galeries à l’aide des cinq sens. Au fond, un souterrain, à quoi est-ce que ça ressemble ? Qu’est ce qu’on y entend ? Qu’est-ce qu’on y sent ? Durée : 1h.Prix : 5€ adulte (max 2 adultes par enfant inscrit) – 9€ enfants – gratuit en dessous de 2 ans.",
+      "category": "Balade & Visite",
+      "location": {
+        "venue": "Citadelle de Namur - Terra Nova (CAC)",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "24/05/2026 à partir de 14:00"
+        ],
+        "start": "24-05-2026 14:00",
+        "end": "24-05-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Pour enfants",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-05-24-petitspas.jpeg/@@images/b20aec24-8018-4977-8ec2-b42e14b21004.jpeg",
+      "organiser": "Visit Namur - Office du Tourisme de Namur (Halle al'Chair)",
+      "parsed_at": "2026-04-15T08:38:14.373406+00:00"
+    },
+    {
+      "id": "3dafb2a9d7aa",
+      "url": "https://www.namur.be/fr/agenda/marche-adeps-1",
+      "title": "Marche ADEPS",
+      "description": "Sur le principe des marches ADEPS, l'Amicale Para Commando de Namur organise une marche sur des parcours de 5, 10, 15 et 20 KM.Une petite restauration est proposée au départ et au retours des participants. Nous comptons sur la participation de 900 personnes. 0498327921 [email protected]",
+      "category": "Sport",
+      "location": {
+        "venue": "Abbaye Notre-Dame du Vivier",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "Du 24/05/2026 au 25/05/2026"
+        ],
+        "start": "24-05-2026 00:00",
+        "end": "25-05-2026 23:59"
+      },
+      "pricing": "Gratuit",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2025/26-05-24-affiche-pub-marche-adeps2026.jpg/@@images/449b982e-172b-4999-bb2c-5a30facfbb32.jpeg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:38:16.537175+00:00"
+    },
+    {
+      "id": "fdacc93b9523",
+      "url": "https://www.namur.be/fr/agenda/ras-nucleaire-2013-rien-a-signaler",
+      "title": "RAS nucléaire – rien à signaler",
+      "description": "Documentaire d’Alain de Halleux. Pour ou contre le nucléaire ? Et si la question était ailleurs ? Un témoignage essentiel manque au débat, celui des travailleurs du nucléaire. Notre sécurité est entre leurs mains. Ce film leur donne la parole. Ce documentaire est projeté dans le cadre de l’exposition (Faire) Face au nucléaire. Une rencontre avec Alain de Halleux est organisée à l’issue de la projection.",
+      "category": "Cinéma",
+      "location": {
+        "venue": "Le Delta",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "28/05/2026 à partir de 19:00"
+        ],
+        "start": "28-05-2026 19:00",
+        "end": "28-05-2026 23:59"
+      },
+      "pricing": "Gratuit",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 77 67 73",
+        "website": "http://www.ledelta.be"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-05-28-ras.jpg/@@images/3593d22d-c74d-43f4-a014-6505825aaf23.jpeg",
+      "organiser": "Le Delta",
+      "parsed_at": "2026-04-15T08:38:21.891962+00:00"
+    },
+    {
+      "id": "cd2ffd866901",
+      "url": "https://www.namur.be/fr/agenda/harmony2019s-brass-band",
+      "title": "Harmony’s Brass Band",
+      "description": "Découvrez une fanfare béninoise dans la tradition des Rail Bands d’Afrique de l’Ouest, mêlant une touche contemporaine à un héritage vibrant ! Dans les années 1970, le légendaire orchestre malien du Buffet de la gare de Bamako, Rail Band, révolutionne la scène musicale en fusionnant jazz, rythmes afro-cubains et sonorités mandingues. Ce groupe mythique au service des compagnies ferroviaires a inspiré plusieurs générations de fanfares en Afrique de l’Ouest, ancrant la musique des cuivres dans la culture urbaine du continent. Depuis 2021, Harmony’s Brass Band, ensemble originaire du Bénin, perpétue cette tradition musicale en la faisant rayonner à travers le monde. Soucieux de la transmission et de l’accès inclusif à l’éducation artistique, ils ont fondé une association dédiée à la promotion de la créativité musicale et aux échanges culturels. Co-organisé avec les Jeunesses Musicales, dans le cadre du cycle des concerts escales.",
+      "category": "Musique & Concert",
+      "location": {
+        "venue": "Le Delta",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "28/05/2026 à partir de 20:00"
+        ],
+        "start": "28-05-2026 20:00",
+        "end": "28-05-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 77 67 73",
+        "website": "http://www.ledelta.be"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-05-28-harmony.jpg/@@images/93b6e0fa-cb61-47c1-b9fc-d172a4f28e9c.jpeg",
+      "organiser": "Le Delta",
+      "parsed_at": "2026-04-15T08:38:24.638057+00:00"
+    },
+    {
+      "id": "0e155311f913",
+      "url": "https://www.namur.be/fr/agenda/crethconnect-2026",
+      "title": "CRETH'Connect 2026",
+      "description": "Le CRETH fête ses 30 ans ! Le 29 mai 2026 à la Bourse de Namur A cette occasion, nous avons le plaisir de vous inviter à un congrès exceptionnel consacré aux technologies et au handicap. Des ateliers et conférences au choix, couvrant des thématiques variées : www.creth.be ASBL Path - 081 72 44 30 -[email protected]",
+      "category": "Conférence",
+      "location": {
+        "venue": "La Bourse",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "29/05/2026 de 08:30 à 16:00"
+        ],
+        "start": "29-05-2026 08:30",
+        "end": "29-05-2026 16:00"
+      },
+      "pricing": "Payant",
+      "audience": "Pour adultes",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-05-29-creth-affiche.jpg/@@images/d892f820-10d8-46a8-baba-20b8004243b3.jpeg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:38:26.854312+00:00"
+    },
+    {
+      "id": "17cd953b6af9",
+      "url": "https://www.namur.be/fr/agenda/sirens-of-lesbos",
+      "title": "Sirens Of Lesbos",
+      "description": "Photo en vignette © Binta Kopp En 2024, Sirens Of Lesbos a enflammé des scènes emblématiques comme le Jazz Café London, Paradiso Amsterdam et Fusion Festival, au cours d’une tournée d’une trentaine de dates. Après une pause pour se ressourcer, le duo érythréen-soudanais-suisse revient avec un spectacle puissant, dévoilant un nouvel album très attendu : i got a song, it’s gonna make us millions. Célèbre pour son son éclectique qui fait le lien entre la soul, le hip-hop, le jazz et l’électronique, mais aussi pour ses collaborations étonnantes avec des artistes comme JID, Erick The Architect, Bootsy Collins, SadBoi et dreamcastmoe, Sirens Of Lesbos s’est imposé comme une force dynamique et captivante à voir absolument sur scène. Une pépite pour les fans de Sault, Childish Gambino, Ezra Collective, et pour celles et ceux qui apprécient l’art et l’artisanat authentiques.",
+      "category": "Musique & Concert",
+      "location": {
+        "venue": "Le Delta",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "30/05/2026 à partir de 20:00"
+        ],
+        "start": "30-05-2026 20:00",
+        "end": "30-05-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 77 67 73",
+        "website": "http://www.ledelta.be"
+      },
+      "accessibility": true,
+      "url_image": "",
+      "organiser": "Le Delta",
+      "parsed_at": "2026-04-15T08:38:30.387230+00:00"
+    },
+    {
+      "id": "640bb26fb6c6",
+      "url": "https://www.namur.be/fr/agenda/namur-en-choeurs",
+      "title": "Namur en Choeurs",
+      "description": "Samedi 30 maiPlace du Québec - Place Chanoine DescampsDe 11:00 à 16:00Dimanche 31 mai 2026Place d'Armes - BourseDe 11:00 à 18:00",
+      "category": "Musique & Concert",
+      "location": {
+        "venue": "",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "Du 30/05/2026 au 31/05/2026"
+        ],
+        "start": "30-05-2026 00:00",
+        "end": "31-05-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-05-31-dsc0782.jpg/@@images/af379b38-be8c-4e7f-a90c-b2432f803bc2.jpeg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:38:32.398331+00:00"
+    },
+    {
+      "id": "eb60d6b69113",
+      "url": "https://www.namur.be/fr/agenda/dimanche-en-famille-2013-pierre-et-le-loup-sur-la-route-2013-cie-artichoke",
+      "title": "Dimanche en famille – Pierre et le loup (sur la route) – Cie Artichoke",
+      "description": "Prokofiev dans les 80’s, quand on parle du loup… Au moment de mettre en vente le van familial, un vénérable minibus rétro des années 1980, la narratrice est prise d’une folle nostalgie. Elle se remémore ses étés d’enfance et d’inoubliables vacances en famille, notamment passées sur la route, à écouter une cassette audio de Pierre et le Loup, narrée par Gérard Philippe et précieusement conservée jusqu’à aujourd’hui. Les souvenirs refont surface, plus musicaux que jamais, l’entraînant une dernière fois sur les traces d’un passé qu’elle n’oubliera toutefois jamais… Le petit Pierre, son sévère grand-père, l’oiseau gazouillant, le chat aux pattes de velours, le canard un peu pataud et bien sûr ce loup terrifiant qui rôde non loin : vous aurez certainement reconnu les protagonistes du célèbre conte musical de Serge Prokofiev. Ici, l’histoire est adaptée pour un quintette à vent, écrite et mise en scène par Sophie van der Stegen et interprétée par Sarah Laulan. Avec ce spectacle déjanté, à la croisée du conte, de la musique, du théâtre et du théâtre d’objet, les artistes nous font (re)découvrir les aventures du jeune Pierre et de ses amis à travers une relecture originale et pleine de tendresse de ce classique, composé il y a déjà presque 90 ans ! Une coorganisation avec Les Jeunesses Musicales de Namur.",
+      "category": "Spectacle",
+      "location": {
+        "venue": "Le Delta",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "31/05/2026 à partir de 11:15"
+        ],
+        "start": "31-05-2026 11:15",
+        "end": "31-05-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Pour enfants",
+      "contact": {
+        "phone": "+32 (0) 81 77 67 73",
+        "website": "http://www.ledelta.be"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-05-31-artichoke.jpg/@@images/a40b2805-54f3-48a7-886f-a81d77c9270c.jpeg",
+      "organiser": "Le Delta",
+      "parsed_at": "2026-04-15T08:38:35.792784+00:00"
+    },
+    {
+      "id": "cbb67a54d101",
+      "url": "https://www.namur.be/fr/agenda/le-medecin-malgre-lui",
+      "title": "Le Médecin malgré lui",
+      "description": "Enfin la reprise d’un des grands succès de notre Templerie des Hiboux (créé en 2020) !Masques, musique, chansons et un Molière en pleine forme !Dans cette version explosive du Médecin malgré lui, la troupe mêle avec brio théâtre populaire, Commedia dell’arte et satire mordante.Entre faux médecins, vrais malades, amoureux déguisés et pères autoritaires, les apparences volent en éclats dans une mise en scène rythmée, joyeuse et colorée.Un classique revisité avec panache, humour… et une bonne dose de folie ! Mise en scène : Christophe Herrada / Assistant à la mise en scène : Boris Olivier / Interprétation : Jeremy Bruyninckx, Lou Chavanis, Bertrand Daine, Barnabé Dekeyser, Marc Laurent, Laura Noël, Manon Romain / Scénographie : Thibault Romain et Astrid Lambeaux / Costumes : Astrid Lambeaux /Masques : Edith Barbieux /Arrangements musicaux : : Stany Mannaert / Avec le soutien de La Province du Brabant wallon",
+      "category": "Théâtre",
+      "location": {
+        "venue": "La Templerie des hiboux",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "Du 04/06/2026 au 07/06/2026"
+        ],
+        "start": "04-06-2026 00:00",
+        "end": "07-06-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 56 89 12",
+        "website": "http://www.templeriedeshiboux.be"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-06-04-medecin.jpg/@@images/3e19dd2f-7d8d-44ce-97c3-e7635eec3d11.jpeg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:38:40.839396+00:00"
+    },
+    {
+      "id": "abb61e321557",
+      "url": "https://www.namur.be/fr/agenda/bal-folk-au-cinex",
+      "title": "Bal folk au Cinex",
+      "description": "Un bal folk, c’est une soirée où la musique traditionnelle fait danser tout le monde, débutants comme habitués. Deux groupes se partagent la scène et le public partage rondes, scottishes, mazurkas et danses collectives faciles à apprendre dans une ambiance conviviale. Entrée libre, participation au chapeau (c’est vous qui fixez le prix).",
+      "category": "Divers",
+      "location": {
+        "venue": "Maison de Quartier Saint-Nicolas (Asbl Cinex)",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "05/06/2026 à partir de 20:15"
+        ],
+        "start": "05-06-2026 20:15",
+        "end": "05-06-2026 23:59"
+      },
+      "pricing": "Gratuit pour certains publics",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 22 40 92",
+        "website": "http://www.cinex.be"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-06-04-bal-folk.jpg/@@images/df94bdea-49d8-4093-a87f-a1227a9e2339.jpeg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:38:43.217627+00:00"
+    },
+    {
+      "id": "bd65d4d9c09a",
+      "url": "https://www.namur.be/fr/agenda/27e-marche-de-la-fraise",
+      "title": "27e Marche de la Fraise",
+      "description": "Quatre circuits de 4, 6, 12 et 20 km sont proposés en allure libre ; une aire de repos sur ceux de 12 et 20 km où une petite restauration est prévue. Balade sur le plateau de Wépion, le long de la Meuse. Le circuit de 20 km effectue une boucle dans le bois de Malonne. Distance(s) - heures de départ : 20 | 07.00-12.00 12 | 07.00-13.00 6-4 | 07.00-15.00 Les carnets de la FFBMP et de l’ADEPS sont estampillés. Produits du terroir : fraises de Wépion et croque-monsieur avec crudités à l'arrivée. De l'eau sera mise à disposition des marcheurs. Veuillez apporter votre propre gobelet. Renseignements complémentaires Accès : Depuis la gare de Namur, rejoindre le 2ième étage, NAMUR Gare des bus - Quai 7 et prendre la ligne d'Autobus 4 direction Mont-Godinne Arrêt « Sentier de la Cure ». Rejoindre à pied le lieu de départ via le sentier « rue du Curé » puis le chemin des Matines (± 200 m) Prise de consommation avec service à table ou non. Droit d’inscription à la marche : 1 euro/personne - Gratuit pour les enfants de moins de 14 ans - Bienvenue à tous les marcheurs. L'amitié par la marche Info : Jacques Daubois 0474/28 13 38 –[email protected] Rue de Brimez, 2 (Entrée via place du Vierly) 5100 Wépion",
+      "category": "Sport",
+      "location": {
+        "venue": "",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "06/06/2026 de 07:00 à 15:00"
+        ],
+        "start": "06-06-2026 07:00",
+        "end": "06-06-2026 15:00"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 474 28 13 38",
+        "website": "http://www.lesspitantsdenamur.be/"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-06-06-fraise.jpg/@@images/473ca8ba-7d5d-4f53-8359-f55d3575b60b.jpeg",
+      "organiser": "Les Spitants de Namur",
+      "parsed_at": "2026-04-15T08:38:45.610669+00:00"
+    },
+    {
+      "id": "976f2e209409",
+      "url": "https://www.namur.be/fr/agenda/namuraid-1",
+      "title": "Namuraid",
+      "description": "Le NAMURAID, événement sportif devenu incontournable, est une compétition sportive de type triathlon (course à pied – kayak – VTT) qui se vit par équipe de deux. Cette nouvelle édition se déroulera sur le magnifique site de la Citadelle de Namur.",
+      "category": "Sport",
+      "location": {
+        "venue": "Esplanade de la Citadelle",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "07/06/2026"
+        ],
+        "start": "07-06-2026 00:00",
+        "end": "07-06-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": "http://www.namuraid.be"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2025/25-06-08-mg-0564.jpg/@@images/85724212-9428-4e5c-9425-c7ddd7ccf38f.jpeg",
+      "organiser": "Namuraid",
+      "parsed_at": "2026-04-15T08:38:49.661204+00:00"
+    },
+    {
+      "id": "ec14d662a9ff",
+      "url": "https://www.namur.be/fr/agenda/les-plantes-et-leurs-bienfaits-au-moyen-age-1",
+      "title": "Les plantes et leurs bienfaits au Moyen Âge",
+      "description": "Lors de cette balade, vous voyagerez dans le temps, une immersion dans l’ambiance fascinante de cette époque. La diversité du jardin d’inspiration médiévale, « le Jardin des Deux Tours », vous fera découvrir les aspects magiques et légendaires du Moyen Âge. Des fruits, des légumes oubliés ; des plantes qui pouvaient soigner les différentes « humeurs »,… La symbolique étant omniprésente au Moyen Âge, vous apprendrez que certaines plantes et fleurs, bien que décoratives, avaient aussi unesignification précise. Pour terminer l’activité vous participerez à un atelier culinaire lors duquel vous réaliserez de la gelée et de la pâte de fruit de pomme.",
+      "category": "Balade & Visite",
+      "location": {
+        "venue": "Jardin des deux tours",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "07/06/2026 de 11:00 à 12:30"
+        ],
+        "start": "07-06-2026 11:00",
+        "end": "07-06-2026 12:30"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 24 73 75",
+        "website": "https://citadelle.namur.be/fr/evenements"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-06-07-plantes-cita.png/@@images/c844e15e-7e9f-4ac7-bdb6-80b5823c20dc.png",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:38:53.111356+00:00"
+    },
+    {
+      "id": "90f022f0854a",
+      "url": "https://www.namur.be/fr/agenda/le-chateau-a-petits-pas",
+      "title": "Le château à petits pas",
+      "description": "Visite en famille de la partie médiévale du site. Découverte de la nouvelle visite guidée immersive \"la Citadelle au Moyen Âge \" adaptée pour les familles avec des enfants de 3 à 6 ans.",
+      "category": "Balade & Visite",
+      "location": {
+        "venue": "Citadelle de Namur - Terra Nova (CAC)",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "14/06/2026 de 10:00 à 15:00"
+        ],
+        "start": "14-06-2026 10:00",
+        "end": "14-06-2026 15:00"
+      },
+      "pricing": "Payant",
+      "audience": "Pour enfants",
+      "contact": {
+        "phone": "+32 (0) 81 24 73 70",
+        "website": "https://citadelle.namur.be"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/26-06-14-chateau.jpg/@@images/d126ee82-7122-407d-9cd7-c56a124f0170.jpeg",
+      "organiser": "Citadelle de Namur - Terra Nova (CAC)",
+      "parsed_at": "2026-04-15T08:38:56.200463+00:00"
+    },
+    {
+      "id": "7fd38511373e",
+      "url": "https://www.namur.be/fr/agenda/pilgrims-plays-queen",
+      "title": "Pilgrims plays Queen",
+      "description": "La légende de Queen avec PILGRIMS au Delta ! Le 17 juin 2026, vivez une soirée exceptionnelle au Delta de Namur avec PILGRIMS, le tribute band belge qui fait revivre sur scène toute la puissance, la magie et l’émotion de Queen. Composé de musiciens chevronnés, PILGRIMS vous embarque dans un voyage musical à travers les plus grands hits de Freddie Mercury et sa bande : Bohemian Rhapsody, Don’t Stop Me Now, Somebody to Love, Radio Ga Ga, We Are the Champions… Un show fidèle, intense et vibrant, à ne manquer sous aucun prétexte !Un hommage grandiose à l’un des groupes les plus iconiques de l’histoire du rock, porté par la voix puissante de Jordan Dupont, entouré de talentueux musiciens et choristes passionnés.",
+      "category": "Musique & Concert",
+      "location": {
+        "venue": "Le Delta",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "17/06/2026 à partir de 19:00"
+        ],
+        "start": "17-06-2026 19:00",
+        "end": "17-06-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 77 67 73",
+        "website": "http://www.ledelta.be"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-06-17-pilgrims-20260617-1024x1024.jpeg/@@images/cabefa45-5532-48cb-a89b-3bfbe880186d.jpeg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:38:58.530444+00:00"
+    },
+    {
+      "id": "14830baae620",
+      "url": "https://www.namur.be/fr/agenda/fete-de-la-musique-2",
+      "title": "Fête de la Musique",
+      "description": "Chaque année à l’entame de l’été, on fête la musique dans toute la Fédération Wallonie-Bruxelles. À Namur, la Fête dela Musique est l’occasion pour la Ville et la Province de fédérer leurs partenaires musicaux afin d’offrir au public une vingtaine de concerts de styles variés, du folk intimiste au rock expérimental en passant par la musique latino. Objectif ? Animer la ville et mettre en valeur les nombreux artistes de la scène musicale en Fédération Wallonie-Bruxelles.",
+      "category": "Musique & Concert",
+      "location": {
+        "venue": "",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "Du 18/06/2026 au 21/06/2026"
+        ],
+        "start": "18-06-2026 00:00",
+        "end": "21-06-2026 23:59"
+      },
+      "pricing": "Gratuit",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-06-18-fetedelamusique.jpg/@@images/360a994c-1ae7-41c4-ad6d-0bb6b222692c.jpeg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:39:00.734270+00:00"
+    },
+    {
+      "id": "1b3c1b07ce6d",
+      "url": "https://www.namur.be/fr/agenda/this-is-tina",
+      "title": "This is Tina",
+      "description": "Tina Turner, la légendaire Queen of Rock ’n Roll, a marqué des générations par sa voix puissante, son énergie inépuisable et des shows qui ont fait vibrer les plus grands stades du monde. De ses débuts dans le duo Ike & Tina Turner à sa fulgurante carrière solo, elle est devenue une icône mondiale, avec plus de 200 millions d’albums vendus et des concerts inoubliables. This is TINA!, c’est l’hommage le plus fidèle à cette immense artiste.Maureen Alberg est Tina : ferme les yeux, tu entends Tina. Ouvre-les, tu la vois.Même intensité. Même présence. Même feu. Sur scène, elle est accompagnée de : Du show, du groove, de la force, des frissons…Retrouvez tous les plus grands titres, des hits incontournables aux pépites d’album, dans un spectacle vibrant et authentique. Avec This is TINA!, vous vivez la véritable Tina Turner experience.« Simply the Best », plus que jamais. Teaser « This is Tina » :https://youtu.be/pZpFT04PGCg",
+      "category": "Musique & Concert",
+      "location": {
+        "venue": "Le Delta",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "24/06/2026"
+        ],
+        "start": "24-06-2026 00:00",
+        "end": "24-06-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 77 67 73",
+        "website": "http://www.ledelta.be"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-06-24-this-is-tina-20260624-1024x1024.jpeg/@@images/2868d26c-2858-4cf1-bb01-3e422e313c6a.jpeg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:39:03.076267+00:00"
+    },
+    {
+      "id": "7b8fcd533e17",
+      "url": "https://www.namur.be/fr/ma-ville/administration/services-communaux/sports/agenda-sports/jogging-erpent-village-1",
+      "title": "Jogging \"Erpent Village\"",
+      "description": "",
+      "category": "",
+      "location": {
+        "venue": "Ecole communale d'Erpent-Village",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "28/06/2026 à partir de 09:00"
+        ],
+        "start": "28-06-2026 09:00",
+        "end": "28-06-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:39:05.863038+00:00"
+    },
+    {
+      "id": "03598597d429",
+      "url": "https://www.namur.be/fr/agenda/les-medievales-de-la-citadelle-1",
+      "title": "Les Médiévales de la Citadelle",
+      "description": "Plus de 500 artistes, reconstitueurs et artisans provenant de Belgique et de toute l’Europe seront présents. Le temps d’un week-end, plongez en famille dans une ambiance moyenâgeuse.Découvrez la vie quotidienne au temps des chevaliers. Venez vous restaurer sur le marché d’artisans.Tout au long de la journée, spectacles, concerts,campement et joutes équestres. Enfin, venez vibrer à la cadence des spectacles équestres. Thématique des campements : « Place à la couleur ».",
+      "category": "Fêtes & Folklore",
+      "location": {
+        "venue": "Esplanade de la Citadelle",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "Du 04/07/2026 au 05/07/2026"
+        ],
+        "start": "04-07-2026 00:00",
+        "end": "05-07-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-07-04-medievales.png/@@images/06979707-ab85-4c34-b939-4f4a902a9417.png",
+      "organiser": "Citadelle de Namur - Evénements",
+      "parsed_at": "2026-04-15T08:39:08.486451+00:00"
+    },
+    {
+      "id": "28cc57a47268",
+      "url": "https://www.namur.be/fr/agenda/a-la-decouverte-des-galeries-de-la-citadelle-1",
+      "title": "A la découverte des galeries de la Citadelle",
+      "description": "« A la découverte des galeries de la Citadelle » – surnommée, par Napoléon Bonaparte, comme étant la « Termitière de l’Europe », la Citadelle compte plusieurs kilomètres de souterrains. Cette balade nous permettra de parcourir des galeries habituellement fermées au public et d’en savoir plus sur leur rôles et l’histoire du site. Un monde fascinant et mystérieux à explorer … D’une casemate à une Poudrière en passant par les souterrains de Vauban ! Guide: Jean-Christophe Demeuse. Durée : 1h30 de 11h à 12h30Prix : 9€ adulte – 6€ enfant (entre 6 et 18 ans) – gratuit en-dessous de 6 ans.",
+      "category": "Balade & Visite",
+      "location": {
+        "venue": "Citadelle de Namur - Terra Nova (CAC)",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "02/08/2026"
+        ],
+        "start": "02-08-2026 00:00",
+        "end": "02-08-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 24 73 75",
+        "website": "https://citadelle.namur.be/fr/evenements"
+      },
+      "accessibility": true,
+      "url_image": "",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:39:10.798278+00:00"
+    },
+    {
+      "id": "c807653042b7",
+      "url": "https://www.namur.be/fr/ma-ville/changements-climatiques/climat-energie-et-alimentation-durable/agenda-climat/journee-potagers-ouverts",
+      "title": "Journée \"Potagers ouverts\"",
+      "description": "Ledimanche 09 août 2026, des potagers namurois ouvriront leurs portes à l’occasion de la traditionnelle «Journée potagers ouverts». Une belle occasion de visiter différents jardins, de rencontrer d’autres passionnés et d’échanger conseils et savoir-faire autour du jardinage. Au programme : dégustations, apéritifs au jardin, distribution de semences locales... Cette initiative vise à valoriser le potager familial tout en favorisant les rencontres entre habitants. Que vous disposiez d’un petit coin de verdure en ville ou d’un grand jardin à la campagne, tout le monde peut prendre part à l’événement ! La journée se déroulera de 10h à 18h, avec des horaires modulables selon les participants. Et pour les visiteurs, pas besoin d’inscriptions, nous vous donnons rendez-vous le dimanche 09 août 2026 ! Un évènement gratuit. Partage et convivialité seront au programme! Infos: Service Air Climat Energie [email protected] 081.24.73.59",
+      "category": "Balade & Visite",
+      "location": {
+        "venue": "",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "09/08/2026"
+        ],
+        "start": "09-08-2026 00:00",
+        "end": "09-08-2026 23:59"
+      },
+      "pricing": "Gratuit",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 24 63 61",
+        "website": "https://www.facebook.com/ClimatNamur"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/ma-ville/changements-climatiques/climat-energie-et-alimentation-durable/agenda-climat/img-20240818-wa0033.jpg/@@images/0feb0a38-9dde-4628-8659-bb3828e23fa6.jpeg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:39:13.227602+00:00"
+    },
+    {
+      "id": "26ddfcd92979",
+      "url": "https://www.namur.be/fr/agenda/festival-musical-a-leglise-du-sacre-coeur-de-saint-servais-1",
+      "title": "Festival Musical à l'église du Sacré-Coeur de Saint-Servais",
+      "description": "Récital d'Orgue intitulé \"Virgo Maria\" par José Dorval, organiste titulaire.Oeuvres de : J-S Bach, F. Couperin, C. Franck, J. Nieland,.. P.A.F.: Le jour du concert: 15,00. Prévente: 12,00€. Gratuit jusque l'âge de 12 ans inclus. Infos et Réservations: 0473/59.00.63.",
+      "category": "Musique & Concert",
+      "location": {
+        "venue": "Eglise du Sacré-Coeur",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "15/08/2026 de 16:00 à 17:15"
+        ],
+        "start": "15-08-2026 16:00",
+        "end": "15-08-2026 17:15"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-08-15-jose-dorval-organiste.jpg/@@images/54790e44-5cc9-4b02-933d-535be9a37c6b.jpeg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:39:15.360686+00:00"
+    },
+    {
+      "id": "9c836624d048",
+      "url": "https://www.namur.be/fr/ma-ville/administration/services-communaux/sports/agenda-sports/jogging-de-la-miaou-5",
+      "title": "Jogging de la Miaou",
+      "description": "",
+      "category": "",
+      "location": {
+        "venue": "Royale Union Sportive Loyers",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "16/08/2026 à partir de 09:00"
+        ],
+        "start": "16-08-2026 09:00",
+        "end": "16-08-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:39:18.282238+00:00"
+    },
+    {
+      "id": "ac1db6e8e4ce",
+      "url": "https://www.namur.be/fr/agenda/pour-un-monde-a-refaire",
+      "title": "Pour un monde à refaire!",
+      "description": "“Pour un monde à refaire!” Par les Baladins du Miroir et Arts Nomades.Spectacle de théâtre en plein air :“Europa” et “charlatans imaginaires” ainsi que deux ateliers à découvrir en famille : confection et manipulation de marionnettes et atelier de combats de scène.",
+      "category": "Spectacle",
+      "location": {
+        "venue": "Citadelle de Namur - Evénements",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "Du 19/08/2026 au 23/08/2026"
+        ],
+        "start": "19-08-2026 00:00",
+        "end": "23-08-2026 23:59"
+      },
+      "pricing": "Gratuit",
+      "audience": "Pour enfants",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-08-19-aout-2026-cita.png/@@images/98c89df6-7ada-486a-b8c1-f44df9bd2ce3.png",
+      "organiser": "Citadelle de Namur - Evénements",
+      "parsed_at": "2026-04-15T08:39:20.532100+00:00"
+    },
+    {
+      "id": "1737b6a7972e",
+      "url": "https://www.namur.be/fr/agenda/201cpour-un-monde-a-refaire-201d",
+      "title": "“Pour un monde à refaire!”",
+      "description": "Par les Baladins du Miroir et Arts Nomades. Spectacle de théâtre en plein air : “Europa” et “charlatans imaginaires” ainsi que deux ateliers à découvrir en famille : confection et manipulation de marionnettes et atelier de combats de scène. Pour un public familial, dès 6 ans pour “Charlatans imaginaires” et dès 16 ans pour “Europa” . Durée : de 18h30 à 21h30. Lieu : prairie supérieure de Terra Nova.",
+      "category": "Spectacle",
+      "location": {
+        "venue": "Citadelle de Namur - Centre du Visiteur Terra Nova",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "Du 19/08/2026 18:30 au 23/08/2026 21:30"
+        ],
+        "start": "19-08-2026 18:30",
+        "end": "23-08-2026 21:30"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 24 73 70",
+        "website": "https://citadelle.namur.be"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-08-19-pour-un-monde.jpg/@@images/0a517e05-f023-460c-9ffe-fcd5342da421.jpeg",
+      "organiser": "Citadelle de Namur - Terra Nova (CAC)",
+      "parsed_at": "2026-04-15T08:39:24.730771+00:00"
+    },
+    {
+      "id": "4bf56d67daf5",
+      "url": "https://www.namur.be/fr/agenda/la-citadelle-de-namur-et-le-fort-de-saint-heribert-1",
+      "title": "La citadelle de Namur et le Fort de Saint-Héribert",
+      "description": "Visite guidée des abris anti-gaz dans les souterrains de la Citadelle, repas au Made In Namur, trajet en Citad’In et visite du Fort de Saint-Héribert. Durée : 10h30 à 16h30.Prix : 38€.",
+      "category": "Balade & Visite",
+      "location": {
+        "venue": "Citadelle de Namur - Terra Nova (CAC)",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "20/08/2026 de 10:30 à 16:30"
+        ],
+        "start": "20-08-2026 10:30",
+        "end": "20-08-2026 16:30"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 24 73 75",
+        "website": "https://citadelle.namur.be/fr/evenements"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-08-20-fort-cita.png/@@images/11792220-93ba-4f93-83aa-a40e6353f01f.png",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:39:27.067393+00:00"
+    },
+    {
+      "id": "3b552201ab71",
+      "url": "https://www.namur.be/fr/agenda/brocante-de-temploux-1",
+      "title": "Brocante de Temploux",
+      "description": "L’endroit où dénicher trésors et merveilles!800 exposants,. 1200 emplacements, 750 bénévoles, ​pour accueillir entre 180.000 et 200.000 visiteurs.",
+      "category": "Brocante & Marché",
+      "location": {
+        "venue": "",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "Du 22/08/2026 au 23/08/2026"
+        ],
+        "start": "22-08-2026 00:00",
+        "end": "23-08-2026 23:59"
+      },
+      "pricing": "Gratuit",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2025/25-08-16-brocantetemploux.jpg/@@images/53d32904-76dc-4001-a202-da32c35eeb8b.jpeg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:39:29.807749+00:00"
+    },
+    {
+      "id": "7968af54fe1e",
+      "url": "https://www.namur.be/fr/agenda/les-solidarites",
+      "title": "Les Solidarités",
+      "description": "Le festival a pour volonté de rassembler un public familial où toutes les générations se retrouvent autour d’un même désir de vivre-ensemble, de justice sociale et de lutte contre les inégalités. Durant 3 jours, Les Solidarités offrent une programmation particulièrement qualitative et volontairement variée, ainsi qu’une centaine d’activités diverses qui prennent vie chaque année : conférences, concerts, spectacles pour enfants, activités ludiques, découverte de la culture hip-hop, programmation off des associations, … sans compter les nombreux projets construits et élaborés en réponse à l’actualité qui témoignent du fait que Les Solidarités sont vraiment bien plus qu’un festival !",
+      "category": "Festival, Musique & Concert",
+      "location": {
+        "venue": "",
+        "address": "Avenue d'Ecolys, Namur",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "Du 04/09/2026 au 06/09/2026"
+        ],
+        "start": "04-09-2026 00:00",
+        "end": "06-09-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2024/24-08-23.jpg/@@images/b75652ee-ac1e-4394-8d59-b923b5845e3a.jpeg",
+      "organiser": "La Fête des Solidarités - ASBL",
+      "parsed_at": "2026-04-15T08:39:31.901405+00:00"
+    },
+    {
+      "id": "cc671b798b28",
+      "url": "https://www.namur.be/fr/ma-ville/administration/services-communaux/sports/agenda-sports/jogging-de-malonne-5",
+      "title": "Jogging de Malonne",
+      "description": "",
+      "category": "",
+      "location": {
+        "venue": "Hall sportif de Saint-Berthuin",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "06/09/2026 à partir de 09:00"
+        ],
+        "start": "06-09-2026 09:00",
+        "end": "06-09-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:39:34.778684+00:00"
+    },
+    {
+      "id": "dc55f2b9878f",
+      "url": "https://www.namur.be/fr/agenda/40-44-namur-de-l2019occupation-a-la-liberation",
+      "title": "40-44, Namur de l’occupation à la libération",
+      "description": "10 mai 1940, l’armée allemande envahit la Belgique, dès le 15 mai au soir Namur est occupée et sera libérée le 5 septembre. Durant cette visite, nous aborderons l’attaque des forts, le départ de l’Etat-Major de la citadelle, le quotidien des namurois durant ces 4 années, l’attitude du Roi, le courage et l’assassinat de François Bovesse, la résistance et le groupe Marchal ainsi que le tragique bombardement US du 18 août 1944. Guide : Ariane Moret. Durée : 1h30 de 11h à 12h30Prix : 9€ adulte – 6€ enfant (entre 6 et 18 ans) – gratuit en-dessous de 6 ans.",
+      "category": "Balade & Visite",
+      "location": {
+        "venue": "Citadelle de Namur - Terra Nova (CAC)",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "06/09/2026 de 11:00 à 12:30"
+        ],
+        "start": "06-09-2026 11:00",
+        "end": "06-09-2026 12:30"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "+32 (0) 81 24 73 75",
+        "website": "https://citadelle.namur.be/fr/evenements"
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-09-06-40-44-cita.png/@@images/d50939c6-4610-4918-8b88-6aeb558b17e4.png",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:39:38.039568+00:00"
+    },
+    {
+      "id": "4fc85f393bb1",
+      "url": "https://www.namur.be/fr/ma-ville/administration/services-communaux/sports/agenda-sports/jogging-de-la-ville-3",
+      "title": "Jogging de la Ville",
+      "description": "",
+      "category": "",
+      "location": {
+        "venue": "Centre Namurois des Sports (Tabora)",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "13/09/2026 à partir de 08:00"
+        ],
+        "start": "13-09-2026 08:00",
+        "end": "13-09-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:39:40.377457+00:00"
+    },
+    {
+      "id": "903a29618ae6",
+      "url": "https://www.namur.be/fr/ma-ville/administration/services-communaux/sports/agenda-sports/jogging-la-naninnoise-5",
+      "title": "Jogging \"La Naninnoise\"",
+      "description": "",
+      "category": "",
+      "location": {
+        "venue": "Espace Pierre Collard",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "27/09/2026 à partir de 09:00"
+        ],
+        "start": "27-09-2026 09:00",
+        "end": "27-09-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:39:44.155120+00:00"
+    },
+    {
+      "id": "36083b50cc1f",
+      "url": "https://www.namur.be/fr/ma-ville/administration/services-communaux/sports/agenda-sports/jogging-le-tronquoy-3",
+      "title": "Jogging \"Le Tronquoy\"",
+      "description": "0496065304 Par courriel",
+      "category": "",
+      "location": {
+        "venue": "Salle du Tronquoy",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "04/10/2026 à partir de 08:30"
+        ],
+        "start": "04-10-2026 08:30",
+        "end": "04-10-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:39:46.405404+00:00"
+    },
+    {
+      "id": "6f0cd708ce25",
+      "url": "https://www.namur.be/fr/agenda/festival-musical-a-leglise-du-sacre-coeur-de-saint-servais-2",
+      "title": "Festival Musical à l'église du Sacré-Coeur de Saint-Servais",
+      "description": "Concert de musique de chambre instrumentale par Dirk Blockeel, Organiste, Paul Klinck, Violoniste et Eva Debruyne, Hautboïste.Oeuvres de J-S Bach, H. Roelstraete, H. Schroseder,.. P.A.F.: Le jour du concert: 15,00€. Prévente: 12,00€.Gratuit jusqu'à l'âge de 12 ans inclus. Infos et Réservations: 0473/59.00.63.",
+      "category": "Musique & Concert",
+      "location": {
+        "venue": "Eglise du Sacré-Coeur",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "04/10/2026 de 16:00 à 17:30"
+        ],
+        "start": "04-10-2026 16:00",
+        "end": "04-10-2026 17:30"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-10-04-dirk-blockeel.jpg/@@images/8d152a6d-6ba9-42df-a9d8-76420a28a561.jpeg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:39:48.602481+00:00"
+    },
+    {
+      "id": "ffe9242cd89c",
+      "url": "https://www.namur.be/fr/ma-ville/administration/services-communaux/sports/agenda-sports/jogging-festirun-2",
+      "title": "Jogging \"Festirun\"",
+      "description": "",
+      "category": "",
+      "location": {
+        "venue": "Centre socio-culturel et sportif de Flawinne",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "11/10/2026 à partir de 09:00"
+        ],
+        "start": "11-10-2026 09:00",
+        "end": "11-10-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:39:50.864482+00:00"
+    },
+    {
+      "id": "1a8d2a1ba30e",
+      "url": "https://www.namur.be/fr/agenda/club-des-maquettistes-et-figurinistes-namurois",
+      "title": "Club des maquettistes et figurinistes namurois",
+      "description": "Exposition de maquettes d'avions, véhicules blindés et civils, bateaux......etc Exposition de figurines historiques...... Démonstration par les exposants de construction, mise en peinture.....conseils et échanges d'idées. Bourse d'échange. Club des maquettistes et figurinistes namurois 081 21 22 20 -[email protected]",
+      "category": "Exposition & Art plastique",
+      "location": {
+        "venue": "Salle André Guisset",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "24/10/2026 de 10:00 à 17:00 25/10/2026 de 10:00 à 17:00 Toutes les dates"
+        ],
+        "start": "24-10-2026 10:00",
+        "end": "24-10-2026 17:00"
+      },
+      "pricing": "Gratuit",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "https://www.namur.be/fr/agenda/images-2026/26-10-24-expo-maquette.jpg/@@images/e89d17ba-0dfc-4840-ab40-00fcae3b5583.jpeg",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:39:52.839153+00:00"
+    },
+    {
+      "id": "ff65d37915fb",
+      "url": "https://www.namur.be/fr/ma-ville/administration/services-communaux/sports/agenda-sports/jogging-la-gelbressoise-6",
+      "title": "Jogging \"La Gelbressoise\"",
+      "description": "",
+      "category": "",
+      "location": {
+        "venue": "Terrain de football de Gelbressée",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "11/11/2026 à partir de 09:00"
+        ],
+        "start": "11-11-2026 09:00",
+        "end": "11-11-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:39:55.769384+00:00"
+    },
+    {
+      "id": "fe6ee8020657",
+      "url": "https://www.namur.be/fr/ma-ville/administration/services-communaux/sports/agenda-sports/la-corrida-de-namur",
+      "title": "La Corrida de Namur",
+      "description": "",
+      "category": "",
+      "location": {
+        "venue": "Centre Namurois des Sports (Tabora)",
+        "address": "",
+        "postal_code": "",
+        "city": "Namur"
+      },
+      "dates": {
+        "schedules": [
+          "28/11/2026 à partir de 17:00"
+        ],
+        "start": "28-11-2026 17:00",
+        "end": "28-11-2026 23:59"
+      },
+      "pricing": "Payant",
+      "audience": "Tout public",
+      "contact": {
+        "phone": "",
+        "website": ""
+      },
+      "accessibility": true,
+      "url_image": "",
+      "organiser": "",
+      "parsed_at": "2026-04-15T08:39:58.011319+00:00"
+    }
+  ]
+}
